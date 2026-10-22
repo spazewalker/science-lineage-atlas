@@ -78,6 +78,66 @@ for e in entries:
     e["builds_on"] = list(dict.fromkeys(out))
 
 for e in entries: e.pop("_file", None)
+
+# ---------- radial network layout: radius = time (old at centre), sector = field, springs = lineage ----------
+import math
+import numpy as np
+SECTOR_ORDER = ["Deep Learning Foundations", "Natural Language Processing", "Computer Vision", "Reinforcement Learning",
+                "Molecular Biology & Genetic Engineering", "Therapeutics & Medical Biotech", "Genomics & Sequencing",
+                "Computational & Structural Biology"]
+SEG = [(1790, 1940, 2.2), (1940, 1975, 7), (1975, 2005, 15), (2005, 2012, 30), (2012, 2027, 62)]
+def tscale(y):
+    x = 0.0
+    for a, b, p in SEG:
+        if y <= a: break
+        x += (min(y, b) - a) * p
+    return x
+TMAX = tscale(2027)
+import bisect
+_YEARS = []
+def radius(y):
+    # equal-area rings: radius ~ sqrt(share of works published before y), so density is even across eras
+    lo, hi = bisect.bisect_left(_YEARS, y), bisect.bisect_right(_YEARS, y)
+    return 80 + 920 * math.sqrt((lo + 0.5 * (hi - lo)) / len(_YEARS))
+
+def compute_layout(entries, iters=450, seed=7):
+    _YEARS[:] = sorted(e["year"] for e in entries)
+    rng = np.random.default_rng(seed)
+    n = len(entries); idx = {e["id"]: i for i, e in enumerate(entries)}
+    nsec = len(SECTOR_ORDER); sw = 2 * math.pi / nsec
+    sec = np.array([SECTOR_ORDER.index(e["field"]) if e["field"] in SECTOR_ORDER else 0 for e in entries])
+    center = -math.pi / 2 + (sec + 0.5) * sw
+    rt = np.array([radius(e["year"]) for e in entries])
+    ang = center + rng.uniform(-0.42, 0.42, n) * sw
+    pos = np.stack([rt * np.cos(ang), rt * np.sin(ang)], 1)
+    E = np.array([(idx[b], idx[e["id"]]) for e in entries for b in e["builds_on"] if b in idx], dtype=int)
+    for it in range(iters):
+        cool = 1 - it / iters
+        d = pos[:, None, :] - pos[None, :, :]
+        d2 = (d ** 2).sum(-1) + 25.0
+        rep = (d * (1.0 / d2)[..., None]).sum(1) * 900.0
+        f = rep
+        if len(E):
+            v = pos[E[:, 1]] - pos[E[:, 0]]; L = np.sqrt((v ** 2).sum(1)) + 1e-6
+            fs = (0.035 * (L - 40.0) / L)[:, None] * v
+            np.add.at(f, E[:, 0], fs); np.add.at(f, E[:, 1], -fs)
+        r = np.sqrt((pos ** 2).sum(1)) + 1e-6; u = pos / r[:, None]
+        f += (0.5 * (rt - r))[:, None] * u
+        a = np.arctan2(pos[:, 1], pos[:, 0])
+        da = (a - center + math.pi) % (2 * math.pi) - math.pi
+        over = np.clip(np.abs(da) - 0.40 * sw, 0, None) * np.sign(da)
+        tang = np.stack([-u[:, 1], u[:, 0]], 1)
+        f += (-(0.9 * over * r) - 0.02 * da * r)[:, None] * tang
+        step = np.sqrt((f ** 2).sum(1)) + 1e-9
+        maxs = 2 + 28 * cool
+        pos += f * (np.minimum(step, maxs) / step)[:, None]
+        r = np.sqrt((pos ** 2).sum(1)) + 1e-6
+        pos *= (np.clip(r, rt * 0.96, rt * 1.04) / r)[:, None]
+    for e, (x, y) in zip(entries, pos):
+        e["gx"] = round(float(x), 1); e["gy"] = round(float(y), 1)
+
+compute_layout(entries)
+
 entries.sort(key=lambda e: (e["year"], e["field"], e["title"]))
 os.makedirs(OUT, exist_ok=True)
 json.dump(entries, open(os.path.join(OUT, "atlas.json"), "w"), ensure_ascii=False, indent=1)

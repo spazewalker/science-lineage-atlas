@@ -82,14 +82,14 @@ svg text{font-family:var(--body)}
 .n{stroke:var(--panel);stroke-width:1.5;cursor:pointer}
 .n.i3{stroke-width:2}
 .f0{fill:var(--f0)}.f1{fill:var(--f1)}.f2{fill:var(--f2)}.f3{fill:var(--f3)}.f4{fill:var(--f4)}.f5{fill:var(--f5)}.f6{fill:var(--f6)}.f7{fill:var(--f7)}
-.lbl{font-size:11px;fill:var(--ink2);pointer-events:none;font-weight:600}
+.lbl{font-size:11px;fill:var(--ink2);pointer-events:none;font-weight:600;paint-order:stroke;stroke:var(--bg);stroke-width:3px;stroke-linejoin:round}
 .lbl.i2{font-weight:400;fill:var(--ink3)}
-#chart.focus .n,#chart.focus .lbl{opacity:.13}
-#chart.focus .e{opacity:.25}
-#chart.focus .n.on,#chart.focus .lbl.on{opacity:1}
-#chart .e.anc{stroke:var(--edge-anc);stroke-width:1.6;opacity:1}
-#chart .e.desc{stroke:var(--edge-desc);stroke-width:1.6;opacity:1}
-#chart .e.hov{stroke:var(--edge-on);stroke-width:1.4;opacity:1}
+.graph.focus .n,.graph.focus .lbl{opacity:.13}
+.graph.focus .e{opacity:.25}
+.graph.focus .n.on,.graph.focus .lbl.on{opacity:1}
+.graph .e.anc{stroke:var(--edge-anc);stroke-width:1.6;opacity:1}
+.graph .e.desc{stroke:var(--edge-desc);stroke-width:1.6;opacity:1}
+.graph .e.hov{stroke:var(--edge-on);stroke-width:1.4;opacity:1}
 .n.sel{stroke:var(--ink);stroke-width:2.5}
 .n.match{stroke:var(--accent);stroke-width:2.5}
 .tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:6px;font-size:12px;max-width:300px;line-height:1.3;box-shadow:0 6px 18px rgba(0,0,0,.25)}
@@ -146,6 +146,39 @@ td .au{color:var(--ink3);font-size:12px}
 td .fd{display:inline-flex;gap:6px;align-items:center}
 td .fd i{width:8px;height:8px;border-radius:50%;background:var(--c)}
 td.rk{font-family:var(--mono);color:var(--ink3)}
+/* network view */
+#net{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;background:var(--bg)}
+#net.dragging{cursor:grabbing}
+#net .e{vector-effect:non-scaling-stroke}
+#net .n{vector-effect:non-scaling-stroke}
+.ring{fill:none;stroke:var(--line);vector-effect:non-scaling-stroke}
+.ring-t{font-family:var(--mono);fill:var(--ink3);font-size:calc(10px * var(--lk,1));paint-order:stroke;stroke:var(--bg);stroke-width:calc(3px * var(--lk,1))}
+.spoke{stroke:var(--line);vector-effect:non-scaling-stroke;stroke-dasharray:2 4}
+.sec-t{font-family:var(--display);font-weight:700;font-size:calc(14px * var(--lk,1))}
+.sec-t.f0{fill:var(--f0)}.sec-t.f1{fill:var(--f1)}.sec-t.f2{fill:var(--f2)}.sec-t.f3{fill:var(--f3)}.sec-t.f4{fill:var(--f4)}.sec-t.f5{fill:var(--f5)}.sec-t.f6{fill:var(--f6)}.sec-t.f7{fill:var(--f7)}
+.net-lbl{font-size:calc(11px * var(--lk,1));stroke-width:calc(3px * var(--lk,1));display:none}
+.net-lbl.top{display:inline}
+#net.z1 .net-lbl.i3{display:inline}
+#net.z2 .net-lbl.i2{display:inline}
+#net.z3 .net-lbl{display:inline}
+#net.focus .net-lbl.on{display:inline}
+.netkey{position:absolute;left:max(12px,env(safe-area-inset-left,0px));top:10px;right:12px;font-size:12px;color:var(--ink3);line-height:1.4;pointer-events:none}
+.netkey b{color:var(--ink2);font-weight:600}
+.netbtns{position:absolute;right:12px;bottom:12px;display:flex;gap:4px}
+/* minimap */
+#timelineView .scroller{bottom:58px}
+.minimap{position:absolute;left:0;right:0;bottom:0;height:58px;background:var(--panel);border-top:1px solid var(--line);cursor:pointer;touch-action:none}
+.minimap svg{position:absolute;inset:0;width:100%;height:100%}
+.mm-ai{fill:var(--f0);opacity:.75}.mm-bio{fill:var(--f4);opacity:.75}
+.mm-t{font-family:var(--mono);font-size:9px;fill:var(--ink3)}
+.mm-k{font-size:9px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.mm-win{position:absolute;top:2px;bottom:2px;border:1.5px solid var(--ink);border-radius:4px;background:color-mix(in srgb,var(--ink) 7%,transparent);pointer-events:none;box-sizing:border-box}
+.scroller.panning{cursor:grabbing}
+.infl{display:flex;align-items:baseline;gap:8px;margin-top:12px;padding:8px 10px;border-radius:8px;background:var(--bg);font-size:13px;color:var(--ink2)}
+.infl b{font-family:var(--display);font-size:20px;color:var(--ink)}
+.eyebrow{font-family:var(--mono);font-size:11px;color:var(--ink3);letter-spacing:.04em;margin-top:10px}
+.rel .inf{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--ink3);flex:none;padding-left:8px}
+.kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 4px;color:var(--ink2)}
 @media (max-width:860px){
   :root{--labelW:120px}
   .main{grid-template-columns:minmax(0,1fr)}
@@ -170,6 +203,7 @@ td.rk{font-family:var(--mono);color:var(--ink3)}
   </div>
   <div class="tabs" role="group" aria-label="View">
     <button id="tabTimeline" aria-pressed="true">Timeline</button>
+    <button id="tabNetwork" aria-pressed="false">Network</button>
     <button id="tabTable" aria-pressed="false">Table</button>
   </div>
   <div class="search">
@@ -184,11 +218,11 @@ td.rk{font-family:var(--mono);color:var(--ink3)}
   <div class="chips" id="chips"></div>
   <div class="ctl"><span class="lab">Show</span>
     <div class="seg" id="segImp"><button data-v="1" aria-pressed="true">All</button><button data-v="2" aria-pressed="false">Major+</button><button data-v="3" aria-pressed="false">Landmarks</button></div></div>
-  <div class="ctl"><span class="lab">Lanes</span>
+  <div class="ctl tl-only"><span class="lab">Lanes</span>
     <div class="seg" id="segGroup"><button data-v="sub" aria-pressed="true">Subfield</button><button data-v="field" aria-pressed="false">Field</button></div></div>
   <div class="ctl"><span class="lab">Zoom</span>
     <button class="iconbtn" id="zoomOut" aria-label="Zoom out">−</button><button class="iconbtn" id="zoomIn" aria-label="Zoom in">+</button></div>
-  <label class="toggle"><input type="checkbox" id="edgesAll" checked> All links</label>
+  <label class="toggle tl-only"><input type="checkbox" id="edgesAll" checked> All links</label>
 </div>
 <main class="main">
   <section class="view" id="timelineView">
@@ -197,14 +231,20 @@ td.rk{font-family:var(--mono);color:var(--ink3)}
         <div class="corner">Subfield</div>
         <div class="axis"><svg id="axisSvg"></svg></div>
         <div class="lanes" id="laneLabels"></div>
-        <svg id="chart"></svg>
+        <svg id="chart" class="graph"></svg>
       </div>
     </div>
+    <div class="minimap" id="minimap" aria-label="Timeline overview: click or drag to jump"><svg id="mmSvg"></svg><div class="mm-win" id="mmWin"></div></div>
+  </section>
+  <section class="view" id="networkView" hidden>
+    <svg id="net" class="graph"><g id="netG"></g></svg>
+    <div class="netkey"><b>Rings</b> = year (oldest at centre) · <b>sectors</b> = field · <b>size</b> = works building on it</div>
+    <div class="netbtns"><button class="iconbtn" id="netFit" aria-label="Fit to screen" title="Fit to screen" style="width:auto;padding:0 8px;font-size:12px">Fit</button></div>
   </section>
   <section class="view" id="tableView" hidden>
     <div class="tablewrap" id="tablewrap">
       <div class="tbar"><span class="c" id="tcount"></span><button class="btn" id="copyBib">Copy BibTeX for these</button><button class="btn" id="copyCsv">Copy as CSV</button></div>
-      <table><thead><tr><th data-k="year">Year</th><th data-k="title">Work</th><th data-k="field">Field · subfield</th><th data-k="venue">Venue</th><th data-k="importance">Rank</th></tr></thead><tbody id="tbody"></tbody></table>
+      <table><thead><tr><th data-k="year">Year</th><th data-k="title">Work</th><th data-k="field">Field · subfield</th><th data-k="venue">Venue</th><th data-k="importance">Rank</th><th data-k="nk" title="Later works in the atlas that build on this directly">Built on by</th></tr></thead><tbody id="tbody"></tbody></table>
     </div>
   </section>
   <aside class="detail idle" id="detail" aria-live="polite"></aside>
@@ -233,6 +273,8 @@ const byId = new Map();
 DATA.forEach(d => { d.fi = FIELDS.indexOf(d.field); if (d.fi < 0) d.fi = 7; d.kids = []; byId.set(d.id, d); });
 DATA.forEach(d => { d.builds_on = (d.builds_on || []).filter(p => byId.has(p)); d.builds_on.forEach(p => byId.get(p).kids.push(d.id)); });
 DATA.forEach(d => { if (!SUBS[d.field]) return; if (!SUBS[d.field].includes(d.subfield)) SUBS[d.field].push(d.subfield); });
+DATA.forEach(d => d.nk = d.kids.length);
+DATA.forEach(d => { const seenD = new Set(), stack = [...d.kids]; while (stack.length){ const x = stack.pop(); if (seenD.has(x)) continue; seenD.add(x); stack.push(...byId.get(x).kids); } d.inf = seenD.size; });
 const nEdges = DATA.reduce((s, d) => s + d.builds_on.length, 0);
 const minY = Math.min(...DATA.map(d => d.year)), maxY = Math.max(...DATA.map(d => d.year));
 $("#stats").textContent = `${DATA.length} works · ${nEdges} lineage links · ${minY}–${maxY}`;
@@ -268,19 +310,20 @@ function seg(id, key, cast = v => v){
     renderAll(); });
 }
 seg("#segDomain","domain"); seg("#segImp","imp",Number); seg("#segGroup","group");
-$("#zoomIn").onclick = () => setZoom(st.zoom * 1.35);
-$("#zoomOut").onclick = () => setZoom(st.zoom / 1.35);
+$("#zoomIn").onclick = () => st.view === "network" ? zoomNetCenter(1.4) : setZoom(st.zoom * 1.35);
+$("#zoomOut").onclick = () => st.view === "network" ? zoomNetCenter(1 / 1.4) : setZoom(st.zoom / 1.35);
 $("#edgesAll").onchange = e => { st.edgesAll = e.target.checked; renderChart(); };
 
-function setZoom(z){
+function setZoom(z, anchor){
   const sc = $("#scroller"), lw = labelW();
-  const centerX = sc.scrollLeft + (sc.clientWidth - lw) / 2;
-  const yr = yearAt(centerX);
-  st.zoom = Math.max(.45, Math.min(4, z));
+  const a = anchor ?? (sc.clientWidth - lw) / 2;
+  const yr = yearAt(sc.scrollLeft + a);
+  const nz = Math.max(.45, Math.min(4, z)); if (Math.abs(nz - st.zoom) < 1e-3) return;
+  st.zoom = nz;
   renderChart();
-  sc.scrollLeft = xOf(yr) - (sc.clientWidth - lw) / 2;
+  sc.scrollLeft = xOf(yr) - a;
 }
-function yearAt(x){ for (let y = START; y < END; y += .25) if (xOf(y) >= x) return y; return END; }
+function yearAt(x){ let lo = START, hi = END; for (let i = 0; i < 40; i++){ const m = (lo + hi) / 2; if (xOf(m) < x) lo = m; else hi = m; } return lo; }
 const labelW = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--labelW")) || 200;
 
 /* ---------- timeline ---------- */
@@ -367,7 +410,7 @@ function renderChart(){
   chart.querySelectorAll("text.lbl").forEach(el => lblEl.set(el.dataset.id, el));
   const paths = chart.querySelectorAll("path.e");
   edgeEls = eList.map(([a,b], i) => ({ a, b, el: paths[i] }));
-  applyFocus();
+  applyFocus(); drawMinimap();
 }
 
 function lineage(id){
@@ -381,43 +424,48 @@ function lineage(id){
   return { anc, desc };
 }
 let matches = null;
-function applyFocus(){
-  const chart = $("#chart");
-  nodeEl.forEach(el => el.classList.remove("on","sel","match"));
-  lblEl.forEach(el => el.classList.remove("on"));
-  edgeEls.forEach(e => { e.el.classList.remove("anc","desc"); if (!st.edgesAll) e.el.setAttribute("visibility","hidden"); });
-  const on = id => { nodeEl.get(id)?.classList.add("on"); lblEl.get(id)?.classList.add("on"); };
+let netNode = new Map(), netLbl = new Map(), netEdges = [];
+function focusSet(root, nEl, lEl, eEls, edgesAll){
+  nEl.forEach(el => el.classList.remove("on","sel","match"));
+  lEl.forEach(el => el.classList.remove("on"));
+  eEls.forEach(e => { e.el.classList.remove("anc","desc"); if (!edgesAll) e.el.setAttribute("visibility","hidden"); });
+  const on = id => { nEl.get(id)?.classList.add("on"); lEl.get(id)?.classList.add("on"); };
   if (st.sel){
     const { anc, desc } = lineage(st.sel);
-    chart.classList.add("focus");
-    on(st.sel); nodeEl.get(st.sel)?.classList.add("sel");
+    root.classList.add("focus");
+    on(st.sel); nEl.get(st.sel)?.classList.add("sel");
     anc.forEach(on); desc.forEach(on);
-    edgeEls.forEach(e => {
+    eEls.forEach(e => {
       let c = "";
       if ((e.b === st.sel || anc.has(e.b)) && anc.has(e.a)) c = "anc";
       else if ((e.a === st.sel || desc.has(e.a)) && desc.has(e.b)) c = "desc";
       if (c){ e.el.classList.add(c); e.el.removeAttribute("visibility"); }
     });
-    // keep the selection's label readable even when its lane normally hides labels
   } else if (matches){
-    chart.classList.add("focus");
-    matches.forEach(id => { on(id); nodeEl.get(id)?.classList.add("match"); });
-  } else chart.classList.remove("focus");
+    root.classList.add("focus");
+    matches.forEach(id => { on(id); nEl.get(id)?.classList.add("match"); });
+  } else root.classList.remove("focus");
+}
+function applyFocus(){
+  focusSet($("#chart"), nodeEl, lblEl, edgeEls, st.edgesAll);
+  focusSet($("#net"), netNode, netLbl, netEdges, true);
 }
 
 /* hover + click */
 const tip = $("#tip");
-$("#chart").addEventListener("mousemove", e => {
+function hover(e, list){
   const n = e.target.closest("circle.n");
-  edgeEls.forEach(x => x.el.classList.remove("hov"));
+  list.forEach(x => x.el.classList.remove("hov"));
   if (!n){ tip.hidden = true; return; }
   const d = byId.get(n.dataset.id);
   tip.innerHTML = `<b>${d.year}</b>${esc(d.title)}`; tip.hidden = false;
   const tx = Math.min(e.clientX + 14, innerWidth - 310); tip.style.left = tx + "px"; tip.style.top = (e.clientY + 14) + "px";
-  edgeEls.forEach(x => { if (x.a === d.id || x.b === d.id){ x.el.classList.add("hov"); x.el.removeAttribute("visibility"); } });
-});
+  list.forEach(x => { if (x.a === d.id || x.b === d.id){ x.el.classList.add("hov"); x.el.removeAttribute("visibility"); } });
+}
+$("#chart").addEventListener("mousemove", e => hover(e, edgeEls));
 $("#chart").addEventListener("mouseleave", () => { tip.hidden = true; edgeEls.forEach(x => x.el.classList.remove("hov")); applyFocus(); });
 $("#chart").addEventListener("click", e => {
+  if (panMoved) return;
   const n = e.target.closest("circle.n");
   if (n) select(n.dataset.id, false); else select(null);
 });
@@ -428,6 +476,7 @@ function select(id, scroll = true){
   applyFocus(); renderDetail();
   if (st.view === "table") highlightRow();
   if (id && scroll && st.view === "timeline") scrollToNode(id);
+  if (id && scroll && st.view === "network") centerNet(id);
 }
 function scrollToNode(id){
   let p = pos.get(id);
@@ -465,7 +514,7 @@ function copy(text, btn){
 }
 
 /* ---------- detail panel ---------- */
-function relItem(id){ const d = byId.get(id); return `<li><button data-go="${d.id}"><span class="dot" style="--c:var(--f${d.fi})"></span><span class="yr">${d.year}</span><span class="t">${esc(d.title)}</span></button></li>`; }
+function relItem(id, showInf){ const d = byId.get(id); return `<li><button data-go="${d.id}"><span class="dot" style="--c:var(--f${d.fi})"></span><span class="yr">${d.year}</span><span class="t">${esc(d.label && showInf ? d.label : d.title)}</span>${showInf ? `<span class="inf">${d.nk}</span>` : ""}</button></li>`; }
 function renderDetail(){
   const el = $("#detail");
   if (!st.sel){ el.classList.add("idle"); el.innerHTML = overview(); return; }
@@ -482,10 +531,12 @@ function renderDetail(){
       <span class="pill rank${d.importance}">${RANK[d.importance]}</span>
       ${d.type && d.type !== "paper" ? `<span class="pill">${esc(d.type)}</span>` : ""}
     </div>
+    ${d.label ? `<div class="eyebrow">${esc(d.label)}</div>` : ""}
     <h2>${esc(d.title)}</h2>
     <div class="authors">${esc(d.authors)}</div>
     <div class="venue">${d.year}${d.venue ? " · " + esc(d.venue) : ""}</div>
     <p class="summary">${esc(d.summary)}</p>
+    <div class="infl"><b>${d.nk}</b><span>${d.nk === 1 ? "later work in the atlas builds" : "later works in the atlas build"} on this directly · ${d.inf} counting indirect descendants</span></div>
     <div class="links">
       ${d.doi ? `<a href="https://doi.org/${esc(d.doi)}" target="_blank" rel="noopener">DOI ${esc(d.doi)}</a>` : ""}
       ${d.arxiv ? `<a href="https://arxiv.org/abs/${esc(d.arxiv)}" target="_blank" rel="noopener">arXiv ${esc(d.arxiv)}</a>` : ""}
@@ -493,9 +544,9 @@ function renderDetail(){
       <a href="https://www.semanticscholar.org/search?q=${encodeURIComponent(d.title)}" target="_blank" rel="noopener">Semantic Scholar</a>
     </div>
     <h3>Builds on · ${pars.length}</h3>
-    ${pars.length ? `<ul class="rel">${pars.map(relItem).join("")}</ul>` : `<div class="empty">An origin point in this map.</div>`}
+    ${pars.length ? `<ul class="rel">${pars.map(id => relItem(id)).join("")}</ul>` : `<div class="empty">An origin point in this map.</div>`}
     <h3>Led to · ${kids.length}</h3>
-    ${kids.length ? `<ul class="rel">${kids.map(relItem).join("")}</ul>` : `<div class="empty">No later work in this map builds on it yet.</div>`}
+    ${kids.length ? `<ul class="rel">${kids.map(id => relItem(id)).join("")}</ul>` : `<div class="empty">No later work in this map builds on it yet.</div>`}
     <label class="toggle lineage-toggle"><input type="checkbox" id="fullLin" ${st.full ? "checked" : ""}> Highlight full lineage on the timeline (all ancestors and descendants)</label>
     <h3>Citation</h3>
     <div class="cite"><button class="copy" data-copy="cite">Copy</button><div style="padding-right:46px">${esc(citeText(d))}</div></div>
@@ -503,12 +554,12 @@ function renderDetail(){
     <div class="cite"><button class="copy" data-copy="bib">Copy</button><pre>${esc(bibtex(d))}</pre></div>`;
 }
 function overview(){
-  const land = FIELDS.map((f,i) => DATA.filter(d => d.field === f && d.importance === 3).sort((a,b) => a.year - b.year));
-  const picks = land.map(l => l.length ? [l[0], l[Math.floor(l.length/2)], l[l.length-1]] : []).flat().filter((v,i,a) => v && a.indexOf(v) === i);
+  const picks = [...DATA].sort((a,b) => b.nk - a.nk || b.inf - a.inf).slice(0, 12);
   return `
     <h2>How to read the atlas</h2>
     <div class="howto">
       <p>Each dot is a paper, book, dataset, patent or milestone, placed by year. Each lane is a subfield. A curve means the later work builds directly on the earlier one.</p>
+      <p>The <b>Network</b> view lays the same works out as rings of time around the origins, one sector per field.</p>
       <p>Select a dot to see its full citation, BibTeX and lineage. Earlier work it builds on turns blue and later work that builds on it turns red. Dashed curves are links that cross between AI and biotech.</p>
       <div class="keyrow">
         <span><svg width="16" height="16"><circle cx="8" cy="8" r="6.5" fill="var(--ink2)"/></svg> Landmark</span>
@@ -518,8 +569,10 @@ function overview(){
     </div>
     <h3>Fields</h3>
     <div class="legend">${FIELDS.map((f,i) => `<div class="row" style="--c:var(--f${i})"><i></i>${esc(f)}<span class="n">${counts[i]}</span></div>`).join("")}</div>
-    <h3>Start with a landmark</h3>
-    <ul class="rel">${picks.map(d => relItem(d.id)).join("")}</ul>
+    <h3>Most built-upon in the atlas</h3>
+    <ul class="rel">${picks.map(d => relItem(d.id, true)).join("")}</ul>
+    <h3>Shortcuts</h3>
+    <div class="howto"><span class="kbd">/</span> search · <span class="kbd">Esc</span> clear selection · <span class="kbd">Ctrl</span> + scroll to zoom the timeline · drag to pan</div>
     <p class="note">Curated from the research literature. DOIs and arXiv IDs appear only where they could be stated with confidence. The Scholar links let you check any entry against the source record.</p>`;
 }
 $("#detail").addEventListener("click", e => {
@@ -568,12 +621,12 @@ function tableRows(){
 function renderTable(){
   const rows = tableRows();
   $("#tcount").textContent = `${rows.length} works`;
-  $("#tbody").innerHTML = rows.map(d => `<tr data-id="${d.id}" class="${d.id===st.sel?"sel":""}"><td class="yr">${d.year}</td><td><div class="tt">${esc(d.title)}</div><div class="au">${esc(d.authors)}</div></td><td><span class="fd" style="--c:var(--f${d.fi})"><i></i>${esc(SHORT[d.fi])}</span><div class="au">${esc(d.subfield)}</div></td><td class="au">${esc(d.venue)}</td><td class="rk">${"●".repeat(d.importance)}</td></tr>`).join("");
+  $("#tbody").innerHTML = rows.map(d => `<tr data-id="${d.id}" class="${d.id===st.sel?"sel":""}"><td class="yr">${d.year}</td><td><div class="tt">${esc(d.title)}</div><div class="au">${esc(d.authors)}</div></td><td><span class="fd" style="--c:var(--f${d.fi})"><i></i>${esc(SHORT[d.fi])}</span><div class="au">${esc(d.subfield)}</div></td><td class="au">${esc(d.venue)}</td><td class="rk">${"●".repeat(d.importance)}</td><td class="rk">${d.nk}</td></tr>`).join("");
 }
 function highlightRow(){ document.querySelectorAll("#tbody tr").forEach(r => r.classList.toggle("sel", r.dataset.id === st.sel)); }
 $("#tbody").addEventListener("click", e => { const r = e.target.closest("tr"); if (r) select(r.dataset.id, false); });
 document.querySelector("thead").addEventListener("click", e => { const th = e.target.closest("th"); if (!th) return;
-  const k = th.dataset.k; st.sortDir = st.sortK === k ? -st.sortDir : (k === "importance" ? -1 : 1); st.sortK = k; renderTable(); });
+  const k = th.dataset.k; st.sortDir = st.sortK === k ? -st.sortDir : (k === "importance" || k === "nk" ? -1 : 1); st.sortK = k; renderTable(); });
 $("#copyBib").onclick = e => copy(tableRows().map(bibtex).join("\n\n"), e.target);
 $("#copyCsv").onclick = e => { const c = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
   copy(["id,year,title,authors,venue,field,subfield,type,importance,doi,arxiv,builds_on"].concat(tableRows().map(d => [d.id,d.year,d.title,d.authors,d.venue,d.field,d.subfield,d.type,d.importance,d.doi,d.arxiv,d.builds_on.join(" ")].map(c).join(","))).join("\n"), e.target); };
@@ -581,18 +634,171 @@ $("#copyCsv").onclick = e => { const c = v => `"${String(v ?? "").replace(/"/g,'
 /* ---------- views ---------- */
 function setView(v){
   st.view = v;
-  $("#tabTimeline").setAttribute("aria-pressed", v === "timeline"); $("#tabTable").setAttribute("aria-pressed", v === "table");
-  $("#timelineView").hidden = v !== "timeline"; $("#tableView").hidden = v !== "table";
+  $("#tabTimeline").setAttribute("aria-pressed", v === "timeline"); $("#tabTable").setAttribute("aria-pressed", v === "table"); $("#tabNetwork").setAttribute("aria-pressed", v === "network");
+  $("#timelineView").hidden = v !== "timeline"; $("#tableView").hidden = v !== "table"; $("#networkView").hidden = v !== "network";
+  document.querySelectorAll(".tl-only").forEach(el => el.hidden = v !== "timeline");
   if (v === "table") renderTable();
+  if (v === "network"){ if (!netBuilt){ renderNet(); fitNet(); } if (st.sel) centerNet(st.sel); }
+  if (v === "timeline") drawMinimap();
 }
+$("#tabNetwork").onclick = () => setView("network");
 $("#tabTimeline").onclick = () => setView("timeline");
 $("#tabTable").onclick = () => setView("table");
-function renderAll(){ renderChart(); if (st.view === "table") renderTable(); if (st.sel && !visible(byId.get(st.sel))) select(null); }
+function renderAll(){ renderChart(); if (netBuilt) renderNet(); if (st.view === "table") renderTable(); if (st.sel && !visible(byId.get(st.sel))) select(null); }
+
+/* ---------- timeline: drag-to-pan, ctrl+wheel zoom, minimap ---------- */
+let panMoved = false;
+(() => {
+  const sc = $("#scroller"); let p0 = null;
+  sc.addEventListener("pointerdown", e => {
+    if (e.pointerType !== "mouse" || e.button !== 0 || e.target.closest("circle.n,.lanes,.corner")) return;
+    p0 = { x:e.clientX, y:e.clientY, l:sc.scrollLeft, t:sc.scrollTop }; panMoved = false;
+  });
+  addEventListener("pointermove", e => {
+    if (!p0) return;
+    const dx = e.clientX - p0.x, dy = e.clientY - p0.y;
+    if (!panMoved && Math.hypot(dx, dy) > 4){ panMoved = true; sc.classList.add("panning"); tip.hidden = true; }
+    if (panMoved){ sc.scrollLeft = p0.l - dx; sc.scrollTop = p0.t - dy; }
+  });
+  addEventListener("pointerup", () => { if (!p0) return; p0 = null; sc.classList.remove("panning"); setTimeout(() => panMoved = false, 0); });
+  sc.addEventListener("wheel", e => {
+    if (!(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault();
+    const r = sc.getBoundingClientRect();
+    setZoom(st.zoom * Math.exp(-e.deltaY * 0.004), e.clientX - r.left - labelW());
+  }, { passive:false });
+  sc.addEventListener("scroll", () => requestAnimationFrame(syncMinimapWin), { passive:true });
+  const mm = $("#minimap"); let mmDrag = false;
+  const jump = e => { const r = mm.getBoundingClientRect(), W = xOf(END) + 40, s = r.width / W, vis = sc.clientWidth - labelW();
+    sc.scrollLeft = (e.clientX - r.left) / s - vis / 2; };
+  mm.addEventListener("pointerdown", e => { mmDrag = true; mm.setPointerCapture(e.pointerId); jump(e); });
+  mm.addEventListener("pointermove", e => { if (mmDrag) jump(e); });
+  mm.addEventListener("pointerup", () => mmDrag = false);
+})();
+function drawMinimap(){
+  const mm = $("#minimap"); if (!mm || $("#timelineView").hidden) return;
+  const w = mm.clientWidth, h = mm.clientHeight, W = xOf(END) + 40, s = w / W, mid = 24;
+  const ai = {}, bio = {};
+  DATA.forEach(d => { if (!visible(d)) return; const t = d.domain === "ai" ? ai : bio; t[d.year] = (t[d.year] || 0) + 1; });
+  const mx = Math.max(1, ...Object.values(ai), ...Object.values(bio));
+  let g = `<line x1="0" x2="${w}" y1="${mid}" y2="${mid}" stroke="var(--line)"/>`;
+  for (let y = START; y <= END; y++){
+    const x = (xOf(y) * s).toFixed(1), bw = Math.max(1, pxYear(y) * s - .6).toFixed(1);
+    if (ai[y]) g += `<rect class="mm-ai" x="${x}" y="${(mid - 1 - ai[y] / mx * 18).toFixed(1)}" width="${bw}" height="${(ai[y] / mx * 18).toFixed(1)}"/>`;
+    if (bio[y]) g += `<rect class="mm-bio" x="${x}" y="${mid + 1}" width="${bw}" height="${(bio[y] / mx * 18).toFixed(1)}"/>`;
+  }
+  [1800,1850,1900,1950,1975,2000,2010,2020].forEach(y => { if (y >= START) g += `<text class="mm-t" x="${(xOf(y) * s + 2).toFixed(1)}" y="${h - 3}">${y}</text>`; });
+  g += `<text class="mm-k" x="6" y="12" fill="var(--f0)">AI</text><text class="mm-k" x="6" y="${mid + 13}" fill="var(--f4)">Bio</text>`;
+  $("#mmSvg").innerHTML = g;
+  syncMinimapWin();
+}
+function syncMinimapWin(){
+  const mm = $("#minimap"), sc = $("#scroller"); if (!mm || !mm.clientWidth) return;
+  const W = xOf(END) + 40, s = mm.clientWidth / W, vis = sc.clientWidth - labelW();
+  const win = $("#mmWin"); win.style.left = (sc.scrollLeft * s) + "px"; win.style.width = Math.max(8, vis * s) + "px";
+}
+
+/* ---------- network: radial lineage map ---------- */
+let netBuilt = false, netT = { x:0, y:0, k:1 };
+const RING_YEARS = [1900, 1950, 1980, 2000, 2010, 2015, 2020, 2024];
+const SECTORS = ["Deep Learning Foundations","Natural Language Processing","Computer Vision","Reinforcement Learning","Molecular Biology & Genetic Engineering","Therapeutics & Medical Biotech","Genomics & Sequencing","Computational & Structural Biology"];
+function tsc(y){ let x = 0; for (const [a,b,p] of SEG){ if (y <= a) break; x += (Math.min(y,b) - a) * p; } return x; }
+const YS = DATA.map(d => d.year).sort((a,b) => a - b);
+const ringR = y => { let lo = 0; while (lo < YS.length && YS[lo] < y) lo++; let hi = lo; while (hi < YS.length && YS[hi] === y) hi++; return 80 + 920 * Math.sqrt((lo + .5 * (hi - lo)) / YS.length); };
+const TOPLBL = new Set(FIELDS.flatMap(f => DATA.filter(d => d.field === f).sort((a,b) => b.nk - a.nk).slice(0, 3).map(d => d.id)));
+const TINY = ["Deep learning","NLP","Vision","RL","Mol. bio","Therapeutics","Genomics","Comp. bio"];
+const baseR = d => Math.min(14, 2.4 + Math.sqrt(d.nk) * 1.55);
+function renderNet(){
+  netBuilt = true;
+  const vis = DATA.filter(visible), vs = new Set(vis.map(d => d.id));
+  const sw = 2 * Math.PI / SECTORS.length;
+  let s = "";
+  RING_YEARS.forEach(y => { const r = ringR(y); s += `<circle class="ring" r="${r.toFixed(1)}"/><text class="ring-t" x="3" y="${(-r - 3).toFixed(1)}">${y}</text>`; });
+  SECTORS.forEach((f, i) => {
+    const a0 = -Math.PI / 2 + i * sw, ac = a0 + sw / 2, fi = FIELDS.indexOf(f);
+    s += `<line class="spoke" x1="${(60 * Math.cos(a0)).toFixed(1)}" y1="${(60 * Math.sin(a0)).toFixed(1)}" x2="${(1030 * Math.cos(a0)).toFixed(1)}" y2="${(1030 * Math.sin(a0)).toFixed(1)}"/>`;
+    const lx = 1075 * Math.cos(ac), ly = 1075 * Math.sin(ac), narrow = $("#net").clientWidth < 700, anchor = narrow || Math.abs(Math.cos(ac)) < .25 ? "middle" : Math.cos(ac) > 0 ? "start" : "end";
+    s += `<text class="sec-t f${fi}" x="${lx.toFixed(1)}" y="${(ly + 5).toFixed(1)}" text-anchor="${anchor}">${esc(($("#net").clientWidth < 700 ? TINY : SHORT)[fi])}</text>`;
+  });
+  const eList = [];
+  vis.forEach(d => d.builds_on.forEach(p => { if (vs.has(p)) eList.push([p, d.id]); }));
+  s += `<g>` + eList.map(([a,b]) => { const A = byId.get(a), B = byId.get(b);
+    return `<line class="e${A.domain !== B.domain ? " x" : ""}" x1="${A.gx}" y1="${A.gy}" x2="${B.gx}" y2="${B.gy}"/>`; }).join("") + `</g><g>`;
+  vis.sort((a,b) => a.nk - b.nk).forEach(d => {
+    s += `<circle class="n f${d.fi} i${d.importance}" data-id="${d.id}" cx="${d.gx}" cy="${d.gy}" r="${baseR(d)}"/>`; });
+  vis.forEach(d => { s += `<text class="lbl net-lbl i${d.importance}${TOPLBL.has(d.id) ? " top" : ""}" data-id="${d.id}" x="${d.gx}" y="${d.gy}" dy="0.35em">${esc(label(d))}</text>`; });
+  s += `</g>`;
+  $("#netG").innerHTML = s;
+  netNode = new Map(); netLbl = new Map();
+  $("#netG").querySelectorAll("circle.n").forEach(el => netNode.set(el.dataset.id, el));
+  $("#netG").querySelectorAll("text.net-lbl").forEach(el => netLbl.set(el.dataset.id, el));
+  const lines = $("#netG").querySelectorAll("line.e");
+  netEdges = eList.map(([a,b], i) => ({ a, b, el: lines[i] }));
+  applyNetT(); applyFocus();
+}
+function applyNetT(){
+  const svg = $("#net"), k = netT.k;
+  $("#netG").setAttribute("transform", `translate(${netT.x.toFixed(1)},${netT.y.toFixed(1)}) scale(${k.toFixed(4)})`);
+  svg.style.setProperty("--lk", (1 / k).toFixed(4));
+  svg.classList.toggle("z1", k > .6); svg.classList.toggle("z2", k > 1.5); svg.classList.toggle("z3", k > 2.8);
+  const g = 1 / Math.sqrt(k);   // dots grow with sqrt(zoom) on screen, labels stay a constant size
+  netNode.forEach((el, id) => { const d = byId.get(id), r = baseR(d) * g; el.setAttribute("r", r.toFixed(2)); const l = netLbl.get(id); if (l) l.setAttribute("x", (d.gx + r + 3 / k).toFixed(1)); });
+}
+function zoomNetAt(px, py, f){
+  const k = Math.max(.15, Math.min(10, netT.k * f)), r = k / netT.k;
+  netT.x = px - (px - netT.x) * r; netT.y = py - (py - netT.y) * r; netT.k = k; applyNetT();
+}
+function zoomNetCenter(f){ const svg = $("#net"); zoomNetAt(svg.clientWidth / 2, svg.clientHeight / 2, f); }
+function fitNet(){ const svg = $("#net"), w = svg.clientWidth, h = svg.clientHeight; netT.k = Math.min(w / 2750, h / 2350); netT.x = w / 2; netT.y = h / 2; applyNetT(); }
+function centerNet(id){
+  const d = byId.get(id); if (!d || !netNode.has(id)) return;
+  const svg = $("#net"), w = svg.clientWidth, h = svg.clientHeight;
+  const k1 = Math.max(netT.k, 1.1), x1 = w / 2 - d.gx * k1, y1 = h / 2 - d.gy * k1;
+  const x0 = netT.x, y0 = netT.y, k0 = netT.k, t0 = performance.now(), dur = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 420;
+  const step = now => { const t = dur ? Math.min(1, (now - t0) / dur) : 1, e = 1 - Math.pow(1 - t, 3);
+    netT.x = x0 + (x1 - x0) * e; netT.y = y0 + (y1 - y0) * e; netT.k = k0 + (k1 - k0) * e; applyNetT(); if (t < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}
+(() => {
+  const svg = $("#net"), ptrs = new Map(); let moved = false, downNode = null, pinchD = 0;
+  svg.addEventListener("wheel", e => { e.preventDefault(); const r = svg.getBoundingClientRect(); zoomNetAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * 0.0018)); }, { passive:false });
+  svg.addEventListener("pointerdown", e => {
+    svg.setPointerCapture(e.pointerId); ptrs.set(e.pointerId, { x:e.clientX, y:e.clientY });
+    if (ptrs.size === 1){ moved = false; downNode = e.target.closest("circle.n")?.dataset.id || null; }
+    if (ptrs.size === 2){ const [a,b] = [...ptrs.values()]; pinchD = Math.hypot(a.x - b.x, a.y - b.y); moved = true; }
+  });
+  svg.addEventListener("pointermove", e => {
+    if (!ptrs.has(e.pointerId)){ hover(e, netEdges); return; }
+    const prev = ptrs.get(e.pointerId), cur = { x:e.clientX, y:e.clientY }; ptrs.set(e.pointerId, cur);
+    if (ptrs.size === 1){
+      const dx = cur.x - prev.x, dy = cur.y - prev.y;
+      if (!moved && Math.abs(dx) + Math.abs(dy) > 2){ moved = true; svg.classList.add("dragging"); tip.hidden = true; }
+      if (moved){ netT.x += dx; netT.y += dy; applyNetT(); }
+    } else if (ptrs.size === 2){
+      const [a,b] = [...ptrs.values()], d = Math.hypot(a.x - b.x, a.y - b.y), r = svg.getBoundingClientRect();
+      if (pinchD) zoomNetAt((a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, d / pinchD); pinchD = d;
+    }
+  });
+  const up = e => {
+    ptrs.delete(e.pointerId); svg.classList.remove("dragging");
+    if (ptrs.size === 0 && !moved){ select(downNode, false); }
+    if (ptrs.size < 2) pinchD = 0;
+  };
+  svg.addEventListener("pointerup", up); svg.addEventListener("pointercancel", up);
+  svg.addEventListener("mouseleave", () => { tip.hidden = true; netEdges.forEach(x => x.el.classList.remove("hov")); });
+  $("#netFit").onclick = fitNet;
+})();
+
+/* ---------- keyboard ---------- */
+addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== qEl){ e.preventDefault(); qEl.focus(); qEl.select(); }
+  else if (e.key === "Escape" && document.activeElement !== qEl && st.sel) select(null);
+});
 
 /* ---------- boot ---------- */
 renderChart(); renderDetail();
 const h = decodeURIComponent(location.hash.slice(1));
 if (byId.has(h)) setTimeout(() => select(h), 50);
 else { const sc = $("#scroller"); sc.scrollLeft = xOf(1985); }
-let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(renderChart, 150); });
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { renderChart(); if (st.view === "network"){ renderNet(); } }, 150); });
 </script>

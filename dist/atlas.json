@@ -12,7 +12,9 @@
   "importance": 3,
   "summary": "Described cowpox inoculation protecting against smallpox, founding vaccination.",
   "builds_on": [],
-  "label": "Smallpox vaccination"
+  "label": "Smallpox vaccination",
+  "gx": -83.7,
+  "gy": -51.1
  },
  {
   "id": "mendel1866versuche",
@@ -27,7 +29,9 @@
   "importance": 3,
   "summary": "Pea-hybrid crossing experiments establishing that discrete hereditary factors segregate and assort independently, founding genetics.",
   "builds_on": [],
-  "label": "Mendelian inheritance"
+  "label": "Mendelian inheritance",
+  "gx": 64.7,
+  "gy": 93.4
  },
  {
   "id": "miescher1871ueber",
@@ -42,7 +46,9 @@
   "importance": 2,
   "summary": "Isolated a phosphorus-rich, non-protein substance from leucocyte nuclei that he called nuclein, the first description of DNA as a chemical entity.",
   "builds_on": [],
-  "label": "Discovery of nuclein"
+  "label": "Discovery of nuclein",
+  "gx": 30.0,
+  "gy": 120.7
  },
  {
   "id": "pasteur1881compte",
@@ -59,7 +65,9 @@
   "builds_on": [
    "jenner1798inquiry"
   ],
-  "label": "Anthrax vaccine"
+  "label": "Anthrax vaccine",
+  "gx": -134.5,
+  "gy": -51.7
  },
  {
   "id": "behring1890ueber",
@@ -76,7 +84,9 @@
   "builds_on": [
    "pasteur1881compte"
   ],
-  "label": "Antitoxin serum therapy"
+  "label": "Antitoxin serum therapy",
+  "gx": -152.3,
+  "gy": -1.5
  },
  {
   "id": "coley1893treatment",
@@ -91,7 +101,9 @@
   "importance": 2,
   "summary": "Bacterial toxin injections ('Coley's toxins') induced tumor regressions, the earliest systematic cancer immunotherapy.",
   "builds_on": [],
-  "label": "Coley's toxins"
+  "label": "Coley's toxins",
+  "gx": -148.2,
+  "gy": 59.1
  },
  {
   "id": "thorndike1898animal",
@@ -106,7 +118,9 @@
   "importance": 2,
   "summary": "Puzzle-box experiments with cats that led to the 'law of effect': actions followed by satisfying outcomes become more likely. This is the psychological root of trial-and-error reinforcement learning.",
   "builds_on": [],
-  "label": "Law of Effect"
+  "label": "Law of Effect",
+  "gx": 146.7,
+  "gy": 78.2
  },
  {
   "id": "sutton1903chromosomes",
@@ -123,7 +137,9 @@
   "builds_on": [
    "mendel1866versuche"
   ],
-  "label": "Chromosome theory"
+  "label": "Chromosome theory",
+  "gx": 84.2,
+  "gy": 150.4
  },
  {
   "id": "morgan1910sexlimited",
@@ -141,7 +157,9 @@
    "sutton1903chromosomes",
    "mendel1866versuche"
   ],
-  "label": "Sex-linked inheritance"
+  "label": "Sex-linked inheritance",
+  "gx": -59.9,
+  "gy": 153.1
  },
  {
   "id": "michaelis1913kinetik",
@@ -156,7 +174,9 @@
   "importance": 3,
   "summary": "Derived the Michaelis-Menten rate law for enzyme kinetics, the foundational quantitative model of biochemistry.",
   "builds_on": [],
-  "label": "Michaelis-Menten"
+  "label": "Michaelis-Menten",
+  "gx": -22.8,
+  "gy": -184.8
  },
  {
   "id": "bragg1913reflection",
@@ -171,7 +191,9 @@
   "importance": 3,
   "summary": "Established Bragg's law and X-ray crystal structure analysis, the origin of crystallography as a tool for atomic structure.",
   "builds_on": [],
-  "label": "Bragg's law"
+  "label": "Bragg's law",
+  "gx": 27.7,
+  "gy": -184.1
  },
  {
   "id": "banting1922internal",
@@ -186,7 +208,9 @@
   "importance": 3,
   "summary": "Isolation of pancreatic extracts (insulin) that lowered blood glucose in diabetic dogs, leading to the first protein hormone therapy.",
   "builds_on": [],
-  "label": "Insulin discovery"
+  "label": "Insulin discovery",
+  "gx": -190.4,
+  "gy": -35.3
  },
  {
   "id": "muller1927artificial",
@@ -203,7 +227,9 @@
   "builds_on": [
    "morgan1910sexlimited"
   ],
-  "label": "X-ray mutagenesis"
+  "label": "X-ray mutagenesis",
+  "gx": 41.4,
+  "gy": 194.0
  },
  {
   "id": "griffith1928significance",
@@ -220,7 +246,9 @@
   "builds_on": [
    "mendel1866versuche"
   ],
-  "label": "Griffith experiment"
+  "label": "Griffith experiment",
+  "gx": -3.3,
+  "gy": 202.8
  },
  {
   "id": "beadle1941genetic",
@@ -238,7 +266,9 @@
    "morgan1910sexlimited",
    "muller1927artificial"
   ],
-  "label": "One gene-one enzyme"
+  "label": "One gene-one enzyme",
+  "gx": -139.3,
+  "gy": 153.4
  },
  {
   "id": "mcculloch1943logical",
@@ -254,7 +284,9 @@
   "summary": "Modeled neurons as binary threshold logic units and showed networks of them can compute logical functions, founding the theory of artificial neural networks.",
   "builds_on": [],
   "doi": "10.1007/BF02478259",
-  "label": "McCulloch-Pitts neuron"
+  "label": "McCulloch-Pitts neuron",
+  "gx": 155.6,
+  "gy": -146.1
  },
  {
   "id": "papanicolaou1943diagnosis",
@@ -269,7 +301,9 @@
   "importance": 2,
   "summary": "Established the Pap smear for cytological cancer screening, which greatly reduced cervical cancer mortality.",
   "builds_on": [],
-  "label": "Pap smear"
+  "label": "Pap smear",
+  "gx": -213.3,
+  "gy": 7.5
  },
  {
   "id": "avery1944studies",
@@ -287,7 +321,9 @@
    "griffith1928significance",
    "miescher1871ueber"
   ],
-  "label": "DNA is genetic material"
+  "label": "DNA is genetic material",
+  "gx": 97.2,
+  "gy": 196.8
  },
  {
   "id": "wiener1948cybernetics",
@@ -304,7 +340,9 @@
   "builds_on": [
    "mcculloch1943logical"
   ],
-  "label": "Cybernetics"
+  "label": "Cybernetics",
+  "gx": 183.8,
+  "gy": -130.1
  },
  {
   "id": "shannon1948mathematical",
@@ -320,7 +358,9 @@
   "summary": "Founded information theory and introduced n-gram (Markov) approximations of English text, the conceptual ancestor of statistical language modeling.",
   "builds_on": [],
   "doi": "10.1002/j.1538-7305.1948.tb01338.x",
-  "label": "Information theory"
+  "label": "Information theory",
+  "gx": 219.2,
+  "gy": -51.4
  },
  {
   "id": "hebb1949organization",
@@ -337,7 +377,9 @@
   "builds_on": [
    "mcculloch1943logical"
   ],
-  "label": "Hebbian learning"
+  "label": "Hebbian learning",
+  "gx": 152.6,
+  "gy": -175.4
  },
  {
   "id": "enders1949cultivation",
@@ -353,7 +395,9 @@
   "summary": "Grew poliovirus in non-neural tissue culture, enabling mass production of viral vaccines (Nobel 1954).",
   "builds_on": [],
   "doi": "10.1126/science.109.2822.85",
-  "label": "Poliovirus cell culture"
+  "label": "Poliovirus cell culture",
+  "gx": -227.5,
+  "gy": -47.8
  },
  {
   "id": "chargaff1950chemical",
@@ -370,7 +414,9 @@
   "builds_on": [
    "avery1944studies"
   ],
-  "label": "Chargaff's rules"
+  "label": "Chargaff's rules",
+  "gx": 75.4,
+  "gy": 227.2
  },
  {
   "id": "turing1950computing",
@@ -386,7 +432,9 @@
   "summary": "Proposed the imitation game (Turing test), framing machine intelligence in terms of natural-language conversation.",
   "builds_on": [],
   "doi": "10.1093/mind/LIX.236.433",
-  "label": "Turing Test"
+  "label": "Turing Test",
+  "gx": 239.4,
+  "gy": -2.7
  },
  {
   "id": "pauling1951structure",
@@ -404,7 +452,9 @@
    "bragg1913reflection"
   ],
   "doi": "10.1073/pnas.37.4.205",
-  "label": "Alpha helix"
+  "label": "Alpha helix",
+  "gx": 32.3,
+  "gy": -243.9
  },
  {
   "id": "robbins1951stochastic",
@@ -419,7 +469,9 @@
   "importance": 2,
   "summary": "Introduced stochastic approximation, the mathematical basis of stochastic gradient descent used to train virtually all neural networks.",
   "builds_on": [],
-  "label": "Stochastic approximation"
+  "label": "Stochastic approximation",
+  "gx": 130.3,
+  "gy": -208.7
  },
  {
   "id": "hodgkin1952quantitative",
@@ -435,7 +487,9 @@
   "summary": "Coupled differential equations reproducing the action potential from measured ionic conductances, the archetype of mechanistic biological modeling (Nobel 1963).",
   "builds_on": [],
   "doi": "10.1113/jphysiol.1952.sp004764",
-  "label": "Hodgkin-Huxley model"
+  "label": "Hodgkin-Huxley model",
+  "gx": -140.6,
+  "gy": -211.5
  },
  {
   "id": "turing1952chemical",
@@ -451,7 +505,9 @@
   "summary": "Showed reaction-diffusion systems can spontaneously form patterns, founding mathematical theories of developmental pattern formation.",
   "builds_on": [],
   "doi": "10.1098/rstb.1952.0012",
-  "label": "Turing patterns"
+  "label": "Turing patterns",
+  "gx": -9.7,
+  "gy": -253.8
  },
  {
   "id": "hershey1952independent",
@@ -468,7 +524,9 @@
   "builds_on": [
    "avery1944studies"
   ],
-  "label": "Hershey-Chase experiment"
+  "label": "Hershey-Chase experiment",
+  "gx": 8.4,
+  "gy": 253.9
  },
  {
   "id": "franklin1953molecular",
@@ -485,7 +543,9 @@
   "builds_on": [
    "chargaff1950chemical"
   ],
-  "label": "Photo 51"
+  "label": "Photo 51",
+  "gx": -189.8,
+  "gy": 182.1
  },
  {
   "id": "watson1953molecular",
@@ -504,7 +564,9 @@
    "chargaff1950chemical",
    "hershey1952independent"
   ],
-  "label": "DNA double helix"
+  "label": "DNA double helix",
+  "gx": 36.8,
+  "gy": 260.5
  },
  {
   "id": "salk1953studies",
@@ -522,7 +584,9 @@
    "enders1949cultivation",
    "pasteur1881compte"
   ],
-  "label": "Salk polio vaccine"
+  "label": "Salk polio vaccine",
+  "gx": -258.2,
+  "gy": 50.6
  },
  {
   "id": "harris1954distributional",
@@ -537,7 +601,9 @@
   "importance": 2,
   "summary": "Articulated the distributional hypothesis that words occurring in similar contexts have similar meanings, the basis of later vector semantics.",
   "builds_on": [],
-  "label": "Distributional semantics"
+  "label": "Distributional semantics",
+  "gx": 250.4,
+  "gy": -97.9
  },
  {
   "id": "kornberg1956enzymatic",
@@ -554,7 +620,9 @@
   "builds_on": [
    "watson1953molecular"
   ],
-  "label": "DNA polymerase"
+  "label": "DNA polymerase",
+  "gx": -37.3,
+  "gy": 269.1
  },
  {
   "id": "chomsky1957syntactic",
@@ -569,7 +637,9 @@
   "importance": 3,
   "summary": "Introduced transformational generative grammar and formal language hierarchies, reshaping linguistics and early symbolic NLP.",
   "builds_on": [],
-  "label": "Syntactic Structures"
+  "label": "Syntactic Structures",
+  "gx": 273.8,
+  "gy": -43.9
  },
  {
   "id": "bellman1957dynamic",
@@ -584,7 +654,9 @@
   "importance": 3,
   "summary": "Introduced dynamic programming, the principle of optimality and the Bellman equation for sequential decision problems. Value functions and Bellman backups underlie nearly every RL algorithm.",
   "builds_on": [],
-  "label": "Dynamic Programming"
+  "label": "Dynamic Programming",
+  "gx": 214.9,
+  "gy": 175.1
  },
  {
   "id": "thomas1957intravenous",
@@ -600,7 +672,9 @@
   "summary": "Early human bone marrow infusion studies that founded hematopoietic stem cell transplantation, the first cell therapy (Nobel 1990).",
   "builds_on": [],
   "doi": "10.1056/NEJM195709122571102",
-  "label": "Bone marrow transplant"
+  "label": "Bone marrow transplant",
+  "gx": -277.3,
+  "gy": 0.6
  },
  {
   "id": "kendrew1958three",
@@ -619,7 +693,9 @@
    "pauling1951structure"
   ],
   "doi": "10.1038/181662a0",
-  "label": "Myoglobin structure"
+  "label": "Myoglobin structure",
+  "gx": -69.1,
+  "gy": -278.1
  },
  {
   "id": "rosenblatt1958perceptron",
@@ -638,7 +714,9 @@
    "hebb1949organization"
   ],
   "doi": "10.1037/h0042519",
-  "label": "Perceptron"
+  "label": "Perceptron",
+  "gx": 192.7,
+  "gy": -212.1
  },
  {
   "id": "crick1958protein",
@@ -656,7 +734,9 @@
    "watson1953molecular",
    "beadle1941genetic"
   ],
-  "label": "Central dogma"
+  "label": "Central dogma",
+  "gx": -62.4,
+  "gy": 279.7
  },
  {
   "id": "meselson1958replication",
@@ -674,7 +754,9 @@
    "watson1953molecular",
    "kornberg1956enzymatic"
   ],
-  "label": "Meselson-Stahl"
+  "label": "Meselson-Stahl",
+  "gx": -153.3,
+  "gy": 242.1
  },
  {
   "id": "samuel1959some",
@@ -690,7 +772,9 @@
   "summary": "A checkers program that improved through self-play by adjusting its evaluation function toward later positions' values, an early form of temporal-difference learning. It popularized the term 'machine learning'.",
   "builds_on": [],
   "doi": "10.1147/rd.33.0210",
-  "label": "Samuel's checkers"
+  "label": "Samuel's checkers",
+  "gx": 214.7,
+  "gy": 199.4
  },
  {
   "id": "perutz1960structure",
@@ -708,7 +792,9 @@
    "kendrew1958three"
   ],
   "doi": "10.1038/185416a0",
-  "label": "Haemoglobin structure"
+  "label": "Haemoglobin structure",
+  "gx": 41.0,
+  "gy": -296.4
  },
  {
   "id": "widrow1960adaptive",
@@ -725,7 +811,9 @@
   "builds_on": [
    "rosenblatt1958perceptron"
   ],
-  "label": "ADALINE"
+  "label": "ADALINE",
+  "gx": 230.5,
+  "gy": -190.8
  },
  {
   "id": "howard1960dynamic",
@@ -742,7 +830,9 @@
   "builds_on": [
    "bellman1957dynamic"
   ],
-  "label": "Policy iteration"
+  "label": "Policy iteration",
+  "gx": 192.8,
+  "gy": 228.9
  },
  {
   "id": "yalow1960immunoassay",
@@ -760,7 +850,9 @@
    "banting1922internal"
   ],
   "doi": "10.1172/JCI104130",
-  "label": "Radioimmunoassay"
+  "label": "Radioimmunoassay",
+  "gx": -296.0,
+  "gy": -44.1
  },
  {
   "id": "brenner1961unstable",
@@ -778,7 +870,9 @@
    "crick1958protein",
    "meselson1958replication"
   ],
-  "label": "Messenger RNA"
+  "label": "Messenger RNA",
+  "gx": 98.3,
+  "gy": 294.0
  },
  {
   "id": "crick1961general",
@@ -796,7 +890,9 @@
    "crick1958protein",
    "nirenberg1961dependence"
   ],
-  "label": "Triplet genetic code"
+  "label": "Triplet genetic code",
+  "gx": 68.0,
+  "gy": 302.5
  },
  {
   "id": "jacob1961genetic",
@@ -814,7 +910,9 @@
    "brenner1961unstable",
    "beadle1941genetic"
   ],
-  "label": "Lac operon"
+  "label": "Lac operon",
+  "gx": -102.7,
+  "gy": 292.5
  },
  {
   "id": "nirenberg1961dependence",
@@ -832,7 +930,9 @@
    "crick1958protein",
    "brenner1961unstable"
   ],
-  "label": "First codon (UUU)"
+  "label": "First codon (UUU)",
+  "gx": -6.2,
+  "gy": 310.0
  },
  {
   "id": "sabin1961oral",
@@ -850,7 +950,9 @@
    "enders1949cultivation",
    "salk1953studies"
   ],
-  "label": "Sabin oral polio vaccine"
+  "label": "Sabin oral polio vaccine",
+  "gx": -294.1,
+  "gy": 98.2
  },
  {
   "id": "hubel1962receptive",
@@ -866,7 +968,9 @@
   "summary": "Characterized simple and complex cells and hierarchical receptive fields in visual cortex, inspiring hierarchical feature models from the Neocognitron to CNNs.",
   "builds_on": [],
   "doi": "10.1113/jphysiol.1962.sp006837",
-  "label": "Hubel & Wiesel"
+  "label": "Hubel & Wiesel",
+  "gx": 316.7,
+  "gy": 13.3
  },
  {
   "id": "ramachandran1963stereochemistry",
@@ -884,7 +988,9 @@
    "pauling1951structure"
   ],
   "doi": "10.1016/S0022-2836(63)80023-6",
-  "label": "Ramachandran plot"
+  "label": "Ramachandran plot",
+  "gx": -136.2,
+  "gy": -291.1
  },
  {
   "id": "roberts1963machine",
@@ -899,7 +1005,9 @@
   "importance": 2,
   "summary": "The 'blocks world' thesis: extracted edges from photographs and matched them to 3D polyhedral models, often cited as the start of computer vision.",
   "builds_on": [],
-  "label": "Blocks world vision"
+  "label": "Blocks world vision",
+  "gx": 313.1,
+  "gy": 72.9
  },
  {
   "id": "michie1963experiments",
@@ -916,7 +1024,9 @@
   "builds_on": [
    "samuel1959some",
    "thorndike1898animal"
-  ]
+  ],
+  "gx": 260.6,
+  "gy": 188.1
  },
  {
   "id": "hansch1964analysis",
@@ -931,7 +1041,9 @@
   "importance": 3,
   "summary": "Founded QSAR by regressing biological activity on hydrophobic, electronic and steric descriptors, the start of computational drug design.",
   "builds_on": [],
-  "label": "QSAR"
+  "label": "QSAR",
+  "gx": -23.0,
+  "gy": -326.1
  },
  {
   "id": "nirenberg1964rna",
@@ -949,7 +1061,9 @@
    "nirenberg1961dependence",
    "crick1961general"
   ],
-  "label": "Codon binding assay"
+  "label": "Codon binding assay",
+  "gx": -213.0,
+  "gy": 248.0
  },
  {
   "id": "dayhoff1965atlas",
@@ -964,7 +1078,9 @@
   "importance": 3,
   "summary": "The first comprehensive compilation of protein sequences, effectively the first bioinformatics database and the template for later sequence databanks.",
   "builds_on": [],
-  "label": "Atlas of Protein Seq"
+  "label": "Atlas of Protein Seq",
+  "gx": -181.9,
+  "gy": -278.1
  },
  {
   "id": "holley1965structure",
@@ -982,7 +1098,9 @@
    "crick1958protein",
    "nirenberg1964rna"
   ],
-  "label": "tRNA sequence"
+  "label": "tRNA sequence",
+  "gx": 48.5,
+  "gy": 328.8
  },
  {
   "id": "blumberg1965new",
@@ -997,7 +1115,9 @@
   "importance": 2,
   "summary": "Discovered the Australia antigen (HBsAg), enabling hepatitis B blood screening and later the hepatitis B vaccine.",
   "builds_on": [],
-  "label": "Hepatitis B antigen"
+  "label": "Hepatitis B antigen",
+  "gx": -332.3,
+  "gy": -6.4
  },
  {
   "id": "weizenbaum1966eliza",
@@ -1015,7 +1135,9 @@
    "turing1950computing"
   ],
   "doi": "10.1145/365153.365168",
-  "label": "ELIZA"
+  "label": "ELIZA",
+  "gx": 316.3,
+  "gy": -115.0
  },
  {
   "id": "weiss1967enzymatic",
@@ -1032,7 +1154,9 @@
   "builds_on": [
    "kornberg1956enzymatic"
   ],
-  "label": "DNA ligase"
+  "label": "DNA ligase",
+  "gx": -152.4,
+  "gy": 302.4
  },
  {
   "id": "meselson1968restriction",
@@ -1050,7 +1174,9 @@
    "kornberg1956enzymatic",
    "hershey1952independent"
   ],
-  "label": "Restriction enzyme EcoK"
+  "label": "Restriction enzyme EcoK",
+  "gx": 19.2,
+  "gy": 341.2
  },
  {
   "id": "michie1968boxes",
@@ -1067,7 +1193,9 @@
   "builds_on": [
    "michie1963experiments"
   ],
-  "label": "BOXES"
+  "label": "BOXES",
+  "gx": 247.9,
+  "gy": 235.2
  },
  {
   "id": "levinthal1969how",
@@ -1084,7 +1212,9 @@
   "builds_on": [
    "kendrew1958three"
   ],
-  "label": "Levinthal's paradox"
+  "label": "Levinthal's paradox",
+  "gx": 70.6,
+  "gy": -339.5
  },
  {
   "id": "kauffman1969metabolic",
@@ -1101,7 +1231,9 @@
   "builds_on": [
    "turing1952chemical"
   ],
-  "label": "Random Boolean networks"
+  "label": "Random Boolean networks",
+  "gx": 29.2,
+  "gy": -345.6
  },
  {
   "id": "minsky1969perceptrons",
@@ -1118,7 +1250,9 @@
   "builds_on": [
    "rosenblatt1958perceptron"
   ],
-  "label": "Perceptrons (book)"
+  "label": "Perceptrons (book)",
+  "gx": 257.3,
+  "gy": -232.5
  },
  {
   "id": "needleman1970general",
@@ -1136,7 +1270,9 @@
    "dayhoff1965atlas"
   ],
   "doi": "10.1016/0022-2836(70)90057-4",
-  "label": "Needleman-Wunsch"
+  "label": "Needleman-Wunsch",
+  "gx": -7.3,
+  "gy": -354.6
  },
  {
   "id": "linnainmaa1970representation",
@@ -1151,7 +1287,9 @@
   "importance": 2,
   "summary": "First description of reverse-mode automatic differentiation, the general algorithm underlying backpropagation.",
   "builds_on": [],
-  "label": "Reverse-mode autodiff"
+  "label": "Reverse-mode autodiff",
+  "gx": 229.2,
+  "gy": -270.7
  },
  {
   "id": "smith1970restriction",
@@ -1168,7 +1306,9 @@
   "builds_on": [
    "meselson1968restriction"
   ],
-  "label": "HindII (Type II enzyme)"
+  "label": "HindII (Type II enzyme)",
+  "gx": -245.5,
+  "gy": 256.0
  },
  {
   "id": "baltimore1970rna",
@@ -1186,7 +1326,9 @@
    "crick1958protein",
    "kornberg1956enzymatic"
   ],
-  "label": "Reverse transcriptase"
+  "label": "Reverse transcriptase",
+  "gx": -187.5,
+  "gy": 301.1
  },
  {
   "id": "temin1970rna",
@@ -1204,7 +1346,9 @@
    "crick1958protein",
    "kornberg1956enzymatic"
   ],
-  "label": "RT in Rous sarcoma virus"
+  "label": "RT in Rous sarcoma virus",
+  "gx": 100.4,
+  "gy": 340.2
  },
  {
   "id": "danna1971specific",
@@ -1221,7 +1365,9 @@
   "builds_on": [
    "smith1970restriction"
   ],
-  "label": "Restriction mapping"
+  "label": "Restriction mapping",
+  "gx": -17.5,
+  "gy": 361.1
  },
  {
   "id": "engvall1971enzymelinked",
@@ -1239,7 +1385,9 @@
    "yalow1960immunoassay"
   ],
   "doi": "10.1016/0019-2791(71)90454-X",
-  "label": "ELISA"
+  "label": "ELISA",
+  "gx": -356.0,
+  "gy": 62.9
  },
  {
   "id": "jackson1972biochemical",
@@ -1258,7 +1406,9 @@
    "weiss1967enzymatic",
    "danna1971specific"
   ],
-  "label": "First recombinant DNA"
+  "label": "First recombinant DNA",
+  "gx": -219.9,
+  "gy": 291.6
  },
  {
   "id": "winograd1972understanding",
@@ -1276,7 +1426,9 @@
    "chomsky1957syntactic",
    "weizenbaum1966eliza"
   ],
-  "label": "SHRDLU"
+  "label": "SHRDLU",
+  "gx": 357.3,
+  "gy": -75.9
  },
  {
   "id": "anfinsen1973principles",
@@ -1294,7 +1446,9 @@
    "kendrew1958three"
   ],
   "doi": "10.1126/science.181.4096.223",
-  "label": "Anfinsen's dogma"
+  "label": "Anfinsen's dogma",
+  "gx": -87.9,
+  "gy": -358.4
  },
  {
   "id": "cohen1973construction",
@@ -1313,7 +1467,9 @@
    "smith1970restriction",
    "weiss1967enzymatic"
   ],
-  "label": "Recombinant plasmids"
+  "label": "Recombinant plasmids",
+  "gx": -136.5,
+  "gy": 342.8
  },
  {
   "id": "werbos1974beyond",
@@ -1330,7 +1486,9 @@
   "builds_on": [
    "linnainmaa1970representation"
   ],
-  "label": "Werbos backprop thesis"
+  "label": "Werbos backprop thesis",
+  "gx": 198.7,
+  "gy": -314.2
  },
  {
   "id": "sanger1975rapid",
@@ -1347,7 +1505,9 @@
   "builds_on": [
    "watson1953molecular"
   ],
-  "label": "Plus-minus sequencing"
+  "label": "Plus-minus sequencing",
+  "gx": -269.0,
+  "gy": -263.1
  },
  {
   "id": "southern1975detection",
@@ -1365,7 +1525,9 @@
    "danna1971specific",
    "smith1970restriction"
   ],
-  "label": "Southern blot"
+  "label": "Southern blot",
+  "gx": -83.9,
+  "gy": 366.9
  },
  {
   "id": "berg1975asilomar",
@@ -1383,7 +1545,9 @@
    "cohen1973construction",
    "jackson1972biochemical"
   ],
-  "label": "Asilomar Conference"
+  "label": "Asilomar Conference",
+  "gx": -113.6,
+  "gy": 358.8
  },
  {
   "id": "kohler1975continuous",
@@ -1401,7 +1565,9 @@
    "behring1890ueber"
   ],
   "doi": "10.1038/256495a0",
-  "label": "Monoclonal antibodies"
+  "label": "Monoclonal antibodies",
+  "gx": -331.5,
+  "gy": 178.2
  },
  {
   "id": "mccammon1977dynamics",
@@ -1419,7 +1585,9 @@
    "kendrew1958three"
   ],
   "doi": "10.1038/267585a0",
-  "label": "Protein MD simulation"
+  "label": "Protein MD simulation",
+  "gx": -58.9,
+  "gy": -382.5
  },
  {
   "id": "bernstein1977protein",
@@ -1437,7 +1605,9 @@
    "kendrew1958three",
    "perutz1960structure"
   ],
-  "label": "Protein Data Bank"
+  "label": "Protein Data Bank",
+  "gx": -124.3,
+  "gy": -366.5
  },
  {
   "id": "maxam1977new",
@@ -1455,7 +1625,9 @@
    "smith1970restriction"
   ],
   "doi": "10.1073/pnas.74.2.560",
-  "label": "Maxam-Gilbert sequencing"
+  "label": "Maxam-Gilbert sequencing",
+  "gx": -331.4,
+  "gy": -199.8
  },
  {
   "id": "sanger1977dna",
@@ -1473,7 +1645,9 @@
    "sanger1975rapid"
   ],
   "doi": "10.1073/pnas.74.12.5463",
-  "label": "Sanger sequencing"
+  "label": "Sanger sequencing",
+  "gx": -359.4,
+  "gy": -143.5
  },
  {
   "id": "sanger1977nucleotide",
@@ -1490,7 +1664,9 @@
   "builds_on": [
    "sanger1975rapid"
   ],
-  "label": "phiX174 genome"
+  "label": "phiX174 genome",
+  "gx": -297.5,
+  "gy": -247.5
  },
  {
   "id": "itakura1977expression",
@@ -1509,7 +1685,9 @@
    "jacob1961genetic",
    "smith1970restriction"
   ],
-  "label": "Recombinant somatostatin"
+  "label": "Recombinant somatostatin",
+  "gx": -64.0,
+  "gy": 381.7
  },
  {
   "id": "berget1977spliced",
@@ -1527,7 +1705,9 @@
    "brenner1961unstable",
    "baltimore1970rna"
   ],
-  "label": "RNA splicing"
+  "label": "RNA splicing",
+  "gx": -173.2,
+  "gy": 346.1
  },
  {
   "id": "chilton1977stable",
@@ -1545,7 +1725,9 @@
    "cohen1973construction",
    "southern1975detection"
   ],
-  "label": "Agrobacterium T-DNA"
+  "label": "Agrobacterium T-DNA",
+  "gx": 72.8,
+  "gy": 380.1
  },
  {
   "id": "dayhoff1978model",
@@ -1562,7 +1744,9 @@
   "builds_on": [
    "dayhoff1965atlas"
   ],
-  "label": "PAM matrices"
+  "label": "PAM matrices",
+  "gx": -10.8,
+  "gy": -396.3
  },
  {
   "id": "hutchison1978mutagenesis",
@@ -1580,7 +1764,9 @@
    "cohen1973construction",
    "sanger1977dna"
   ],
-  "label": "Site-directed mutation"
+  "label": "Site-directed mutation",
+  "gx": -268.1,
+  "gy": 292.0
  },
  {
   "id": "zamecnik1978inhibition",
@@ -1596,7 +1782,9 @@
   "summary": "First demonstration that a synthetic antisense oligonucleotide can inhibit gene expression, founding antisense therapeutics.",
   "builds_on": [],
   "doi": "10.1073/pnas.75.1.280",
-  "label": "Antisense oligos"
+  "label": "Antisense oligos",
+  "gx": -395.7,
+  "gy": -24.5
  },
  {
   "id": "goeddel1979direct",
@@ -1615,7 +1803,9 @@
    "goeddel1979expression"
   ],
   "doi": "10.1038/281544a0",
-  "label": "Recombinant HGH"
+  "label": "Recombinant HGH",
+  "gx": -320.0,
+  "gy": 241.1
  },
  {
   "id": "goeddel1979expression",
@@ -1634,7 +1824,9 @@
    "banting1922internal"
   ],
   "doi": "10.1073/pnas.76.1.106",
-  "label": "Recombinant insulin"
+  "label": "Recombinant insulin",
+  "gx": -367.1,
+  "gy": 160.4
  },
  {
   "id": "fukushima1980neocognitron",
@@ -1653,7 +1845,9 @@
    "hubel1962receptive"
   ],
   "doi": "10.1007/BF00344251",
-  "label": "Neocognitron"
+  "label": "Neocognitron",
+  "gx": 307.3,
+  "gy": -264.8
  },
  {
   "id": "gordon1980genetic",
@@ -1670,7 +1864,9 @@
   "builds_on": [
    "cohen1973construction"
   ],
-  "label": "Transgenic mice"
+  "label": "Transgenic mice",
+  "gx": -4.9,
+  "gy": 405.6
  },
  {
   "id": "cohen1980process",
@@ -1687,7 +1883,9 @@
   "builds_on": [
    "cohen1973construction"
   ],
-  "label": "Cohen-Boyer patent"
+  "label": "Cohen-Boyer patent",
+  "gx": 31.4,
+  "gy": 404.4
  },
  {
   "id": "schneerson1980preparation",
@@ -1705,7 +1903,9 @@
    "behring1890ueber"
   ],
   "doi": "10.1084/jem.152.2.361",
-  "label": "Hib conjugate vaccine"
+  "label": "Hib conjugate vaccine",
+  "gx": -405.6,
+  "gy": -3.9
  },
  {
   "id": "felsenstein1981evolutionary",
@@ -1723,7 +1923,9 @@
    "dayhoff1978model"
   ],
   "doi": "10.1007/BF01734359",
-  "label": "ML phylogenetics"
+  "label": "ML phylogenetics",
+  "gx": 29.3,
+  "gy": -414.3
  },
  {
   "id": "smith1981identification",
@@ -1741,7 +1943,9 @@
    "needleman1970general"
   ],
   "doi": "10.1016/0022-2836(81)90087-5",
-  "label": "Smith-Waterman"
+  "label": "Smith-Waterman",
+  "gx": -222.2,
+  "gy": -350.9
  },
  {
   "id": "longuethiggins1981computer",
@@ -1756,7 +1960,9 @@
   "importance": 2,
   "summary": "Introduced the essential matrix and the eight-point algorithm for two-view relative pose and structure recovery.",
   "builds_on": [],
-  "label": "Eight-point algorithm"
+  "label": "Eight-point algorithm",
+  "gx": 403.9,
+  "gy": 96.8
  },
  {
   "id": "lucas1981iterative",
@@ -1771,7 +1977,9 @@
   "importance": 3,
   "summary": "Local least-squares, gradient-based image alignment (Lucas-Kanade), the basis of sparse optical flow and feature tracking.",
   "builds_on": [],
-  "label": "Lucas-Kanade"
+  "label": "Lucas-Kanade",
+  "gx": 392.6,
+  "gy": 135.4
  },
  {
   "id": "horn1981determining",
@@ -1787,7 +1995,9 @@
   "summary": "Global variational optical flow method combining brightness constancy with a smoothness prior; the foundation of dense flow estimation.",
   "builds_on": [],
   "doi": "10.1016/0004-3702(81)90024-2",
-  "label": "Horn-Schunck flow"
+  "label": "Horn-Schunck flow",
+  "gx": 412.1,
+  "gy": 51.8
  },
  {
   "id": "fischler1981random",
@@ -1802,7 +2012,9 @@
   "importance": 3,
   "summary": "RANSAC: robust model fitting by hypothesize-and-verify on random minimal samples; ubiquitous in geometric vision.",
   "builds_on": [],
-  "label": "RANSAC"
+  "label": "RANSAC",
+  "gx": 363.1,
+  "gy": 201.6
  },
  {
   "id": "evans1981establishment",
@@ -1818,7 +2030,9 @@
   "summary": "Derived mouse embryonic stem cells, enabling gene targeting and the field of pluripotent stem cell biology.",
   "builds_on": [],
   "doi": "10.1038/292154a0",
-  "label": "Mouse ES cells"
+  "label": "Mouse ES cells",
+  "gx": -402.2,
+  "gy": 103.6
  },
  {
   "id": "martin1981isolation",
@@ -1834,7 +2048,9 @@
   "summary": "Independent derivation of mouse ES cells; coined the term 'embryonic stem cell'.",
   "builds_on": [],
   "doi": "10.1073/pnas.78.12.7634",
-  "label": "Mouse ES cells (Martin)"
+  "label": "Mouse ES cells (Martin)",
+  "gx": -413.8,
+  "gy": 36.3
  },
  {
   "id": "kuntz1982geometric",
@@ -1851,7 +2067,9 @@
   "builds_on": [
    "bernstein1977protein"
   ],
-  "label": "DOCK"
+  "label": "DOCK",
+  "gx": 54.2,
+  "gy": -422.9
  },
  {
   "id": "marr1982vision",
@@ -1869,7 +2087,9 @@
    "hubel1962receptive",
    "roberts1963machine"
   ],
-  "label": "Marr's Vision"
+  "label": "Marr's Vision",
+  "gx": 390.0,
+  "gy": 172.2
  },
  {
   "id": "hopfield1982neural",
@@ -1888,7 +2108,9 @@
    "mcculloch1943logical"
   ],
   "doi": "10.1073/pnas.79.8.2554",
-  "label": "Hopfield network"
+  "label": "Hopfield network",
+  "gx": 231.3,
+  "gy": -358.2
  },
  {
   "id": "sanger1982nucleotide",
@@ -1904,7 +2126,9 @@
   "summary": "48.5 kb lambda genome sequenced by random shotgun cloning, establishing shotgun sequencing.",
   "builds_on": [
    "sanger1977dna"
-  ]
+  ],
+  "gx": -407.4,
+  "gy": -125.7
  },
  {
   "id": "palmiter1982dramatic",
@@ -1922,7 +2146,9 @@
    "gordon1980genetic",
    "jacob1961genetic"
   ],
-  "label": "Supermouse"
+  "label": "Supermouse",
+  "gx": 53.9,
+  "gy": 422.9
  },
  {
   "id": "valenzuela1982synthesis",
@@ -1941,7 +2167,9 @@
    "goeddel1979expression"
   ],
   "doi": "10.1038/298347a0",
-  "label": "Recombinant HepB vaccine"
+  "label": "Recombinant HepB vaccine",
+  "gx": -405.2,
+  "gy": 132.5
  },
  {
   "id": "herreraestrella1983expression",
@@ -1959,7 +2187,9 @@
    "chilton1977stable",
    "cohen1973construction"
   ],
-  "label": "Transgenic plants"
+  "label": "Transgenic plants",
+  "gx": -108.9,
+  "gy": 419.3
  },
  {
   "id": "barto1983neuronlike",
@@ -1977,7 +2207,9 @@
    "michie1968boxes",
    "thorndike1898animal"
   ],
-  "label": "Actor-critic"
+  "label": "Actor-critic",
+  "gx": 301.1,
+  "gy": 311.5
  },
  {
   "id": "milstein1983hybrid",
@@ -1995,7 +2227,9 @@
    "kohler1975continuous"
   ],
   "doi": "10.1038/305537a0",
-  "label": "Bispecific antibodies"
+  "label": "Bispecific antibodies",
+  "gx": -426.6,
+  "gy": 75.4
  },
  {
   "id": "morrison1984chimeric",
@@ -2013,7 +2247,9 @@
    "kohler1975continuous"
   ],
   "doi": "10.1073/pnas.81.21.6851",
-  "label": "Chimeric antibodies"
+  "label": "Chimeric antibodies",
+  "gx": -435.8,
+  "gy": 18.8
  },
  {
   "id": "williamson1985solution",
@@ -2030,7 +2266,9 @@
   "builds_on": [
    "kendrew1958three"
   ],
-  "label": "First NMR structure"
+  "label": "First NMR structure",
+  "gx": -205.6,
+  "gy": -391.5
  },
  {
   "id": "ackley1985learning",
@@ -2047,7 +2285,9 @@
   "builds_on": [
    "hopfield1982neural"
   ],
-  "label": "Boltzmann machine"
+  "label": "Boltzmann machine",
+  "gx": 290.5,
+  "gy": -333.4
  },
  {
   "id": "horsch1985simple",
@@ -2066,7 +2306,9 @@
    "cohen1973construction",
    "herreraestrella1983expression"
   ],
-  "label": "Leaf-disc transformation"
+  "label": "Leaf-disc transformation",
+  "gx": 75.0,
+  "gy": 435.8
  },
  {
   "id": "saiki1985enzymatic",
@@ -2085,7 +2327,9 @@
    "southern1975detection",
    "hutchison1978mutagenesis"
   ],
-  "label": "PCR"
+  "label": "PCR",
+  "gx": -257.3,
+  "gy": 359.6
  },
  {
   "id": "smith1985filamentous",
@@ -2103,7 +2347,9 @@
    "cohen1973construction",
    "itakura1977expression"
   ],
-  "label": "Phage display"
+  "label": "Phage display",
+  "gx": -293.7,
+  "gy": 330.6
  },
  {
   "id": "smithies1985insertion",
@@ -2121,7 +2367,9 @@
    "cohen1973construction",
    "southern1975detection"
   ],
-  "label": "Homologous recombination"
+  "label": "Homologous recombination",
+  "gx": -266.6,
+  "gy": 352.8
  },
  {
   "id": "lin1985cloning",
@@ -2139,7 +2387,9 @@
    "goeddel1979expression"
   ],
   "doi": "10.1073/pnas.82.22.7580",
-  "label": "Erythropoietin (EPO)"
+  "label": "Erythropoietin (EPO)",
+  "gx": -382.9,
+  "gy": 221.3
  },
  {
   "id": "bilofsky1986genbank",
@@ -2157,7 +2407,9 @@
    "dayhoff1965atlas",
    "sanger1977dna"
   ],
-  "label": "GenBank"
+  "label": "GenBank",
+  "gx": -137.5,
+  "gy": -430.3
  },
  {
   "id": "canny1986computational",
@@ -2175,7 +2427,9 @@
    "marr1982vision"
   ],
   "doi": "10.1109/TPAMI.1986.4767851",
-  "label": "Canny edge detector"
+  "label": "Canny edge detector",
+  "gx": 451.7,
+  "gy": 4.4
  },
  {
   "id": "rumelhart1986learning",
@@ -2196,7 +2450,9 @@
    "widrow1960adaptive"
   ],
   "doi": "10.1038/323533a0",
-  "label": "Backpropagation"
+  "label": "Backpropagation",
+  "gx": 350.5,
+  "gy": -284.9
  },
  {
   "id": "smith1986fluorescence",
@@ -2213,7 +2469,9 @@
   "builds_on": [
    "sanger1977dna"
   ],
-  "label": "Fluorescent sequencing"
+  "label": "Fluorescent sequencing",
+  "gx": -396.1,
+  "gy": -217.1
  },
  {
   "id": "shah1986engineering",
@@ -2232,7 +2490,9 @@
    "chilton1977stable",
    "cohen1973construction"
   ],
-  "label": "Herbicide-tolerant crops"
+  "label": "Herbicide-tolerant crops",
+  "gx": -31.0,
+  "gy": 450.6
  },
  {
   "id": "jones1986replacing",
@@ -2251,7 +2511,9 @@
    "kohler1975continuous"
   ],
   "doi": "10.1038/321522a0",
-  "label": "Humanized antibodies"
+  "label": "Humanized antibodies",
+  "gx": -410.5,
+  "gy": 188.5
  },
  {
   "id": "bryngelson1987spin",
@@ -2269,7 +2531,9 @@
    "levinthal1969how",
    "anfinsen1973principles"
   ],
-  "label": "Energy landscape theory"
+  "label": "Energy landscape theory",
+  "gx": -15.2,
+  "gy": -459.3
  },
  {
   "id": "klein1987highvelocity",
@@ -2287,7 +2551,9 @@
    "herreraestrella1983expression",
    "cohen1973construction"
   ],
-  "label": "Gene gun"
+  "label": "Gene gun",
+  "gx": -9.6,
+  "gy": 459.4
  },
  {
   "id": "ishino1987nucleotide",
@@ -2303,7 +2569,9 @@
   "summary": "Incidentally reported the first CRISPR array: an unexplained set of interspaced repeats downstream of the E. coli iap gene.",
   "builds_on": [
    "sanger1977dna"
-  ]
+  ],
+  "gx": -201.6,
+  "gy": 412.9
  },
  {
   "id": "thomas1987sitedirected",
@@ -2321,7 +2589,9 @@
    "smithies1985insertion",
    "palmiter1982dramatic"
   ],
-  "label": "Knockout mice"
+  "label": "Knockout mice",
+  "gx": 12.4,
+  "gy": 459.4
  },
  {
   "id": "vaeck1987transgenic",
@@ -2339,7 +2609,9 @@
    "horsch1985simple",
    "herreraestrella1983expression"
   ],
-  "label": "Bt crops"
+  "label": "Bt crops",
+  "gx": -86.9,
+  "gy": 451.2
  },
  {
   "id": "dubochet1988cryoelectron",
@@ -2354,7 +2626,9 @@
   "importance": 3,
   "summary": "Established vitrification of thin aqueous specimens in amorphous ice, the sample preparation underlying all biological cryo-EM (Nobel 2017).",
   "builds_on": [],
-  "label": "Vitrified cryo-EM"
+  "label": "Vitrified cryo-EM",
+  "gx": 30.8,
+  "gy": -470.3
  },
  {
   "id": "pearson1988improved",
@@ -2373,7 +2647,9 @@
    "dayhoff1978model"
   ],
   "doi": "10.1073/pnas.85.8.2444",
-  "label": "FASTA"
+  "label": "FASTA",
+  "gx": -177.7,
+  "gy": -436.5
  },
  {
   "id": "harris1988combined",
@@ -2390,7 +2666,9 @@
   "builds_on": [
    "lucas1981iterative"
   ],
-  "label": "Harris corner detector"
+  "label": "Harris corner detector",
+  "gx": 469.7,
+  "gy": 38.7
  },
  {
   "id": "kass1988snakes",
@@ -2407,7 +2685,9 @@
   "builds_on": [
    "canny1986computational"
   ],
-  "label": "Snakes"
+  "label": "Snakes",
+  "gx": 465.0,
+  "gy": 76.9
  },
  {
   "id": "karas1988laser",
@@ -2422,7 +2702,9 @@
   "importance": 2,
   "summary": "Matrix-assisted laser desorption/ionisation (MALDI) of large proteins.",
   "builds_on": [],
-  "label": "MALDI"
+  "label": "MALDI",
+  "gx": -352.7,
+  "gy": -312.7
  },
  {
   "id": "tanaka1988protein",
@@ -2437,7 +2719,9 @@
   "importance": 3,
   "summary": "Soft laser desorption ionisation of intact proteins (Nobel Prize 2002), alongside MALDI by Karas and Hillenkamp.",
   "builds_on": [],
-  "label": "Soft laser desorption"
+  "label": "Soft laser desorption",
+  "gx": -311.5,
+  "gy": -353.7
  },
  {
   "id": "saiki1988primerdirected",
@@ -2454,7 +2738,9 @@
   "builds_on": [
    "saiki1985enzymatic"
   ],
-  "label": "Taq PCR"
+  "label": "Taq PCR",
+  "gx": -65.8,
+  "gy": 466.7
  },
  {
   "id": "sheehy1988reduction",
@@ -2471,7 +2757,9 @@
   "builds_on": [
    "horsch1985simple"
   ],
-  "label": "Antisense tomato"
+  "label": "Antisense tomato",
+  "gx": 40.4,
+  "gy": 469.6
  },
  {
   "id": "church1988stochastic",
@@ -2489,7 +2777,9 @@
    "shannon1948mathematical",
    "rabiner1989tutorial"
   ],
-  "label": "Stochastic POS tagger"
+  "label": "Stochastic POS tagger",
+  "gx": 459.4,
+  "gy": -105.2
  },
  {
   "id": "sutton1988learning",
@@ -2509,7 +2799,9 @@
    "bellman1957dynamic"
   ],
   "doi": "10.1007/BF00115009",
-  "label": "TD learning"
+  "label": "TD learning",
+  "gx": 307.5,
+  "gy": 357.2
  },
  {
   "id": "unilever1988clearblue",
@@ -2527,7 +2819,9 @@
    "engvall1971enzymelinked",
    "kohler1975continuous"
   ],
-  "label": "Home pregnancy test"
+  "label": "Home pregnancy test",
+  "gx": -371.0,
+  "gy": 290.7
  },
  {
   "id": "rosenberg1988use",
@@ -2545,7 +2839,9 @@
    "coley1893treatment"
   ],
   "doi": "10.1056/NEJM198812223192527",
-  "label": "TIL therapy"
+  "label": "TIL therapy",
+  "gx": -398.7,
+  "gy": 251.4
  },
  {
   "id": "lecun1989backpropagation",
@@ -2564,7 +2860,9 @@
    "rumelhart1986learning"
   ],
   "doi": "10.1162/neco.1989.1.4.541",
-  "label": "LeNet (zip codes)"
+  "label": "LeNet (zip codes)",
+  "gx": 474.0,
+  "gy": 101.4
  },
  {
   "id": "cybenko1989approximation",
@@ -2582,7 +2880,9 @@
    "rumelhart1986learning"
   ],
   "doi": "10.1007/BF02551274",
-  "label": "Universal approximation"
+  "label": "Universal approximation",
+  "gx": 221.4,
+  "gy": -431.2
  },
  {
   "id": "hornik1989multilayer",
@@ -2599,7 +2899,9 @@
   "builds_on": [
    "rumelhart1986learning"
   ],
-  "label": "MLP universal approx"
+  "label": "MLP universal approx",
+  "gx": 264.3,
+  "gy": -406.4
  },
  {
   "id": "fenn1989electrospray",
@@ -2614,7 +2916,9 @@
   "importance": 3,
   "summary": "Electrospray ionisation producing multiply charged ions of large biomolecules (Nobel Prize 2002), enabling LC-MS/MS proteomics.",
   "builds_on": [],
-  "label": "Electrospray ionization"
+  "label": "Electrospray ionization",
+  "gx": -341.8,
+  "gy": -343.7
  },
  {
   "id": "noren1989general",
@@ -2633,7 +2937,9 @@
    "nirenberg1964rna",
    "hutchison1978mutagenesis"
   ],
-  "label": "Unnatural amino acids"
+  "label": "Unnatural amino acids",
+  "gx": -142.4,
+  "gy": 463.4
  },
  {
   "id": "rabiner1989tutorial",
@@ -2651,7 +2957,9 @@
    "shannon1948mathematical"
   ],
   "doi": "10.1109/5.18626",
-  "label": "HMM tutorial"
+  "label": "HMM tutorial",
+  "gx": 441.8,
+  "gy": -199.5
  },
  {
   "id": "pomerleau1989alvinn",
@@ -2668,7 +2976,9 @@
   "builds_on": [
    "rumelhart1986learning"
   ],
-  "label": "ALVINN"
+  "label": "ALVINN",
+  "gx": 351.2,
+  "gy": 334.2
  },
  {
   "id": "malone1989cationic",
@@ -2684,7 +2994,9 @@
   "summary": "Delivered mRNA into cells with cationic lipids and observed protein expression, an early step toward lipid-delivered mRNA medicines.",
   "builds_on": [],
   "doi": "10.1073/pnas.86.16.6077",
-  "label": "Lipofection of mRNA"
+  "label": "Lipofection of mRNA",
+  "gx": -481.7,
+  "gy": 54.4
  },
  {
   "id": "altschul1990basic",
@@ -2703,7 +3015,9 @@
    "pearson1988improved"
   ],
   "doi": "10.1016/S0022-2836(05)80360-2",
-  "label": "BLAST"
+  "label": "BLAST",
+  "gx": -56.6,
+  "gy": -491.3
  },
  {
   "id": "henderson1990model",
@@ -2720,7 +3034,9 @@
   "builds_on": [
    "dubochet1988cryoelectron"
   ],
-  "label": "Bacteriorhodopsin EM"
+  "label": "Bacteriorhodopsin EM",
+  "gx": -242.8,
+  "gy": -430.8
  },
  {
   "id": "elman1990finding",
@@ -2737,7 +3053,9 @@
   "builds_on": [
    "rumelhart1986learning"
   ],
-  "label": "Elman RNN"
+  "label": "Elman RNN",
+  "gx": 349.6,
+  "gy": -349.7
  },
  {
   "id": "mccafferty1990phage",
@@ -2756,7 +3074,9 @@
    "kohler1975continuous",
    "jones1986replacing"
   ],
-  "label": "Antibody phage display"
+  "label": "Antibody phage display",
+  "gx": -306.8,
+  "gy": 387.9
  },
  {
   "id": "deerwester1990indexing",
@@ -2773,7 +3093,9 @@
   "builds_on": [
    "harris1954distributional"
   ],
-  "label": "Latent Semantic Analysis"
+  "label": "Latent Semantic Analysis",
+  "gx": 468.8,
+  "gy": -157.6
  },
  {
   "id": "sutton1990integrated",
@@ -2791,7 +3113,9 @@
    "sutton1988learning",
    "bellman1957dynamic"
   ],
-  "label": "Dyna"
+  "label": "Dyna",
+  "gx": 228.6,
+  "gy": 438.5
  },
  {
   "id": "wolff1990direct",
@@ -2809,7 +3133,9 @@
    "malone1989cationic"
   ],
   "doi": "10.1126/science.1690918",
-  "label": "Naked DNA/mRNA in vivo"
+  "label": "Naked DNA/mRNA in vivo",
+  "gx": -356.7,
+  "gy": 342.6
  },
  {
   "id": "turk1991eigenfaces",
@@ -2825,7 +3151,9 @@
   "summary": "Face recognition by projecting images onto principal components ('eigenfaces'), a landmark of appearance-based recognition.",
   "builds_on": [],
   "doi": "10.1162/jocn.1991.3.1.71",
-  "label": "Eigenfaces"
+  "label": "Eigenfaces",
+  "gx": 502.0,
+  "gy": 13.0
  },
  {
   "id": "jacobs1991adaptive",
@@ -2842,7 +3170,9 @@
   "builds_on": [
    "rumelhart1986learning"
   ],
-  "label": "Mixture of Experts"
+  "label": "Mixture of Experts",
+  "gx": 329.1,
+  "gy": -379.4
  },
  {
   "id": "adams1991complementary",
@@ -2859,7 +3189,9 @@
   "builds_on": [
    "sanger1977dna"
   ],
-  "label": "Expressed Sequence Tags"
+  "label": "Expressed Sequence Tags",
+  "gx": -452.5,
+  "gy": -217.9
  },
  {
   "id": "fodor1991lightdirected",
@@ -2874,7 +3206,9 @@
   "importance": 2,
   "summary": "Photolithographic in situ synthesis of high-density peptide and oligonucleotide arrays, the basis of Affymetrix GeneChips.",
   "builds_on": [],
-  "label": "DNA microarray synthesis"
+  "label": "DNA microarray synthesis",
+  "gx": -420.2,
+  "gy": -275.0
  },
  {
   "id": "holland1991detection",
@@ -2892,7 +3226,9 @@
    "saiki1985enzymatic"
   ],
   "doi": "10.1073/pnas.88.16.7276",
-  "label": "TaqMan probe"
+  "label": "TaqMan probe",
+  "gx": -381.1,
+  "gy": 327.1
  },
  {
   "id": "jones1992new",
@@ -2910,7 +3246,9 @@
    "bernstein1977protein",
    "altschul1990basic"
   ],
-  "label": "Protein threading"
+  "label": "Protein threading",
+  "gx": -101.5,
+  "gy": -500.2
  },
  {
   "id": "henikoff1992amino",
@@ -2928,7 +3266,9 @@
    "dayhoff1978model"
   ],
   "doi": "10.1073/pnas.89.22.10915",
-  "label": "BLOSUM"
+  "label": "BLOSUM",
+  "gx": 75.3,
+  "gy": -504.8
  },
  {
   "id": "huang1992dna",
@@ -2945,7 +3285,9 @@
   "builds_on": [
    "smith1986fluorescence"
   ],
-  "label": "Capillary array seq"
+  "label": "Capillary array seq",
+  "gx": -399.6,
+  "gy": -317.4
  },
  {
   "id": "watkins1992qlearning",
@@ -2965,7 +3307,9 @@
    "bellman1957dynamic"
   ],
   "doi": "10.1007/BF00992698",
-  "label": "Q-learning"
+  "label": "Q-learning",
+  "gx": 277.4,
+  "gy": 428.3
  },
  {
   "id": "williams1992simple",
@@ -2984,7 +3328,9 @@
    "rumelhart1986learning"
   ],
   "doi": "10.1007/BF00992696",
-  "label": "REINFORCE"
+  "label": "REINFORCE",
+  "gx": 315.5,
+  "gy": 401.2
  },
  {
   "id": "ishida1992induced",
@@ -3000,7 +3346,9 @@
   "summary": "Discovered PD-1, later shown to be an inhibitory immune checkpoint and the target of anti-PD-1 therapies (Nobel 2018).",
   "builds_on": [],
   "doi": "10.1002/j.1460-2075.1992.tb05481.x",
-  "label": "PD-1 discovery"
+  "label": "PD-1 discovery",
+  "gx": -461.9,
+  "gy": 217.0
  },
  {
   "id": "eng1992isolation",
@@ -3017,7 +3365,9 @@
   "builds_on": [
    "banting1922internal"
   ],
-  "label": "Exendin-4"
+  "label": "Exendin-4",
+  "gx": -503.8,
+  "gy": 81.2
  },
  {
   "id": "kirnbauer1992papillomavirus",
@@ -3035,7 +3385,9 @@
    "valenzuela1982synthesis"
   ],
   "doi": "10.1073/pnas.89.24.12180",
-  "label": "HPV virus-like particles"
+  "label": "HPV virus-like particles",
+  "gx": -443.7,
+  "gy": 252.1
  },
  {
   "id": "sali1993comparative",
@@ -3053,7 +3405,9 @@
    "bernstein1977protein",
    "needleman1970general"
   ],
-  "label": "MODELLER"
+  "label": "MODELLER",
+  "gx": 52.7,
+  "gy": -516.9
  },
  {
   "id": "rost1993prediction",
@@ -3073,7 +3427,9 @@
    "thompson1994clustal",
    "rumelhart1986learning"
   ],
-  "label": "PHD secondary structure"
+  "label": "PHD secondary structure",
+  "gx": 26.6,
+  "gy": -518.9
  },
  {
   "id": "chen1993tuning",
@@ -3092,7 +3448,9 @@
    "saiki1988primerdirected",
    "saiki1985enzymatic"
   ],
-  "label": "Directed evolution"
+  "label": "Directed evolution",
+  "gx": -200.9,
+  "gy": 479.1
  },
  {
   "id": "marcus1993building",
@@ -3109,7 +3467,9 @@
   "builds_on": [
    "chomsky1957syntactic"
   ],
-  "label": "Penn Treebank"
+  "label": "Penn Treebank",
+  "gx": 451.0,
+  "gy": -257.9
  },
  {
   "id": "brown1993mathematics",
@@ -3126,7 +3486,9 @@
   "builds_on": [
    "shannon1948mathematical"
   ],
-  "label": "IBM translation models"
+  "label": "IBM translation models",
+  "gx": 509.7,
+  "gy": -100.7
  },
  {
   "id": "higuchi1993kinetic",
@@ -3143,7 +3505,9 @@
   "builds_on": [
    "saiki1985enzymatic"
   ],
-  "label": "Real-time PCR"
+  "label": "Real-time PCR",
+  "gx": -422.8,
+  "gy": 302.0
  },
  {
   "id": "eshhar1993specific",
@@ -3161,7 +3525,9 @@
    "kohler1975continuous"
   ],
   "doi": "10.1073/pnas.90.2.720",
-  "label": "First CAR (T-body)"
+  "label": "First CAR (T-body)",
+  "gx": -499.0,
+  "gy": 144.7
  },
  {
   "id": "thompson1994clustal",
@@ -3180,7 +3546,9 @@
    "henikoff1992amino"
   ],
   "doi": "10.1093/nar/22.22.4673",
-  "label": "CLUSTAL W"
+  "label": "CLUSTAL W",
+  "gx": -130.1,
+  "gy": -514.8
  },
  {
   "id": "krogh1994hidden",
@@ -3197,7 +3565,9 @@
   "builds_on": [
    "smith1981identification"
   ],
-  "label": "Protein HMMs"
+  "label": "Protein HMMs",
+  "gx": -31.1,
+  "gy": -530.0
  },
  {
   "id": "varma1994stoichiometric",
@@ -3214,7 +3584,9 @@
   "builds_on": [
    "michaelis1913kinetik"
   ],
-  "label": "Flux balance analysis"
+  "label": "Flux balance analysis",
+  "gx": -67.1,
+  "gy": -526.7
  },
  {
   "id": "bengio1994learning",
@@ -3232,7 +3604,9 @@
    "rumelhart1986learning",
    "elman1990finding"
   ],
-  "label": "Vanishing gradients"
+  "label": "Vanishing gradients",
+  "gx": 312.6,
+  "gy": -429.2
  },
  {
   "id": "eng1994approach",
@@ -3249,7 +3623,9 @@
   "builds_on": [
    "fenn1989electrospray"
   ],
-  "label": "SEQUEST"
+  "label": "SEQUEST",
+  "gx": -502.0,
+  "gy": -172.9
  },
  {
   "id": "fda1994flavrsavr",
@@ -3267,7 +3643,9 @@
    "sheehy1988reduction",
    "berg1975asilomar"
   ],
-  "label": "Flavr Savr tomato"
+  "label": "Flavr Savr tomato",
+  "gx": -282.2,
+  "gy": 449.8
  },
  {
   "id": "chalfie1994green",
@@ -3285,7 +3663,9 @@
    "cohen1973construction",
    "itakura1977expression"
   ],
-  "label": "GFP"
+  "label": "GFP",
+  "gx": -252.2,
+  "gy": 467.2
  },
  {
   "id": "rouet1994introduction",
@@ -3304,7 +3684,9 @@
    "thomas1987sitedirected",
    "smith1970restriction"
   ],
-  "label": "DSB-induced editing"
+  "label": "DSB-induced editing",
+  "gx": -70.2,
+  "gy": 526.3
  },
  {
   "id": "stemmer1994rapid",
@@ -3322,7 +3704,9 @@
    "chen1993tuning",
    "saiki1988primerdirected"
   ],
-  "label": "DNA shuffling"
+  "label": "DNA shuffling",
+  "gx": -220.7,
+  "gy": 482.9
  },
  {
   "id": "littman1994markov",
@@ -3339,7 +3723,9 @@
   "builds_on": [
    "watkins1992qlearning"
   ],
-  "label": "Markov games"
+  "label": "Markov games",
+  "gx": 243.2,
+  "gy": 472.0
  },
  {
   "id": "rummery1994online",
@@ -3356,7 +3742,9 @@
   "builds_on": [
    "watkins1992qlearning",
    "sutton1988learning"
-  ]
+  ],
+  "gx": 386.7,
+  "gy": 363.8
  },
  {
   "id": "elliott1994randomised",
@@ -3373,7 +3761,9 @@
   "builds_on": [
    "morrison1984chimeric"
   ],
-  "label": "Infliximab (anti-TNF)"
+  "label": "Infliximab (anti-TNF)",
+  "gx": -490.6,
+  "gy": 203.0
  },
  {
   "id": "moult1995large",
@@ -3391,7 +3781,9 @@
    "anfinsen1973principles",
    "jones1992new"
   ],
-  "label": "CASP"
+  "label": "CASP",
+  "gx": 12.7,
+  "gy": -541.9
  },
  {
   "id": "schena1995quantitative",
@@ -3409,7 +3801,9 @@
    "adams1991complementary"
   ],
   "doi": "10.1126/science.270.5235.467",
-  "label": "cDNA microarray"
+  "label": "cDNA microarray",
+  "gx": -398.7,
+  "gy": -367.3
  },
  {
   "id": "velculescu1995serial",
@@ -3426,7 +3820,9 @@
   "builds_on": [
    "adams1991complementary"
   ],
-  "label": "SAGE"
+  "label": "SAGE",
+  "gx": -534.7,
+  "gy": -89.4
  },
  {
   "id": "fleischmann1995whole",
@@ -3445,7 +3841,9 @@
    "smith1986fluorescence"
   ],
   "doi": "10.1126/science.7542800",
-  "label": "H. influenzae genome"
+  "label": "H. influenzae genome",
+  "gx": -539.4,
+  "gy": -54.1
  },
  {
   "id": "kneser1995improved",
@@ -3462,7 +3860,9 @@
   "builds_on": [
    "shannon1948mathematical"
   ],
-  "label": "Kneser-Ney smoothing"
+  "label": "Kneser-Ney smoothing",
+  "gx": 499.5,
+  "gy": -210.5
  },
  {
   "id": "tesauro1995temporal",
@@ -3482,7 +3882,9 @@
    "samuel1959some"
   ],
   "doi": "10.1145/203330.203343",
-  "label": "TD-Gammon"
+  "label": "TD-Gammon",
+  "gx": 224.0,
+  "gy": 493.6
  },
  {
   "id": "blaese1995lymphocyte",
@@ -3500,7 +3902,9 @@
    "cohen1973construction"
   ],
   "doi": "10.1126/science.270.5235.475",
-  "label": "ADA-SCID gene therapy"
+  "label": "ADA-SCID gene therapy",
+  "gx": -510.0,
+  "gy": 183.7
  },
  {
   "id": "frank1996three",
@@ -3517,7 +3921,9 @@
   "builds_on": [
    "dubochet1988cryoelectron"
   ],
-  "label": "Single-particle EM"
+  "label": "Single-particle EM",
+  "gx": -15.7,
+  "gy": -550.4
  },
  {
   "id": "kasianowicz1996characterization",
@@ -3532,7 +3938,9 @@
   "importance": 2,
   "summary": "Showed single-stranded nucleic acids translocating through an alpha-hemolysin pore produce measurable current blockades, founding nanopore sequencing.",
   "builds_on": [],
-  "label": "Nanopore sensing"
+  "label": "Nanopore sensing",
+  "gx": -370.4,
+  "gy": -407.4
  },
  {
   "id": "goffeau1996life",
@@ -3549,7 +3957,9 @@
   "builds_on": [
    "sanger1977dna"
   ],
-  "label": "Yeast genome"
+  "label": "Yeast genome",
+  "gx": -536.1,
+  "gy": -125.7
  },
  {
   "id": "risch1996future",
@@ -3566,7 +3976,9 @@
   "builds_on": [
    "mendel1866versuche"
   ],
-  "label": "Case for GWAS"
+  "label": "Case for GWAS",
+  "gx": -506.9,
+  "gy": -215.2
  },
  {
   "id": "kim1996hybrid",
@@ -3584,7 +3996,9 @@
    "smith1970restriction",
    "rouet1994introduction"
   ],
-  "label": "Zinc finger nucleases"
+  "label": "Zinc finger nucleases",
+  "gx": -142.6,
+  "gy": 531.9
  },
  {
   "id": "bertsekas1996neurodynamic",
@@ -3603,7 +4017,9 @@
    "sutton1988learning",
    "watkins1992qlearning"
   ],
-  "label": "Neuro-dynamic programs"
+  "label": "Neuro-dynamic programs",
+  "gx": 184.4,
+  "gy": 518.9
  },
  {
   "id": "leach1996enhancement",
@@ -3621,7 +4037,9 @@
    "coley1893treatment"
   ],
   "doi": "10.1126/science.271.5256.1734",
-  "label": "CTLA-4 blockade"
+  "label": "CTLA-4 blockade",
+  "gx": -542.6,
+  "gy": 94.1
  },
  {
   "id": "naldini1996vivo",
@@ -3639,7 +4057,9 @@
    "blaese1995lymphocyte"
   ],
   "doi": "10.1126/science.272.5259.263",
-  "label": "Lentiviral vectors"
+  "label": "Lentiviral vectors",
+  "gx": -534.1,
+  "gy": 134.2
  },
  {
   "id": "simons1997assembly",
@@ -3657,7 +4077,9 @@
    "bryngelson1987spin",
    "moult1995large"
   ],
-  "label": "Rosetta"
+  "label": "Rosetta",
+  "gx": -166.1,
+  "gy": -534.5
  },
  {
   "id": "dahiyat1997novo",
@@ -3675,7 +4097,9 @@
    "ramachandran1963stereochemistry",
    "anfinsen1973principles"
   ],
-  "label": "Automated protein design"
+  "label": "Automated protein design",
+  "gx": -249.8,
+  "gy": -500.8
  },
  {
   "id": "altschul1997gapped",
@@ -3694,7 +4118,9 @@
    "henikoff1992amino"
   ],
   "doi": "10.1093/nar/25.17.3389",
-  "label": "PSI-BLAST"
+  "label": "PSI-BLAST",
+  "gx": -219.2,
+  "gy": -514.9
  },
  {
   "id": "sonnhammer1997pfam",
@@ -3712,7 +4138,9 @@
    "krogh1994hidden",
    "thompson1994clustal"
   ],
-  "label": "Pfam"
+  "label": "Pfam",
+  "gx": -190.7,
+  "gy": -526.1
  },
  {
   "id": "hochreiter1997long",
@@ -3731,7 +4159,9 @@
    "elman1990finding"
   ],
   "doi": "10.1162/neco.1997.9.8.1735",
-  "label": "LSTM"
+  "label": "LSTM",
+  "gx": 409.6,
+  "gy": -381.4
  },
  {
   "id": "krings1997neandertal",
@@ -3749,7 +4179,9 @@
    "saiki1985enzymatic",
    "sanger1977dna"
   ],
-  "label": "Neandertal mtDNA"
+  "label": "Neandertal mtDNA",
+  "gx": -450.8,
+  "gy": -331.7
  },
  {
   "id": "lo1997presence",
@@ -3766,7 +4198,9 @@
   "builds_on": [
    "saiki1985enzymatic"
   ],
-  "label": "Cell-free fetal DNA"
+  "label": "Cell-free fetal DNA",
+  "gx": -559.6,
+  "gy": 3.4
  },
  {
   "id": "wilmut1997viable",
@@ -3782,7 +4216,9 @@
   "summary": "Cloning of Dolly the sheep by somatic cell nuclear transfer, proving adult nuclei can be reprogrammed to totipotency.",
   "builds_on": [],
   "doi": "10.1038/385810a0",
-  "label": "Dolly the sheep"
+  "label": "Dolly the sheep",
+  "gx": -402.5,
+  "gy": 388.8
  },
  {
   "id": "morris1998automated",
@@ -3799,7 +4235,9 @@
   "builds_on": [
    "kuntz1982geometric"
   ],
-  "label": "AutoDock"
+  "label": "AutoDock",
+  "gx": -279.0,
+  "gy": -496.6
  },
  {
   "id": "eddy1998profile",
@@ -3817,7 +4255,9 @@
    "krogh1994hidden"
   ],
   "doi": "10.1093/bioinformatics/14.9.755",
-  "label": "Profile HMMs"
+  "label": "Profile HMMs",
+  "gx": -108.5,
+  "gy": -559.1
  },
  {
   "id": "lecun1998gradient",
@@ -3835,7 +4275,9 @@
    "lecun1989backpropagation"
   ],
   "doi": "10.1109/5.726791",
-  "label": "LeNet-5"
+  "label": "LeNet-5",
+  "gx": 569.2,
+  "gy": -21.4
  },
  {
   "id": "lecun1998efficient",
@@ -3853,7 +4295,9 @@
    "rumelhart1986learning",
    "lecun1989backpropagation"
   ],
-  "label": "Efficient BackProp"
+  "label": "Efficient BackProp",
+  "gx": 377.6,
+  "gy": -426.4
  },
  {
   "id": "ronaghi1998sequencing",
@@ -3870,7 +4314,9 @@
   "builds_on": [
    "sanger1977dna"
   ],
-  "label": "Pyrosequencing"
+  "label": "Pyrosequencing",
+  "gx": -503.5,
+  "gy": -266.4
  },
  {
   "id": "celegans1998genome",
@@ -3887,7 +4333,9 @@
   "builds_on": [
    "goffeau1996life"
   ],
-  "label": "C. elegans genome"
+  "label": "C. elegans genome",
+  "gx": -546.4,
+  "gy": -160.8
  },
  {
   "id": "sutton1998reinforcement",
@@ -3907,7 +4355,9 @@
    "barto1983neuronlike",
    "williams1992simple"
   ],
-  "label": "Sutton & Barto (book)"
+  "label": "Sutton & Barto (book)",
+  "gx": 394.4,
+  "gy": 411.0
  },
  {
   "id": "thomson1998embryonic",
@@ -3926,7 +4376,9 @@
    "martin1981isolation"
   ],
   "doi": "10.1126/science.282.5391.1145",
-  "label": "Human ES cells"
+  "label": "Human ES cells",
+  "gx": -503.9,
+  "gy": 265.4
  },
  {
   "id": "fire1998potent",
@@ -3944,7 +4396,9 @@
    "zamecnik1978inhibition"
   ],
   "doi": "10.1038/35888",
-  "label": "RNA interference"
+  "label": "RNA interference",
+  "gx": -429.6,
+  "gy": 373.9
  },
  {
   "id": "mclaughlin1998rituximab",
@@ -3961,7 +4415,9 @@
   "builds_on": [
    "morrison1984chimeric"
   ],
-  "label": "Rituximab"
+  "label": "Rituximab",
+  "gx": -389.7,
+  "gy": 415.4
  },
  {
   "id": "nicholson1999metabonomics",
@@ -3976,7 +4432,9 @@
   "importance": 2,
   "summary": "Defined metabonomics: NMR-based multivariate profiling of systemic metabolic responses.",
   "builds_on": [],
-  "label": "Metabonomics"
+  "label": "Metabonomics",
+  "gx": -491.1,
+  "gy": -302.1
  },
  {
   "id": "gygi1999quantitative",
@@ -3993,7 +4451,9 @@
   "builds_on": [
    "eng1994approach"
   ],
-  "label": "ICAT"
+  "label": "ICAT",
+  "gx": -474.8,
+  "gy": -327.2
  },
  {
   "id": "sutton1999between",
@@ -4011,7 +4471,9 @@
    "sutton1998reinforcement",
    "howard1960dynamic"
   ],
-  "label": "Options framework"
+  "label": "Options framework",
+  "gx": 331.7,
+  "gy": 471.6
  },
  {
   "id": "berman2000protein",
@@ -4029,7 +4491,9 @@
    "bernstein1977protein"
   ],
   "doi": "10.1093/nar/28.1.235",
-  "label": "PDB (modern)"
+  "label": "PDB (modern)",
+  "gx": -29.6,
+  "gy": -586.5
  },
  {
   "id": "jeong2000largescale",
@@ -4046,7 +4510,9 @@
   "builds_on": [
    "kauffman1969metabolic"
   ],
-  "label": "Scale-free metabolism"
+  "label": "Scale-free metabolism",
+  "gx": -315.8,
+  "gy": -495.1
  },
  {
   "id": "triggs2000bundle",
@@ -4063,7 +4529,9 @@
   "builds_on": [
    "longuethiggins1981computer"
   ],
-  "label": "Bundle adjustment"
+  "label": "Bundle adjustment",
+  "gx": 537.0,
+  "gy": 237.6
  },
  {
   "id": "hartley2000multiple",
@@ -4081,7 +4549,9 @@
    "longuethiggins1981computer",
    "fischler1981random"
   ],
-  "label": "Multiple View Geometry"
+  "label": "Multiple View Geometry",
+  "gx": 586.4,
+  "gy": 32.2
  },
  {
   "id": "shi2000normalized",
@@ -4098,7 +4568,9 @@
   "builds_on": [
    "kass1988snakes"
   ],
-  "label": "Normalized Cuts"
+  "label": "Normalized Cuts",
+  "gx": 557.2,
+  "gy": 185.4
  },
  {
   "id": "myers2000whole",
@@ -4114,7 +4586,9 @@
   "summary": "The Celera overlap-layout-consensus assembler that showed WGS could assemble a complex eukaryotic genome.",
   "builds_on": [
    "fleischmann1995whole"
-  ]
+  ],
+  "gx": -586.8,
+  "gy": 21.9
  },
  {
   "id": "arabidopsis2000analysis",
@@ -4131,7 +4605,9 @@
   "builds_on": [
    "celegans1998genome"
   ],
-  "label": "Arabidopsis genome"
+  "label": "Arabidopsis genome",
+  "gx": -579.4,
+  "gy": -95.4
  },
  {
   "id": "makarov2000electrostatic",
@@ -4146,7 +4622,9 @@
   "importance": 3,
   "summary": "The Orbitrap mass analyser, delivering high resolution and accuracy that came to dominate proteomics.",
   "builds_on": [],
-  "label": "Orbitrap"
+  "label": "Orbitrap",
+  "gx": -552.6,
+  "gy": -198.7
  },
  {
   "id": "ren2000genomewide",
@@ -4162,7 +4640,9 @@
   "summary": "ChIP-chip: chromatin immunoprecipitation combined with microarrays to map transcription-factor binding genome-wide.",
   "builds_on": [
    "schena1995quantitative"
-  ]
+  ],
+  "gx": -448.4,
+  "gy": -379.2
  },
  {
   "id": "adams2000genome",
@@ -4180,7 +4660,9 @@
    "fleischmann1995whole",
    "celegans1998genome"
   ],
-  "label": "Drosophila genome"
+  "label": "Drosophila genome",
+  "gx": -419.3,
+  "gy": -411.1
  },
  {
   "id": "elowitz2000synthetic",
@@ -4198,7 +4680,9 @@
    "jacob1961genetic",
    "chalfie1994green"
   ],
-  "label": "Repressilator"
+  "label": "Repressilator",
+  "gx": -354.4,
+  "gy": 468.3
  },
  {
   "id": "gardner2000construction",
@@ -4216,7 +4700,9 @@
    "jacob1961genetic",
    "cohen1973construction"
   ],
-  "label": "Genetic toggle switch"
+  "label": "Genetic toggle switch",
+  "gx": -71.9,
+  "gy": 582.8
  },
  {
   "id": "ye2000engineering",
@@ -4234,7 +4720,9 @@
    "horsch1985simple",
    "vaeck1987transgenic"
   ],
-  "label": "Golden Rice"
+  "label": "Golden Rice",
+  "gx": -13.2,
+  "gy": 587.1
  },
  {
   "id": "ng2000algorithms",
@@ -4252,7 +4740,9 @@
    "sutton1998reinforcement",
    "bellman1957dynamic"
   ],
-  "label": "Inverse RL"
+  "label": "Inverse RL",
+  "gx": 384.6,
+  "gy": 443.8
  },
  {
   "id": "sutton2000policy",
@@ -4271,7 +4761,9 @@
    "barto1983neuronlike",
    "sutton1998reinforcement"
   ],
-  "label": "Policy gradient theorem"
+  "label": "Policy gradient theorem",
+  "gx": 189.1,
+  "gy": 556.0
  },
  {
   "id": "cavazzanacalvo2000gene",
@@ -4289,7 +4781,9 @@
    "blaese1995lymphocyte"
   ],
   "doi": "10.1126/science.288.5466.669",
-  "label": "SCID-X1 gene therapy"
+  "label": "SCID-X1 gene therapy",
+  "gx": -483.9,
+  "gy": 332.7
  },
  {
   "id": "shapiro2000islet",
@@ -4307,7 +4801,9 @@
    "thomas1957intravenous"
   ],
   "doi": "10.1056/NEJM200007273430401",
-  "label": "Edmonton protocol"
+  "label": "Edmonton protocol",
+  "gx": -555.2,
+  "gy": 191.4
  },
  {
   "id": "pevzner2001eulerian",
@@ -4325,7 +4821,9 @@
    "sanger1977dna"
   ],
   "doi": "10.1073/pnas.171285098",
-  "label": "Eulerian path assembly"
+  "label": "Eulerian path assembly",
+  "gx": -63.6,
+  "gy": -597.4
  },
  {
   "id": "viola2001rapid",
@@ -4342,7 +4840,9 @@
   "builds_on": [
    "turk1991eigenfaces"
   ],
-  "label": "Viola-Jones"
+  "label": "Viola-Jones",
+  "gx": 596.1,
+  "gy": 74.8
  },
  {
   "id": "lander2001initial",
@@ -4362,7 +4862,9 @@
    "celegans1998genome"
   ],
   "doi": "10.1038/35057062",
-  "label": "Human Genome draft"
+  "label": "Human Genome draft",
+  "gx": -598.2,
+  "gy": -54.7
  },
  {
   "id": "washburn2001largescale",
@@ -4379,7 +4881,9 @@
   "builds_on": [
    "eng1994approach"
   ],
-  "label": "MudPIT"
+  "label": "MudPIT",
+  "gx": -600.7,
+  "gy": -8.1
  },
  {
   "id": "venter2001sequence",
@@ -4399,7 +4903,9 @@
    "huang1992dna"
   ],
   "doi": "10.1126/science.1058040",
-  "label": "Celera human genome"
+  "label": "Celera human genome",
+  "gx": -547.1,
+  "gy": -248.2
  },
  {
   "id": "wang2001expanding",
@@ -4417,7 +4923,9 @@
    "noren1989general",
    "nirenberg1964rna"
   ],
-  "label": "Expanded genetic code"
+  "label": "Expanded genetic code",
+  "gx": -244.3,
+  "gy": 548.8
  },
  {
   "id": "lafferty2001conditional",
@@ -4435,7 +4943,9 @@
    "rabiner1989tutorial",
    "church1988stochastic"
   ],
-  "label": "CRF"
+  "label": "CRF",
+  "gx": 589.5,
+  "gy": -115.7
  },
  {
   "id": "elbashir2001duplexes",
@@ -4453,7 +4963,9 @@
    "fire1998potent"
   ],
   "doi": "10.1038/35078107",
-  "label": "siRNA"
+  "label": "siRNA",
+  "gx": -462.7,
+  "gy": 383.1
  },
  {
   "id": "slamon2001use",
@@ -4471,7 +4983,9 @@
    "jones1986replacing"
   ],
   "doi": "10.1056/NEJM200103153441101",
-  "label": "Trastuzumab (Herceptin)"
+  "label": "Trastuzumab (Herceptin)",
+  "gx": -429.2,
+  "gy": 420.3
  },
  {
   "id": "kitano2002systems",
@@ -4491,7 +5005,9 @@
    "hodgkin1952quantitative"
   ],
   "doi": "10.1126/science.1069492",
-  "label": "Systems biology"
+  "label": "Systems biology",
+  "gx": -213.8,
+  "gy": -573.3
  },
  {
   "id": "hinton2002training",
@@ -4508,7 +5024,9 @@
   "builds_on": [
    "ackley1985learning"
   ],
-  "label": "Contrastive Divergence"
+  "label": "Contrastive Divergence",
+  "gx": 248.5,
+  "gy": -559.2
  },
  {
   "id": "dekker2002capturing",
@@ -4523,7 +5041,9 @@
   "importance": 2,
   "summary": "Chromosome conformation capture (3C), measuring physical contacts between genomic loci by proximity ligation.",
   "builds_on": [],
-  "label": "3C"
+  "label": "3C",
+  "gx": -417.3,
+  "gy": -447.5
  },
  {
   "id": "fiehn2002metabolomics",
@@ -4539,7 +5059,9 @@
   "summary": "Influential framing of mass-spectrometry metabolomics as the phenotypic layer linking genotype to phenotype.",
   "builds_on": [
    "nicholson1999metabonomics"
-  ]
+  ],
+  "gx": -396.4,
+  "gy": -466.2
  },
  {
   "id": "ong2002stable",
@@ -4556,7 +5078,9 @@
   "builds_on": [
    "gygi1999quantitative"
   ],
-  "label": "SILAC"
+  "label": "SILAC",
+  "gx": -446.7,
+  "gy": -418.2
  },
  {
   "id": "jansen2002identification",
@@ -4573,7 +5097,9 @@
   "builds_on": [
    "ishino1987nucleotide"
   ],
-  "label": "CRISPR named / cas genes"
+  "label": "CRISPR named / cas genes",
+  "gx": -204.4,
+  "gy": 576.8
  },
  {
   "id": "papineni2002bleu",
@@ -4591,7 +5117,9 @@
    "brown1993mathematics"
   ],
   "doi": "10.3115/1073083.1073135",
-  "label": "BLEU"
+  "label": "BLEU",
+  "gx": 572.9,
+  "gy": -214.9
  },
  {
   "id": "kakade2002natural",
@@ -4608,7 +5136,9 @@
   "builds_on": [
    "sutton2000policy"
   ],
-  "label": "Natural Policy Gradient"
+  "label": "Natural Policy Gradient",
+  "gx": 82.2,
+  "gy": 606.4
  },
  {
   "id": "auer2002finite",
@@ -4623,7 +5153,9 @@
   "importance": 2,
   "summary": "Introduced UCB1 and proved logarithmic regret bounds that hold for any finite time, not just asymptotically. Optimism in the face of uncertainty became a key principle of exploration, used in UCT and MCTS.",
   "builds_on": [],
-  "label": "UCB1"
+  "label": "UCB1",
+  "gx": 425.3,
+  "gy": 439.9
  },
  {
   "id": "kearns2002nearoptimal",
@@ -4641,7 +5173,9 @@
    "watkins1992qlearning",
    "bellman1957dynamic"
   ],
-  "label": "E3"
+  "label": "E3",
+  "gx": 382.5,
+  "gy": 477.6
  },
  {
   "id": "brafman2002rmax",
@@ -4658,7 +5192,9 @@
   "builds_on": [
    "kearns2002nearoptimal"
   ],
-  "label": "R-max"
+  "label": "R-max",
+  "gx": 273.4,
+  "gy": 547.4
  },
  {
   "id": "fda2002adalimumab",
@@ -4676,7 +5212,9 @@
    "mccafferty1990phage",
    "elliott1994randomised"
   ],
-  "label": "Humira"
+  "label": "Humira",
+  "gx": -590.4,
+  "gy": 160.6
  },
  {
   "id": "gao2002novel",
@@ -4691,7 +5229,9 @@
   "importance": 2,
   "summary": "Discovered AAV7 and AAV8 serotypes with improved tissue tropism, expanding the AAV vector toolkit used in liver and muscle gene therapies.",
   "builds_on": [],
-  "label": "AAV8/AAV9 vectors"
+  "label": "AAV8/AAV9 vectors",
+  "gx": -520.2,
+  "gy": 322.1
  },
  {
   "id": "kuhlman2003design",
@@ -4710,7 +5250,9 @@
    "dahiyat1997novo"
   ],
   "doi": "10.1126/science.1089427",
-  "label": "Top7"
+  "label": "Top7",
+  "gx": -282.9,
+  "gy": -556.0
  },
  {
   "id": "hucka2003systems",
@@ -4728,7 +5270,9 @@
    "kitano2002systems"
   ],
   "doi": "10.1093/bioinformatics/btg015",
-  "label": "SBML"
+  "label": "SBML",
+  "gx": -137.7,
+  "gy": -608.4
  },
  {
   "id": "sivic2003video",
@@ -4745,7 +5289,9 @@
   "builds_on": [
    "lowe2004distinctive"
   ],
-  "label": "Bag of visual words"
+  "label": "Bag of visual words",
+  "gx": 504.6,
+  "gy": 366.7
  },
  {
   "id": "thompson2003tandem",
@@ -4761,7 +5307,9 @@
   "summary": "Isobaric tandem mass tags allowing multiplexed peptide quantification.",
   "builds_on": [
    "gygi1999quantitative"
-  ]
+  ],
+  "gx": -619.0,
+  "gy": -77.5
  },
  {
   "id": "knight2003idempotent",
@@ -4779,7 +5327,9 @@
    "cohen1973construction",
    "gardner2000construction"
   ],
-  "label": "BioBricks"
+  "label": "BioBricks",
+  "gx": -292.7,
+  "gy": 550.9
  },
  {
   "id": "bengio2003neural",
@@ -4798,7 +5348,9 @@
    "kneser1995improved",
    "harris1954distributional"
   ],
-  "label": "Neural language model"
+  "label": "Neural language model",
+  "gx": 505.7,
+  "gy": -365.3
  },
  {
   "id": "blei2003latent",
@@ -4815,7 +5367,9 @@
   "builds_on": [
    "deerwester1990indexing"
   ],
-  "label": "LDA"
+  "label": "LDA",
+  "gx": 543.7,
+  "gy": -305.7
  },
  {
   "id": "koehn2003statistical",
@@ -4833,7 +5387,9 @@
    "brown1993mathematics",
    "papineni2002bleu"
   ],
-  "label": "Phrase-based SMT"
+  "label": "Phrase-based SMT",
+  "gx": 599.6,
+  "gy": -172.2
  },
  {
   "id": "doronina2003development",
@@ -4851,7 +5407,9 @@
    "kohler1975continuous"
   ],
   "doi": "10.1038/nbt832",
-  "label": "Auristatin ADCs"
+  "label": "Auristatin ADCs",
+  "gx": -502.5,
+  "gy": 369.6
  },
  {
   "id": "raper2003fatal",
@@ -4868,7 +5426,9 @@
   "builds_on": [
    "blaese1995lymphocyte"
   ],
-  "label": "Gelsinger tragedy"
+  "label": "Gelsinger tragedy",
+  "gx": -561.3,
+  "gy": 272.2
  },
  {
   "id": "haceinbeyabina2003lmo2associated",
@@ -4886,7 +5446,9 @@
    "cavazzanacalvo2000gene"
   ],
   "doi": "10.1126/science.1088547",
-  "label": "SCID-X1 leukemia"
+  "label": "SCID-X1 leukemia",
+  "gx": -544.7,
+  "gy": 304.0
  },
  {
   "id": "lowe2004distinctive",
@@ -4905,7 +5467,9 @@
    "marr1982vision"
   ],
   "doi": "10.1023/B:VISI.0000029664.99615.94",
-  "label": "SIFT"
+  "label": "SIFT",
+  "gx": 548.4,
+  "gy": 313.3
  },
  {
   "id": "feifei2004learning",
@@ -4921,7 +5485,9 @@
   "summary": "Introduced Caltech-101, an early multi-category object recognition benchmark.",
   "builds_on": [
    "turk1991eigenfaces"
-  ]
+  ],
+  "gx": 611.3,
+  "gy": 158.8
  },
  {
   "id": "oh2004gpu",
@@ -4937,7 +5503,9 @@
   "summary": "Early demonstration of accelerating neural-network inference on graphics hardware.",
   "builds_on": [
    "rumelhart1986learning"
-  ]
+  ],
+  "gx": 163.4,
+  "gy": -610.1
  },
  {
   "id": "ihgsc2004finishing",
@@ -4954,7 +5522,9 @@
   "builds_on": [
    "lander2001initial"
   ],
-  "label": "Human genome finished"
+  "label": "Human genome finished",
+  "gx": -630.0,
+  "gy": 44.9
  },
  {
   "id": "abbeel2004apprenticeship",
@@ -4971,7 +5541,9 @@
   "builds_on": [
    "ng2000algorithms"
   ],
-  "label": "Apprenticeship learning"
+  "label": "Apprenticeship learning",
+  "gx": 159.8,
+  "gy": 611.0
  },
  {
   "id": "dalal2005histograms",
@@ -4989,7 +5561,9 @@
    "lowe2004distinctive",
    "viola2001rapid"
   ],
-  "label": "HOG"
+  "label": "HOG",
+  "gx": 628.7,
+  "gy": 113.2
  },
  {
   "id": "hapmap2005haplotype",
@@ -5007,7 +5581,9 @@
    "lander2001initial",
    "risch1996future"
   ],
-  "label": "HapMap"
+  "label": "HapMap",
+  "gx": -625.3,
+  "gy": -130.8
  },
  {
   "id": "shendure2005accurate",
@@ -5024,7 +5600,9 @@
   "builds_on": [
    "saiki1985enzymatic"
   ],
-  "label": "Polony sequencing"
+  "label": "Polony sequencing",
+  "gx": -618.3,
+  "gy": -160.7
  },
  {
   "id": "klein2005complement",
@@ -5041,7 +5619,9 @@
   "builds_on": [
    "risch1996future"
   ],
-  "label": "First GWAS hit (CFH)"
+  "label": "First GWAS hit (CFH)",
+  "gx": -638.1,
+  "gy": -30.4
  },
  {
   "id": "margulies2005genome",
@@ -5060,7 +5640,9 @@
    "saiki1985enzymatic"
   ],
   "doi": "10.1038/nature03959",
-  "label": "454 sequencing"
+  "label": "454 sequencing",
+  "gx": -607.3,
+  "gy": -198.0
  },
  {
   "id": "urnov2005highly",
@@ -5078,7 +5660,9 @@
    "kim1996hybrid",
    "rouet1994introduction"
   ],
-  "label": "ZFN gene correction"
+  "label": "ZFN gene correction",
+  "gx": -340.6,
+  "gy": 540.4
  },
  {
   "id": "mojica2005intervening",
@@ -5096,7 +5680,9 @@
    "jansen2002identification",
    "ishino1987nucleotide"
   ],
-  "label": "CRISPR spacers origin"
+  "label": "CRISPR spacers origin",
+  "gx": -187.0,
+  "gy": 610.8
  },
  {
   "id": "riedmiller2005neural",
@@ -5115,7 +5701,9 @@
    "watkins1992qlearning",
    "rumelhart1986learning"
   ],
-  "label": "Neural Fitted Q"
+  "label": "Neural Fitted Q",
+  "gx": 323.9,
+  "gy": 550.6
  },
  {
   "id": "ernst2005treebased",
@@ -5133,7 +5721,9 @@
    "watkins1992qlearning",
    "bertsekas1996neurodynamic"
   ],
-  "label": "Fitted Q Iteration"
+  "label": "Fitted Q Iteration",
+  "gx": 251.9,
+  "gy": 587.0
  },
  {
   "id": "kariko2005suppression",
@@ -5151,7 +5741,9 @@
    "wolff1990direct"
   ],
   "doi": "10.1016/j.immuni.2005.06.008",
-  "label": "Modified nucleosides"
+  "label": "Modified nucleosides",
+  "gx": -582.7,
+  "gy": 261.7
  },
  {
   "id": "alon2006introduction",
@@ -5169,7 +5761,9 @@
    "jeong2000largescale",
    "elowitz2000synthetic"
   ],
-  "label": "Network motifs (book)"
+  "label": "Network motifs (book)",
+  "gx": -350.0,
+  "gy": -545.1
  },
  {
   "id": "snavely2006photo",
@@ -5188,7 +5782,9 @@
    "triggs2000bundle",
    "hartley2000multiple"
   ],
-  "label": "Photo Tourism"
+  "label": "Photo Tourism",
+  "gx": 646.5,
+  "gy": 41.2
  },
  {
   "id": "bay2006surf",
@@ -5205,7 +5801,9 @@
   "builds_on": [
    "lowe2004distinctive"
   ],
-  "label": "SURF"
+  "label": "SURF",
+  "gx": 579.0,
+  "gy": 290.6
  },
  {
   "id": "hinton2006fast",
@@ -5224,7 +5822,9 @@
    "ackley1985learning"
   ],
   "doi": "10.1162/neco.2006.18.7.1527",
-  "label": "Deep Belief Nets"
+  "label": "Deep Belief Nets",
+  "gx": 375.4,
+  "gy": -527.9
  },
  {
   "id": "hinton2006reducing",
@@ -5242,7 +5842,9 @@
    "hinton2006fast"
   ],
   "doi": "10.1126/science.1127647",
-  "label": "Deep autoencoders"
+  "label": "Deep autoencoders",
+  "gx": 293.5,
+  "gy": -577.5
  },
  {
   "id": "ro2006production",
@@ -5261,7 +5863,9 @@
    "gardner2000construction",
    "itakura1977expression"
   ],
-  "label": "Artemisinic acid yeast"
+  "label": "Artemisinic acid yeast",
+  "gx": -154.4,
+  "gy": 629.1
  },
  {
   "id": "kocsis2006bandit",
@@ -5279,7 +5883,9 @@
    "auer2002finite",
    "bellman1957dynamic"
   ],
-  "label": "UCT"
+  "label": "UCT",
+  "gx": 361.3,
+  "gy": 537.7
  },
  {
   "id": "coulom2006efficient",
@@ -5296,7 +5902,9 @@
   "builds_on": [
    "kocsis2006bandit"
   ],
-  "label": "Monte-Carlo Tree Search"
+  "label": "Monte-Carlo Tree Search",
+  "gx": 201.6,
+  "gy": 615.6
  },
  {
   "id": "takahashi2006induction",
@@ -5315,7 +5923,9 @@
    "wilmut1997viable"
   ],
   "doi": "10.1016/j.cell.2006.07.024",
-  "label": "iPS cells (mouse)"
+  "label": "iPS cells (mouse)",
+  "gx": -493.9,
+  "gy": 419.2
  },
  {
   "id": "davison2007monoslam",
@@ -5334,7 +5944,9 @@
    "harris1988combined",
    "hartley2000multiple"
   ],
-  "label": "MonoSLAM"
+  "label": "MonoSLAM",
+  "gx": 624.5,
+  "gy": 201.6
  },
  {
   "id": "wtccc2007genomewide",
@@ -5352,7 +5964,9 @@
    "hapmap2005haplotype",
    "klein2005complement"
   ],
-  "label": "WTCCC GWAS"
+  "label": "WTCCC GWAS",
+  "gx": -516.7,
+  "gy": -404.5
  },
  {
   "id": "johnson2007genomewide",
@@ -5370,7 +5984,9 @@
    "ren2000genomewide",
    "bentley2008accurate"
   ],
-  "label": "ChIP-seq"
+  "label": "ChIP-seq",
+  "gx": -656.1,
+  "gy": 10.6
  },
  {
   "id": "encode2007identification",
@@ -5387,7 +6003,9 @@
   "builds_on": [
    "lander2001initial"
   ],
-  "label": "ENCODE pilot"
+  "label": "ENCODE pilot",
+  "gx": -569.2,
+  "gy": -326.5
  },
  {
   "id": "turnbaugh2007human",
@@ -5404,7 +6022,9 @@
   "builds_on": [
    "fleischmann1995whole",
    "margulies2005genome"
-  ]
+  ],
+  "gx": -553.2,
+  "gy": -352.9
  },
  {
   "id": "barrangou2007crispr",
@@ -5421,7 +6041,9 @@
   "builds_on": [
    "mojica2005intervening"
   ],
-  "label": "CRISPR immunity"
+  "label": "CRISPR immunity",
+  "gx": -113.3,
+  "gy": 646.3
  },
  {
   "id": "zinkevich2007regret",
@@ -5438,7 +6060,9 @@
   "builds_on": [
    "littman1994markov"
   ],
-  "label": "CFR"
+  "label": "CFR",
+  "gx": 132.2,
+  "gy": 642.7
  },
  {
   "id": "takahashi2007induction",
@@ -5457,7 +6081,9 @@
    "thomson1998embryonic"
   ],
   "doi": "10.1016/j.cell.2007.11.019",
-  "label": "Human iPS cells"
+  "label": "Human iPS cells",
+  "gx": -477.4,
+  "gy": 450.2
  },
  {
   "id": "futureii2007quadrivalent",
@@ -5475,7 +6101,9 @@
    "kirnbauer1992papillomavirus"
   ],
   "doi": "10.1056/NEJMoa061741",
-  "label": "Gardasil HPV vaccine"
+  "label": "Gardasil HPV vaccine",
+  "gx": -639.2,
+  "gy": 148.2
  },
  {
   "id": "shaw2008anton",
@@ -5492,7 +6120,9 @@
   "builds_on": [
    "mccammon1977dynamics"
   ],
-  "label": "Anton"
+  "label": "Anton",
+  "gx": -271.8,
+  "gy": -611.3
  },
  {
   "id": "jiang2008novo",
@@ -5510,7 +6140,9 @@
    "kuhlman2003design"
   ],
   "doi": "10.1126/science.1152692",
-  "label": "Retro-aldolase design"
+  "label": "Retro-aldolase design",
+  "gx": -207.4,
+  "gy": -636.1
  },
  {
   "id": "rothlisberger2008kemp",
@@ -5529,7 +6161,9 @@
    "chen1993tuning"
   ],
   "doi": "10.1038/nature06879",
-  "label": "Kemp eliminase design"
+  "label": "Kemp eliminase design",
+  "gx": -119.2,
+  "gy": -658.3
  },
  {
   "id": "zerbino2008velvet",
@@ -5548,7 +6182,9 @@
    "bentley2008accurate"
   ],
   "doi": "10.1101/gr.074492.107",
-  "label": "Velvet"
+  "label": "Velvet",
+  "gx": -45.0,
+  "gy": -667.5
  },
  {
   "id": "vincent2008extracting",
@@ -5565,7 +6201,9 @@
   "builds_on": [
    "hinton2006reducing"
   ],
-  "label": "Denoising Autoencoder"
+  "label": "Denoising Autoencoder",
+  "gx": 346.4,
+  "gy": -572.3
  },
  {
   "id": "nickolls2008scalable",
@@ -5582,7 +6220,9 @@
   "builds_on": [
    "oh2004gpu"
   ],
-  "label": "CUDA"
+  "label": "CUDA",
+  "gx": 231.4,
+  "gy": -627.7
  },
  {
   "id": "bentley2008accurate",
@@ -5601,7 +6241,9 @@
    "sanger1977dna"
   ],
   "doi": "10.1038/nature07517",
-  "label": "Illumina sequencing"
+  "label": "Illumina sequencing",
+  "gx": -546.9,
+  "gy": -385.3
  },
  {
   "id": "tcga2008comprehensive",
@@ -5618,7 +6260,9 @@
   "builds_on": [
    "lander2001initial"
   ],
-  "label": "TCGA glioblastoma"
+  "label": "TCGA glioblastoma",
+  "gx": -660.4,
+  "gy": -107.2
  },
  {
   "id": "ley2008dna",
@@ -5636,7 +6280,9 @@
    "bentley2008accurate",
    "lander2001initial"
   ],
-  "label": "First cancer genome"
+  "label": "First cancer genome",
+  "gx": -668.8,
+  "gy": -18.1
  },
  {
   "id": "boyle2008highresolution",
@@ -5652,7 +6298,9 @@
   "summary": "DNase-seq genome-wide mapping of DNase I hypersensitive sites (open chromatin).",
   "builds_on": [
    "johnson2007genomewide"
-  ]
+  ],
+  "gx": -591.5,
+  "gy": -312.6
  },
  {
   "id": "raj2008imaging",
@@ -5666,7 +6314,9 @@
   "type": "paper",
   "importance": 1,
   "summary": "Single-molecule FISH with many short labelled oligo probes, the foundation for multiplexed imaging transcriptomics.",
-  "builds_on": []
+  "builds_on": [],
+  "gx": -602.6,
+  "gy": -290.5
  },
  {
   "id": "mortazavi2008mapping",
@@ -5686,7 +6336,9 @@
    "bentley2008accurate"
   ],
   "doi": "10.1038/nmeth.1226",
-  "label": "RNA-Seq"
+  "label": "RNA-Seq",
+  "gx": -614.8,
+  "gy": -263.7
  },
  {
   "id": "chiu2008noninvasive",
@@ -5704,7 +6356,9 @@
    "lo1997presence",
    "bentley2008accurate"
   ],
-  "label": "Noninvasive prenatal dx"
+  "label": "Noninvasive prenatal dx",
+  "gx": -460.7,
+  "gy": -485.1
  },
  {
   "id": "marraffini2008crispr",
@@ -5722,7 +6376,9 @@
    "barrangou2007crispr",
    "brouns2008small"
   ],
-  "label": "CRISPR targets DNA"
+  "label": "CRISPR targets DNA",
+  "gx": -90.5,
+  "gy": 662.9
  },
  {
   "id": "brouns2008small",
@@ -5739,7 +6395,9 @@
   "builds_on": [
    "barrangou2007crispr"
   ],
-  "label": "crRNA guides"
+  "label": "crRNA guides",
+  "gx": -36.4,
+  "gy": 668.0
  },
  {
   "id": "ziebart2008maximum",
@@ -5756,7 +6414,9 @@
   "builds_on": [
    "abbeel2004apprenticeship"
   ],
-  "label": "MaxEnt IRL"
+  "label": "MaxEnt IRL",
+  "gx": 389.9,
+  "gy": 543.7
  },
  {
   "id": "peters2008natural",
@@ -5772,7 +6432,9 @@
   "summary": "Combined natural policy gradients with compatible-feature critics into an efficient actor-critic algorithm. It was applied to learning motor skills on robots.",
   "builds_on": [
    "kakade2002natural"
-  ]
+  ],
+  "gx": 40.9,
+  "gy": 667.8
  },
  {
   "id": "kariko2008incorporation",
@@ -5790,7 +6452,9 @@
    "kariko2005suppression"
   ],
   "doi": "10.1038/mt.2008.200",
-  "label": "Pseudouridine mRNA"
+  "label": "Pseudouridine mRNA",
+  "gx": -636.9,
+  "gy": 204.8
  },
  {
   "id": "bargou2008tumor",
@@ -5808,7 +6472,9 @@
    "milstein1983hybrid"
   ],
   "doi": "10.1126/science.1158545",
-  "label": "Blinatumomab (BiTE)"
+  "label": "Blinatumomab (BiTE)",
+  "gx": -627.6,
+  "gy": 231.8
  },
  {
   "id": "langmead2009ultrafast",
@@ -5827,7 +6493,9 @@
    "lander2001initial"
   ],
   "doi": "10.1186/gb-2009-10-3-r25",
-  "label": "Bowtie"
+  "label": "Bowtie",
+  "gx": -399.4,
+  "gy": -557.1
  },
  {
   "id": "deng2009imagenet",
@@ -5845,7 +6513,9 @@
    "feifei2004learning"
   ],
   "doi": "10.1109/CVPR.2009.5206848",
-  "label": "ImageNet"
+  "label": "ImageNet",
+  "gx": 624.3,
+  "gy": 283.2
  },
  {
   "id": "raina2009largescale",
@@ -5863,7 +6533,9 @@
    "nickolls2008scalable",
    "hinton2006fast"
   ],
-  "label": "GPU deep learning"
+  "label": "GPU deep learning",
+  "gx": 96.5,
+  "gy": -678.7
  },
  {
   "id": "scarselli2009graph",
@@ -5882,7 +6554,9 @@
    "rumelhart1986learning"
   ],
   "doi": "10.1109/TNN.2008.2005605",
-  "label": "Graph Neural Network"
+  "label": "Graph Neural Network",
+  "gx": 205.0,
+  "gy": -654.1
  },
  {
   "id": "purcell2009common",
@@ -5899,7 +6573,9 @@
   "builds_on": [
    "wtccc2007genomewide"
   ],
-  "label": "Polygenic risk scores"
+  "label": "Polygenic risk scores",
+  "gx": -570.1,
+  "gy": -380.7
  },
  {
   "id": "liebermanaiden2009comprehensive",
@@ -5917,7 +6593,9 @@
    "dekker2002capturing"
   ],
   "doi": "10.1126/science.1181369",
-  "label": "Hi-C"
+  "label": "Hi-C",
+  "gx": -496.8,
+  "gy": -472.3
  },
  {
   "id": "li2009fast",
@@ -5935,7 +6613,9 @@
    "bentley2008accurate",
    "smith1981identification"
   ],
-  "label": "BWA"
+  "label": "BWA",
+  "gx": -637.7,
+  "gy": -251.5
  },
  {
   "id": "lister2009human",
@@ -5952,7 +6632,9 @@
   "builds_on": [
    "bentley2008accurate"
   ],
-  "label": "Human methylome"
+  "label": "Human methylome",
+  "gx": -684.0,
+  "gy": -45.0
  },
  {
   "id": "eid2009realtime",
@@ -5969,7 +6651,9 @@
   "builds_on": [
    "sanger1977dna"
   ],
-  "label": "PacBio SMRT"
+  "label": "PacBio SMRT",
+  "gx": -652.4,
+  "gy": -210.5
  },
  {
   "id": "mckernan2009sequence",
@@ -5985,7 +6669,9 @@
   "summary": "Applied Biosystems SOLiD sequencing-by-ligation with two-base colour encoding to a human genome.",
   "builds_on": [
    "shendure2005accurate"
-  ]
+  ],
+  "gx": -514.0,
+  "gy": -453.6
  },
  {
   "id": "ng2009targeted",
@@ -6002,7 +6688,9 @@
   "builds_on": [
    "bentley2008accurate"
   ],
-  "label": "Exome capture sequencing"
+  "label": "Exome capture sequencing",
+  "gx": -681.5,
+  "gy": -73.7
  },
  {
   "id": "tang2009mrnaseq",
@@ -6019,7 +6707,9 @@
   "builds_on": [
    "mortazavi2008mapping"
   ],
-  "label": "Single-cell RNA-seq"
+  "label": "Single-cell RNA-seq",
+  "gx": -662.8,
+  "gy": -175.0
  },
  {
   "id": "boch2009breaking",
@@ -6036,7 +6726,9 @@
   "builds_on": [
    "kim1996hybrid"
   ],
-  "label": "TALE code"
+  "label": "TALE code",
+  "gx": -400.1,
+  "gy": 556.7
  },
  {
   "id": "gibson2009enzymatic",
@@ -6055,7 +6747,9 @@
    "kornberg1956enzymatic",
    "knight2003idempotent"
   ],
-  "label": "Gibson Assembly"
+  "label": "Gibson Assembly",
+  "gx": -333.8,
+  "gy": 598.7
  },
  {
   "id": "shukla2009precise",
@@ -6074,7 +6768,9 @@
    "klein1987highvelocity",
    "kim1996hybrid"
   ],
-  "label": "ZFN crop editing"
+  "label": "ZFN crop editing",
+  "gx": -65.8,
+  "gy": 682.4
  },
  {
   "id": "wang2009programming",
@@ -6093,7 +6789,9 @@
    "smithies1985insertion",
    "chen1993tuning"
   ],
-  "label": "MAGE"
+  "label": "MAGE",
+  "gx": -252.3,
+  "gy": 637.4
  },
  {
   "id": "robertson2009probabilistic",
@@ -6110,7 +6808,9 @@
   "builds_on": [
    "deerwester1990indexing"
   ],
-  "label": "BM25"
+  "label": "BM25",
+  "gx": 613.0,
+  "gy": -306.9
  },
  {
   "id": "sato2009single",
@@ -6126,7 +6826,9 @@
   "summary": "Grew self-organizing intestinal organoids from single adult stem cells, launching organoid technology for disease modeling and regeneration.",
   "builds_on": [],
   "doi": "10.1038/nature07935",
-  "label": "Intestinal organoids"
+  "label": "Intestinal organoids",
+  "gx": -584.7,
+  "gy": 357.8
  },
  {
   "id": "shaw2010atomiclevel",
@@ -6145,7 +6847,9 @@
    "mccammon1977dynamics"
   ],
   "doi": "10.1126/science.1187409",
-  "label": "Millisecond protein MD"
+  "label": "Millisecond protein MD",
+  "gx": -145.1,
+  "gy": -687.3
  },
  {
   "id": "trott2010autodock",
@@ -6163,7 +6867,9 @@
    "morris1998automated"
   ],
   "doi": "10.1002/jcc.21334",
-  "label": "AutoDock Vina"
+  "label": "AutoDock Vina",
+  "gx": -96.4,
+  "gy": -695.8
  },
  {
   "id": "felzenszwalb2010object",
@@ -6181,7 +6887,9 @@
    "dalal2005histograms",
    "everingham2010pascal"
   ],
-  "label": "Deformable Part Models"
+  "label": "Deformable Part Models",
+  "gx": 546.9,
+  "gy": 440.8
  },
  {
   "id": "everingham2010pascal",
@@ -6198,7 +6906,9 @@
   "builds_on": [
    "feifei2004learning"
   ],
-  "label": "PASCAL VOC"
+  "label": "PASCAL VOC",
+  "gx": 578.3,
+  "gy": 398.8
  },
  {
   "id": "nair2010rectified",
@@ -6215,7 +6925,9 @@
   "builds_on": [
    "hinton2006fast"
   ],
-  "label": "ReLU"
+  "label": "ReLU",
+  "gx": 309.7,
+  "gy": -630.5
  },
  {
   "id": "bergstra2010theano",
@@ -6233,7 +6945,9 @@
    "linnainmaa1970representation",
    "nickolls2008scalable"
   ],
-  "label": "Theano"
+  "label": "Theano",
+  "gx": 157.5,
+  "gy": -684.6
  },
  {
   "id": "glorot2010understanding",
@@ -6251,7 +6965,9 @@
    "lecun1998efficient",
    "hinton2006fast"
   ],
-  "label": "Xavier initialization"
+  "label": "Xavier initialization",
+  "gx": 345.0,
+  "gy": -611.9
  },
  {
   "id": "green2010draft",
@@ -6269,7 +6985,9 @@
    "krings1997neandertal",
    "margulies2005genome"
   ],
-  "label": "Neandertal genome"
+  "label": "Neandertal genome",
+  "gx": -701.3,
+  "gy": 40.9
  },
  {
   "id": "thousandgenomes2010map",
@@ -6287,7 +7005,9 @@
    "hapmap2005haplotype",
    "bentley2008accurate"
   ],
-  "label": "1000 Genomes pilot"
+  "label": "1000 Genomes pilot",
+  "gx": -699.4,
+  "gy": 65.0
  },
  {
   "id": "gold2010aptamerbased",
@@ -6304,7 +7024,9 @@
   "builds_on": [
    "schena1995quantitative"
   ],
-  "label": "SomaScan"
+  "label": "SomaScan",
+  "gx": -542.3,
+  "gy": -446.4
  },
  {
   "id": "ng2010exome",
@@ -6321,7 +7043,9 @@
   "builds_on": [
    "ng2009targeted"
   ],
-  "label": "Exome diagnosis"
+  "label": "Exome diagnosis",
+  "gx": -702.2,
+  "gy": 17.4
  },
  {
   "id": "icgc2010international",
@@ -6337,7 +7061,9 @@
   "summary": "Launched the ICGC to coordinate comprehensive genomic catalogues of 50 cancer types.",
   "builds_on": [
    "tcga2008comprehensive"
-  ]
+  ],
+  "gx": -495.2,
+  "gy": -498.2
  },
  {
   "id": "mckenna2010genome",
@@ -6354,7 +7080,9 @@
   "builds_on": [
    "li2009fast"
   ],
-  "label": "GATK"
+  "label": "GATK",
+  "gx": -633.1,
+  "gy": -304.3
  },
  {
   "id": "trapnell2010transcript",
@@ -6371,7 +7099,9 @@
   "builds_on": [
    "mortazavi2008mapping"
   ],
-  "label": "Cufflinks"
+  "label": "Cufflinks",
+  "gx": -471.4,
+  "gy": -520.8
  },
  {
   "id": "savile2010biocatalytic",
@@ -6389,7 +7119,9 @@
    "chen1993tuning",
    "stemmer1994rapid"
   ],
-  "label": "Sitagliptin biocatalysis"
+  "label": "Sitagliptin biocatalysis",
+  "gx": -197.0,
+  "gy": 674.3
  },
  {
   "id": "gibson2010creation",
@@ -6408,7 +7140,9 @@
    "sanger1977dna",
    "cohen1973construction"
   ],
-  "label": "Synthetic cell (Syn1.0)"
+  "label": "Synthetic cell (Syn1.0)",
+  "gx": -294.8,
+  "gy": 637.6
  },
  {
   "id": "garneau2010crispr",
@@ -6426,7 +7160,9 @@
    "marraffini2008crispr",
    "barrangou2007crispr"
   ],
-  "label": "Cas cleaves DNA"
+  "label": "Cas cleaves DNA",
+  "gx": -161.1,
+  "gy": 683.7
  },
  {
   "id": "mikolov2010recurrent",
@@ -6443,7 +7179,9 @@
   "builds_on": [
    "bengio2003neural"
   ],
-  "label": "RNN language model"
+  "label": "RNN language model",
+  "gx": 654.1,
+  "gy": -256.1
  },
  {
   "id": "vanhasselt2010double",
@@ -6459,7 +7197,9 @@
   "summary": "Showed that Q-learning overestimates action values because it uses the same estimates to select and evaluate actions, and fixed this with two decoupled estimators. The idea was later carried into Double DQN and TD3.",
   "builds_on": [
    "watkins1992qlearning"
-  ]
+  ],
+  "gx": 83.0,
+  "gy": 697.5
  },
  {
   "id": "hodi2010improved",
@@ -6477,7 +7217,9 @@
    "leach1996enhancement"
   ],
   "doi": "10.1056/NEJMoa1003466",
-  "label": "Ipilimumab"
+  "label": "Ipilimumab",
+  "gx": -649.7,
+  "gy": 267.1
  },
  {
   "id": "semple2010rational",
@@ -6496,7 +7238,9 @@
    "malone1989cationic"
   ],
   "doi": "10.1038/nbt.1602",
-  "label": "Ionizable lipid LNPs"
+  "label": "Ionizable lipid LNPs",
+  "gx": -532.5,
+  "gy": 458.1
  },
  {
   "id": "marks2011protein",
@@ -6515,7 +7259,9 @@
    "simons1997assembly"
   ],
   "doi": "10.1371/journal.pone.0028766",
-  "label": "EVfold coevolution"
+  "label": "EVfold coevolution",
+  "gx": -244.1,
+  "gy": -673.1
  },
  {
   "id": "duchi2011adaptive",
@@ -6532,7 +7278,9 @@
   "builds_on": [
    "robbins1951stochastic"
   ],
-  "label": "AdaGrad"
+  "label": "AdaGrad",
+  "gx": 479.6,
+  "gy": -531.6
  },
  {
   "id": "rothberg2011integrated",
@@ -6549,7 +7297,9 @@
   "builds_on": [
    "margulies2005genome"
   ],
-  "label": "Ion Torrent"
+  "label": "Ion Torrent",
+  "gx": -715.6,
+  "gy": -23.1
  },
  {
   "id": "miller2011tale",
@@ -6568,7 +7318,9 @@
    "kim1996hybrid",
    "urnov2005highly"
   ],
-  "label": "TALENs"
+  "label": "TALENs",
+  "gx": -380.6,
+  "gy": 606.5
  },
  {
   "id": "esvelt2011system",
@@ -6587,7 +7339,9 @@
    "stemmer1994rapid",
    "smith1985filamentous"
   ],
-  "label": "PACE"
+  "label": "PACE",
+  "gx": -446.7,
+  "gy": 559.6
  },
  {
   "id": "deltcheva2011crispr",
@@ -6605,7 +7359,9 @@
    "garneau2010crispr",
    "brouns2008small"
   ],
-  "label": "tracrRNA"
+  "label": "tracrRNA",
+  "gx": -328.5,
+  "gy": 636.2
  },
  {
   "id": "collobert2011natural",
@@ -6623,7 +7379,9 @@
    "bengio2003neural",
    "lafferty2001conditional"
   ],
-  "label": "NLP from Scratch"
+  "label": "NLP from Scratch",
+  "gx": 595.9,
+  "gy": -396.9
  },
  {
   "id": "ross2011reduction",
@@ -6640,7 +7398,9 @@
   "builds_on": [
    "pomerleau1989alvinn"
   ],
-  "label": "DAgger"
+  "label": "DAgger",
+  "gx": 30.5,
+  "gy": 715.4
  },
  {
   "id": "deisenroth2011pilco",
@@ -6657,7 +7417,9 @@
   "builds_on": [
    "sutton1990integrated"
   ],
-  "label": "PILCO"
+  "label": "PILCO",
+  "gx": 316.7,
+  "gy": 642.2
  },
  {
   "id": "nathwani2011adenovirusassociated",
@@ -6675,7 +7437,9 @@
    "gao2002novel"
   ],
   "doi": "10.1056/NEJMoa1108046",
-  "label": "AAV hemophilia B"
+  "label": "AAV hemophilia B",
+  "gx": -695.9,
+  "gy": 168.6
  },
  {
   "id": "porter2011chimeric",
@@ -6694,7 +7458,9 @@
    "naldini1996vivo"
   ],
   "doi": "10.1056/NEJMoa1103849",
-  "label": "CAR-T in CLL"
+  "label": "CAR-T in CLL",
+  "gx": -595.0,
+  "gy": 398.3
  },
  {
   "id": "karr2012wholecell",
@@ -6713,7 +7479,9 @@
    "hucka2003systems"
   ],
   "doi": "10.1016/j.cell.2012.05.044",
-  "label": "Whole-cell model"
+  "label": "Whole-cell model",
+  "gx": -191.2,
+  "gy": -700.8
  },
  {
   "id": "scheres2012relion",
@@ -6731,7 +7499,9 @@
    "frank1996three"
   ],
   "doi": "10.1016/j.jsb.2012.09.006",
-  "label": "RELION"
+  "label": "RELION",
+  "gx": -378.9,
+  "gy": -619.8
  },
  {
   "id": "geiger2012are",
@@ -6748,7 +7518,9 @@
   "builds_on": [
    "everingham2010pascal"
   ],
-  "label": "KITTI"
+  "label": "KITTI",
+  "gx": 535.8,
+  "gy": 490.5
  },
  {
   "id": "krizhevsky2012imagenet",
@@ -6767,7 +7539,9 @@
    "deng2009imagenet",
    "nair2010rectified"
   ],
-  "label": "AlexNet"
+  "label": "AlexNet",
+  "gx": 725.0,
+  "gy": 45.5
  },
  {
   "id": "soomro2012ucf101",
@@ -6782,7 +7556,9 @@
   "importance": 1,
   "summary": "13K YouTube clips across 101 actions; a standard action recognition benchmark of the early deep era.",
   "builds_on": [],
-  "arxiv": "1212.0402"
+  "arxiv": "1212.0402",
+  "gx": 710.6,
+  "gy": 150.8
  },
  {
   "id": "encode2012integrated",
@@ -6803,7 +7579,9 @@
    "boyle2008highresolution"
   ],
   "doi": "10.1038/nature11247",
-  "label": "ENCODE"
+  "label": "ENCODE",
+  "gx": -715.5,
+  "gy": -125.6
  },
  {
   "id": "ramskold2012fulllength",
@@ -6819,7 +7597,9 @@
   "summary": "Smart-seq: template-switching full-length single-cell RNA-seq.",
   "builds_on": [
    "tang2009mrnaseq"
-  ]
+  ],
+  "gx": -696.5,
+  "gy": -206.2
  },
  {
   "id": "hmp2012structure",
@@ -6836,7 +7616,9 @@
   "builds_on": [
    "turnbaugh2007human"
   ],
-  "label": "Human Microbiome Project"
+  "label": "Human Microbiome Project",
+  "gx": -610.3,
+  "gy": -393.9
  },
  {
   "id": "gillet2012targeted",
@@ -6853,7 +7635,9 @@
   "builds_on": [
    "washburn2001largescale"
   ],
-  "label": "SWATH-MS"
+  "label": "SWATH-MS",
+  "gx": -712.8,
+  "gy": -139.7
  },
  {
   "id": "dixon2012topological",
@@ -6870,7 +7654,9 @@
   "builds_on": [
    "liebermanaiden2009comprehensive"
   ],
-  "label": "TADs"
+  "label": "TADs",
+  "gx": -531.4,
+  "gy": -495.3
  },
  {
   "id": "jinek2012programmable",
@@ -6889,7 +7675,9 @@
    "garneau2010crispr",
    "marraffini2008crispr"
   ],
-  "label": "CRISPR-Cas9"
+  "label": "CRISPR-Cas9",
+  "gx": -465.5,
+  "gy": 557.7
  },
  {
   "id": "gasiunas2012cas9",
@@ -6907,7 +7695,9 @@
    "garneau2010crispr",
    "marraffini2008crispr"
   ],
-  "label": "Cas9 cleavage (Siksnys)"
+  "label": "Cas9 cleavage (Siksnys)",
+  "gx": -228.6,
+  "gy": 689.5
  },
  {
   "id": "li2012highefficiency",
@@ -6926,7 +7716,9 @@
    "shukla2009precise",
    "boch2009breaking"
   ],
-  "label": "TALEN rice"
+  "label": "TALEN rice",
+  "gx": -138.7,
+  "gy": 713.0
  },
  {
   "id": "verma2012trastuzumab",
@@ -6945,7 +7737,9 @@
    "doronina2003development"
   ],
   "doi": "10.1056/NEJMoa1209124",
-  "label": "T-DM1 (Kadcyla)"
+  "label": "T-DM1 (Kadcyla)",
+  "gx": -577.7,
+  "gy": 440.3
  },
  {
   "id": "li2013electron",
@@ -6964,7 +7758,9 @@
    "frank1996three"
   ],
   "doi": "10.1038/nmeth.2472",
-  "label": "Electron-counting EM"
+  "label": "Electron-counting EM",
+  "gx": -322.9,
+  "gy": -666.1
  },
  {
   "id": "liao2013structure",
@@ -6983,7 +7779,9 @@
    "scheres2012relion"
   ],
   "doi": "10.1038/nature12822",
-  "label": "TRPV1 cryo-EM"
+  "label": "TRPV1 cryo-EM",
+  "gx": -359.6,
+  "gy": -647.1
  },
  {
   "id": "pascanu2013difficulty",
@@ -7000,7 +7798,9 @@
   "builds_on": [
    "bengio1994learning"
   ],
-  "arxiv": "1211.5063"
+  "arxiv": "1211.5063",
+  "gx": 422.3,
+  "gy": -608.0
  },
  {
   "id": "sutskever2013importance",
@@ -7018,7 +7818,9 @@
    "glorot2010understanding",
    "robbins1951stochastic"
   ],
-  "label": "Momentum & init"
+  "label": "Momentum & init",
+  "gx": 452.0,
+  "gy": -586.3
  },
  {
   "id": "alexandrov2013signatures",
@@ -7036,7 +7838,9 @@
    "ley2008dna",
    "icgc2010international"
   ],
-  "label": "Mutational signatures"
+  "label": "Mutational signatures",
+  "gx": -589.4,
+  "gy": -447.8
  },
  {
   "id": "picelli2013smartseq2",
@@ -7053,7 +7857,9 @@
   "builds_on": [
    "ramskold2012fulllength"
   ],
-  "label": "Smart-seq2"
+  "label": "Smart-seq2",
+  "gx": -740.3,
+  "gy": -2.4
  },
  {
   "id": "buenrostro2013transposition",
@@ -7071,7 +7877,9 @@
    "boyle2008highresolution"
   ],
   "doi": "10.1038/nmeth.2688",
-  "label": "ATAC-seq"
+  "label": "ATAC-seq",
+  "gx": -720.9,
+  "gy": -168.3
  },
  {
   "id": "paddon2013highlevel",
@@ -7088,7 +7896,9 @@
   "builds_on": [
    "ro2006production"
   ],
-  "label": "Semi-synth artemisinin"
+  "label": "Semi-synth artemisinin",
+  "gx": -444.1,
+  "gy": 592.3
  },
  {
   "id": "cong2013multiplex",
@@ -7107,7 +7917,9 @@
    "miller2011tale",
    "rouet1994introduction"
   ],
-  "label": "CRISPR in human cells"
+  "label": "CRISPR in human cells",
+  "gx": -371.1,
+  "gy": 640.5
  },
  {
   "id": "mali2013rna",
@@ -7126,7 +7938,9 @@
    "gasiunas2012cas9",
    "miller2011tale"
   ],
-  "label": "Cas9 human editing"
+  "label": "Cas9 human editing",
+  "gx": -285.0,
+  "gy": 683.2
  },
  {
   "id": "qi2013repurposing",
@@ -7145,7 +7959,9 @@
    "mali2013rna",
    "jacob1961genetic"
   ],
-  "label": "CRISPRi"
+  "label": "CRISPRi",
+  "gx": -417.0,
+  "gy": 611.6
  },
  {
   "id": "shan2013targeted",
@@ -7164,7 +7980,9 @@
    "mali2013rna",
    "li2012highefficiency"
   ],
-  "label": "CRISPR crop editing"
+  "label": "CRISPR crop editing",
+  "gx": -313.3,
+  "gy": 670.7
  },
  {
   "id": "mikolov2013distributed",
@@ -7182,7 +8000,9 @@
    "mikolov2013efficient"
   ],
   "arxiv": "1310.4546",
-  "label": "word2vec (neg sampling)"
+  "label": "word2vec (neg sampling)",
+  "gx": 732.4,
+  "gy": -107.7
  },
  {
   "id": "mikolov2013efficient",
@@ -7201,7 +8021,9 @@
    "collobert2011natural"
   ],
   "arxiv": "1301.3781",
-  "label": "word2vec"
+  "label": "word2vec",
+  "gx": 670.3,
+  "gy": -314.2
  },
  {
   "id": "levine2013guided",
@@ -7218,7 +8040,9 @@
   "builds_on": [
    "ziebart2008maximum",
    "deisenroth2011pilco"
-  ]
+  ],
+  "gx": 238.1,
+  "gy": 700.9
  },
  {
   "id": "mnih2013playing",
@@ -7239,7 +8063,9 @@
    "bellemare2013arcade"
   ],
   "arxiv": "1312.5602",
-  "label": "DQN (Atari)"
+  "label": "DQN (Atari)",
+  "gx": 197.3,
+  "gy": 713.5
  },
  {
   "id": "bellemare2013arcade",
@@ -7256,7 +8082,9 @@
   "builds_on": [
    "sutton1998reinforcement"
   ],
-  "label": "Arcade Learning Env"
+  "label": "Arcade Learning Env",
+  "gx": 381.7,
+  "gy": 634.3
  },
  {
   "id": "bauer2013erythroid",
@@ -7274,7 +8102,9 @@
    "lander2001initial"
   ],
   "doi": "10.1126/science.1242088",
-  "label": "BCL11A enhancer"
+  "label": "BCL11A enhancer",
+  "gx": -681.3,
+  "gy": 289.4
  },
  {
   "id": "hamid2013safety",
@@ -7293,7 +8123,9 @@
    "hodi2010improved"
   ],
   "doi": "10.1056/NEJMoa1305133",
-  "label": "Pembrolizumab"
+  "label": "Pembrolizumab",
+  "gx": -666.6,
+  "gy": 321.9
  },
  {
   "id": "mclellan2013structurebased",
@@ -7311,7 +8143,9 @@
    "berman2000protein"
   ],
   "doi": "10.1126/science.1243283",
-  "label": "Prefusion RSV F design"
+  "label": "Prefusion RSV F design",
+  "gx": -636.7,
+  "gy": 377.7
  },
  {
   "id": "love2014moderated",
@@ -7329,7 +8163,9 @@
    "bentley2008accurate"
   ],
   "doi": "10.1186/s13059-014-0550-8",
-  "label": "DESeq2"
+  "label": "DESeq2",
+  "gx": -182.6,
+  "gy": -737.9
  },
  {
   "id": "correia2014proofofprinciple",
@@ -7348,7 +8184,9 @@
    "simons1997assembly"
   ],
   "doi": "10.1038/nature12966",
-  "label": "Epitope-focused vaccine"
+  "label": "Epitope-focused vaccine",
+  "gx": -247.0,
+  "gy": -718.9
  },
  {
   "id": "kuhlbrandt2014resolution",
@@ -7367,7 +8205,9 @@
    "li2013electron"
   ],
   "doi": "10.1126/science.1251652",
-  "label": "Resolution revolution"
+  "label": "Resolution revolution",
+  "gx": -300.4,
+  "gy": -698.3
  },
  {
   "id": "dosovitskiy2014discriminative",
@@ -7384,7 +8224,9 @@
   "builds_on": [
    "krizhevsky2012imagenet"
   ],
-  "arxiv": "1406.6651"
+  "arxiv": "1406.6651",
+  "gx": 672.1,
+  "gy": 355.1
  },
  {
   "id": "lin2014microsoft",
@@ -7403,7 +8245,9 @@
    "deng2009imagenet"
   ],
   "arxiv": "1405.0312",
-  "label": "MS COCO"
+  "label": "MS COCO",
+  "gx": 542.5,
+  "gy": 532.5
  },
  {
   "id": "girshick2014rich",
@@ -7422,7 +8266,9 @@
    "felzenszwalb2010object"
   ],
   "arxiv": "1311.2524",
-  "label": "R-CNN"
+  "label": "R-CNN",
+  "gx": 745.3,
+  "gy": 149.5
  },
  {
   "id": "simonyan2014twostream",
@@ -7441,7 +8287,9 @@
    "horn1981determining"
   ],
   "arxiv": "1406.2199",
-  "label": "Two-Stream ConvNets"
+  "label": "Two-Stream ConvNets",
+  "gx": 617.7,
+  "gy": 443.0
  },
  {
   "id": "zeiler2014visualizing",
@@ -7459,7 +8307,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1311.2901",
-  "label": "ZFNet"
+  "label": "ZFNet",
+  "gx": 697.0,
+  "gy": 303.3
  },
  {
   "id": "kingma2014autoencoding",
@@ -7478,7 +8328,9 @@
    "vincent2008extracting"
   ],
   "arxiv": "1312.6114",
-  "label": "VAE"
+  "label": "VAE",
+  "gx": 309.1,
+  "gy": -694.5
  },
  {
   "id": "srivastava2014dropout",
@@ -7496,7 +8348,9 @@
    "krizhevsky2012imagenet",
    "rumelhart1986learning"
   ],
-  "label": "Dropout"
+  "label": "Dropout",
+  "gx": 541.4,
+  "gy": -533.6
  },
  {
   "id": "goodfellow2014generative",
@@ -7515,7 +8369,9 @@
    "srivastava2014dropout"
   ],
   "arxiv": "1406.2661",
-  "label": "GAN"
+  "label": "GAN",
+  "gx": 402.6,
+  "gy": -644.8
  },
  {
   "id": "cho2014learning",
@@ -7535,7 +8391,9 @@
    "koehn2003statistical"
   ],
   "arxiv": "1406.1078",
-  "label": "GRU / Encoder-Decoder"
+  "label": "GRU / Encoder-Decoder",
+  "gx": 292.3,
+  "gy": -701.7
  },
  {
   "id": "bruna2014spectral",
@@ -7554,7 +8412,9 @@
    "lecun1998gradient"
   ],
   "arxiv": "1312.6203",
-  "label": "Spectral graph CNN"
+  "label": "Spectral graph CNN",
+  "gx": 495.9,
+  "gy": -576.1
  },
  {
   "id": "chetlur2014cudnn",
@@ -7573,7 +8433,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1410.0759",
-  "label": "cuDNN"
+  "label": "cuDNN",
+  "gx": 517.6,
+  "gy": -556.7
  },
  {
   "id": "rao2014map",
@@ -7591,7 +8453,9 @@
    "liebermanaiden2009comprehensive",
    "dixon2012topological"
   ],
-  "label": "In situ Hi-C loops"
+  "label": "In situ Hi-C loops",
+  "gx": -756.2,
+  "gy": -77.1
  },
  {
   "id": "kim2014draft",
@@ -7609,7 +8473,9 @@
    "makarov2000electrostatic",
    "lander2001initial"
   ],
-  "label": "Human proteome draft"
+  "label": "Human proteome draft",
+  "gx": -712.7,
+  "gy": -264.3
  },
  {
   "id": "assarsson2014homogenous",
@@ -7625,7 +8491,9 @@
   "summary": "Olink proximity extension assay: antibody pairs with DNA reporters read by PCR (later NGS) for multiplexed protein quantification.",
   "builds_on": [
    "saiki1985enzymatic"
-  ]
+  ],
+  "gx": -591.5,
+  "gy": -477.5
  },
  {
   "id": "jaitin2014massively",
@@ -7641,7 +8509,9 @@
   "summary": "MARS-seq: automated barcoded 3' single-cell RNA-seq of thousands of immune cells.",
   "builds_on": [
    "tang2009mrnaseq"
-  ]
+  ],
+  "gx": -626.5,
+  "gy": -430.5
  },
  {
   "id": "lubeck2014singlecell",
@@ -7658,7 +8528,9 @@
   "builds_on": [
    "raj2008imaging"
   ],
-  "label": "seqFISH"
+  "label": "seqFISH",
+  "gx": -652.7,
+  "gy": -389.7
  },
  {
   "id": "malyshev2014semisynthetic",
@@ -7676,7 +8548,9 @@
    "watson1953molecular",
    "wang2001expanding"
   ],
-  "label": "Unnatural base pair"
+  "label": "Unnatural base pair",
+  "gx": -126.5,
+  "gy": 749.5
  },
  {
   "id": "esvelt2014concerning",
@@ -7694,7 +8568,9 @@
    "mali2013rna",
    "cong2013multiplex"
   ],
-  "label": "CRISPR gene drives"
+  "label": "CRISPR gene drives",
+  "gx": -230.1,
+  "gy": 724.5
  },
  {
   "id": "shalem2014genomescale",
@@ -7713,7 +8589,9 @@
    "mali2013rna",
    "fire1998potent"
   ],
-  "label": "CRISPR knockout screens"
+  "label": "CRISPR knockout screens",
+  "gx": -526.0,
+  "gy": 548.8
  },
  {
   "id": "annaluru2014total",
@@ -7731,7 +8609,9 @@
    "gibson2010creation",
    "gibson2009enzymatic"
   ],
-  "label": "Synthetic yeast chr III"
+  "label": "Synthetic yeast chr III",
+  "gx": -183.5,
+  "gy": 737.7
  },
  {
   "id": "pennington2014glove",
@@ -7750,7 +8630,9 @@
    "deerwester1990indexing"
   ],
   "doi": "10.3115/v1/D14-1162",
-  "label": "GloVe"
+  "label": "GloVe",
+  "gx": 744.4,
+  "gy": -153.8
  },
  {
   "id": "sutskever2014sequence",
@@ -7770,7 +8652,9 @@
    "cho2014learning"
   ],
   "arxiv": "1409.3215",
-  "label": "Seq2Seq"
+  "label": "Seq2Seq",
+  "gx": 594.2,
+  "gy": -474.1
  },
  {
   "id": "silver2014deterministic",
@@ -7787,7 +8671,9 @@
   "builds_on": [
    "sutton2000policy"
   ],
-  "label": "DPG"
+  "label": "DPG",
+  "gx": 311.1,
+  "gy": 693.6
  },
  {
   "id": "maude2014chimeric",
@@ -7805,7 +8691,9 @@
    "porter2011chimeric"
   ],
   "doi": "10.1056/NEJMoa1407222",
-  "label": "CAR-T remissions in ALL"
+  "label": "CAR-T remissions in ALL",
+  "gx": -729.2,
+  "gy": 214.7
  },
  {
   "id": "bettegowda2014detection",
@@ -7823,7 +8711,9 @@
    "lo1997presence"
   ],
   "doi": "10.1126/scitranslmed.3007094",
-  "label": "Circulating tumor DNA"
+  "label": "Circulating tumor DNA",
+  "gx": -577.1,
+  "gy": 494.8
  },
  {
   "id": "pagliuca2014generation",
@@ -7842,7 +8732,9 @@
    "shapiro2000islet"
   ],
   "doi": "10.1016/j.cell.2014.09.040",
-  "label": "Stem cell beta cells"
+  "label": "Stem cell beta cells",
+  "gx": -717.3,
+  "gy": 251.6
  },
  {
   "id": "nair2014multivalent",
@@ -7860,7 +8752,9 @@
    "elbashir2001duplexes"
   ],
   "doi": "10.1021/ja505986a",
-  "label": "GalNAc-siRNA"
+  "label": "GalNAc-siRNA",
+  "gx": -670.0,
+  "gy": 359.0
  },
  {
   "id": "zhou2015predicting",
@@ -7879,7 +8773,9 @@
    "krizhevsky2012imagenet"
   ],
   "doi": "10.1038/nmeth.3547",
-  "label": "DeepSEA"
+  "label": "DeepSEA",
+  "gx": -448.0,
+  "gy": -645.2
  },
  {
   "id": "alipanahi2015predicting",
@@ -7898,7 +8794,9 @@
    "encode2012integrated"
   ],
   "doi": "10.1038/nbt.3300",
-  "label": "DeepBind"
+  "label": "DeepBind",
+  "gx": -488.7,
+  "gy": -615.0
  },
  {
   "id": "girshick2015fast",
@@ -7916,7 +8814,9 @@
    "girshick2014rich"
   ],
   "arxiv": "1504.08083",
-  "label": "Fast R-CNN"
+  "label": "Fast R-CNN",
+  "gx": 732.0,
+  "gy": 285.0
  },
  {
   "id": "ren2015faster",
@@ -7935,7 +8835,9 @@
    "simonyan2015very"
   ],
   "arxiv": "1506.01497",
-  "label": "Faster R-CNN"
+  "label": "Faster R-CNN",
+  "gx": 674.7,
+  "gy": 402.3
  },
  {
   "id": "dosovitskiy2015flownet",
@@ -7954,7 +8856,9 @@
    "long2015fully"
   ],
   "arxiv": "1504.06852",
-  "label": "FlowNet"
+  "label": "FlowNet",
+  "gx": 774.0,
+  "gy": 134.3
  },
  {
   "id": "long2015fully",
@@ -7973,7 +8877,9 @@
    "simonyan2015very"
   ],
   "arxiv": "1411.4038",
-  "label": "FCN"
+  "label": "FCN",
+  "gx": 751.9,
+  "gy": 227.3
  },
  {
   "id": "szegedy2015going",
@@ -7991,7 +8897,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1409.4842",
-  "label": "GoogLeNet"
+  "label": "GoogLeNet",
+  "gx": 779.7,
+  "gy": 95.8
  },
  {
   "id": "russakovsky2015imagenet",
@@ -8010,7 +8918,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1409.0575",
-  "label": "ILSVRC"
+  "label": "ILSVRC",
+  "gx": 554.3,
+  "gy": 556.7
  },
  {
   "id": "tran2015learning",
@@ -8029,7 +8939,9 @@
    "simonyan2015very"
   ],
   "arxiv": "1412.0767",
-  "label": "C3D"
+  "label": "C3D",
+  "gx": 589.5,
+  "gy": 519.2
  },
  {
   "id": "murartal2015orbslam",
@@ -8047,7 +8959,9 @@
    "davison2007monoslam",
    "triggs2000bundle"
   ],
-  "label": "ORB-SLAM"
+  "label": "ORB-SLAM",
+  "gx": 743.1,
+  "gy": 254.8
  },
  {
   "id": "chen2015semantic",
@@ -8065,7 +8979,9 @@
    "long2015fully"
   ],
   "arxiv": "1412.7062",
-  "label": "DeepLab"
+  "label": "DeepLab",
+  "gx": 783.9,
+  "gy": 51.3
  },
  {
   "id": "ronneberger2015unet",
@@ -8083,7 +8999,9 @@
    "long2015fully"
   ],
   "arxiv": "1505.04597",
-  "label": "U-Net"
+  "label": "U-Net",
+  "gx": 759.7,
+  "gy": 199.8
  },
  {
   "id": "simonyan2015very",
@@ -8102,7 +9020,9 @@
    "zeiler2014visualizing"
   ],
   "arxiv": "1409.1556",
-  "label": "VGG"
+  "label": "VGG",
+  "gx": 655.9,
+  "gy": 432.3
  },
  {
   "id": "kingma2015adam",
@@ -8121,7 +9041,9 @@
    "sutskever2013importance"
   ],
   "arxiv": "1412.6980",
-  "label": "Adam"
+  "label": "Adam",
+  "gx": 106.4,
+  "gy": -778.3
  },
  {
   "id": "ioffe2015batch",
@@ -8140,7 +9062,9 @@
    "glorot2010understanding"
   ],
   "arxiv": "1502.03167",
-  "label": "Batch Normalization"
+  "label": "Batch Normalization",
+  "gx": 32.1,
+  "gy": -784.9
  },
  {
   "id": "sohldickstein2015deep",
@@ -8159,7 +9083,9 @@
    "kingma2014autoencoding"
   ],
   "arxiv": "1503.03585",
-  "label": "Diffusion models"
+  "label": "Diffusion models",
+  "gx": 147.0,
+  "gy": -771.7
  },
  {
   "id": "he2015delving",
@@ -8178,7 +9104,9 @@
    "nair2010rectified"
   ],
   "arxiv": "1502.01852",
-  "label": "PReLU / He init"
+  "label": "PReLU / He init",
+  "gx": 356.5,
+  "gy": -700.0
  },
  {
   "id": "srivastava2015highway",
@@ -8196,7 +9124,9 @@
    "hochreiter1997long"
   ],
   "arxiv": "1505.00387",
-  "label": "Highway Networks"
+  "label": "Highway Networks",
+  "gx": 53.1,
+  "gy": -783.7
  },
  {
   "id": "dinh2015nice",
@@ -8213,7 +9143,9 @@
   "builds_on": [
    "kingma2014autoencoding"
   ],
-  "arxiv": "1410.8516"
+  "arxiv": "1410.8516",
+  "gx": 186.1,
+  "gy": -763.2
  },
  {
   "id": "rezende2015variational",
@@ -8231,7 +9163,9 @@
    "kingma2014autoencoding"
   ],
   "arxiv": "1505.05770",
-  "label": "Normalizing Flows"
+  "label": "Normalizing Flows",
+  "gx": 498.7,
+  "gy": -606.9
  },
  {
   "id": "thousandgenomes2015global",
@@ -8248,7 +9182,9 @@
   "builds_on": [
    "thousandgenomes2010map"
   ],
-  "label": "1000 Genomes"
+  "label": "1000 Genomes",
+  "gx": -785.5,
+  "gy": 9.5
  },
  {
   "id": "klein2015droplet",
@@ -8267,7 +9203,9 @@
    "jaitin2014massively"
   ],
   "doi": "10.1016/j.cell.2015.04.044",
-  "label": "inDrop"
+  "label": "inDrop",
+  "gx": -726.4,
+  "gy": -299.1
  },
  {
   "id": "macosko2015highly",
@@ -8286,7 +9224,9 @@
    "jaitin2014massively"
   ],
   "doi": "10.1016/j.cell.2015.05.002",
-  "label": "Drop-seq"
+  "label": "Drop-seq",
+  "gx": -700.8,
+  "gy": -354.8
  },
  {
   "id": "roadmap2015integrative",
@@ -8304,7 +9244,9 @@
    "encode2012integrated",
    "lister2009human"
   ],
-  "label": "Roadmap Epigenomics"
+  "label": "Roadmap Epigenomics",
+  "gx": -712.4,
+  "gy": -331.0
  },
  {
   "id": "satija2015spatial",
@@ -8323,7 +9265,9 @@
    "macosko2015highly",
    "klein2015droplet"
   ],
-  "label": "Seurat"
+  "label": "Seurat",
+  "gx": -759.2,
+  "gy": -201.6
  },
  {
   "id": "chen2015spatially",
@@ -8340,7 +9284,9 @@
   "builds_on": [
    "raj2008imaging"
   ],
-  "label": "MERFISH"
+  "label": "MERFISH",
+  "gx": -746.2,
+  "gy": -245.6
  },
  {
   "id": "gtex2015genotypetissue",
@@ -8358,7 +9304,9 @@
    "mortazavi2008mapping",
    "hapmap2005haplotype"
   ],
-  "label": "GTEx pilot"
+  "label": "GTEx pilot",
+  "gx": -587.7,
+  "gy": -521.3
  },
  {
   "id": "galanie2015complete",
@@ -8376,7 +9324,9 @@
    "ro2006production",
    "paddon2013highlevel"
   ],
-  "label": "Opioids in yeast"
+  "label": "Opioids in yeast",
+  "gx": -372.6,
+  "gy": 691.6
  },
  {
   "id": "zetsche2015cpf1",
@@ -8394,7 +9344,9 @@
    "jinek2012programmable",
    "cong2013multiplex"
   ],
-  "label": "Cas12a (Cpf1)"
+  "label": "Cas12a (Cpf1)",
+  "gx": -284.1,
+  "gy": 732.4
  },
  {
   "id": "hilton2015epigenome",
@@ -8412,7 +9364,9 @@
    "qi2013repurposing",
    "mali2013rna"
   ],
-  "label": "Epigenome editing"
+  "label": "Epigenome editing",
+  "gx": -505.9,
+  "gy": 600.9
  },
  {
   "id": "bowman2015large",
@@ -8430,7 +9384,9 @@
    "pennington2014glove",
    "marcus1993building"
   ],
-  "arxiv": "1508.05326"
+  "arxiv": "1508.05326",
+  "gx": 731.4,
+  "gy": -286.5
  },
  {
   "id": "hinton2015distilling",
@@ -8448,7 +9404,9 @@
    "srivastava2014dropout"
   ],
   "arxiv": "1503.02531",
-  "label": "Knowledge distillation"
+  "label": "Knowledge distillation",
+  "gx": 744.0,
+  "gy": -252.1
  },
  {
   "id": "luong2015effective",
@@ -8466,7 +9424,9 @@
    "bahdanau2015neural"
   ],
   "arxiv": "1508.04025",
-  "label": "Luong attention"
+  "label": "Luong attention",
+  "gx": 697.2,
+  "gy": -361.9
  },
  {
   "id": "bahdanau2015neural",
@@ -8485,7 +9445,9 @@
    "sutskever2014sequence"
   ],
   "arxiv": "1409.0473",
-  "label": "Attention (Bahdanau)"
+  "label": "Attention (Bahdanau)",
+  "gx": 754.3,
+  "gy": -219.2
  },
  {
   "id": "mnih2015human",
@@ -8505,7 +9467,9 @@
    "bellemare2013arcade"
   ],
   "doi": "10.1038/nature14236",
-  "label": "DQN"
+  "label": "DQN",
+  "gx": 228.8,
+  "gy": 751.5
  },
  {
   "id": "schulman2015trust",
@@ -8524,7 +9488,9 @@
    "sutton2000policy"
   ],
   "arxiv": "1502.05477",
-  "label": "TRPO"
+  "label": "TRPO",
+  "gx": 180.8,
+  "gy": 764.4
  },
  {
   "id": "he2016deep",
@@ -8544,7 +9510,9 @@
    "ioffe2015batch"
   ],
   "arxiv": "1512.03385",
-  "label": "ResNet"
+  "label": "ResNet",
+  "gx": 810.0,
+  "gy": 25.2
  },
  {
   "id": "gatys2016image",
@@ -8561,7 +9529,9 @@
   "builds_on": [
    "simonyan2015very"
   ],
-  "label": "Neural Style Transfer"
+  "label": "Neural Style Transfer",
+  "gx": 589.0,
+  "gy": 556.6
  },
  {
   "id": "liu2016ssd",
@@ -8580,7 +9550,9 @@
    "redmon2016you"
   ],
   "arxiv": "1512.02325",
-  "label": "SSD"
+  "label": "SSD",
+  "gx": 630.7,
+  "gy": 508.8
  },
  {
   "id": "schonberger2016structure",
@@ -8597,7 +9569,9 @@
   "builds_on": [
    "snavely2006photo"
   ],
-  "label": "COLMAP"
+  "label": "COLMAP",
+  "gx": 719.3,
+  "gy": 373.3
  },
  {
   "id": "cordts2016cityscapes",
@@ -8616,7 +9590,9 @@
    "geiger2012are"
   ],
   "arxiv": "1604.01685",
-  "label": "Cityscapes"
+  "label": "Cityscapes",
+  "gx": 736.2,
+  "gy": 338.7
  },
  {
   "id": "redmon2016you",
@@ -8634,7 +9610,9 @@
    "girshick2014rich"
   ],
   "arxiv": "1506.02640",
-  "label": "YOLO"
+  "label": "YOLO",
+  "gx": 810.3,
+  "gy": 8.8
  },
  {
   "id": "goodfellow2016deep",
@@ -8654,7 +9632,9 @@
    "kingma2014autoencoding",
    "goodfellow2014generative"
   ],
-  "label": "Deep Learning (book)"
+  "label": "Deep Learning (book)",
+  "gx": 103.9,
+  "gy": -803.7
  },
  {
   "id": "cohen2016group",
@@ -8672,7 +9652,9 @@
    "lecun1998gradient"
   ],
   "arxiv": "1602.07576",
-  "label": "Group equivariant CNN"
+  "label": "Group equivariant CNN",
+  "gx": 463.2,
+  "gy": -665.0
  },
  {
   "id": "ba2016layer",
@@ -8690,7 +9672,9 @@
    "ioffe2015batch"
   ],
   "arxiv": "1607.06450",
-  "label": "Layer Normalization"
+  "label": "Layer Normalization",
+  "gx": -6.2,
+  "gy": -810.4
  },
  {
   "id": "abadi2016tensorflow",
@@ -8709,7 +9693,9 @@
    "raina2009largescale"
   ],
   "arxiv": "1605.08695",
-  "label": "TensorFlow"
+  "label": "TensorFlow",
+  "gx": 482.2,
+  "gy": -651.3
  },
  {
   "id": "radford2016unsupervised",
@@ -8728,7 +9714,9 @@
    "ioffe2015batch"
   ],
   "arxiv": "1511.06434",
-  "label": "DCGAN"
+  "label": "DCGAN",
+  "gx": 442.9,
+  "gy": -678.6
  },
  {
   "id": "lek2016analysis",
@@ -8746,7 +9734,9 @@
    "ng2010exome",
    "mckenna2010genome"
   ],
-  "label": "ExAC"
+  "label": "ExAC",
+  "gx": -808.9,
+  "gy": -49.4
  },
  {
   "id": "dixit2016perturbseq",
@@ -8764,7 +9754,9 @@
    "macosko2015highly",
    "shalem2014genomescale"
   ],
-  "label": "Perturb-seq"
+  "label": "Perturb-seq",
+  "gx": -810.4,
+  "gy": -5.5
  },
  {
   "id": "stahl2016visualization",
@@ -8783,7 +9775,9 @@
    "mortazavi2008mapping"
   ],
   "doi": "10.1126/science.aaf2403",
-  "label": "Spatial transcriptomics"
+  "label": "Spatial transcriptomics",
+  "gx": -809.7,
+  "gy": 33.4
  },
  {
   "id": "hutchison2016design",
@@ -8801,7 +9795,9 @@
    "gibson2010creation",
    "gibson2009enzymatic"
   ],
-  "label": "Minimal genome (Syn3.0)"
+  "label": "Minimal genome (Syn3.0)",
+  "gx": -425.6,
+  "gy": 689.7
  },
  {
   "id": "komor2016programmable",
@@ -8820,7 +9816,9 @@
    "mali2013rna",
    "cong2013multiplex"
   ],
-  "label": "Base editing"
+  "label": "Base editing",
+  "gx": -363.5,
+  "gy": 724.3
  },
  {
   "id": "pardee2016rapid",
@@ -8839,7 +9837,9 @@
    "gardner2000construction",
    "saiki1988primerdirected"
   ],
-  "label": "Paper-based Zika test"
+  "label": "Paper-based Zika test",
+  "gx": -212.2,
+  "gy": 782.1
  },
  {
   "id": "wu2016google",
@@ -8859,7 +9859,9 @@
    "koehn2003statistical"
   ],
   "arxiv": "1609.08144",
-  "label": "Google NMT"
+  "label": "Google NMT",
+  "gx": 804.5,
+  "gy": -97.8
  },
  {
   "id": "sennrich2016neural",
@@ -8877,7 +9879,9 @@
    "bahdanau2015neural"
   ],
   "arxiv": "1508.07909",
-  "label": "BPE subwords"
+  "label": "BPE subwords",
+  "gx": 743.1,
+  "gy": -323.4
  },
  {
   "id": "rajpurkar2016squad",
@@ -8895,7 +9899,9 @@
    "bowman2015large"
   ],
   "arxiv": "1606.05250",
-  "label": "SQuAD"
+  "label": "SQuAD",
+  "gx": 688.6,
+  "gy": -427.3
  },
  {
   "id": "mnih2016asynchronous",
@@ -8915,7 +9921,9 @@
    "barto1983neuronlike"
   ],
   "arxiv": "1602.01783",
-  "label": "A3C"
+  "label": "A3C",
+  "gx": 334.6,
+  "gy": 738.1
  },
  {
   "id": "lillicrap2016continuous",
@@ -8934,7 +9942,9 @@
    "mnih2015human"
   ],
   "arxiv": "1509.02971",
-  "label": "DDPG"
+  "label": "DDPG",
+  "gx": 460.9,
+  "gy": 666.6
  },
  {
   "id": "vanhasselt2016deep",
@@ -8953,7 +9963,9 @@
    "vanhasselt2010double"
   ],
   "arxiv": "1509.06461",
-  "label": "Double DQN"
+  "label": "Double DQN",
+  "gx": 77.5,
+  "gy": 806.7
  },
  {
   "id": "wang2016dueling",
@@ -8972,7 +9984,9 @@
    "vanhasselt2016deep"
   ],
   "arxiv": "1511.06581",
-  "label": "Dueling DQN"
+  "label": "Dueling DQN",
+  "gx": 163.5,
+  "gy": 793.7
  },
  {
   "id": "levine2016endtoend",
@@ -8991,7 +10005,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1504.00702",
-  "label": "Visuomotor policies"
+  "label": "Visuomotor policies",
+  "gx": 46.7,
+  "gy": 809.0
  },
  {
   "id": "ho2016generative",
@@ -9011,7 +10027,9 @@
    "schulman2015trust"
   ],
   "arxiv": "1606.03476",
-  "label": "GAIL"
+  "label": "GAIL",
+  "gx": 137.6,
+  "gy": 798.6
  },
  {
   "id": "schulman2016highdimensional",
@@ -9030,7 +10048,9 @@
    "sutton1988learning"
   ],
   "arxiv": "1506.02438",
-  "label": "GAE"
+  "label": "GAE",
+  "gx": 259.6,
+  "gy": 767.7
  },
  {
   "id": "silver2016mastering",
@@ -9051,7 +10071,9 @@
    "krizhevsky2012imagenet"
   ],
   "doi": "10.1038/nature16961",
-  "label": "AlphaGo"
+  "label": "AlphaGo",
+  "gx": 15.7,
+  "gy": 810.2
  },
  {
   "id": "brockman2016openai",
@@ -9069,7 +10091,9 @@
    "bellemare2013arcade"
   ],
   "arxiv": "1606.01540",
-  "label": "OpenAI Gym"
+  "label": "OpenAI Gym",
+  "gx": 293.4,
+  "gy": 755.4
  },
  {
   "id": "schaul2016prioritized",
@@ -9087,7 +10111,9 @@
    "mnih2015human"
   ],
   "arxiv": "1511.05952",
-  "label": "Prioritized Replay"
+  "label": "Prioritized Replay",
+  "gx": 414.3,
+  "gy": 696.5
  },
  {
   "id": "bellemare2016unifying",
@@ -9104,7 +10130,9 @@
   "builds_on": [
    "mnih2015human",
    "brafman2002rmax"
-  ]
+  ],
+  "gx": 103.2,
+  "gy": 803.8
  },
  {
   "id": "wang2017accurate",
@@ -9122,7 +10150,9 @@
    "marks2011protein",
    "he2016deep"
   ],
-  "label": "RaptorX contacts"
+  "label": "RaptorX contacts",
+  "gx": -145.7,
+  "gy": -825.5
  },
  {
   "id": "steinegger2017mmseqs2",
@@ -9142,7 +10172,9 @@
    "sonnhammer1997pfam"
   ],
   "doi": "10.1038/nbt.3988",
-  "label": "MMseqs2"
+  "label": "MMseqs2",
+  "gx": -423.9,
+  "gy": -723.2
  },
  {
   "id": "punjani2017cryosparc",
@@ -9160,7 +10192,9 @@
    "scheres2012relion"
   ],
   "doi": "10.1038/nmeth.4169",
-  "label": "cryoSPARC"
+  "label": "cryoSPARC",
+  "gx": -351.6,
+  "gy": -761.0
  },
  {
   "id": "huang2017densely",
@@ -9178,7 +10212,9 @@
    "he2016deep"
   ],
   "arxiv": "1608.06993",
-  "label": "DenseNet"
+  "label": "DenseNet",
+  "gx": 827.8,
+  "gy": 132.3
  },
  {
   "id": "lin2017feature",
@@ -9197,7 +10233,9 @@
    "he2016deep"
   ],
   "arxiv": "1612.03144",
-  "label": "Feature Pyramid Network"
+  "label": "Feature Pyramid Network",
+  "gx": 705.9,
+  "gy": 452.2
  },
  {
   "id": "lin2017focal",
@@ -9216,7 +10254,9 @@
    "liu2016ssd"
   ],
   "arxiv": "1708.02002",
-  "label": "RetinaNet (Focal Loss)"
+  "label": "RetinaNet (Focal Loss)",
+  "gx": 749.2,
+  "gy": 376.1
  },
  {
   "id": "isola2017image",
@@ -9236,7 +10276,9 @@
    "radford2016unsupervised"
   ],
   "arxiv": "1611.07004",
-  "label": "pix2pix"
+  "label": "pix2pix",
+  "gx": 677.0,
+  "gy": 494.4
  },
  {
   "id": "he2017mask",
@@ -9256,7 +10298,9 @@
    "long2015fully"
   ],
   "arxiv": "1703.06870",
-  "label": "Mask R-CNN"
+  "label": "Mask R-CNN",
+  "gx": 632.1,
+  "gy": 550.7
  },
  {
   "id": "howard2017mobilenets",
@@ -9274,7 +10318,9 @@
    "szegedy2015going"
   ],
   "arxiv": "1704.04861",
-  "label": "MobileNet"
+  "label": "MobileNet",
+  "gx": 687.4,
+  "gy": 479.8
  },
  {
   "id": "qi2017pointnet",
@@ -9292,7 +10338,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1612.00593",
-  "label": "PointNet"
+  "label": "PointNet",
+  "gx": 834.7,
+  "gy": 77.2
  },
  {
   "id": "carreira2017quo",
@@ -9313,7 +10361,9 @@
    "kay2017kinetics"
   ],
   "arxiv": "1705.07750",
-  "label": "I3D / Kinetics"
+  "label": "I3D / Kinetics",
+  "gx": 774.5,
+  "gy": 320.9
  },
  {
   "id": "kay2017kinetics",
@@ -9331,7 +10381,9 @@
    "simonyan2014twostream"
   ],
   "arxiv": "1705.06950",
-  "label": "Kinetics dataset"
+  "label": "Kinetics dataset",
+  "gx": 814.6,
+  "gy": 197.8
  },
  {
   "id": "zhu2017unpaired",
@@ -9349,7 +10401,9 @@
    "isola2017image"
   ],
   "arxiv": "1703.10593",
-  "label": "CycleGAN"
+  "label": "CycleGAN",
+  "gx": 723.1,
+  "gy": 424.1
  },
  {
   "id": "hestness2017deep",
@@ -9367,7 +10421,9 @@
    "hochreiter1997long",
    "he2016deep"
   ],
-  "arxiv": "1712.00409"
+  "arxiv": "1712.00409",
+  "gx": 42.2,
+  "gy": -837.2
  },
  {
   "id": "bronstein2017geometric",
@@ -9386,7 +10442,9 @@
    "scarselli2009graph"
   ],
   "arxiv": "1611.08097",
-  "label": "Geometric Deep Learning"
+  "label": "Geometric Deep Learning",
+  "gx": 135.8,
+  "gy": -827.2
  },
  {
   "id": "jouppi2017indatacenter",
@@ -9404,7 +10462,9 @@
    "abadi2016tensorflow"
   ],
   "arxiv": "1704.04760",
-  "label": "TPU"
+  "label": "TPU",
+  "gx": 301.7,
+  "gy": -782.1
  },
  {
   "id": "hamilton2017inductive",
@@ -9422,7 +10482,9 @@
    "kipf2017semisupervised"
   ],
   "arxiv": "1706.02216",
-  "label": "GraphSAGE"
+  "label": "GraphSAGE",
+  "gx": 64.8,
+  "gy": -835.8
  },
  {
   "id": "vandenoord2017neural",
@@ -9440,7 +10502,9 @@
    "kingma2014autoencoding"
   ],
   "arxiv": "1711.00937",
-  "label": "VQ-VAE"
+  "label": "VQ-VAE",
+  "gx": 239.8,
+  "gy": -803.3
  },
  {
   "id": "gilmer2017neural",
@@ -9459,7 +10523,9 @@
    "kipf2017semisupervised"
   ],
   "arxiv": "1704.01212",
-  "label": "Message Passing NN"
+  "label": "Message Passing NN",
+  "gx": 278.5,
+  "gy": -790.7
  },
  {
   "id": "shazeer2017outrageously",
@@ -9478,7 +10544,9 @@
    "hochreiter1997long"
   ],
   "arxiv": "1701.06538",
-  "label": "Sparse MoE layer"
+  "label": "Sparse MoE layer",
+  "gx": 410.1,
+  "gy": -731.1
  },
  {
   "id": "kipf2017semisupervised",
@@ -9497,7 +10565,9 @@
    "scarselli2009graph"
   ],
   "arxiv": "1609.02907",
-  "label": "GCN"
+  "label": "GCN",
+  "gx": 317.6,
+  "gy": -775.8
  },
  {
   "id": "zhang2017understanding",
@@ -9516,7 +10586,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1611.03530",
-  "label": "Generalization puzzle"
+  "label": "Generalization puzzle",
+  "gx": 261.9,
+  "gy": -796.3
  },
  {
   "id": "arjovsky2017wasserstein",
@@ -9534,7 +10606,9 @@
    "goodfellow2014generative"
   ],
   "arxiv": "1701.07875",
-  "label": "Wasserstein GAN"
+  "label": "Wasserstein GAN",
+  "gx": -31.0,
+  "gy": -837.7
  },
  {
   "id": "koren2017canu",
@@ -9551,7 +10625,9 @@
   "builds_on": [
    "myers2000whole",
    "eid2009realtime"
-  ]
+  ],
+  "gx": -800.3,
+  "gy": -249.6
  },
  {
   "id": "zheng2017massively",
@@ -9569,7 +10645,9 @@
    "macosko2015highly",
    "klein2015droplet"
   ],
-  "label": "10x Chromium"
+  "label": "10x Chromium",
+  "gx": -829.4,
+  "gy": -122.1
  },
  {
   "id": "stoeckius2017simultaneous",
@@ -9587,7 +10665,9 @@
    "macosko2015highly",
    "klein2015droplet"
   ],
-  "label": "CITE-seq"
+  "label": "CITE-seq",
+  "gx": -823.3,
+  "gy": -157.7
  },
  {
   "id": "regev2017human",
@@ -9605,7 +10685,9 @@
    "zheng2017massively",
    "macosko2015highly"
   ],
-  "label": "Human Cell Atlas"
+  "label": "Human Cell Atlas",
+  "gx": -813.6,
+  "gy": -201.8
  },
  {
   "id": "gootenberg2017nucleic",
@@ -9625,7 +10707,9 @@
    "saiki1988primerdirected",
    "jinek2012programmable"
   ],
-  "label": "SHERLOCK"
+  "label": "SHERLOCK",
+  "gx": -449.5,
+  "gy": 707.6
  },
  {
   "id": "gaudelli2017programmable",
@@ -9643,7 +10727,9 @@
    "komor2016programmable",
    "esvelt2011system"
   ],
-  "label": "Adenine base editor"
+  "label": "Adenine base editor",
+  "gx": -525.3,
+  "gy": 653.3
  },
  {
   "id": "abudayyeh2017rna",
@@ -9661,7 +10747,9 @@
    "zetsche2015cpf1",
    "fire1998potent"
   ],
-  "label": "Cas13 RNA targeting"
+  "label": "Cas13 RNA targeting",
+  "gx": -285.3,
+  "gy": 788.3
  },
  {
   "id": "vaswani2017attention",
@@ -9682,7 +10770,9 @@
    "he2016deep"
   ],
   "arxiv": "1706.03762",
-  "label": "Transformer"
+  "label": "Transformer",
+  "gx": 661.1,
+  "gy": -515.5
  },
  {
   "id": "bojanowski2017enriching",
@@ -9700,7 +10790,9 @@
    "mikolov2013distributed"
   ],
   "arxiv": "1607.04606",
-  "label": "fastText"
+  "label": "fastText",
+  "gx": 686.8,
+  "gy": -480.6
  },
  {
   "id": "bellemare2017distributional",
@@ -9719,7 +10811,9 @@
    "bellman1957dynamic"
   ],
   "arxiv": "1707.06887",
-  "label": "Distributional RL (C51)"
+  "label": "Distributional RL (C51)",
+  "gx": 537.7,
+  "gy": 643.1
  },
  {
   "id": "pathak2017curiosity",
@@ -9738,7 +10832,9 @@
    "bellemare2016unifying"
   ],
   "arxiv": "1705.05363",
-  "label": "Curiosity (ICM)"
+  "label": "Curiosity (ICM)",
+  "gx": -14.2,
+  "gy": 838.2
  },
  {
   "id": "christiano2017deep",
@@ -9758,7 +10854,9 @@
    "mnih2016asynchronous"
   ],
   "arxiv": "1706.03741",
-  "label": "RLHF"
+  "label": "RLHF",
+  "gx": 521.5,
+  "gy": 656.3
  },
  {
   "id": "moravcik2017deepstack",
@@ -9775,7 +10873,9 @@
   "builds_on": [
    "zinkevich2007regret"
   ],
-  "label": "DeepStack"
+  "label": "DeepStack",
+  "gx": 461.4,
+  "gy": 699.9
  },
  {
   "id": "tobin2017domain",
@@ -9793,7 +10893,9 @@
    "krizhevsky2012imagenet"
   ],
   "arxiv": "1703.06907",
-  "label": "Domain randomization"
+  "label": "Domain randomization",
+  "gx": 417.5,
+  "gy": 726.9
  },
  {
   "id": "silver2017mastering",
@@ -9813,7 +10915,9 @@
    "howard1960dynamic"
   ],
   "doi": "10.1038/nature24270",
-  "label": "AlphaGo Zero"
+  "label": "AlphaGo Zero",
+  "gx": -38.9,
+  "gy": 837.4
  },
  {
   "id": "lowe2017multiagent",
@@ -9832,7 +10936,9 @@
    "littman1994markov"
   ],
   "arxiv": "1706.02275",
-  "label": "MADDPG"
+  "label": "MADDPG",
+  "gx": 45.3,
+  "gy": 837.1
  },
  {
   "id": "schulman2017proximal",
@@ -9852,7 +10958,9 @@
    "mnih2016asynchronous"
   ],
   "arxiv": "1707.06347",
-  "label": "PPO"
+  "label": "PPO",
+  "gx": 402.3,
+  "gy": 735.5
  },
  {
   "id": "fda2017kymriah",
@@ -9869,7 +10977,9 @@
   "builds_on": [
    "maude2014chimeric"
   ],
-  "label": "Kymriah"
+  "label": "Kymriah",
+  "gx": -652.7,
+  "gy": 526.1
  },
  {
   "id": "mandai2017autologous",
@@ -9887,7 +10997,9 @@
    "takahashi2007induction"
   ],
   "doi": "10.1056/NEJMoa1608368",
-  "label": "iPSC retinal transplant"
+  "label": "iPSC retinal transplant",
+  "gx": -789.6,
+  "gy": 281.5
  },
  {
   "id": "russell2017efficacy",
@@ -9905,7 +11017,9 @@
    "gao2002novel"
   ],
   "doi": "10.1016/S0140-6736(17)31868-8",
-  "label": "Luxturna"
+  "label": "Luxturna",
+  "gx": -718.2,
+  "gy": 432.4
  },
  {
   "id": "pallesen2017immunogenicity",
@@ -9923,7 +11037,9 @@
    "mclellan2013structurebased"
   ],
   "doi": "10.1073/pnas.1707304114",
-  "label": "Prefusion spike (2P)"
+  "label": "Prefusion spike (2P)",
+  "gx": -625.3,
+  "gy": 558.4
  },
  {
   "id": "finkel2017nusinersen",
@@ -9941,7 +11057,9 @@
    "zamecnik1978inhibition"
   ],
   "doi": "10.1056/NEJMoa1702752",
-  "label": "Nusinersen (Spinraza)"
+  "label": "Nusinersen (Spinraza)",
+  "gx": -692.6,
+  "gy": 472.3
  },
  {
   "id": "sahin2017personalized",
@@ -9960,7 +11078,9 @@
    "rosenberg1988use"
   ],
   "doi": "10.1038/nature23003",
-  "label": "mRNA cancer vaccine"
+  "label": "mRNA cancer vaccine",
+  "gx": -807.6,
+  "gy": 224.8
  },
  {
   "id": "mendell2017singledose",
@@ -9978,7 +11098,9 @@
    "gao2002novel"
   ],
   "doi": "10.1056/NEJMoa1706198",
-  "label": "Zolgensma"
+  "label": "Zolgensma",
+  "gx": -766.7,
+  "gy": 339.1
  },
  {
   "id": "gomezbombarelli2018automatic",
@@ -9995,7 +11117,9 @@
   "builds_on": [
    "kingma2014autoencoding"
   ],
-  "label": "Chemical VAE"
+  "label": "Chemical VAE",
+  "gx": -527.7,
+  "gy": -686.9
  },
  {
   "id": "riesselman2018deep",
@@ -10013,7 +11137,9 @@
    "marks2011protein",
    "kingma2014autoencoding"
   ],
-  "label": "DeepSequence"
+  "label": "DeepSequence",
+  "gx": -267.0,
+  "gy": -824.1
  },
  {
   "id": "wolf2018scanpy",
@@ -10031,7 +11157,9 @@
    "satija2015spatial"
   ],
   "doi": "10.1186/s13059-017-1382-0",
-  "label": "Scanpy"
+  "label": "Scanpy",
+  "gx": -585.6,
+  "gy": -638.3
  },
  {
   "id": "wu2018unsupervised",
@@ -10048,7 +11176,9 @@
   "builds_on": [
    "dosovitskiy2014discriminative"
   ],
-  "label": "Instance discrimination"
+  "label": "Instance discrimination",
+  "gx": 825.5,
+  "gy": 262.5
  },
  {
   "id": "velickovic2018graph",
@@ -10067,7 +11197,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "1710.10903",
-  "label": "GAT"
+  "label": "GAT",
+  "gx": 23.7,
+  "gy": -865.9
  },
  {
   "id": "bradbury2018jax",
@@ -10085,7 +11217,9 @@
    "abadi2016tensorflow",
    "jouppi2017indatacenter"
   ],
-  "label": "JAX"
+  "label": "JAX",
+  "gx": 482.6,
+  "gy": -719.3
  },
  {
   "id": "micikevicius2018mixed",
@@ -10103,7 +11237,9 @@
    "chetlur2014cudnn"
   ],
   "arxiv": "1710.03740",
-  "label": "Mixed precision training"
+  "label": "Mixed precision training",
+  "gx": 386.7,
+  "gy": -775.1
  },
  {
   "id": "chen2018neural",
@@ -10122,7 +11258,9 @@
    "rezende2015variational"
   ],
   "arxiv": "1806.07366",
-  "label": "Neural ODE"
+  "label": "Neural ODE",
+  "gx": 190.9,
+  "gy": -844.9
  },
  {
   "id": "jacot2018neural",
@@ -10141,7 +11279,9 @@
    "zhang2017understanding"
   ],
   "arxiv": "1806.07572",
-  "label": "Neural Tangent Kernel"
+  "label": "Neural Tangent Kernel",
+  "gx": 553.3,
+  "gy": -666.5
  },
  {
   "id": "thomas2018tensor",
@@ -10158,7 +11298,9 @@
   "builds_on": [
    "cohen2016group"
   ],
-  "arxiv": "1802.08219"
+  "arxiv": "1802.08219",
+  "gx": 525.7,
+  "gy": -688.5
  },
  {
   "id": "khera2018genomewide",
@@ -10176,7 +11318,9 @@
    "purcell2009common",
    "bycroft2018uk"
   ],
-  "label": "Genome-wide PRS"
+  "label": "Genome-wide PRS",
+  "gx": -774.2,
+  "gy": -388.6
  },
  {
   "id": "sun2018genomic",
@@ -10194,7 +11338,9 @@
    "gold2010aptamerbased",
    "wtccc2007genomewide"
   ],
-  "label": "Plasma proteome pQTLs"
+  "label": "Plasma proteome pQTLs",
+  "gx": -819.7,
+  "gy": -280.2
  },
  {
   "id": "swaminathan2018highly",
@@ -10210,7 +11356,9 @@
   "summary": "Fluorosequencing: single-molecule peptide identification by Edman degradation of fluorescently labelled residues.",
   "builds_on": [
    "kim2014draft"
-  ]
+  ],
+  "gx": -862.5,
+  "gy": -80.6
  },
  {
   "id": "jain2018nanopore",
@@ -10228,7 +11376,9 @@
    "kasianowicz1996characterization",
    "eid2009realtime"
   ],
-  "label": "Nanopore human genome"
+  "label": "Nanopore human genome",
+  "gx": -799.6,
+  "gy": -333.1
  },
  {
   "id": "tabulamuris2018singlecell",
@@ -10246,7 +11396,9 @@
    "zheng2017massively",
    "picelli2013smartseq2"
   ],
-  "label": "Tabula Muris"
+  "label": "Tabula Muris",
+  "gx": -722.0,
+  "gy": -478.6
  },
  {
   "id": "bycroft2018uk",
@@ -10264,7 +11416,9 @@
    "wtccc2007genomewide",
    "thousandgenomes2015global"
   ],
-  "label": "UK Biobank"
+  "label": "UK Biobank",
+  "gx": -757.7,
+  "gy": -419.9
  },
  {
   "id": "kyrou2018crispr",
@@ -10282,7 +11436,9 @@
    "esvelt2014concerning",
    "cong2013multiplex"
   ],
-  "label": "Mosquito gene drive"
+  "label": "Mosquito gene drive",
+  "gx": -332.8,
+  "gy": 799.8
  },
  {
   "id": "zsogon2018domestication",
@@ -10300,7 +11456,9 @@
    "shan2013targeted",
    "cong2013multiplex"
   ],
-  "label": "De novo domestication"
+  "label": "De novo domestication",
+  "gx": -509.0,
+  "gy": 700.9
  },
  {
   "id": "peters2018deep",
@@ -10320,7 +11478,9 @@
    "hochreiter1997long"
   ],
   "arxiv": "1802.05365",
-  "label": "ELMo"
+  "label": "ELMo",
+  "gx": 852.3,
+  "gy": -155.0
  },
  {
   "id": "radford2018improving",
@@ -10339,7 +11499,9 @@
    "howard2018universal",
    "peters2018deep"
   ],
-  "label": "GPT"
+  "label": "GPT",
+  "gx": 742.4,
+  "gy": -446.4
  },
  {
   "id": "howard2018universal",
@@ -10358,7 +11520,9 @@
    "hochreiter1997long"
   ],
   "arxiv": "1801.06146",
-  "label": "ULMFiT"
+  "label": "ULMFiT",
+  "gx": 643.2,
+  "gy": -580.2
  },
  {
   "id": "silver2018general",
@@ -10376,7 +11540,9 @@
    "silver2017mastering"
   ],
   "doi": "10.1126/science.aar6404",
-  "label": "AlphaZero"
+  "label": "AlphaZero",
+  "gx": 242.0,
+  "gy": 831.8
  },
  {
   "id": "fujimoto2018addressing",
@@ -10395,7 +11561,9 @@
    "vanhasselt2016deep"
   ],
   "arxiv": "1802.09477",
-  "label": "TD3"
+  "label": "TD3",
+  "gx": 490.7,
+  "gy": 713.8
  },
  {
   "id": "chua2018deep",
@@ -10413,7 +11581,9 @@
    "deisenroth2011pilco"
   ],
   "arxiv": "1805.12114",
-  "label": "PETS"
+  "label": "PETS",
+  "gx": 340.6,
+  "gy": 796.5
  },
  {
   "id": "espeholt2018impala",
@@ -10431,7 +11601,9 @@
    "mnih2016asynchronous"
   ],
   "arxiv": "1802.01561",
-  "label": "IMPALA"
+  "label": "IMPALA",
+  "gx": -77.6,
+  "gy": 862.7
  },
  {
   "id": "rashid2018qmix",
@@ -10450,7 +11622,9 @@
    "littman1994markov"
   ],
   "arxiv": "1803.11485",
-  "label": "QMIX"
+  "label": "QMIX",
+  "gx": 92.0,
+  "gy": 861.3
  },
  {
   "id": "kalashnikov2018qtopt",
@@ -10469,7 +11643,9 @@
    "levine2016endtoend"
   ],
   "arxiv": "1806.10293",
-  "label": "QT-Opt"
+  "label": "QT-Opt",
+  "gx": 17.4,
+  "gy": 866.1
  },
  {
   "id": "hessel2018rainbow",
@@ -10491,7 +11667,9 @@
    "mnih2016asynchronous"
   ],
   "arxiv": "1710.02298",
-  "label": "Rainbow"
+  "label": "Rainbow",
+  "gx": 296.3,
+  "gy": 814.0
  },
  {
   "id": "haarnoja2018soft",
@@ -10511,7 +11689,9 @@
    "fujimoto2018addressing"
   ],
   "arxiv": "1801.01290",
-  "label": "Soft Actor-Critic"
+  "label": "Soft Actor-Critic",
+  "gx": 450.1,
+  "gy": 740.1
  },
  {
   "id": "brown2018superhuman",
@@ -10529,7 +11709,9 @@
    "zinkevich2007regret"
   ],
   "doi": "10.1126/science.aao1733",
-  "label": "Libratus"
+  "label": "Libratus",
+  "gx": 386.5,
+  "gy": 775.3
  },
  {
   "id": "ha2018world",
@@ -10549,7 +11731,9 @@
    "sutton1990integrated"
   ],
   "arxiv": "1803.10122",
-  "label": "World Models"
+  "label": "World Models",
+  "gx": 222.6,
+  "gy": 837.1
  },
  {
   "id": "chen2018crisprcas12a",
@@ -10567,7 +11751,9 @@
    "jinek2012programmable"
   ],
   "doi": "10.1126/science.aar6245",
-  "label": "DETECTR"
+  "label": "DETECTR",
+  "gx": -693.3,
+  "gy": 519.3
  },
  {
   "id": "cohen2018detection",
@@ -10585,7 +11771,9 @@
    "bettegowda2014detection"
   ],
   "doi": "10.1126/science.aar3247",
-  "label": "CancerSEEK"
+  "label": "CancerSEEK",
+  "gx": -629.9,
+  "gy": 594.6
  },
  {
   "id": "adams2018patisiran",
@@ -10604,7 +11792,9 @@
    "elbashir2001duplexes"
   ],
   "doi": "10.1056/NEJMoa1716153",
-  "label": "Patisiran"
+  "label": "Patisiran",
+  "gx": -756.8,
+  "gy": 421.5
  },
  {
   "id": "zhavoronkov2019deep",
@@ -10622,7 +11812,9 @@
    "gomezbombarelli2018automatic",
    "goodfellow2014generative"
   ],
-  "label": "GENTRL DDR1 inhibitors"
+  "label": "GENTRL DDR1 inhibitors",
+  "gx": -384.9,
+  "gy": -801.3
  },
  {
   "id": "lyu2019ultralarge",
@@ -10640,7 +11832,9 @@
    "kuntz1982geometric"
   ],
   "doi": "10.1038/s41586-019-0917-9",
-  "label": "Ultra-large docking"
+  "label": "Ultra-large docking",
+  "gx": -518.6,
+  "gy": -722.0
  },
  {
   "id": "karras2019stylebased",
@@ -10659,7 +11853,9 @@
    "gatys2016image"
   ],
   "arxiv": "1812.04948",
-  "label": "StyleGAN"
+  "label": "StyleGAN",
+  "gx": 887.6,
+  "gy": 48.1
  },
  {
   "id": "tan2019efficientnet",
@@ -10678,7 +11874,9 @@
    "he2016deep"
   ],
   "arxiv": "1905.11946",
-  "label": "EfficientNet"
+  "label": "EfficientNet",
+  "gx": 639.6,
+  "gy": 617.3
  },
  {
   "id": "feichtenhofer2019slowfast",
@@ -10696,7 +11894,9 @@
    "carreira2017quo"
   ],
   "arxiv": "1812.03982",
-  "label": "SlowFast"
+  "label": "SlowFast",
+  "gx": 658.5,
+  "gy": 597.2
  },
  {
   "id": "loshchilov2019decoupled",
@@ -10714,7 +11914,9 @@
    "kingma2015adam"
   ],
   "arxiv": "1711.05101",
-  "label": "AdamW"
+  "label": "AdamW",
+  "gx": -39.7,
+  "gy": -888.0
  },
  {
   "id": "song2019generative",
@@ -10732,7 +11934,9 @@
    "vincent2008extracting"
   ],
   "arxiv": "1907.05600",
-  "label": "Score matching (NCSN)"
+  "label": "Score matching (NCSN)",
+  "gx": 120.0,
+  "gy": -880.8
  },
  {
   "id": "xu2019powerful",
@@ -10751,7 +11955,9 @@
    "hamilton2017inductive"
   ],
   "arxiv": "1810.00826",
-  "label": "GIN"
+  "label": "GIN",
+  "gx": 248.9,
+  "gy": -853.4
  },
  {
   "id": "shoeybi2019megatron",
@@ -10771,7 +11977,9 @@
    "radford2019language"
   ],
   "arxiv": "1909.08053",
-  "label": "Megatron-LM"
+  "label": "Megatron-LM",
+  "gx": 225.5,
+  "gy": -859.9
  },
  {
   "id": "paszke2019pytorch",
@@ -10790,7 +11998,9 @@
    "abadi2016tensorflow"
   ],
   "arxiv": "1912.01703",
-  "label": "PyTorch"
+  "label": "PyTorch",
+  "gx": 357.3,
+  "gy": -814.0
  },
  {
   "id": "belkin2019reconciling",
@@ -10809,7 +12019,9 @@
   ],
   "doi": "10.1073/pnas.1903070116",
   "arxiv": "1812.11118",
-  "label": "Double descent"
+  "label": "Double descent",
+  "gx": 427.3,
+  "gy": -779.5
  },
  {
   "id": "frankle2019lottery",
@@ -10827,7 +12039,9 @@
    "zhang2017understanding"
   ],
   "arxiv": "1803.03635",
-  "label": "Lottery Ticket"
+  "label": "Lottery Ticket",
+  "gx": -8.0,
+  "gy": -888.9
  },
  {
   "id": "wenger2019accurate",
@@ -10844,7 +12058,9 @@
   "builds_on": [
    "eid2009realtime"
   ],
-  "label": "PacBio HiFi"
+  "label": "PacBio HiFi",
+  "gx": -888.9,
+  "gy": 11.2
  },
  {
   "id": "rodriques2019slideseq",
@@ -10862,7 +12078,9 @@
    "stahl2016visualization",
    "macosko2015highly"
   ],
-  "label": "Slide-seq"
+  "label": "Slide-seq",
+  "gx": -887.9,
+  "gy": -42.8
  },
  {
   "id": "anzalone2019search",
@@ -10881,7 +12099,9 @@
    "gaudelli2017programmable",
    "baltimore1970rna"
   ],
-  "label": "Prime editing"
+  "label": "Prime editing",
+  "gx": -415.6,
+  "gy": 785.8
  },
  {
   "id": "fredens2019total",
@@ -10900,7 +12120,9 @@
    "wang2001expanding",
    "wang2009programming"
   ],
-  "label": "Recoded E. coli (Syn61)"
+  "label": "Recoded E. coli (Syn61)",
+  "gx": -463.0,
+  "gy": 758.8
  },
  {
   "id": "devlin2019bert",
@@ -10920,7 +12142,9 @@
    "peters2018deep"
   ],
   "arxiv": "1810.04805",
-  "label": "BERT"
+  "label": "BERT",
+  "gx": 863.7,
+  "gy": -210.2
  },
  {
   "id": "sanh2019distilbert",
@@ -10939,7 +12163,9 @@
    "hinton2015distilling"
   ],
   "arxiv": "1910.01108",
-  "label": "DistilBERT"
+  "label": "DistilBERT",
+  "gx": 642.0,
+  "gy": -614.9
  },
  {
   "id": "ziegler2019finetuning",
@@ -10959,7 +12185,9 @@
    "schulman2017proximal"
   ],
   "arxiv": "1909.08593",
-  "label": "RLHF for LMs"
+  "label": "RLHF for LMs",
+  "gx": 860.8,
+  "gy": -221.8
  },
  {
   "id": "wang2019glue",
@@ -10978,7 +12206,9 @@
    "rajpurkar2016squad"
   ],
   "arxiv": "1804.07461",
-  "label": "GLUE"
+  "label": "GLUE",
+  "gx": 726.5,
+  "gy": -512.2
  },
  {
   "id": "radford2019language",
@@ -10995,7 +12225,9 @@
   "builds_on": [
    "radford2018improving"
   ],
-  "label": "GPT-2"
+  "label": "GPT-2",
+  "gx": 694.2,
+  "gy": -555.3
  },
  {
   "id": "liu2019roberta",
@@ -11013,7 +12245,9 @@
    "devlin2019bert"
   ],
   "arxiv": "1907.11692",
-  "label": "RoBERTa"
+  "label": "RoBERTa",
+  "gx": 785.1,
+  "gy": -417.0
  },
  {
   "id": "wang2019superglue",
@@ -11031,7 +12265,9 @@
    "wang2019glue",
    "devlin2019bert"
   ],
-  "arxiv": "1905.00537"
+  "arxiv": "1905.00537",
+  "gx": 751.4,
+  "gy": -475.0
  },
  {
   "id": "yang2019xlnet",
@@ -11050,7 +12286,9 @@
    "radford2018improving"
   ],
   "arxiv": "1906.08237",
-  "label": "XLNet"
+  "label": "XLNet",
+  "gx": 887.6,
+  "gy": -48.3
  },
  {
   "id": "berner2019dota",
@@ -11069,7 +12307,9 @@
    "hochreiter1997long"
   ],
   "arxiv": "1912.06680",
-  "label": "OpenAI Five"
+  "label": "OpenAI Five",
+  "gx": 558.0,
+  "gy": 692.0
  },
  {
   "id": "burda2019exploration",
@@ -11088,7 +12328,9 @@
    "schulman2017proximal"
   ],
   "arxiv": "1810.12894",
-  "label": "RND"
+  "label": "RND",
+  "gx": -11.8,
+  "gy": 888.9
  },
  {
   "id": "vinyals2019grandmaster",
@@ -11109,7 +12351,9 @@
    "hochreiter1997long"
   ],
   "doi": "10.1038/s41586-019-1724-z",
-  "label": "AlphaStar"
+  "label": "AlphaStar",
+  "gx": -39.0,
+  "gy": 888.1
  },
  {
   "id": "hafner2019learning",
@@ -11127,7 +12371,9 @@
    "ha2018world",
    "kingma2014autoencoding"
   ],
-  "label": "PlaNet"
+  "label": "PlaNet",
+  "gx": 201.2,
+  "gy": 865.9
  },
  {
   "id": "hwangbo2019learning",
@@ -11145,7 +12391,9 @@
    "schulman2015trust",
    "tobin2017domain"
   ],
-  "label": "ANYmal RL locomotion"
+  "label": "ANYmal RL locomotion",
+  "gx": 49.8,
+  "gy": 887.5
  },
  {
   "id": "fujimoto2019offpolicy",
@@ -11164,7 +12412,9 @@
    "ernst2005treebased"
   ],
   "arxiv": "1812.02900",
-  "label": "BCQ"
+  "label": "BCQ",
+  "gx": 342.3,
+  "gy": 820.4
  },
  {
   "id": "kapturowski2019recurrent",
@@ -11182,7 +12432,9 @@
    "hessel2018rainbow",
    "schaul2016prioritized",
    "hochreiter1997long"
-  ]
+  ],
+  "gx": 381.5,
+  "gy": 802.9
  },
  {
   "id": "akkaya2019solving",
@@ -11201,7 +12453,9 @@
    "schulman2017proximal"
   ],
   "arxiv": "1910.07113",
-  "label": "Rubik's Cube robot hand"
+  "label": "Rubik's Cube robot hand",
+  "gx": 138.9,
+  "gy": 878.0
  },
  {
   "id": "brown2019superhuman",
@@ -11219,7 +12473,9 @@
    "brown2018superhuman"
   ],
   "doi": "10.1126/science.aay2400",
-  "label": "Pluribus"
+  "label": "Pluribus",
+  "gx": 266.3,
+  "gy": 848.1
  },
  {
   "id": "janner2019when",
@@ -11239,7 +12495,9 @@
    "sutton1990integrated"
   ],
   "arxiv": "1906.08253",
-  "label": "MBPO"
+  "label": "MBPO",
+  "gx": 170.9,
+  "gy": 872.4
  },
  {
   "id": "stokes2020deep",
@@ -11258,7 +12516,9 @@
    "hansch1964analysis"
   ],
   "doi": "10.1016/j.cell.2020.01.040",
-  "label": "Halicin"
+  "label": "Halicin",
+  "gx": -133.5,
+  "gy": -903.4
  },
  {
   "id": "walls2020elicitation",
@@ -11276,7 +12536,9 @@
    "correia2014proofofprinciple",
    "kuhlman2003design"
   ],
-  "label": "Nanoparticle vaccine"
+  "label": "Nanoparticle vaccine",
+  "gx": -305.4,
+  "gy": -860.7
  },
  {
   "id": "senior2020improved",
@@ -11296,7 +12558,9 @@
    "he2016deep"
   ],
   "doi": "10.1038/s41586-019-1923-7",
-  "label": "AlphaFold 1"
+  "label": "AlphaFold 1",
+  "gx": -197.3,
+  "gy": -891.7
  },
  {
   "id": "yang2020improved",
@@ -11314,7 +12578,9 @@
    "senior2020improved",
    "simons1997assembly"
   ],
-  "label": "trRosetta"
+  "label": "trRosetta",
+  "gx": -449.1,
+  "gy": -795.2
  },
  {
   "id": "nakane2020single",
@@ -11332,7 +12598,9 @@
    "kuhlbrandt2014resolution",
    "scheres2012relion"
   ],
-  "label": "Atomic cryo-EM"
+  "label": "Atomic cryo-EM",
+  "gx": -348.5,
+  "gy": -844.1
  },
  {
   "id": "chen2020simple",
@@ -11352,7 +12620,9 @@
    "he2016deep"
   ],
   "arxiv": "2002.05709",
-  "label": "SimCLR"
+  "label": "SimCLR",
+  "gx": 748.3,
+  "gy": 523.6
  },
  {
   "id": "grill2020bootstrap",
@@ -11371,7 +12641,9 @@
    "chen2020simple"
   ],
   "arxiv": "2006.07733",
-  "label": "BYOL"
+  "label": "BYOL",
+  "gx": 873.6,
+  "gy": 266.1
  },
  {
   "id": "carion2020endtoend",
@@ -11390,7 +12662,9 @@
    "ren2015faster"
   ],
   "arxiv": "2005.12872",
-  "label": "DETR"
+  "label": "DETR",
+  "gx": 906.8,
+  "gy": 108.4
  },
  {
   "id": "he2020momentum",
@@ -11409,7 +12683,9 @@
    "he2016deep"
   ],
   "arxiv": "1911.05722",
-  "label": "MoCo"
+  "label": "MoCo",
+  "gx": 864.2,
+  "gy": 295.4
  },
  {
   "id": "mildenhall2020nerf",
@@ -11428,7 +12704,9 @@
    "rumelhart1986learning"
   ],
   "arxiv": "2003.08934",
-  "label": "NeRF"
+  "label": "NeRF",
+  "gx": 849.9,
+  "gy": 334.1
  },
  {
   "id": "teed2020raft",
@@ -11447,7 +12725,9 @@
    "horn1981determining"
   ],
   "arxiv": "2003.12039",
-  "label": "RAFT"
+  "label": "RAFT",
+  "gx": 810.7,
+  "gy": 420.5
  },
  {
   "id": "nakkiran2020deep",
@@ -11464,7 +12744,9 @@
   "builds_on": [
    "belkin2019reconciling"
   ],
-  "arxiv": "1912.02292"
+  "arxiv": "1912.02292",
+  "gx": 86.7,
+  "gy": -909.1
  },
  {
   "id": "ho2020denoising",
@@ -11483,7 +12765,9 @@
    "song2019generative"
   ],
   "arxiv": "2006.11239",
-  "label": "DDPM"
+  "label": "DDPM",
+  "gx": 66.2,
+  "gy": -910.9
  },
  {
   "id": "kaplan2020scaling",
@@ -11503,7 +12787,9 @@
    "radford2019language"
   ],
   "arxiv": "2001.08361",
-  "label": "Scaling Laws"
+  "label": "Scaling Laws",
+  "gx": 507.9,
+  "gy": -759.0
  },
  {
   "id": "rajbhandari2020zero",
@@ -11522,7 +12808,9 @@
    "micikevicius2018mixed"
   ],
   "arxiv": "1910.02054",
-  "label": "ZeRO"
+  "label": "ZeRO",
+  "gx": 469.6,
+  "gy": -783.3
  },
  {
   "id": "olah2020zoom",
@@ -11539,7 +12827,9 @@
   "builds_on": [
    "krizhevsky2012imagenet"
   ],
-  "label": "Circuits"
+  "label": "Circuits",
+  "gx": 423.0,
+  "gy": -809.4
  },
  {
   "id": "encode2020expanded",
@@ -11555,7 +12845,9 @@
   "summary": "ENCODE phase 3 with a registry of ~926,000 human and ~339,000 mouse candidate cis-regulatory elements.",
   "builds_on": [
    "encode2012integrated"
-  ]
+  ],
+  "gx": -693.6,
+  "gy": -594.1
  },
  {
   "id": "pcawg2020pancancer",
@@ -11573,7 +12865,9 @@
    "icgc2010international",
    "alexandrov2013signatures"
   ],
-  "label": "PCAWG"
+  "label": "PCAWG",
+  "gx": -772.9,
+  "gy": -486.5
  },
  {
   "id": "miga2020telomere",
@@ -11591,7 +12885,9 @@
    "jain2018nanopore",
    "koren2017canu"
   ],
-  "label": "T2T X chromosome"
+  "label": "T2T X chromosome",
+  "gx": -913.0,
+  "gy": -22.3
  },
  {
   "id": "gtex2020gtex",
@@ -11608,7 +12904,9 @@
   "builds_on": [
    "gtex2015genotypetissue"
   ],
-  "label": "GTEx atlas"
+  "label": "GTEx atlas",
+  "gx": -823.5,
+  "gy": -394.8
  },
  {
   "id": "karczewski2020mutational",
@@ -11625,7 +12923,9 @@
   "builds_on": [
    "lek2016analysis"
   ],
-  "label": "gnomAD"
+  "label": "gnomAD",
+  "gx": -868.7,
+  "gy": -281.7
  },
  {
   "id": "lewis2020bart",
@@ -11645,7 +12945,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "1910.13461",
-  "label": "BART"
+  "label": "BART",
+  "gx": 686.2,
+  "gy": -602.6
  },
  {
   "id": "karpukhin2020dense",
@@ -11664,7 +12966,9 @@
    "robertson2009probabilistic"
   ],
   "arxiv": "2004.04906",
-  "label": "Dense Passage Retrieval"
+  "label": "Dense Passage Retrieval",
+  "gx": 909.8,
+  "gy": -79.9
  },
  {
   "id": "clark2020electra",
@@ -11683,7 +12987,9 @@
    "goodfellow2014generative"
   ],
   "arxiv": "2003.10555",
-  "label": "ELECTRA"
+  "label": "ELECTRA",
+  "gx": 853.7,
+  "gy": -324.3
  },
  {
   "id": "raffel2020exploring",
@@ -11703,7 +13009,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "1910.10683",
-  "label": "T5"
+  "label": "T5",
+  "gx": 871.5,
+  "gy": -273.0
  },
  {
   "id": "brown2020language",
@@ -11723,7 +13031,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "2005.14165",
-  "label": "GPT-3"
+  "label": "GPT-3",
+  "gx": 858.7,
+  "gy": -311.0
  },
  {
   "id": "stiennon2020learning",
@@ -11742,7 +13052,9 @@
    "christiano2017deep"
   ],
   "arxiv": "2009.01325",
-  "label": "RLHF summarization"
+  "label": "RLHF summarization",
+  "gx": 849.1,
+  "gy": -336.4
  },
  {
   "id": "guu2020realm",
@@ -11761,7 +13073,9 @@
    "robertson2009probabilistic"
   ],
   "arxiv": "2002.08909",
-  "label": "REALM"
+  "label": "REALM",
+  "gx": 731.2,
+  "gy": -547.2
  },
  {
   "id": "lewis2020retrievalaugmented",
@@ -11781,7 +13095,9 @@
    "guu2020realm"
   ],
   "arxiv": "2005.11401",
-  "label": "RAG"
+  "label": "RAG",
+  "gx": 821.3,
+  "gy": -399.3
  },
  {
   "id": "badia2020agent57",
@@ -11800,7 +13116,9 @@
    "badia2020never"
   ],
   "arxiv": "2003.13350",
-  "label": "Agent57"
+  "label": "Agent57",
+  "gx": 7.1,
+  "gy": 913.2
  },
  {
   "id": "kumar2020conservative",
@@ -11819,7 +13137,9 @@
    "haarnoja2018soft"
   ],
   "arxiv": "2006.04779",
-  "label": "CQL"
+  "label": "CQL",
+  "gx": 447.8,
+  "gy": 795.9
  },
  {
   "id": "fu2020d4rl",
@@ -11837,7 +13157,9 @@
    "fujimoto2019offpolicy",
    "brockman2016openai"
   ],
-  "arxiv": "2004.07219"
+  "arxiv": "2004.07219",
+  "gx": -68.0,
+  "gy": 910.7
  },
  {
   "id": "hafner2020dream",
@@ -11855,7 +13177,9 @@
    "hafner2019learning"
   ],
   "arxiv": "1912.01603",
-  "label": "Dreamer"
+  "label": "Dreamer",
+  "gx": 107.4,
+  "gy": 906.9
  },
  {
   "id": "schrittwieser2020mastering",
@@ -11875,7 +13199,9 @@
    "sutton1990integrated"
   ],
   "doi": "10.1038/s41586-020-03051-4",
-  "label": "MuZero"
+  "label": "MuZero",
+  "gx": 308.7,
+  "gy": 859.5
  },
  {
   "id": "badia2020never",
@@ -11892,7 +13218,9 @@
   "builds_on": [
    "burda2019exploration",
    "kapturowski2019recurrent"
-  ]
+  ],
+  "gx": 68.8,
+  "gy": 910.7
  },
  {
   "id": "jackson2020mrna",
@@ -11912,7 +13240,9 @@
    "semple2010rational"
   ],
   "doi": "10.1056/NEJMoa2022483",
-  "label": "mRNA-1273 phase 1"
+  "label": "mRNA-1273 phase 1",
+  "gx": -789.3,
+  "gy": 459.5
  },
  {
   "id": "broughton2020crisprcas12based",
@@ -11930,7 +13260,9 @@
    "chen2018crisprcas12a"
   ],
   "doi": "10.1038/s41587-020-0513-4",
-  "label": "CRISPR COVID test"
+  "label": "CRISPR COVID test",
+  "gx": -756.8,
+  "gy": 511.2
  },
  {
   "id": "corman2020detection",
@@ -11949,7 +13281,9 @@
    "higuchi1993kinetic"
   ],
   "doi": "10.2807/1560-7917.ES.2020.25.3.2000045",
-  "label": "SARS-CoV-2 RT-PCR"
+  "label": "SARS-CoV-2 RT-PCR",
+  "gx": -825.7,
+  "gy": 390.1
  },
  {
   "id": "palmqvist2020discriminative",
@@ -11967,7 +13301,9 @@
    "engvall1971enzymelinked"
   ],
   "doi": "10.1001/jama.2020.12134",
-  "label": "Plasma p-tau217"
+  "label": "Plasma p-tau217",
+  "gx": -855.7,
+  "gy": 319.1
  },
  {
   "id": "polack2020safe",
@@ -11988,7 +13324,9 @@
    "semple2010rational"
   ],
   "doi": "10.1056/NEJMoa2034577",
-  "label": "Pfizer-BioNTech vaccine"
+  "label": "Pfizer-BioNTech vaccine",
+  "gx": -717.8,
+  "gy": 564.7
  },
  {
   "id": "ray2020two",
@@ -12006,7 +13344,9 @@
    "nair2014multivalent"
   ],
   "doi": "10.1056/NEJMoa1912387",
-  "label": "Inclisiran"
+  "label": "Inclisiran",
+  "gx": -899.7,
+  "gy": 156.8
  },
  {
   "id": "baek2021accurate",
@@ -12026,7 +13366,9 @@
    "vaswani2017attention"
   ],
   "doi": "10.1126/science.abj8754",
-  "label": "RoseTTAFold"
+  "label": "RoseTTAFold",
+  "gx": -376.6,
+  "gy": -857.9
  },
  {
   "id": "rives2021biological",
@@ -12046,7 +13388,9 @@
    "sonnhammer1997pfam"
   ],
   "doi": "10.1073/pnas.2016239118",
-  "label": "ESM-1b"
+  "label": "ESM-1b",
+  "gx": -160.3,
+  "gy": -923.1
  },
  {
   "id": "jumper2021highly",
@@ -12067,7 +13411,9 @@
    "moult1995large"
   ],
   "doi": "10.1038/s41586-021-03819-2",
-  "label": "AlphaFold 2"
+  "label": "AlphaFold 2",
+  "gx": -249.1,
+  "gy": -903.2
  },
  {
   "id": "evans2021protein",
@@ -12084,7 +13430,9 @@
   "builds_on": [
    "jumper2021highly"
   ],
-  "label": "AlphaFold-Multimer"
+  "label": "AlphaFold-Multimer",
+  "gx": -526.7,
+  "gy": -774.8
  },
  {
   "id": "dosovitskiy2021image",
@@ -12104,7 +13452,9 @@
    "devlin2019bert"
   ],
   "arxiv": "2010.11929",
-  "label": "Vision Transformer"
+  "label": "Vision Transformer",
+  "gx": 904.9,
+  "gy": 242.6
  },
  {
   "id": "zhu2021deformable",
@@ -12123,7 +13473,9 @@
    "lin2017feature"
   ],
   "arxiv": "2010.04159",
-  "label": "Deformable DETR"
+  "label": "Deformable DETR",
+  "gx": 711.4,
+  "gy": 609.7
  },
  {
   "id": "caron2021emerging",
@@ -12143,7 +13495,9 @@
    "touvron2021training"
   ],
   "arxiv": "2104.14294",
-  "label": "DINO"
+  "label": "DINO",
+  "gx": 796.8,
+  "gy": 492.8
  },
  {
   "id": "bertasius2021spacetime",
@@ -12162,7 +13516,9 @@
    "carreira2017quo"
   ],
   "arxiv": "2102.05095",
-  "label": "TimeSformer"
+  "label": "TimeSformer",
+  "gx": 809.9,
+  "gy": 470.9
  },
  {
   "id": "radford2021learning",
@@ -12182,7 +13538,9 @@
    "radford2019language"
   ],
   "arxiv": "2103.00020",
-  "label": "CLIP"
+  "label": "CLIP",
+  "gx": 860.6,
+  "gy": 370.4
  },
  {
   "id": "jia2021scaling",
@@ -12201,7 +13559,9 @@
    "tan2019efficientnet"
   ],
   "arxiv": "2102.05918",
-  "label": "ALIGN"
+  "label": "ALIGN",
+  "gx": 924.9,
+  "gy": 149.6
  },
  {
   "id": "liu2021swin",
@@ -12220,7 +13580,9 @@
    "lin2017feature"
   ],
   "arxiv": "2103.14030",
-  "label": "Swin Transformer"
+  "label": "Swin Transformer",
+  "gx": 868.9,
+  "gy": 350.3
  },
  {
   "id": "esser2021taming",
@@ -12240,7 +13602,9 @@
    "isola2017image"
   ],
   "arxiv": "2012.09841",
-  "label": "VQGAN"
+  "label": "VQGAN",
+  "gx": 921.8,
+  "gy": 167.5
  },
  {
   "id": "touvron2021training",
@@ -12258,7 +13622,9 @@
    "dosovitskiy2021image"
   ],
   "arxiv": "2012.12877",
-  "label": "DeiT"
+  "label": "DeiT",
+  "gx": 910.6,
+  "gy": 220.3
  },
  {
   "id": "ramesh2021zeroshot",
@@ -12278,7 +13644,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "2102.12092",
-  "label": "DALL-E"
+  "label": "DALL-E",
+  "gx": 787.6,
+  "gy": 507.4
  },
  {
   "id": "elhage2021mathematical",
@@ -12296,7 +13664,9 @@
    "olah2020zoom",
    "vaswani2017attention"
   ],
-  "label": "Transformer Circuits"
+  "label": "Transformer Circuits",
+  "gx": 32.8,
+  "gy": -936.3
  },
  {
   "id": "dhariwal2021diffusion",
@@ -12316,7 +13686,9 @@
    "karras2019stylebased"
   ],
   "arxiv": "2105.05233",
-  "label": "Diffusion beats GANs"
+  "label": "Diffusion beats GANs",
+  "gx": 323.6,
+  "gy": -879.2
  },
  {
   "id": "satorras2021en",
@@ -12335,7 +13707,9 @@
    "thomas2018tensor"
   ],
   "arxiv": "2102.09844",
-  "label": "EGNN"
+  "label": "EGNN",
+  "gx": 342.9,
+  "gy": -871.9
  },
  {
   "id": "bronstein2021geometric",
@@ -12355,7 +13729,9 @@
    "velickovic2018graph"
   ],
   "arxiv": "2104.13478",
-  "label": "GDL: 5G blueprint"
+  "label": "GDL: 5G blueprint",
+  "gx": 108.1,
+  "gy": -930.6
  },
  {
   "id": "song2021scorebased",
@@ -12374,7 +13750,9 @@
    "ho2020denoising"
   ],
   "arxiv": "2011.13456",
-  "label": "Score SDE"
+  "label": "Score SDE",
+  "gx": 361.1,
+  "gy": -864.5
  },
  {
   "id": "avsec2021effective",
@@ -12393,7 +13771,9 @@
    "vaswani2017attention",
    "zhou2015predicting"
   ],
-  "label": "Enformer"
+  "label": "Enformer",
+  "gx": -712.5,
+  "gy": -608.3
  },
  {
   "id": "cheng2021haplotype",
@@ -12409,7 +13789,9 @@
   "summary": "Fast haplotype-resolved assembler for HiFi reads, central to T2T and pangenome assemblies.",
   "builds_on": [
    "wenger2019accurate"
-  ]
+  ],
+  "gx": -934.5,
+  "gy": -67.3
  },
  {
   "id": "frangoul2021crispr",
@@ -12431,7 +13813,9 @@
    "bauer2013erythroid"
   ],
   "doi": "10.1056/NEJMoa2031054",
-  "label": "CRISPR sickle cell"
+  "label": "CRISPR sickle cell",
+  "gx": -389.8,
+  "gy": 851.9
  },
  {
   "id": "gillmore2021crispr",
@@ -12452,7 +13836,9 @@
    "adams2018patisiran"
   ],
   "doi": "10.1056/NEJMoa2107454",
-  "label": "In vivo CRISPR (NTLA)"
+  "label": "In vivo CRISPR (NTLA)",
+  "gx": -586.1,
+  "gy": 730.9
  },
  {
   "id": "chen2021evaluating",
@@ -12470,7 +13856,9 @@
    "brown2020language"
   ],
   "arxiv": "2107.03374",
-  "label": "Codex"
+  "label": "Codex",
+  "gx": 854.3,
+  "gy": -384.5
  },
  {
   "id": "hendrycks2021measuring",
@@ -12489,7 +13877,9 @@
    "brown2020language"
   ],
   "arxiv": "2009.03300",
-  "label": "MMLU"
+  "label": "MMLU",
+  "gx": 681.7,
+  "gy": -642.7
  },
  {
   "id": "su2021roformer",
@@ -12507,7 +13897,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "2104.09864",
-  "label": "RoPE"
+  "label": "RoPE",
+  "gx": 930.9,
+  "gy": -105.2
  },
  {
   "id": "nakano2021webgpt",
@@ -12526,7 +13918,9 @@
    "stiennon2020learning"
   ],
   "arxiv": "2112.09332",
-  "label": "WebGPT"
+  "label": "WebGPT",
+  "gx": 935.7,
+  "gy": -46.1
  },
  {
   "id": "chen2021decision",
@@ -12546,7 +13940,9 @@
    "fujimoto2019offpolicy"
   ],
   "arxiv": "2106.01345",
-  "label": "Decision Transformer"
+  "label": "Decision Transformer",
+  "gx": 602.7,
+  "gy": 717.3
  },
  {
   "id": "ecoffet2021first",
@@ -12564,7 +13960,9 @@
    "burda2019exploration",
    "bellemare2016unifying"
   ],
-  "label": "Go-Explore"
+  "label": "Go-Explore",
+  "gx": 30.5,
+  "gy": 936.4
  },
  {
   "id": "hafner2021mastering",
@@ -12581,7 +13979,9 @@
   "builds_on": [
    "hafner2020dream"
   ],
-  "arxiv": "2010.02193"
+  "arxiv": "2010.02193",
+  "gx": -40.0,
+  "gy": 936.0
  },
  {
   "id": "baden2021efficacy",
@@ -12600,7 +14000,9 @@
    "kariko2008incorporation"
   ],
   "doi": "10.1056/NEJMoa2035389",
-  "label": "Moderna COVID vaccine"
+  "label": "Moderna COVID vaccine",
+  "gx": -677.1,
+  "gy": 647.5
  },
  {
   "id": "musunuru2021vivo",
@@ -12620,7 +14022,9 @@
    "semple2010rational"
   ],
   "doi": "10.1038/s41586-021-03534-y",
-  "label": "PCSK9 base editing"
+  "label": "PCSK9 base editing",
+  "gx": -695.4,
+  "gy": 627.8
  },
  {
   "id": "wilding2021onceweekly",
@@ -12638,7 +14042,9 @@
    "eng1992isolation"
   ],
   "doi": "10.1056/NEJMoa2032183",
-  "label": "Semaglutide obesity"
+  "label": "Semaglutide obesity",
+  "gx": -916.9,
+  "gy": 192.5
  },
  {
   "id": "nathan2021overall",
@@ -12655,7 +14061,9 @@
   "builds_on": [
    "bargou2008tumor"
   ],
-  "doi": "10.1056/NEJMoa2103485"
+  "doi": "10.1056/NEJMoa2103485",
+  "gx": -895.6,
+  "gy": 275.0
  },
  {
   "id": "varadi2022alphafold",
@@ -12673,7 +14081,9 @@
    "jumper2021highly"
   ],
   "doi": "10.1093/nar/gkab1061",
-  "label": "AlphaFold DB"
+  "label": "AlphaFold DB",
+  "gx": -272.8,
+  "gy": -920.9
  },
  {
   "id": "cao2022design",
@@ -12692,7 +14102,9 @@
    "simons1997assembly"
   ],
   "doi": "10.1038/s41586-022-04654-9",
-  "label": "De novo binder design"
+  "label": "De novo binder design",
+  "gx": -632.1,
+  "gy": -723.1
  },
  {
   "id": "dauparas2022robust",
@@ -12713,7 +14125,9 @@
    "kipf2017semisupervised"
   ],
   "doi": "10.1126/science.add2187",
-  "label": "ProteinMPNN"
+  "label": "ProteinMPNN",
+  "gx": -495.1,
+  "gy": -823.1
  },
  {
   "id": "liu2022convnet",
@@ -12732,7 +14146,9 @@
    "liu2021swin"
   ],
   "arxiv": "2201.03545",
-  "label": "ConvNeXt"
+  "label": "ConvNeXt",
+  "gx": 953.4,
+  "gy": 116.6
  },
  {
   "id": "nichol2022glide",
@@ -12751,7 +14167,9 @@
    "radford2021learning"
   ],
   "arxiv": "2112.10741",
-  "label": "GLIDE"
+  "label": "GLIDE",
+  "gx": 843.3,
+  "gy": 459.7
  },
  {
   "id": "ramesh2022hierarchical",
@@ -12770,7 +14188,9 @@
    "radford2021learning"
   ],
   "arxiv": "2204.06125",
-  "label": "DALL-E 2"
+  "label": "DALL-E 2",
+  "gx": 855.5,
+  "gy": 436.5
  },
  {
   "id": "rombach2022high",
@@ -12791,7 +14211,9 @@
    "radford2021learning"
   ],
   "arxiv": "2112.10752",
-  "label": "Stable Diffusion"
+  "label": "Stable Diffusion",
+  "gx": 939.7,
+  "gy": 198.7
  },
  {
   "id": "schuhmann2022laion",
@@ -12810,7 +14232,9 @@
    "jia2021scaling"
   ],
   "arxiv": "2210.08402",
-  "label": "LAION-5B"
+  "label": "LAION-5B",
+  "gx": 754.6,
+  "gy": 594.2
  },
  {
   "id": "he2022masked",
@@ -12830,7 +14254,9 @@
    "caron2021emerging"
   ],
   "arxiv": "2111.06377",
-  "label": "MAE"
+  "label": "MAE",
+  "gx": 723.5,
+  "gy": 631.7
  },
  {
   "id": "cheng2022maskedattention",
@@ -12849,7 +14275,9 @@
    "he2017mask"
   ],
   "arxiv": "2112.01527",
-  "label": "Mask2Former"
+  "label": "Mask2Former",
+  "gx": 943.3,
+  "gy": 181.0
  },
  {
   "id": "saharia2022photorealistic",
@@ -12868,7 +14296,9 @@
    "raffel2020exploring"
   ],
   "arxiv": "2205.11487",
-  "label": "Imagen"
+  "label": "Imagen",
+  "gx": 905.0,
+  "gy": 321.6
  },
  {
   "id": "ho2022video",
@@ -12887,7 +14317,9 @@
    "ronneberger2015unet"
   ],
   "arxiv": "2204.03458",
-  "label": "Video Diffusion Models"
+  "label": "Video Diffusion Models",
+  "gx": 691.5,
+  "gy": 666.6
  },
  {
   "id": "gu2022efficiently",
@@ -12906,7 +14338,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "2111.00396",
-  "label": "S4"
+  "label": "S4",
+  "gx": 206.0,
+  "gy": -938.1
  },
  {
   "id": "wei2022emergent",
@@ -12925,7 +14359,9 @@
    "brown2020language"
   ],
   "arxiv": "2206.07682",
-  "label": "Emergent abilities"
+  "label": "Emergent abilities",
+  "gx": 558.5,
+  "gy": -781.4
  },
  {
   "id": "dao2022flashattention",
@@ -12944,7 +14380,9 @@
    "chetlur2014cudnn"
   ],
   "arxiv": "2205.14135",
-  "label": "FlashAttention"
+  "label": "FlashAttention",
+  "gx": 184.8,
+  "gy": -942.5
  },
  {
   "id": "power2022grokking",
@@ -12962,7 +14400,9 @@
    "zhang2017understanding",
    "nakkiran2020deep"
   ],
-  "arxiv": "2201.02177"
+  "arxiv": "2201.02177",
+  "gx": 411.4,
+  "gy": -867.9
  },
  {
   "id": "fedus2022switch",
@@ -12982,7 +14422,9 @@
    "raffel2020exploring"
   ],
   "arxiv": "2101.03961",
-  "label": "Switch Transformer"
+  "label": "Switch Transformer",
+  "gx": 169.0,
+  "gy": -945.5
  },
  {
   "id": "yang2022tensor",
@@ -13000,7 +14442,9 @@
    "jacot2018neural",
    "kingma2015adam"
   ],
-  "arxiv": "2203.03466"
+  "arxiv": "2203.03466",
+  "gx": 226.6,
+  "gy": -933.4
  },
  {
   "id": "elhage2022toy",
@@ -13018,7 +14462,9 @@
    "elhage2021mathematical"
   ],
   "arxiv": "2209.10652",
-  "label": "Superposition toy models"
+  "label": "Superposition toy models",
+  "gx": 253.0,
+  "gy": -926.6
  },
  {
   "id": "hoffmann2022training",
@@ -13037,7 +14483,9 @@
    "brown2020language"
   ],
   "arxiv": "2203.15556",
-  "label": "Chinchilla"
+  "label": "Chinchilla",
+  "gx": 618.4,
+  "gy": -734.9
  },
  {
   "id": "replogle2022mapping",
@@ -13054,7 +14502,9 @@
   "builds_on": [
    "dixit2016perturbseq",
    "shalem2014genomescale"
-  ]
+  ],
+  "gx": -947.1,
+  "gy": -159.4
  },
  {
   "id": "reed2022realtime",
@@ -13072,7 +14522,9 @@
    "swaminathan2018highly",
    "eid2009realtime"
   ],
-  "label": "Protein sequencing chip"
+  "label": "Protein sequencing chip",
+  "gx": -952.4,
+  "gy": -124.3
  },
  {
   "id": "tabulasapiens2022tabula",
@@ -13090,7 +14542,9 @@
    "tabulamuris2018singlecell",
    "regev2017human"
   ],
-  "label": "Tabula Sapiens"
+  "label": "Tabula Sapiens",
+  "gx": -801.7,
+  "gy": -529.0
  },
  {
   "id": "nurk2022complete",
@@ -13110,7 +14564,9 @@
    "ihgsc2004finishing"
   ],
   "doi": "10.1126/science.abj6987",
-  "label": "T2T human genome"
+  "label": "T2T human genome",
+  "gx": -933.4,
+  "gy": -226.5
  },
  {
   "id": "li2022blip",
@@ -13129,7 +14585,9 @@
    "dosovitskiy2021image",
    "devlin2019bert"
   ],
-  "arxiv": "2201.12086"
+  "arxiv": "2201.12086",
+  "gx": 960.1,
+  "gy": -26.6
  },
  {
   "id": "wei2022chain",
@@ -13148,7 +14606,9 @@
    "chowdhery2022palm"
   ],
   "arxiv": "2201.11903",
-  "label": "Chain-of-Thought"
+  "label": "Chain-of-Thought",
+  "gx": 953.9,
+  "gy": -112.2
  },
  {
   "id": "bai2022constitutional",
@@ -13168,7 +14628,9 @@
    "bai2022training"
   ],
   "arxiv": "2212.08073",
-  "label": "Constitutional AI"
+  "label": "Constitutional AI",
+  "gx": 947.8,
+  "gy": -155.6
  },
  {
   "id": "wei2022finetuned",
@@ -13187,7 +14649,9 @@
    "raffel2020exploring"
   ],
   "arxiv": "2109.01652",
-  "label": "FLAN"
+  "label": "FLAN",
+  "gx": 844.4,
+  "gy": -457.7
  },
  {
   "id": "alayrac2022flamingo",
@@ -13207,7 +14671,9 @@
    "hoffmann2022training"
   ],
   "arxiv": "2204.14198",
-  "label": "Flamingo"
+  "label": "Flamingo",
+  "gx": 828.0,
+  "gy": -486.7
  },
  {
   "id": "borgeaud2022improving",
@@ -13226,7 +14692,9 @@
    "brown2020language"
   ],
   "arxiv": "2112.04426",
-  "label": "RETRO"
+  "label": "RETRO",
+  "gx": 950.6,
+  "gy": -137.0
  },
  {
   "id": "openai2022chatgpt",
@@ -13244,7 +14712,9 @@
    "ouyang2022training",
    "brown2020language"
   ],
-  "label": "ChatGPT"
+  "label": "ChatGPT",
+  "gx": 862.0,
+  "gy": -423.6
  },
  {
   "id": "hu2022lora",
@@ -13263,7 +14733,9 @@
    "devlin2019bert"
   ],
   "arxiv": "2106.09685",
-  "label": "LoRA"
+  "label": "LoRA",
+  "gx": 933.6,
+  "gy": -225.8
  },
  {
   "id": "sanh2022multitask",
@@ -13281,7 +14753,9 @@
    "raffel2020exploring",
    "wei2022finetuned"
   ],
-  "arxiv": "2110.08207"
+  "arxiv": "2110.08207",
+  "gx": 960.5,
+  "gy": -6.2
  },
  {
   "id": "chowdhery2022palm",
@@ -13300,7 +14774,9 @@
    "kaplan2020scaling"
   ],
   "arxiv": "2204.02311",
-  "label": "PaLM"
+  "label": "PaLM",
+  "gx": 960.4,
+  "gy": 12.4
  },
  {
   "id": "chung2022scaling",
@@ -13320,7 +14796,9 @@
    "wei2022chain"
   ],
   "arxiv": "2210.11416",
-  "label": "Flan-T5 / Flan-PaLM"
+  "label": "Flan-T5 / Flan-PaLM",
+  "gx": 942.2,
+  "gy": -186.4
  },
  {
   "id": "ouyang2022training",
@@ -13340,7 +14818,9 @@
    "schulman2017proximal"
   ],
   "arxiv": "2203.02155",
-  "label": "InstructGPT"
+  "label": "InstructGPT",
+  "gx": 927.0,
+  "gy": -251.5
  },
  {
   "id": "reed2022generalist",
@@ -13359,7 +14839,9 @@
    "vaswani2017attention"
   ],
   "arxiv": "2205.06175",
-  "label": "Gato"
+  "label": "Gato",
+  "gx": 201.3,
+  "gy": 939.2
  },
  {
   "id": "kostrikov2022offline",
@@ -13378,7 +14860,9 @@
    "fujimoto2019offpolicy"
   ],
   "arxiv": "2110.06169",
-  "label": "IQL"
+  "label": "IQL",
+  "gx": 561.4,
+  "gy": 779.3
  },
  {
   "id": "zelikman2022star",
@@ -13395,7 +14879,9 @@
   "builds_on": [
    "wei2022chain",
    "williams1992simple"
-  ]
+  ],
+  "gx": 262.2,
+  "gy": 924.0
  },
  {
   "id": "bai2022training",
@@ -13414,7 +14900,9 @@
    "christiano2017deep"
   ],
   "arxiv": "2204.05862",
-  "label": "HH-RLHF assistant"
+  "label": "HH-RLHF assistant",
+  "gx": 543.2,
+  "gy": 792.1
  },
  {
   "id": "mackensen2022anticd19",
@@ -13433,7 +14921,9 @@
    "maude2014chimeric"
   ],
   "doi": "10.1038/s41591-022-02017-5",
-  "label": "CAR-T for lupus"
+  "label": "CAR-T for lupus",
+  "gx": -830.8,
+  "gy": 482.0
  },
  {
   "id": "majzner2022gd2car",
@@ -13451,7 +14941,9 @@
    "maude2014chimeric"
   ],
   "doi": "10.1038/s41586-022-04489-4",
-  "label": "GD2 CAR-T glioma"
+  "label": "GD2 CAR-T glioma",
+  "gx": -897.1,
+  "gy": 343.1
  },
  {
   "id": "modi2022trastuzumab",
@@ -13469,7 +14961,9 @@
    "verma2012trastuzumab"
   ],
   "doi": "10.1056/NEJMoa2203690",
-  "label": "T-DXd HER2-low"
+  "label": "T-DXd HER2-low",
+  "gx": -928.8,
+  "gy": 244.6
  },
  {
   "id": "watson2023novo",
@@ -13489,7 +14983,9 @@
    "ho2020denoising"
   ],
   "doi": "10.1038/s41586-023-06415-8",
-  "label": "RFdiffusion"
+  "label": "RFdiffusion",
+  "gx": -449.9,
+  "gy": -879.5
  },
  {
   "id": "corso2023diffdock",
@@ -13507,7 +15003,9 @@
    "trott2010autodock",
    "song2021scorebased"
   ],
-  "label": "DiffDock"
+  "label": "DiffDock",
+  "gx": -588.8,
+  "gy": -793.2
  },
  {
   "id": "lin2023evolutionary",
@@ -13527,7 +15025,9 @@
    "kaplan2020scaling"
   ],
   "doi": "10.1126/science.ade2574",
-  "label": "ESMFold"
+  "label": "ESMFold",
+  "gx": -297.1,
+  "gy": -942.1
  },
  {
   "id": "ingraham2023illuminating",
@@ -13546,7 +15046,9 @@
    "dauparas2022robust"
   ],
   "doi": "10.1038/s41586-023-06728-8",
-  "label": "Chroma"
+  "label": "Chroma",
+  "gx": -196.0,
+  "gy": -968.2
  },
  {
   "id": "madani2023large",
@@ -13564,7 +15066,9 @@
    "radford2019language",
    "rives2021biological"
   ],
-  "label": "ProGen"
+  "label": "ProGen",
+  "gx": -475.0,
+  "gy": -866.2
  },
  {
   "id": "kerbl20233d",
@@ -13583,7 +15087,9 @@
    "schonberger2016structure"
   ],
   "arxiv": "2308.04079",
-  "label": "3D Gaussian Splatting"
+  "label": "3D Gaussian Splatting",
+  "gx": 941.3,
+  "gy": 299.8
  },
  {
   "id": "zhang2023adding",
@@ -13602,7 +15108,9 @@
    "canny1986computational"
   ],
   "arxiv": "2302.05543",
-  "label": "ControlNet"
+  "label": "ControlNet",
+  "gx": 891.3,
+  "gy": 426.0
  },
  {
   "id": "poole2023dreamfusion",
@@ -13621,7 +15129,9 @@
    "saharia2022photorealistic"
   ],
   "arxiv": "2209.14988",
-  "label": "DreamFusion"
+  "label": "DreamFusion",
+  "gx": 796.6,
+  "gy": 584.2
  },
  {
   "id": "kirillov2023segment",
@@ -13641,7 +15151,9 @@
    "cheng2022maskedattention"
   ],
   "arxiv": "2304.02643",
-  "label": "Segment Anything"
+  "label": "Segment Anything",
+  "gx": 905.6,
+  "gy": 394.7
  },
  {
   "id": "schaeffer2023emergent",
@@ -13658,7 +15170,9 @@
   "builds_on": [
    "wei2022emergent"
   ],
-  "arxiv": "2304.15004"
+  "arxiv": "2304.15004",
+  "gx": -19.1,
+  "gy": -987.7
  },
  {
   "id": "song2023consistency",
@@ -13677,7 +15191,9 @@
    "ho2020denoising"
   ],
   "arxiv": "2303.01469",
-  "label": "Consistency Models"
+  "label": "Consistency Models",
+  "gx": 260.6,
+  "gy": -952.9
  },
  {
   "id": "lipman2023flow",
@@ -13696,7 +15212,9 @@
    "song2021scorebased"
   ],
   "arxiv": "2210.02747",
-  "label": "Flow Matching"
+  "label": "Flow Matching",
+  "gx": 470.7,
+  "gy": -868.5
  },
  {
   "id": "lam2023learning",
@@ -13713,7 +15231,9 @@
   "builds_on": [
    "gilmer2017neural",
    "bronstein2021geometric"
-  ]
+  ],
+  "gx": 306.6,
+  "gy": -939.1
  },
  {
   "id": "gu2023mamba",
@@ -13732,7 +15252,9 @@
    "dao2022flashattention"
   ],
   "arxiv": "2312.00752",
-  "label": "Mamba"
+  "label": "Mamba",
+  "gx": 342.1,
+  "gy": -926.7
  },
  {
   "id": "peebles2023scalable",
@@ -13753,7 +15275,9 @@
    "dosovitskiy2021image"
   ],
   "arxiv": "2212.09748",
-  "label": "DiT"
+  "label": "DiT",
+  "gx": 679.5,
+  "gy": -717.1
  },
  {
   "id": "bricken2023towards",
@@ -13770,7 +15294,9 @@
   "builds_on": [
    "elhage2022toy"
   ],
-  "label": "Towards Monosemanticity"
+  "label": "Towards Monosemanticity",
+  "gx": 11.5,
+  "gy": -987.8
  },
  {
   "id": "liao2023draft",
@@ -13789,7 +15315,9 @@
    "cheng2021haplotype",
    "thousandgenomes2015global"
   ],
-  "label": "Human Pangenome"
+  "label": "Human Pangenome",
+  "gx": -986.2,
+  "gy": -57.3
  },
  {
   "id": "cheng2023accurate",
@@ -13808,7 +15336,9 @@
    "karczewski2020mutational",
    "riesselman2018deep"
   ],
-  "label": "AlphaMissense"
+  "label": "AlphaMissense",
+  "gx": -848.4,
+  "gy": -506.1
  },
  {
   "id": "sun2023plasma",
@@ -13827,7 +15357,9 @@
    "assarsson2014homogenous",
    "bycroft2018uk"
   ],
-  "label": "UKB plasma proteomics"
+  "label": "UKB plasma proteomics",
+  "gx": -987.4,
+  "gy": -29.2
  },
  {
   "id": "theodoris2023transfer",
@@ -13846,7 +15378,9 @@
    "devlin2019bert",
    "wolf2018scanpy"
   ],
-  "label": "Geneformer"
+  "label": "Geneformer",
+  "gx": -805.3,
+  "gy": -572.1
  },
  {
   "id": "fda2023casgevy",
@@ -13864,7 +15398,9 @@
    "frangoul2021crispr",
    "jinek2012programmable"
   ],
-  "label": "Casgevy"
+  "label": "Casgevy",
+  "gx": -363.9,
+  "gy": 918.4
  },
  {
   "id": "li2023blip2",
@@ -13883,7 +15419,9 @@
    "alayrac2022flamingo"
   ],
   "arxiv": "2301.12597",
-  "label": "BLIP-2"
+  "label": "BLIP-2",
+  "gx": 904.1,
+  "gy": -398.2
  },
  {
   "id": "rafailov2023direct",
@@ -13902,7 +15440,9 @@
    "stiennon2020learning"
   ],
   "arxiv": "2305.18290",
-  "label": "DPO"
+  "label": "DPO",
+  "gx": 751.5,
+  "gy": -641.1
  },
  {
   "id": "leviathan2023fast",
@@ -13921,7 +15461,9 @@
    "raffel2020exploring"
   ],
   "arxiv": "2211.17192",
-  "label": "Speculative decoding"
+  "label": "Speculative decoding",
+  "gx": 937.7,
+  "gy": -310.8
  },
  {
   "id": "openai2023gpt4",
@@ -13940,7 +15482,9 @@
    "ouyang2022training"
   ],
   "arxiv": "2303.08774",
-  "label": "GPT-4"
+  "label": "GPT-4",
+  "gx": 829.4,
+  "gy": -536.6
  },
  {
   "id": "openai2023gpt4vision",
@@ -13957,7 +15501,9 @@
   "builds_on": [
    "openai2023gpt4"
   ],
-  "label": "GPT-4V"
+  "label": "GPT-4V",
+  "gx": 763.0,
+  "gy": -627.4
  },
  {
   "id": "frantar2023gptq",
@@ -13975,7 +15521,9 @@
    "brown2020language"
   ],
   "arxiv": "2210.17323",
-  "label": "GPTQ"
+  "label": "GPTQ",
+  "gx": 813.7,
+  "gy": -560.2
  },
  {
   "id": "geminiteam2023gemini",
@@ -13994,7 +15542,9 @@
    "alayrac2022flamingo"
   ],
   "arxiv": "2312.11805",
-  "label": "Gemini"
+  "label": "Gemini",
+  "gx": 967.4,
+  "gy": -200.1
  },
  {
   "id": "liang2023holistic",
@@ -14013,7 +15563,9 @@
    "wang2019superglue"
   ],
   "arxiv": "2211.09110",
-  "label": "HELM"
+  "label": "HELM",
+  "gx": 945.8,
+  "gy": -285.3
  },
  {
   "id": "zheng2023judging",
@@ -14032,7 +15584,9 @@
    "ouyang2022training"
   ],
   "arxiv": "2306.05685",
-  "label": "LLM-as-a-Judge"
+  "label": "LLM-as-a-Judge",
+  "gx": 928.8,
+  "gy": -336.3
  },
  {
   "id": "touvron2023llama",
@@ -14052,7 +15606,9 @@
    "su2021roformer"
   ],
   "arxiv": "2302.13971",
-  "label": "LLaMA"
+  "label": "LLaMA",
+  "gx": 918.4,
+  "gy": -363.8
  },
  {
   "id": "touvron2023llama2",
@@ -14071,7 +15627,9 @@
    "ouyang2022training"
   ],
   "arxiv": "2307.09288",
-  "label": "Llama 2"
+  "label": "Llama 2",
+  "gx": 735.7,
+  "gy": -659.3
  },
  {
   "id": "jiang2023mistral",
@@ -14089,7 +15647,9 @@
    "touvron2023llama2"
   ],
   "arxiv": "2310.06825",
-  "label": "Mistral 7B"
+  "label": "Mistral 7B",
+  "gx": 987.4,
+  "gy": -29.3
  },
  {
   "id": "dettmers2023qlora",
@@ -14109,7 +15669,9 @@
    "touvron2023llama"
   ],
   "arxiv": "2305.14314",
-  "label": "QLoRA"
+  "label": "QLoRA",
+  "gx": 711.8,
+  "gy": -685.0
  },
  {
   "id": "bai2023qwen",
@@ -14126,7 +15688,9 @@
   "builds_on": [
    "touvron2023llama"
   ],
-  "arxiv": "2309.16609"
+  "arxiv": "2309.16609",
+  "gx": 842.0,
+  "gy": -516.6
  },
  {
   "id": "yao2023react",
@@ -14145,7 +15709,9 @@
    "nakano2021webgpt"
   ],
   "arxiv": "2210.03629",
-  "label": "ReAct"
+  "label": "ReAct",
+  "gx": 985.9,
+  "gy": -62.1
  },
  {
   "id": "wang2023selfconsistency",
@@ -14163,7 +15729,9 @@
    "wei2022chain"
   ],
   "arxiv": "2203.11171",
-  "label": "Self-Consistency"
+  "label": "Self-Consistency",
+  "gx": 782.3,
+  "gy": -603.3
  },
  {
   "id": "wang2023selfinstruct",
@@ -14182,7 +15750,9 @@
    "brown2020language"
   ],
   "arxiv": "2212.10560",
-  "label": "Self-Instruct"
+  "label": "Self-Instruct",
+  "gx": 800.0,
+  "gy": -579.5
  },
  {
   "id": "schick2023toolformer",
@@ -14201,7 +15771,9 @@
    "yao2023react"
   ],
   "arxiv": "2302.04761",
-  "label": "Toolformer"
+  "label": "Toolformer",
+  "gx": 981.6,
+  "gy": -110.6
  },
  {
   "id": "yao2023tree",
@@ -14220,7 +15792,9 @@
    "wang2023selfconsistency"
   ],
   "arxiv": "2305.10601",
-  "label": "Tree of Thoughts"
+  "label": "Tree of Thoughts",
+  "gx": 984.5,
+  "gy": -81.4
  },
  {
   "id": "liu2023visual",
@@ -14240,7 +15814,9 @@
    "li2023blip2"
   ],
   "arxiv": "2304.08485",
-  "label": "LLaVA"
+  "label": "LLaVA",
+  "gx": 884.4,
+  "gy": -440.2
  },
  {
   "id": "kaufmann2023champion",
@@ -14258,7 +15834,9 @@
    "schulman2017proximal",
    "tobin2017domain"
   ],
-  "label": "Swift drone racing"
+  "label": "Swift drone racing",
+  "gx": 5.4,
+  "gy": 987.8
  },
  {
   "id": "chi2023diffusion",
@@ -14277,7 +15855,9 @@
    "pomerleau1989alvinn"
   ],
   "arxiv": "2303.04137",
-  "label": "Diffusion Policy"
+  "label": "Diffusion Policy",
+  "gx": 404.4,
+  "gy": 901.3
  },
  {
   "id": "hafner2023mastering",
@@ -14295,7 +15875,9 @@
    "hafner2021mastering"
   ],
   "arxiv": "2301.04104",
-  "label": "DreamerV3"
+  "label": "DreamerV3",
+  "gx": 39.0,
+  "gy": 987.1
  },
  {
   "id": "brohan2023rt1",
@@ -14315,7 +15897,9 @@
    "kalashnikov2018qtopt"
   ],
   "arxiv": "2212.06817",
-  "label": "RT-1"
+  "label": "RT-1",
+  "gx": 339.8,
+  "gy": 927.6
  },
  {
   "id": "brohan2023rt2",
@@ -14334,7 +15918,9 @@
    "radford2021learning"
   ],
   "arxiv": "2307.15818",
-  "label": "RT-2"
+  "label": "RT-2",
+  "gx": 292.9,
+  "gy": 943.4
  },
  {
   "id": "vandyck2023lecanemab",
@@ -14352,7 +15938,9 @@
    "jones1986replacing"
   ],
   "doi": "10.1056/NEJMoa2212948",
-  "label": "Lecanemab"
+  "label": "Lecanemab",
+  "gx": -724.6,
+  "gy": 671.4
  },
  {
   "id": "rojas2023personalized",
@@ -14370,7 +15958,9 @@
    "sahin2017personalized"
   ],
   "doi": "10.1038/s41586-023-06063-y",
-  "label": "Pancreatic mRNA vaccine"
+  "label": "Pancreatic mRNA vaccine",
+  "gx": -764.6,
+  "gy": 625.5
  },
  {
   "id": "papi2023respiratory",
@@ -14388,7 +15978,9 @@
    "mclellan2013structurebased"
   ],
   "doi": "10.1056/NEJMoa2209604",
-  "label": "RSV vaccine (Arexvy)"
+  "label": "RSV vaccine (Arexvy)",
+  "gx": -884.4,
+  "gy": 440.2
  },
  {
   "id": "ren2024smallmolecule",
@@ -14405,7 +15997,9 @@
   "builds_on": [
    "zhavoronkov2019deep"
   ],
-  "label": "AI-designed TNIK drug"
+  "label": "AI-designed TNIK drug",
+  "gx": -370.0,
+  "gy": -946.1
  },
  {
   "id": "abramson2024accurate",
@@ -14425,7 +16019,9 @@
    "ho2020denoising"
   ],
   "doi": "10.1038/s41586-024-07487-w",
-  "label": "AlphaFold 3"
+  "label": "AlphaFold 3",
+  "gx": -441.2,
+  "gy": -915.1
  },
  {
   "id": "wohlwend2024boltz1",
@@ -14442,7 +16038,9 @@
   "builds_on": [
    "abramson2024accurate"
   ],
-  "label": "Boltz-1"
+  "label": "Boltz-1",
+  "gx": -535.3,
+  "gy": -863.4
  },
  {
   "id": "wong2024discovery",
@@ -14459,7 +16057,9 @@
   "builds_on": [
    "stokes2020deep"
   ],
-  "label": "Explainable antibiotics"
+  "label": "Explainable antibiotics",
+  "gx": -405.2,
+  "gy": -931.6
  },
  {
   "id": "krishna2024generalized",
@@ -14478,7 +16078,9 @@
    "watson2023novo"
   ],
   "doi": "10.1126/science.adl2528",
-  "label": "RoseTTAFold All-Atom"
+  "label": "RoseTTAFold All-Atom",
+  "gx": -579.8,
+  "gy": -834.2
  },
  {
   "id": "nobel2024computational",
@@ -14497,7 +16099,9 @@
    "jumper2021highly",
    "watson2023novo"
   ],
-  "label": "Nobel Chem: protein AI"
+  "label": "Nobel Chem: protein AI",
+  "gx": -626.8,
+  "gy": -799.4
  },
  {
   "id": "jiang2024rapid",
@@ -14514,7 +16118,9 @@
   "builds_on": [
    "lin2023evolutionary",
    "chen1993tuning"
-  ]
+  ],
+  "gx": -677.6,
+  "gy": -756.9
  },
  {
   "id": "oquab2024dinov2",
@@ -14533,7 +16139,9 @@
    "he2022masked"
   ],
   "arxiv": "2304.07193",
-  "label": "DINOv2"
+  "label": "DINOv2",
+  "gx": 791.7,
+  "gy": 636.5
  },
  {
   "id": "wang2024dust3r",
@@ -14552,7 +16160,9 @@
    "schonberger2016structure"
   ],
   "arxiv": "2312.14132",
-  "label": "DUSt3R"
+  "label": "DUSt3R",
+  "gx": 949.0,
+  "gy": 362.5
  },
  {
   "id": "yang2024depth",
@@ -14570,7 +16180,9 @@
    "oquab2024dinov2"
   ],
   "arxiv": "2401.10891",
-  "label": "Depth Anything"
+  "label": "Depth Anything",
+  "gx": 826.0,
+  "gy": 591.3
  },
  {
   "id": "liu2024grounding",
@@ -14589,7 +16201,9 @@
    "radford2021learning"
   ],
   "arxiv": "2303.05499",
-  "label": "Grounding DINO"
+  "label": "Grounding DINO",
+  "gx": 976.7,
+  "gy": 279.3
  },
  {
   "id": "ravi2024sam",
@@ -14607,7 +16221,9 @@
    "kirillov2023segment"
   ],
   "arxiv": "2408.00714",
-  "label": "SAM 2"
+  "label": "SAM 2",
+  "gx": 769.1,
+  "gy": 663.7
  },
  {
   "id": "esser2024scaling",
@@ -14626,7 +16242,9 @@
    "rombach2022high"
   ],
   "arxiv": "2403.03206",
-  "label": "Stable Diffusion 3"
+  "label": "Stable Diffusion 3",
+  "gx": 1009.5,
+  "gy": 113.8
  },
  {
   "id": "brooks2024video",
@@ -14645,7 +16263,9 @@
    "ho2022video",
    "dosovitskiy2021image"
   ],
-  "label": "Sora"
+  "label": "Sora",
+  "gx": 736.2,
+  "gy": 700.0
  },
  {
   "id": "tian2024visual",
@@ -14664,7 +16284,9 @@
    "peebles2023scalable"
   ],
   "arxiv": "2404.02905",
-  "label": "VAR"
+  "label": "VAR",
+  "gx": 755.8,
+  "gy": 678.8
  },
  {
   "id": "deepseekai2024deepseekv3",
@@ -14687,7 +16309,9 @@
    "shazeer2017outrageously"
   ],
   "arxiv": "2412.19437",
-  "label": "DeepSeek-V3"
+  "label": "DeepSeek-V3",
+  "gx": 522.7,
+  "gy": -871.1
  },
  {
   "id": "liu2024kan",
@@ -14705,7 +16329,9 @@
    "cybenko1989approximation",
    "hornik1989multilayer"
   ],
-  "arxiv": "2404.19756"
+  "arxiv": "2404.19756",
+  "gx": 581.0,
+  "gy": -833.3
  },
  {
   "id": "jordan2024muon",
@@ -14722,7 +16348,9 @@
   "builds_on": [
    "kingma2015adam",
    "loshchilov2019decoupled"
-  ]
+  ],
+  "gx": 84.6,
+  "gy": -1012.3
  },
  {
   "id": "hopfield2024nobel",
@@ -14740,7 +16368,9 @@
    "hopfield1982neural",
    "ackley1985learning"
   ],
-  "label": "Nobel Physics: ANNs"
+  "label": "Nobel Physics: ANNs",
+  "gx": 546.6,
+  "gy": -856.3
  },
  {
   "id": "snell2024scaling",
@@ -14761,7 +16391,9 @@
    "lightman2024lets"
   ],
   "arxiv": "2408.03314",
-  "label": "Test-time scaling"
+  "label": "Test-time scaling",
+  "gx": 651.1,
+  "gy": -779.8
  },
  {
   "id": "dao2024transformers",
@@ -14779,7 +16411,9 @@
    "gu2023mamba",
    "vaswani2017attention"
   ],
-  "arxiv": "2405.21060"
+  "arxiv": "2405.21060",
+  "gx": 32.8,
+  "gy": -1015.3
  },
  {
   "id": "beck2024xlstm",
@@ -14797,7 +16431,9 @@
    "hochreiter1997long",
    "gu2023mamba"
   ],
-  "arxiv": "2405.04517"
+  "arxiv": "2405.04517",
+  "gx": 59.9,
+  "gy": -1014.1
  },
  {
   "id": "allofus2024genomic",
@@ -14814,7 +16450,9 @@
   "builds_on": [
    "bycroft2018uk",
    "karczewski2020mutational"
-  ]
+  ],
+  "gx": -760.6,
+  "gy": -673.3
  },
  {
   "id": "nguyen2024sequence",
@@ -14834,7 +16472,9 @@
    "rives2021biological",
    "kaplan2020scaling"
   ],
-  "label": "Evo"
+  "label": "Evo",
+  "gx": -782.7,
+  "gy": -647.6
  },
  {
   "id": "arslan2024sequencing",
@@ -14850,7 +16490,9 @@
   "summary": "Element Biosciences avidity sequencing using multivalent dye-labelled polymers, a new high-accuracy short-read chemistry.",
   "builds_on": [
    "bentley2008accurate"
-  ]
+  ],
+  "gx": -962.8,
+  "gy": -323.9
  },
  {
   "id": "guzman2024ultrafast",
@@ -14867,7 +16509,9 @@
   "builds_on": [
    "gillet2012targeted",
    "makarov2000electrostatic"
-  ]
+  ],
+  "gx": -1011.0,
+  "gy": -98.9
  },
  {
   "id": "cui2024scgpt",
@@ -14885,7 +16529,9 @@
    "theodoris2023transfer",
    "radford2018improving"
   ],
-  "label": "scGPT"
+  "label": "scGPT",
+  "gx": -772.3,
+  "gy": -659.9
  },
  {
   "id": "durrant2024bridge",
@@ -14904,7 +16550,9 @@
    "komor2016programmable",
    "jinek2012programmable"
   ],
-  "label": "Bridge RNAs"
+  "label": "Bridge RNAs",
+  "gx": -547.0,
+  "gy": 856.0
  },
  {
   "id": "shao2024deepseekmath",
@@ -14925,7 +16573,9 @@
    "lightman2024lets"
   ],
   "arxiv": "2402.03300",
-  "label": "DeepSeekMath / GRPO"
+  "label": "DeepSeekMath / GRPO",
+  "gx": 1015.8,
+  "gy": 14.0
  },
  {
   "id": "geminiteam2024gemini",
@@ -14944,7 +16594,9 @@
    "su2021roformer"
   ],
   "arxiv": "2403.05530",
-  "label": "Gemini 1.5"
+  "label": "Gemini 1.5",
+  "gx": 1000.0,
+  "gy": -179.1
  },
  {
   "id": "openai2024hello",
@@ -14962,7 +16614,9 @@
    "openai2023gpt4vision",
    "openai2023gpt4"
   ],
-  "label": "GPT-4o"
+  "label": "GPT-4o",
+  "gx": 988.5,
+  "gy": -234.4
  },
  {
   "id": "anthropic2024introducing",
@@ -14980,7 +16634,9 @@
    "anthropic2024claude",
    "yao2023react"
   ],
-  "label": "Claude computer use"
+  "label": "Claude computer use",
+  "gx": 906.9,
+  "gy": -457.8
  },
  {
   "id": "openai2024learning",
@@ -15000,7 +16656,9 @@
    "openai2023gpt4",
    "ouyang2022training"
   ],
-  "label": "OpenAI o1"
+  "label": "OpenAI o1",
+  "gx": 801.7,
+  "gy": -623.9
  },
  {
   "id": "lightman2024lets",
@@ -15020,7 +16678,9 @@
    "stiennon2020learning"
   ],
   "arxiv": "2305.20050",
-  "label": "Process reward models"
+  "label": "Process reward models",
+  "gx": 935.6,
+  "gy": -395.8
  },
  {
   "id": "jiang2024mixtral",
@@ -15039,7 +16699,9 @@
    "fedus2022switch"
   ],
   "arxiv": "2401.04088",
-  "label": "Mixtral"
+  "label": "Mixtral",
+  "gx": 1003.5,
+  "gy": -157.9
  },
  {
   "id": "anthropic2024model",
@@ -15057,7 +16719,9 @@
    "schick2023toolformer",
    "yao2023react"
   ],
-  "label": "Model Context Protocol"
+  "label": "Model Context Protocol",
+  "gx": 888.2,
+  "gy": -493.1
  },
  {
   "id": "yang2024sweagent",
@@ -15076,7 +16740,9 @@
    "yao2023react"
   ],
   "arxiv": "2405.15793",
-  "label": "SWE-agent"
+  "label": "SWE-agent",
+  "gx": 752.1,
+  "gy": -682.9
  },
  {
   "id": "jimenez2024swebench",
@@ -15094,7 +16760,9 @@
    "chen2021evaluating"
   ],
   "arxiv": "2310.06770",
-  "label": "SWE-bench"
+  "label": "SWE-bench",
+  "gx": 726.7,
+  "gy": -709.8
  },
  {
   "id": "anthropic2024claude",
@@ -15112,7 +16780,9 @@
    "bai2022constitutional",
    "ouyang2022training"
   ],
-  "label": "Claude 3"
+  "label": "Claude 3",
+  "gx": 981.3,
+  "gy": -262.8
  },
  {
   "id": "dubey2024llama",
@@ -15130,7 +16800,9 @@
    "touvron2023llama2"
   ],
   "arxiv": "2407.21783",
-  "label": "Llama 3"
+  "label": "Llama 3",
+  "gx": 813.3,
+  "gy": -608.7
  },
  {
   "id": "bruce2024genie",
@@ -15147,7 +16819,9 @@
   "builds_on": [
    "ha2018world",
    "vaswani2017attention"
-  ]
+  ],
+  "gx": 577.3,
+  "gy": 835.9
  },
  {
   "id": "oneill2024open",
@@ -15166,7 +16840,9 @@
    "brohan2023rt2"
   ],
   "arxiv": "2310.08864",
-  "label": "Open X-Embodiment"
+  "label": "Open X-Embodiment",
+  "gx": 100.1,
+  "gy": 1010.9
  },
  {
   "id": "kim2024openvla",
@@ -15185,7 +16861,9 @@
    "oneill2024open",
    "touvron2023llama"
   ],
-  "arxiv": "2406.09246"
+  "arxiv": "2406.09246",
+  "gx": 471.6,
+  "gy": 899.8
  },
  {
   "id": "lambert2024tulu",
@@ -15204,7 +16882,9 @@
    "ouyang2022training",
    "schulman2017proximal"
   ],
-  "arxiv": "2411.15124"
+  "arxiv": "2411.15124",
+  "gx": 666.5,
+  "gy": 766.7
  },
  {
   "id": "black2024pi0",
@@ -15224,7 +16904,9 @@
    "oneill2024open"
   ],
   "arxiv": "2410.24164",
-  "label": "pi0"
+  "label": "pi0",
+  "gx": 170.5,
+  "gy": 1001.5
  },
  {
   "id": "chung2024cellfree",
@@ -15243,7 +16925,9 @@
    "cohen2018detection"
   ],
   "doi": "10.1056/NEJMoa2304714",
-  "label": "cfDNA colorectal test"
+  "label": "cfDNA colorectal test",
+  "gx": -838.8,
+  "gy": 573.0
  },
  {
   "id": "weber2024individualised",
@@ -15261,7 +16945,9 @@
    "sahin2017personalized",
    "hamid2013safety"
   ],
-  "label": "mRNA-4157 melanoma"
+  "label": "mRNA-4157 melanoma",
+  "gx": -972.5,
+  "gy": 293.7
  },
  {
   "id": "datoo2024safety",
@@ -15278,7 +16964,9 @@
   "builds_on": [
    "valenzuela1982synthesis"
   ],
-  "label": "R21 malaria vaccine"
+  "label": "R21 malaria vaccine",
+  "gx": -1000.0,
+  "gy": 178.7
  },
  {
   "id": "brixi2025genome",
@@ -15295,7 +16983,9 @@
   "builds_on": [
    "nguyen2024sequence"
   ],
-  "label": "Evo 2"
+  "label": "Evo 2",
+  "gx": -274.1,
+  "gy": -997.7
  },
  {
   "id": "hayes2025simulating",
@@ -15313,7 +17003,9 @@
    "lin2023evolutionary",
    "rives2021biological"
   ],
-  "label": "ESM3"
+  "label": "ESM3",
+  "gx": -327.2,
+  "gy": -981.6
  },
  {
   "id": "simeoni2025dinov3",
@@ -15330,7 +17022,9 @@
   "builds_on": [
    "oquab2024dinov2"
   ],
-  "label": "DINOv3"
+  "label": "DINOv3",
+  "gx": 901.7,
+  "gy": 507.5
  },
  {
   "id": "wang2025vggt",
@@ -15348,7 +17042,9 @@
    "wang2024dust3r",
    "oquab2024dinov2"
   ],
-  "label": "VGGT"
+  "label": "VGGT",
+  "gx": 870.7,
+  "gy": 559.0
  },
  {
   "id": "geng2025mean",
@@ -15365,7 +17061,9 @@
   "builds_on": [
    "lipman2023flow",
    "song2023consistency"
-  ]
+  ],
+  "gx": 427.5,
+  "gy": -942.3
  },
  {
   "id": "lindsey2025biology",
@@ -15381,7 +17079,9 @@
   "summary": "Used attribution graphs over replacement models to trace internal multi-step reasoning and planning circuits in a production LLM.",
   "builds_on": [
    "bricken2023towards"
-  ]
+  ],
+  "gx": 126.5,
+  "gy": -1027.0
  },
  {
   "id": "lu2025simplifying",
@@ -15397,7 +17097,9 @@
   "summary": "sCM: stabilized continuous-time consistency training and scaled it to billion-parameter models for two-step generation.",
   "builds_on": [
    "song2023consistency"
-  ]
+  ],
+  "gx": 291.5,
+  "gy": -992.8
  },
  {
   "id": "avsec2025alphagenome",
@@ -15414,7 +17116,9 @@
   "builds_on": [
    "avsec2021effective",
    "encode2020expanded"
-  ]
+  ],
+  "gx": -764.1,
+  "gy": -697.7
  },
  {
   "id": "yoo2025complete",
@@ -15431,7 +17135,9 @@
   "builds_on": [
    "nurk2022complete",
    "cheng2021haplotype"
-  ]
+  ],
+  "gx": -961.8,
+  "gy": -381.5
  },
  {
   "id": "ukbiobank2025wholegenome",
@@ -15448,7 +17154,9 @@
   "builds_on": [
    "bycroft2018uk"
   ],
-  "label": "UK Biobank WGS"
+  "label": "UK Biobank WGS",
+  "gx": -1009.1,
+  "gy": -228.8
  },
  {
   "id": "musunuru2025patientspecific",
@@ -15468,7 +17176,9 @@
    "komor2016programmable",
    "musunuru2021vivo"
   ],
-  "label": "Personalized base edit"
+  "label": "Personalized base edit",
+  "gx": -506.9,
+  "gy": 902.0
  },
  {
   "id": "deepseekai2025deepseekr1",
@@ -15488,7 +17198,9 @@
    "openai2024learning"
   ],
   "arxiv": "2501.12948",
-  "label": "DeepSeek-R1"
+  "label": "DeepSeek-R1",
+  "gx": 890.7,
+  "gy": -526.6
  },
  {
   "id": "comanici2025gemini",
@@ -15505,7 +17217,9 @@
   "builds_on": [
    "geminiteam2024gemini",
    "openai2024learning"
-  ]
+  ],
+  "gx": 1033.0,
+  "gy": -60.3
  },
  {
   "id": "anthropic2025introducing",
@@ -15523,7 +17237,9 @@
    "anthropic2024introducing",
    "jimenez2024swebench"
   ],
-  "label": "Claude 4"
+  "label": "Claude 4",
+  "gx": 966.2,
+  "gy": -370.3
  },
  {
   "id": "openai2025gpt5",
@@ -15541,7 +17257,9 @@
    "openai2023gpt4",
    "openai2024learning"
   ],
-  "label": "GPT-5"
+  "label": "GPT-5",
+  "gx": 931.1,
+  "gy": -451.2
  },
  {
   "id": "yang2025qwen3",
@@ -15558,7 +17276,9 @@
   "builds_on": [
    "bai2023qwen",
    "deepseekai2025deepseekr1"
-  ]
+  ],
+  "gx": 985.8,
+  "gy": -314.3
  },
  {
   "id": "yue2025does",
@@ -15575,7 +17295,9 @@
   "builds_on": [
    "deepseekai2025deepseekr1",
    "shao2024deepseekmath"
-  ]
+  ],
+  "gx": 561.2,
+  "gy": 869.3
  },
  {
   "id": "tabar2025phase",
@@ -15592,7 +17314,9 @@
   "builds_on": [
    "thomson1998embryonic"
   ],
-  "label": "hESC Parkinson's neurons"
+  "label": "hESC Parkinson's neurons",
+  "gx": -807.1,
+  "gy": 647.5
  },
  {
   "id": "reichman2025stem",
@@ -15610,6 +17334,8 @@
    "pagliuca2014generation",
    "shapiro2000islet"
   ],
-  "label": "Stem cell islets (T1D)"
+  "label": "Stem cell islets (T1D)",
+  "gx": -954.7,
+  "gy": 398.9
  }
 ]
