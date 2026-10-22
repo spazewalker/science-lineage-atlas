@@ -1,0 +1,77 @@
+{
+ "log": [
+  "DUP cho2014learning (nlp) merged into Deep Learning Foundations",
+  "DUP shoeybi2019megatron (nlp) merged into Deep Learning Foundations",
+  "DUP fedus2022switch (nlp) merged into Deep Learning Foundations",
+  "DUP deepseekai2024deepseekv3 (nlp) merged into Deep Learning Foundations",
+  "DUP snell2024scaling (nlp) merged into Deep Learning Foundations",
+  "DUP fukushima1980neocognitron (cv) merged into Deep Learning Foundations",
+  "DUP radford2016unsupervised (cv) merged into Deep Learning Foundations",
+  "DUP dhariwal2021diffusion (cv) merged into Deep Learning Foundations",
+  "DUP peebles2023scalable (cv) merged into Deep Learning Foundations",
+  "DUP ziegler2019finetuning (rl) merged into Natural Language Processing",
+  "DUP stiennon2020learning (rl) merged into Natural Language Processing",
+  "DUP bai2022constitutional (rl) merged into Natural Language Processing",
+  "DUP lightman2024lets (rl) merged into Natural Language Processing",
+  "DUP shao2024deepseekmath (rl) merged into Natural Language Processing",
+  "DUP openai2024learning (rl) merged into Natural Language Processing",
+  "DUP shalem2014genomescale (genomics) merged into Molecular Biology & Genetic Engineering",
+  "DUP itakura1977expression (thera) merged into Molecular Biology & Genetic Engineering",
+  "DUP mccafferty1990phage (thera) merged into Molecular Biology & Genetic Engineering",
+  "DUP fda2023casgevy (thera) merged into Molecular Biology & Genetic Engineering",
+  "DUP musunuru2025patientspecific (thera) merged into Molecular Biology & Genetic Engineering",
+  "DUP lo1997presence (thera) merged into Genomics & Sequencing",
+  "DUP chiu2008noninvasive (thera) merged into Genomics & Sequencing",
+  "DUP gootenberg2017nucleic (thera) merged into Molecular Biology & Genetic Engineering",
+  "DUP li2009fast (compstruct) merged into Genomics & Sequencing",
+  "DUP mckenna2010genome (compstruct) merged into Genomics & Sequencing",
+  "DUP satija2015spatial (compstruct) merged into Genomics & Sequencing",
+  "DUP smith1985filamentous (compstruct) merged into Molecular Biology & Genetic Engineering",
+  "DUP chen1993tuning (compstruct) merged into Molecular Biology & Genetic Engineering",
+  "DUP avsec2021effective (compstruct) merged into Genomics & Sequencing",
+  "DUP theodoris2023transfer (compstruct) merged into Genomics & Sequencing",
+  "DUP cheng2023accurate (compstruct) merged into Genomics & Sequencing",
+  "DUP cui2024scgpt (compstruct) merged into Genomics & Sequencing",
+  "DUP nguyen2024sequence (compstruct) merged into Genomics & Sequencing",
+  "TITLE-DUP oord2017neural -> vandenoord2017neural",
+  "TITLE-DUP frangoul2021crisprcas9 -> frangoul2021crispr",
+  "TITLE-DUP gillmore2021crisprcas9 -> gillmore2021crispr"
+ ],
+ "remapped": [],
+ "dropped": [],
+ "future": [
+  [
+   "krizhevsky2012imagenet",
+   "srivastava2014dropout"
+  ],
+  [
+   "thomas1987sitedirected",
+   "thomson1998embryonic"
+  ],
+  [
+   "sheehy1988reduction",
+   "fire1998potent"
+  ],
+  [
+   "ye2000engineering",
+   "ro2006production"
+  ],
+  [
+   "jones1992new",
+   "berman2000protein"
+  ],
+  [
+   "simons1997assembly",
+   "berman2000protein"
+  ]
+ ],
+ "isolated": [
+  "papanicolaou1943diagnosis",
+  "karas1988laser",
+  "tanaka1988protein",
+  "fodor1991lightdirected",
+  "sato2009single",
+  "soomro2012ucf101"
+ ],
+ "bad_subfields": []
+}

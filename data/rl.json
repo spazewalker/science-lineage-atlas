@@ -1,0 +1,1933 @@
+[
+ {
+  "id": "thorndike1898animal",
+  "title": "Animal Intelligence: An Experimental Study of the Associative Processes in Animals",
+  "authors": "Thorndike EL",
+  "year": 1898,
+  "venue": "Psychological Review Monograph Supplements 2(4)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Puzzle-box experiments with cats that led to the 'law of effect': actions followed by satisfying outcomes become more likely. This is the psychological root of trial-and-error reinforcement learning.",
+  "builds_on": []
+ },
+ {
+  "id": "bellman1957dynamic",
+  "title": "Dynamic Programming",
+  "authors": "Bellman R",
+  "year": 1957,
+  "venue": "Princeton University Press",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "book",
+  "importance": 3,
+  "summary": "Introduced dynamic programming, the principle of optimality and the Bellman equation for sequential decision problems. Value functions and Bellman backups underlie nearly every RL algorithm.",
+  "builds_on": []
+ },
+ {
+  "id": "howard1960dynamic",
+  "title": "Dynamic Programming and Markov Processes",
+  "authors": "Howard RA",
+  "year": 1960,
+  "venue": "MIT Press",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "book",
+  "importance": 2,
+  "summary": "Formalized Markov decision processes and introduced policy iteration, alternating policy evaluation and greedy improvement. Policy iteration is the template for generalized policy iteration in RL.",
+  "builds_on": [
+   "bellman1957dynamic"
+  ]
+ },
+ {
+  "id": "michie1968boxes",
+  "title": "BOXES: An Experiment in Adaptive Control",
+  "authors": "Michie D, Chambers RA",
+  "year": 1968,
+  "venue": "Machine Intelligence 2:137-152",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Learned to balance a pole on a cart by partitioning the state space into 'boxes', each with its own learned action, using only failure signals. An early demonstration of RL for control and the benchmark later used by actor-critic work.",
+  "builds_on": [
+   "michie1963experiments"
+  ]
+ },
+ {
+  "id": "sutton1988learning",
+  "title": "Learning to Predict by the Methods of Temporal Differences",
+  "authors": "Sutton RS",
+  "year": 1988,
+  "venue": "Machine Learning 3(1):9-44",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Formalized temporal-difference (TD) learning, which updates predictions from the difference between successive estimates instead of waiting for final outcomes. It introduced TD(lambda), proved convergence results, and became a core mechanism of RL.",
+  "builds_on": [
+   "samuel1959some",
+   "barto1983neuronlike",
+   "bellman1957dynamic"
+  ],
+  "doi": "10.1007/BF00115009"
+ },
+ {
+  "id": "watkins1992qlearning",
+  "title": "Q-learning",
+  "authors": "Watkins CJCH, Dayan P",
+  "year": 1992,
+  "venue": "Machine Learning 8(3-4):279-292",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Proved convergence of Q-learning, the off-policy TD control algorithm from Watkins' 1989 thesis that learns optimal action values regardless of the behavior policy. Q-learning is the basis of DQN and most value-based RL.",
+  "builds_on": [
+   "sutton1988learning",
+   "howard1960dynamic",
+   "bellman1957dynamic"
+  ],
+  "doi": "10.1007/BF00992698"
+ },
+ {
+  "id": "rummery1994online",
+  "title": "On-Line Q-Learning Using Connectionist Systems",
+  "authors": "Rummery GA, Niranjan M",
+  "year": 1994,
+  "venue": "Technical Report CUED/F-INFENG/TR 166, Cambridge University Engineering Department",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Introduced the on-policy TD control algorithm later named SARSA, which updates toward the value of the action actually taken next. It became the standard on-policy counterpart to Q-learning.",
+  "builds_on": [
+   "watkins1992qlearning",
+   "sutton1988learning"
+  ]
+ },
+ {
+  "id": "bertsekas1996neurodynamic",
+  "title": "Neuro-Dynamic Programming",
+  "authors": "Bertsekas DP, Tsitsiklis JN",
+  "year": 1996,
+  "venue": "Athena Scientific",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "book",
+  "importance": 2,
+  "summary": "Rigorous treatment of approximate dynamic programming and RL with function approximation. It put TD learning and Q-learning on solid theoretical ground.",
+  "builds_on": [
+   "bellman1957dynamic",
+   "sutton1988learning",
+   "watkins1992qlearning"
+  ]
+ },
+ {
+  "id": "sutton1998reinforcement",
+  "title": "Reinforcement Learning: An Introduction",
+  "authors": "Sutton RS, Barto AG",
+  "year": 1998,
+  "venue": "MIT Press (2nd edition 2018)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "book",
+  "importance": 3,
+  "summary": "The standard textbook that unified dynamic programming, Monte Carlo and TD methods into a single framework. It defined the field's vocabulary and trained generations of researchers.",
+  "builds_on": [
+   "sutton1988learning",
+   "watkins1992qlearning",
+   "barto1983neuronlike",
+   "williams1992simple"
+  ]
+ },
+ {
+  "id": "brockman2016openai",
+  "title": "OpenAI Gym",
+  "authors": "Brockman G, Cheung V, Pettersson L, Schneider J, Schulman J, Tang J, et al.",
+  "year": 2016,
+  "venue": "arXiv 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Foundations & classical RL",
+  "type": "software",
+  "importance": 2,
+  "summary": "A toolkit with a common interface to many RL environments, from classic control to Atari and MuJoCo. It became the de facto standard API for benchmarking RL algorithms.",
+  "builds_on": [
+   "bellemare2013arcade"
+  ],
+  "arxiv": "1606.01540"
+ },
+ {
+  "id": "ernst2005treebased",
+  "title": "Tree-Based Batch Mode Reinforcement Learning",
+  "authors": "Ernst D, Geurts P, Wehenkel L",
+  "year": 2005,
+  "venue": "Journal of Machine Learning Research 6:503-556",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced fitted Q iteration, which repeatedly fits a regressor (tree ensembles) to Bellman targets computed from a fixed batch of transitions. A foundation of batch and offline RL.",
+  "builds_on": [
+   "watkins1992qlearning",
+   "bertsekas1996neurodynamic"
+  ]
+ },
+ {
+  "id": "riedmiller2005neural",
+  "title": "Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method",
+  "authors": "Riedmiller M",
+  "year": 2005,
+  "venue": "ECML 2005, LNCS 3720:317-328",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Used a multilayer perceptron as the regressor in fitted Q iteration, retraining it on all stored transitions. A direct precursor of DQN's experience replay and neural Q-learning.",
+  "builds_on": [
+   "ernst2005treebased",
+   "watkins1992qlearning",
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "vanhasselt2010double",
+  "title": "Double Q-learning",
+  "authors": "van Hasselt H",
+  "year": 2010,
+  "venue": "NIPS 2010 (Advances in Neural Information Processing Systems 23)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Showed that Q-learning overestimates action values because it uses the same estimates to select and evaluate actions, and fixed this with two decoupled estimators. The idea was later carried into Double DQN and TD3.",
+  "builds_on": [
+   "watkins1992qlearning"
+  ]
+ },
+ {
+  "id": "bellemare2013arcade",
+  "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+  "authors": "Bellemare MG, Naddaf Y, Veness J, Bowling M",
+  "year": 2013,
+  "venue": "Journal of Artificial Intelligence Research 47:253-279",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "software",
+  "importance": 2,
+  "summary": "A platform exposing dozens of Atari 2600 games as RL environments with a common interface. It became the main benchmark for deep RL from DQN to Agent57.",
+  "builds_on": [
+   "sutton1998reinforcement"
+  ]
+ },
+ {
+  "id": "mnih2013playing",
+  "title": "Playing Atari with Deep Reinforcement Learning",
+  "authors": "Mnih V, Kavukcuoglu K, Silver D, Graves A, Antonoglou I, Wierstra D, et al.",
+  "year": 2013,
+  "venue": "NIPS Deep Learning Workshop 2013",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First deep Q-network: a convolutional network trained with Q-learning and experience replay to play Atari games directly from pixels. It launched the deep RL era.",
+  "builds_on": [
+   "riedmiller2005neural",
+   "watkins1992qlearning",
+   "krizhevsky2012imagenet",
+   "bellemare2013arcade"
+  ],
+  "arxiv": "1312.5602"
+ },
+ {
+  "id": "mnih2015human",
+  "title": "Human-level control through deep reinforcement learning",
+  "authors": "Mnih V, Kavukcuoglu K, Silver D, Rusu AA, Veness J, Bellemare MG, et al.",
+  "year": 2015,
+  "venue": "Nature 518(7540):529-533",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "DQN with experience replay and a target network reached human-level performance on many of 49 Atari games using a single architecture and hyperparameters. It was the landmark demonstration that deep networks and RL could be combined stably.",
+  "builds_on": [
+   "mnih2013playing",
+   "watkins1992qlearning",
+   "bellemare2013arcade"
+  ],
+  "doi": "10.1038/nature14236"
+ },
+ {
+  "id": "vanhasselt2016deep",
+  "title": "Deep Reinforcement Learning with Double Q-learning",
+  "authors": "van Hasselt H, Guez A, Silver D",
+  "year": 2016,
+  "venue": "AAAI 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Double DQN uses the online network to select actions and the target network to evaluate them, reducing DQN's overestimation bias and improving Atari scores.",
+  "builds_on": [
+   "mnih2015human",
+   "vanhasselt2010double"
+  ],
+  "arxiv": "1509.06461"
+ },
+ {
+  "id": "schaul2016prioritized",
+  "title": "Prioritized Experience Replay",
+  "authors": "Schaul T, Quan J, Antonoglou I, Silver D",
+  "year": 2016,
+  "venue": "ICLR 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Replays transitions in proportion to their TD error, with importance-sampling corrections, so the agent learns more from surprising experience. A standard component of later value-based agents.",
+  "builds_on": [
+   "mnih2015human"
+  ],
+  "arxiv": "1511.05952"
+ },
+ {
+  "id": "wang2016dueling",
+  "title": "Dueling Network Architectures for Deep Reinforcement Learning",
+  "authors": "Wang Z, Schaul T, Hessel M, van Hasselt H, Lanctot M, de Freitas N",
+  "year": 2016,
+  "venue": "ICML 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Splits the Q-network into separate state-value and advantage streams that are combined into Q-values. This lets the agent learn which states matter without having to evaluate every action.",
+  "builds_on": [
+   "mnih2015human",
+   "vanhasselt2016deep"
+  ],
+  "arxiv": "1511.06581"
+ },
+ {
+  "id": "bellemare2017distributional",
+  "title": "A Distributional Perspective on Reinforcement Learning",
+  "authors": "Bellemare MG, Dabney W, Munos R",
+  "year": 2017,
+  "venue": "ICML 2017",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Learns the full distribution of returns instead of only its mean, introducing the categorical C51 algorithm. Distributional RL improved performance and opened a new line of research.",
+  "builds_on": [
+   "mnih2015human",
+   "bellman1957dynamic"
+  ],
+  "arxiv": "1707.06887"
+ },
+ {
+  "id": "hessel2018rainbow",
+  "title": "Rainbow: Combining Improvements in Deep Reinforcement Learning",
+  "authors": "Hessel M, Modayil J, van Hasselt H, Schaul T, Ostrovski G, Dabney W, et al.",
+  "year": 2018,
+  "venue": "AAAI 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Combined six DQN extensions (double Q, prioritized replay, dueling, multi-step, distributional, noisy nets) and measured each one's contribution with ablations. Rainbow set a new state of the art on Atari for data efficiency.",
+  "builds_on": [
+   "vanhasselt2016deep",
+   "schaul2016prioritized",
+   "wang2016dueling",
+   "bellemare2017distributional",
+   "mnih2016asynchronous"
+  ],
+  "arxiv": "1710.02298"
+ },
+ {
+  "id": "kapturowski2019recurrent",
+  "title": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+  "authors": "Kapturowski S, Ostrovski G, Quan J, Munos R, Dabney W",
+  "year": 2019,
+  "venue": "ICLR 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 1,
+  "summary": "R2D2 trains recurrent Q-networks from distributed prioritized replay, using stored states and burn-in to handle stale recurrent states. It sharply raised Atari performance.",
+  "builds_on": [
+   "hessel2018rainbow",
+   "schaul2016prioritized",
+   "hochreiter1997long"
+  ]
+ },
+ {
+  "id": "badia2020agent57",
+  "title": "Agent57: Outperforming the Atari Human Benchmark",
+  "authors": "Badia AP, Piot B, Kapturowski S, Sprechmann P, Vitvitskyi A, Guo D, et al.",
+  "year": 2020,
+  "venue": "ICML 2020",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Value-based deep RL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First agent to exceed the human baseline on all 57 Atari games, including hard-exploration games like Montezuma's Revenge. It combines R2D2 and Never Give Up's intrinsic rewards with a meta-controller that picks exploration policies.",
+  "builds_on": [
+   "kapturowski2019recurrent",
+   "badia2020never"
+  ],
+  "arxiv": "2003.13350"
+ },
+ {
+  "id": "barto1983neuronlike",
+  "title": "Neuronlike Adaptive Elements That Can Solve Difficult Learning Control Problems",
+  "authors": "Barto AG, Sutton RS, Anderson CW",
+  "year": 1983,
+  "venue": "IEEE Transactions on Systems, Man, and Cybernetics SMC-13(5):834-846",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the actor-critic architecture: an adaptive critic learns a value estimate (an early form of TD) that trains an actor through a reinforcement signal. It solved the cart-pole balancing task and set the template for actor-critic methods.",
+  "builds_on": [
+   "michie1968boxes",
+   "thorndike1898animal"
+  ]
+ },
+ {
+  "id": "williams1992simple",
+  "title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+  "authors": "Williams RJ",
+  "year": 1992,
+  "venue": "Machine Learning 8(3-4):229-256",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced REINFORCE, which estimates the gradient of expected reward with the likelihood-ratio trick and a baseline. It is the root of all policy gradient methods, including those used to fine-tune LLMs.",
+  "builds_on": [
+   "barto1983neuronlike",
+   "rumelhart1986learning"
+  ],
+  "doi": "10.1007/BF00992696"
+ },
+ {
+  "id": "sutton2000policy",
+  "title": "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+  "authors": "Sutton RS, McAllester D, Singh S, Mansour Y",
+  "year": 2000,
+  "venue": "NIPS 1999 (Advances in Neural Information Processing Systems 12)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Proved the policy gradient theorem, which writes the gradient of performance in terms of action values without differentiating the state distribution. It also showed convergence with compatible function approximation and grounded modern actor-critic methods.",
+  "builds_on": [
+   "williams1992simple",
+   "barto1983neuronlike",
+   "sutton1998reinforcement"
+  ]
+ },
+ {
+  "id": "kakade2002natural",
+  "title": "A Natural Policy Gradient",
+  "authors": "Kakade S",
+  "year": 2002,
+  "venue": "NIPS 2001 (Advances in Neural Information Processing Systems 14)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Proposed following the natural gradient, preconditioned by the Fisher information of the policy, so updates do not depend on how the policy is parameterized. It inspired natural actor-critic and TRPO.",
+  "builds_on": [
+   "sutton2000policy"
+  ]
+ },
+ {
+  "id": "peters2008natural",
+  "title": "Natural Actor-Critic",
+  "authors": "Peters J, Schaal S",
+  "year": 2008,
+  "venue": "Neurocomputing 71(7-9):1180-1190",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Combined natural policy gradients with compatible-feature critics into an efficient actor-critic algorithm. It was applied to learning motor skills on robots.",
+  "builds_on": [
+   "kakade2002natural"
+  ]
+ },
+ {
+  "id": "silver2014deterministic",
+  "title": "Deterministic Policy Gradient Algorithms",
+  "authors": "Silver D, Lever G, Heess N, Degris T, Wierstra D, Riedmiller M",
+  "year": 2014,
+  "venue": "ICML 2014",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Derived the deterministic policy gradient theorem, giving off-policy actor-critic methods for continuous actions that need no integration over the action space. It is the basis of DDPG and TD3.",
+  "builds_on": [
+   "sutton2000policy"
+  ]
+ },
+ {
+  "id": "schulman2015trust",
+  "title": "Trust Region Policy Optimization",
+  "authors": "Schulman J, Levine S, Abbeel P, Jordan MI, Moritz P",
+  "year": 2015,
+  "venue": "ICML 2015",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 3,
+  "summary": "TRPO constrains each policy update with a KL-divergence trust region, giving near-monotonic improvement for large neural network policies. It made policy optimization reliable for robotic locomotion and Atari.",
+  "builds_on": [
+   "kakade2002natural",
+   "sutton2000policy"
+  ],
+  "arxiv": "1502.05477"
+ },
+ {
+  "id": "schulman2016highdimensional",
+  "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+  "authors": "Schulman J, Moritz P, Levine S, Jordan MI, Abbeel P",
+  "year": 2016,
+  "venue": "ICLR 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced generalized advantage estimation (GAE), an exponentially weighted mix of multi-step TD errors that trades bias against variance. GAE is used in PPO and most on-policy methods.",
+  "builds_on": [
+   "schulman2015trust",
+   "sutton1988learning"
+  ],
+  "arxiv": "1506.02438"
+ },
+ {
+  "id": "mnih2016asynchronous",
+  "title": "Asynchronous Methods for Deep Reinforcement Learning",
+  "authors": "Mnih V, Badia AP, Mirza M, Graves A, Lillicrap TP, Harley T, et al.",
+  "year": 2016,
+  "venue": "ICML 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed that many parallel actor-learners can stabilize deep RL without replay, introducing A3C (asynchronous advantage actor-critic). It trained fast on CPUs and became a widely used baseline.",
+  "builds_on": [
+   "mnih2015human",
+   "williams1992simple",
+   "barto1983neuronlike"
+  ],
+  "arxiv": "1602.01783"
+ },
+ {
+  "id": "lillicrap2016continuous",
+  "title": "Continuous control with deep reinforcement learning",
+  "authors": "Lillicrap TP, Hunt JJ, Pritzel A, Heess N, Erez T, Tassa Y, et al.",
+  "year": 2016,
+  "venue": "ICLR 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DDPG combined deterministic policy gradients with DQN's replay buffer and target networks to learn continuous control from states or pixels. A foundational off-policy deep actor-critic.",
+  "builds_on": [
+   "silver2014deterministic",
+   "mnih2015human"
+  ],
+  "arxiv": "1509.02971"
+ },
+ {
+  "id": "schulman2017proximal",
+  "title": "Proximal Policy Optimization Algorithms",
+  "authors": "Schulman J, Wolski F, Dhariwal P, Radford A, Klimov O",
+  "year": 2017,
+  "venue": "arXiv 2017",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 3,
+  "summary": "PPO replaces TRPO's constrained optimization with a clipped surrogate objective that runs several epochs of minibatch updates. Simple and robust, it became the default RL algorithm, including for RLHF of language models.",
+  "builds_on": [
+   "schulman2015trust",
+   "schulman2016highdimensional",
+   "mnih2016asynchronous"
+  ],
+  "arxiv": "1707.06347"
+ },
+ {
+  "id": "fujimoto2018addressing",
+  "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+  "authors": "Fujimoto S, van Hoof H, Meger D",
+  "year": 2018,
+  "venue": "ICML 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "TD3 addresses overestimation in DDPG with clipped double-Q learning, delayed policy updates and target policy smoothing. It became a strong standard baseline for continuous control.",
+  "builds_on": [
+   "lillicrap2016continuous",
+   "vanhasselt2016deep"
+  ],
+  "arxiv": "1802.09477"
+ },
+ {
+  "id": "haarnoja2018soft",
+  "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+  "authors": "Haarnoja T, Zhou A, Abbeel P, Levine S",
+  "year": 2018,
+  "venue": "ICML 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 3,
+  "summary": "SAC optimizes reward plus policy entropy with an off-policy stochastic actor-critic, giving sample efficiency, stability and good exploration. It became a leading algorithm for continuous control and real-robot learning.",
+  "builds_on": [
+   "lillicrap2016continuous",
+   "ziebart2008maximum",
+   "fujimoto2018addressing"
+  ],
+  "arxiv": "1801.01290"
+ },
+ {
+  "id": "espeholt2018impala",
+  "title": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+  "authors": "Espeholt L, Soyer H, Munos R, Simonyan K, Mnih V, Ward T, et al.",
+  "year": 2018,
+  "venue": "ICML 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Policy gradient & actor-critic",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Separates acting from learning across many machines and corrects for policy lag with V-trace off-policy importance weighting. It enabled high-throughput multi-task training and influenced large systems such as AlphaStar.",
+  "builds_on": [
+   "mnih2016asynchronous"
+  ],
+  "arxiv": "1802.01561"
+ },
+ {
+  "id": "sutton1990integrated",
+  "title": "Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming",
+  "authors": "Sutton RS",
+  "year": 1990,
+  "venue": "Proceedings of the Seventh International Conference on Machine Learning (ICML 1990)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced Dyna, which learns a world model from experience and uses simulated transitions from it for extra value updates. It is the archetype of model-based RL that interleaves learning and planning.",
+  "builds_on": [
+   "sutton1988learning",
+   "bellman1957dynamic"
+  ]
+ },
+ {
+  "id": "kocsis2006bandit",
+  "title": "Bandit Based Monte-Carlo Planning",
+  "authors": "Kocsis L, Szepesvari C",
+  "year": 2006,
+  "venue": "ECML 2006, LNCS 4212:282-293",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced UCT, which applies the UCB1 bandit rule at each node of a Monte Carlo search tree and proved its consistency. UCT became the core of Monte Carlo tree search (MCTS).",
+  "builds_on": [
+   "auer2002finite",
+   "bellman1957dynamic"
+  ]
+ },
+ {
+  "id": "coulom2006efficient",
+  "title": "Efficient Selectivity and Backup Operators in Monte-Carlo Tree Search",
+  "authors": "Coulom R",
+  "year": 2006,
+  "venue": "Computers and Games 2006, LNCS 4630:72-83",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Coined Monte Carlo tree search and combined random rollouts with selective tree growth in the Go program Crazy Stone. MCTS transformed computer Go and later underpinned AlphaGo.",
+  "builds_on": [
+   "kocsis2006bandit"
+  ]
+ },
+ {
+  "id": "deisenroth2011pilco",
+  "title": "PILCO: A Model-Based and Data-Efficient Approach to Policy Search",
+  "authors": "Deisenroth MP, Rasmussen CE",
+  "year": 2011,
+  "venue": "ICML 2011",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Learns a Gaussian-process dynamics model and propagates model uncertainty through long-horizon predictions to improve the policy analytically. It learned cart-pole and robot tasks in seconds of real interaction.",
+  "builds_on": [
+   "sutton1990integrated"
+  ]
+ },
+ {
+  "id": "ha2018world",
+  "title": "World Models",
+  "authors": "Ha D, Schmidhuber J",
+  "year": 2018,
+  "venue": "arXiv 2018; NeurIPS 2018 as 'Recurrent World Models Facilitate Policy Evolution'",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Trains a VAE and a mixture-density RNN as a generative world model, then trains a compact controller inside the model's 'dream'. It revived interest in learned latent world models.",
+  "builds_on": [
+   "kingma2014autoencoding",
+   "hochreiter1997long",
+   "sutton1990integrated"
+  ],
+  "arxiv": "1803.10122"
+ },
+ {
+  "id": "chua2018deep",
+  "title": "Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models",
+  "authors": "Chua K, Calandra R, McAllister R, Levine S",
+  "year": 2018,
+  "venue": "NeurIPS 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "PETS uses ensembles of probabilistic neural network dynamics models with trajectory sampling for model-predictive control. It matched model-free asymptotic performance with far fewer samples.",
+  "builds_on": [
+   "deisenroth2011pilco"
+  ],
+  "arxiv": "1805.12114"
+ },
+ {
+  "id": "hafner2019learning",
+  "title": "Learning Latent Dynamics for Planning from Pixels",
+  "authors": "Hafner D, Lillicrap TP, Fischer I, Villegas R, Ha D, Lee H, et al.",
+  "year": 2019,
+  "venue": "ICML 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "PlaNet learns a recurrent state-space model with deterministic and stochastic paths and plans in its latent space from images. It is the direct precursor of the Dreamer agents.",
+  "builds_on": [
+   "ha2018world",
+   "kingma2014autoencoding"
+  ]
+ },
+ {
+  "id": "janner2019when",
+  "title": "When to Trust Your Model: Model-Based Policy Optimization",
+  "authors": "Janner M, Fu J, Zhang M, Levine S",
+  "year": 2019,
+  "venue": "NeurIPS 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "MBPO generates short model rollouts that branch from real states and trains SAC on them, analyzing when model use helps. It achieved strong sample efficiency on continuous control.",
+  "builds_on": [
+   "chua2018deep",
+   "haarnoja2018soft",
+   "sutton1990integrated"
+  ],
+  "arxiv": "1906.08253"
+ },
+ {
+  "id": "hafner2020dream",
+  "title": "Dream to Control: Learning Behaviors by Latent Imagination",
+  "authors": "Hafner D, Lillicrap T, Ba J, Norouzi M",
+  "year": 2020,
+  "venue": "ICLR 2020",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Dreamer learns actor and critic entirely from imagined latent trajectories, backpropagating value gradients through the learned dynamics. It outperformed model-free agents on visual control.",
+  "builds_on": [
+   "hafner2019learning"
+  ],
+  "arxiv": "1912.01603"
+ },
+ {
+  "id": "schrittwieser2020mastering",
+  "title": "Mastering Atari, Go, chess and shogi by planning with a learned model",
+  "authors": "Schrittwieser J, Antonoglou I, Hubert T, Simonyan K, Sifre L, Schmitt S, et al.",
+  "year": 2020,
+  "venue": "Nature 588(7839):604-609",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 3,
+  "summary": "MuZero runs MCTS with a learned model that predicts only reward, value and policy, without being given the rules. It matched AlphaZero in board games and set a new state of the art on Atari.",
+  "builds_on": [
+   "silver2018general",
+   "coulom2006efficient",
+   "sutton1990integrated"
+  ],
+  "doi": "10.1038/s41586-020-03051-4"
+ },
+ {
+  "id": "hafner2021mastering",
+  "title": "Mastering Atari with Discrete World Models",
+  "authors": "Hafner D, Lillicrap T, Norouzi M, Ba J",
+  "year": 2021,
+  "venue": "ICLR 2021",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 1,
+  "summary": "DreamerV2 uses categorical latent variables and KL balancing. It was the first world-model agent to reach human-level performance on the Atari benchmark when trained purely in imagination.",
+  "builds_on": [
+   "hafner2020dream"
+  ],
+  "arxiv": "2010.02193"
+ },
+ {
+  "id": "hafner2023mastering",
+  "title": "Mastering Diverse Domains through World Models",
+  "authors": "Hafner D, Pasukonis J, Ba J, Lillicrap T",
+  "year": 2023,
+  "venue": "arXiv 2023; Nature 2025 as 'Mastering diverse control tasks through world models'",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DreamerV3 uses robust normalization so that one fixed set of hyperparameters works across many domains. It was the first agent to collect diamonds in Minecraft from scratch, without human data.",
+  "builds_on": [
+   "hafner2021mastering"
+  ],
+  "arxiv": "2301.04104"
+ },
+ {
+  "id": "bruce2024genie",
+  "title": "Genie: Generative Interactive Environments",
+  "authors": "Bruce J, Dennis M, Edwards A, Parker-Holder J, Shi Y, Hughes E, et al.",
+  "year": 2024,
+  "venue": "ICML 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Model-based RL & planning",
+  "type": "paper",
+  "importance": 1,
+  "summary": "A foundation world model trained without action labels on internet gameplay videos that learns latent actions and generates controllable, playable environments. It points to generative models as unlimited training grounds for agents.",
+  "builds_on": [
+   "ha2018world",
+   "vaswani2017attention"
+  ]
+ },
+ {
+  "id": "samuel1959some",
+  "title": "Some Studies in Machine Learning Using the Game of Checkers",
+  "authors": "Samuel AL",
+  "year": 1959,
+  "venue": "IBM Journal of Research and Development 3(3):210-229",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 3,
+  "summary": "A checkers program that improved through self-play by adjusting its evaluation function toward later positions' values, an early form of temporal-difference learning. It popularized the term 'machine learning'.",
+  "builds_on": [],
+  "doi": "10.1147/rd.33.0210"
+ },
+ {
+  "id": "michie1963experiments",
+  "title": "Experiments on the Mechanization of Game-Learning Part I. Characterization of the Model and its Parameters",
+  "authors": "Michie D",
+  "year": 1963,
+  "venue": "The Computer Journal 6(3):232-236",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 1,
+  "summary": "MENACE, a 'machine' of matchboxes filled with colored beads, learned to play noughts and crosses by reinforcing the moves that led to wins. A vivid early demonstration of trial-and-error learning.",
+  "builds_on": [
+   "samuel1959some",
+   "thorndike1898animal"
+  ]
+ },
+ {
+  "id": "tesauro1995temporal",
+  "title": "Temporal Difference Learning and TD-Gammon",
+  "authors": "Tesauro G",
+  "year": 1995,
+  "venue": "Communications of the ACM 38(3):58-68",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 3,
+  "summary": "A neural network trained by TD(lambda) self-play reached world-class backgammon play and found new strategies that human experts adopted. It was the first major success of RL with neural function approximation.",
+  "builds_on": [
+   "sutton1988learning",
+   "rumelhart1986learning",
+   "samuel1959some"
+  ],
+  "doi": "10.1145/203330.203343"
+ },
+ {
+  "id": "silver2016mastering",
+  "title": "Mastering the game of Go with deep neural networks and tree search",
+  "authors": "Silver D, Huang A, Maddison CJ, Guez A, Sifre L, van den Driessche G, et al.",
+  "year": 2016,
+  "venue": "Nature 529(7587):484-489",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaGo combined policy and value networks, trained by supervised learning from expert games and then by self-play RL, with Monte Carlo tree search. It defeated Fan Hui and then Lee Sedol, reaching a goal long thought to be a decade away.",
+  "builds_on": [
+   "coulom2006efficient",
+   "williams1992simple",
+   "tesauro1995temporal",
+   "krizhevsky2012imagenet"
+  ],
+  "doi": "10.1038/nature16961"
+ },
+ {
+  "id": "moravcik2017deepstack",
+  "title": "DeepStack: Expert-level artificial intelligence in heads-up no-limit poker",
+  "authors": "Moravcik M, Schmid M, Burch N, Lisy V, Morrill D, Bard N, et al.",
+  "year": 2017,
+  "venue": "Science 356(6337):508-513",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Combined continual re-solving of subgames with deep value networks to beat professional players at heads-up no-limit Texas hold'em, a large imperfect-information game.",
+  "builds_on": [
+   "zinkevich2007regret"
+  ]
+ },
+ {
+  "id": "silver2017mastering",
+  "title": "Mastering the game of Go without human knowledge",
+  "authors": "Silver D, Schrittwieser J, Simonyan K, Antonoglou I, Huang A, Guez A, et al.",
+  "year": 2017,
+  "venue": "Nature 550(7676):354-359",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaGo Zero learned Go purely from self-play with a single residual network trained to match MCTS-improved policies and game outcomes. Starting from random play, it surpassed every previous AlphaGo version.",
+  "builds_on": [
+   "silver2016mastering",
+   "he2016deep",
+   "howard1960dynamic"
+  ],
+  "doi": "10.1038/nature24270"
+ },
+ {
+  "id": "brown2018superhuman",
+  "title": "Superhuman AI for heads-up no-limit poker: Libratus beats top professionals",
+  "authors": "Brown N, Sandholm T",
+  "year": 2018,
+  "venue": "Science 359(6374):418-424",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Libratus combined a game-theoretic blueprint strategy computed by CFR variants with real-time nested subgame solving and self-improvement. It decisively beat four top poker professionals.",
+  "builds_on": [
+   "zinkevich2007regret"
+  ],
+  "doi": "10.1126/science.aao1733"
+ },
+ {
+  "id": "silver2018general",
+  "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
+  "authors": "Silver D, Hubert T, Schrittwieser J, Antonoglou I, Lai M, Guez A, et al.",
+  "year": 2018,
+  "venue": "Science 362(6419):1140-1144",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaZero applied the AlphaGo Zero algorithm, with no domain knowledge beyond the rules, to chess, shogi and Go, and beat world-champion programs in all three. It showed that one self-play method can generalize across games.",
+  "builds_on": [
+   "silver2017mastering"
+  ],
+  "doi": "10.1126/science.aar6404"
+ },
+ {
+  "id": "brown2019superhuman",
+  "title": "Superhuman AI for multiplayer poker",
+  "authors": "Brown N, Sandholm T",
+  "year": 2019,
+  "venue": "Science 365(6456):885-890",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pluribus beat elite professionals at six-player no-limit hold'em using self-play blueprint strategies and depth-limited search. It was the first superhuman result in a major multiplayer game.",
+  "builds_on": [
+   "brown2018superhuman"
+  ],
+  "doi": "10.1126/science.aay2400"
+ },
+ {
+  "id": "vinyals2019grandmaster",
+  "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+  "authors": "Vinyals O, Babuschkin I, Czarnecki WM, Mathieu M, Dudzik A, Chung J, et al.",
+  "year": 2019,
+  "venue": "Nature 575(7782):350-354",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaStar reached Grandmaster level in StarCraft II by combining imitation learning, off-policy actor-critic RL and a league of agents playing against each other. It mastered a real-time, partially observed game with a huge action space.",
+  "builds_on": [
+   "silver2017mastering",
+   "espeholt2018impala",
+   "vaswani2017attention",
+   "hochreiter1997long"
+  ],
+  "doi": "10.1038/s41586-019-1724-z"
+ },
+ {
+  "id": "berner2019dota",
+  "title": "Dota 2 with Large Scale Deep Reinforcement Learning",
+  "authors": "Berner C, Brockman G, Chan B, Cheung V, Debiak P, Dennison C, et al.",
+  "year": 2019,
+  "venue": "arXiv 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Game-playing milestones",
+  "type": "paper",
+  "importance": 2,
+  "summary": "OpenAI Five trained LSTM policies with PPO self-play at very large scale and defeated the reigning Dota 2 world champions in 2019. It showed that scaled-up policy gradients can handle long-horizon team games.",
+  "builds_on": [
+   "schulman2017proximal",
+   "hochreiter1997long"
+  ],
+  "arxiv": "1912.06680"
+ },
+ {
+  "id": "littman1994markov",
+  "title": "Markov Games as a Framework for Multi-Agent Reinforcement Learning",
+  "authors": "Littman ML",
+  "year": 1994,
+  "venue": "ICML 1994",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Framed multi-agent RL as learning in Markov (stochastic) games and introduced minimax-Q for two-player zero-sum settings. A foundation of multi-agent RL.",
+  "builds_on": [
+   "watkins1992qlearning"
+  ]
+ },
+ {
+  "id": "sutton1999between",
+  "title": "Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning",
+  "authors": "Sutton RS, Precup D, Singh S",
+  "year": 1999,
+  "venue": "Artificial Intelligence 112(1-2):181-211",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the options framework, which models temporally extended actions as semi-Markov decision processes. It became the standard formalism of hierarchical RL.",
+  "builds_on": [
+   "sutton1998reinforcement",
+   "howard1960dynamic"
+  ]
+ },
+ {
+  "id": "auer2002finite",
+  "title": "Finite-time Analysis of the Multiarmed Bandit Problem",
+  "authors": "Auer P, Cesa-Bianchi N, Fischer P",
+  "year": 2002,
+  "venue": "Machine Learning 47(2-3):235-256",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced UCB1 and proved logarithmic regret bounds that hold for any finite time, not just asymptotically. Optimism in the face of uncertainty became a key principle of exploration, used in UCT and MCTS.",
+  "builds_on": []
+ },
+ {
+  "id": "kearns2002nearoptimal",
+  "title": "Near-Optimal Reinforcement Learning in Polynomial Time",
+  "authors": "Kearns M, Singh S",
+  "year": 2002,
+  "venue": "Machine Learning 49(2-3):209-232",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The E3 algorithm was the first to prove that near-optimal behavior in general MDPs can be learned in polynomial time, by explicitly balancing exploration and exploitation.",
+  "builds_on": [
+   "watkins1992qlearning",
+   "bellman1957dynamic"
+  ]
+ },
+ {
+  "id": "brafman2002rmax",
+  "title": "R-max - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning",
+  "authors": "Brafman RI, Tennenholtz M",
+  "year": 2002,
+  "venue": "Journal of Machine Learning Research 3:213-231",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "R-max treats unknown states as maximally rewarding, giving a simple optimistic model-based algorithm with polynomial sample complexity. It also extends to stochastic games.",
+  "builds_on": [
+   "kearns2002nearoptimal"
+  ]
+ },
+ {
+  "id": "zinkevich2007regret",
+  "title": "Regret Minimization in Games with Incomplete Information",
+  "authors": "Zinkevich M, Johanson M, Bowling M, Piccione C",
+  "year": 2007,
+  "venue": "NIPS 2007 (Advances in Neural Information Processing Systems 20)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced counterfactual regret minimization (CFR), which converges to Nash equilibria in large extensive-form imperfect-information games. It underpins the poker breakthroughs DeepStack, Libratus and Pluribus.",
+  "builds_on": [
+   "littman1994markov"
+  ]
+ },
+ {
+  "id": "bellemare2016unifying",
+  "title": "Unifying Count-Based Exploration and Intrinsic Motivation",
+  "authors": "Bellemare MG, Srinivasan S, Ostrovski G, Schaul T, Saxton D, Munos R",
+  "year": 2016,
+  "venue": "NIPS 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Derived pseudo-counts from density models so that count-based exploration bonuses work in high-dimensional state spaces. It made major progress on Montezuma's Revenge.",
+  "builds_on": [
+   "mnih2015human",
+   "brafman2002rmax"
+  ]
+ },
+ {
+  "id": "pathak2017curiosity",
+  "title": "Curiosity-driven Exploration by Self-supervised Prediction",
+  "authors": "Pathak D, Agrawal P, Efros AA, Darrell T",
+  "year": 2017,
+  "venue": "ICML 2017",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The Intrinsic Curiosity Module rewards an agent for prediction errors of a forward model in a feature space learned by inverse dynamics, ignoring things the agent cannot control. It enabled exploration with sparse or no extrinsic reward.",
+  "builds_on": [
+   "mnih2016asynchronous",
+   "bellemare2016unifying"
+  ],
+  "arxiv": "1705.05363"
+ },
+ {
+  "id": "lowe2017multiagent",
+  "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+  "authors": "Lowe R, Wu Y, Tamar A, Harb J, Abbeel P, Mordatch I",
+  "year": 2017,
+  "venue": "NIPS 2017",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "MADDPG trains centralized critics that see all agents' observations and actions alongside decentralized actors. This addresses non-stationarity in mixed cooperative-competitive settings.",
+  "builds_on": [
+   "lillicrap2016continuous",
+   "littman1994markov"
+  ],
+  "arxiv": "1706.02275"
+ },
+ {
+  "id": "rashid2018qmix",
+  "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+  "authors": "Rashid T, Samvelyan M, Schroeder de Witt C, Farquhar G, Foerster J, Whiteson S",
+  "year": 2018,
+  "venue": "ICML 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Combines per-agent Q-values with a monotonic mixing network conditioned on the global state, enabling centralized training with decentralized execution. A standard method for cooperative multi-agent RL such as StarCraft micromanagement.",
+  "builds_on": [
+   "mnih2015human",
+   "littman1994markov"
+  ],
+  "arxiv": "1803.11485"
+ },
+ {
+  "id": "burda2019exploration",
+  "title": "Exploration by Random Network Distillation",
+  "authors": "Burda Y, Edwards H, Storkey A, Klimov O",
+  "year": 2019,
+  "venue": "ICLR 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "RND uses as a novelty bonus the error of a network trained to predict the outputs of a fixed random network. It was the first method to beat average human performance on Montezuma's Revenge without demonstrations.",
+  "builds_on": [
+   "pathak2017curiosity",
+   "schulman2017proximal"
+  ],
+  "arxiv": "1810.12894"
+ },
+ {
+  "id": "badia2020never",
+  "title": "Never Give Up: Learning Directed Exploration Strategies",
+  "authors": "Badia AP, Sprechmann P, Vitvitskyi A, Guo D, Piot B, Kapturowski S, et al.",
+  "year": 2020,
+  "venue": "ICLR 2020",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Combines episodic novelty with RND-based lifelong novelty in an intrinsic reward and learns a family of policies with different exploration levels. It was a key component of Agent57.",
+  "builds_on": [
+   "burda2019exploration",
+   "kapturowski2019recurrent"
+  ]
+ },
+ {
+  "id": "ecoffet2021first",
+  "title": "First return, then explore",
+  "authors": "Ecoffet A, Huizinga J, Lehman J, Stanley KO, Clune J",
+  "year": 2021,
+  "venue": "Nature 590(7847):580-586",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Exploration, hierarchy & multi-agent",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Go-Explore keeps an archive of promising states, returns to them, and then explores from there, avoiding 'detachment' and 'derailment'. It solved hard-exploration Atari games such as Montezuma's Revenge and Pitfall at superhuman levels.",
+  "builds_on": [
+   "burda2019exploration",
+   "bellemare2016unifying"
+  ]
+ },
+ {
+  "id": "pomerleau1989alvinn",
+  "title": "ALVINN: An Autonomous Land Vehicle in a Neural Network",
+  "authors": "Pomerleau DA",
+  "year": 1989,
+  "venue": "NIPS 1988 (Advances in Neural Information Processing Systems 1)",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A neural network learned to steer a vehicle from camera images by imitating a human driver. It is the classic example of behavior cloning and of the distribution shift problem it suffers from.",
+  "builds_on": [
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "ng2000algorithms",
+  "title": "Algorithms for Inverse Reinforcement Learning",
+  "authors": "Ng AY, Russell S",
+  "year": 2000,
+  "venue": "ICML 2000",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Formalized inverse reinforcement learning, which recovers a reward function that explains observed optimal behavior, and gave linear-programming algorithms for it. It opened the field of learning rewards from demonstrations.",
+  "builds_on": [
+   "sutton1998reinforcement",
+   "bellman1957dynamic"
+  ]
+ },
+ {
+  "id": "abbeel2004apprenticeship",
+  "title": "Apprenticeship Learning via Inverse Reinforcement Learning",
+  "authors": "Abbeel P, Ng AY",
+  "year": 2004,
+  "venue": "ICML 2004",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Matches the expert's feature expectations by iteratively inferring rewards, with guarantees that the learned policy performs close to the expert. It was applied to driving and later helicopter control.",
+  "builds_on": [
+   "ng2000algorithms"
+  ]
+ },
+ {
+  "id": "ziebart2008maximum",
+  "title": "Maximum Entropy Inverse Reinforcement Learning",
+  "authors": "Ziebart BD, Maas A, Bagnell JA, Dey AK",
+  "year": 2008,
+  "venue": "AAAI 2008",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Resolves the ambiguity of IRL with a maximum-entropy distribution over trajectories, giving a probabilistic and differentiable formulation. It influenced GAIL and maximum-entropy RL such as SAC.",
+  "builds_on": [
+   "abbeel2004apprenticeship"
+  ]
+ },
+ {
+  "id": "ross2011reduction",
+  "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+  "authors": "Ross S, Gordon GJ, Bagnell JA",
+  "year": 2011,
+  "venue": "AISTATS 2011",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DAgger queries the expert on states visited by the learner and aggregates the data, which fixes behavior cloning's compounding errors with no-regret guarantees.",
+  "builds_on": [
+   "pomerleau1989alvinn"
+  ]
+ },
+ {
+  "id": "ho2016generative",
+  "title": "Generative Adversarial Imitation Learning",
+  "authors": "Ho J, Ermon S",
+  "year": 2016,
+  "venue": "NIPS 2016",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "GAIL frames imitation as matching occupancy measures with a GAN-style discriminator, learning policies directly without first recovering a reward. It scaled imitation to high-dimensional control.",
+  "builds_on": [
+   "ziebart2008maximum",
+   "goodfellow2014generative",
+   "schulman2015trust"
+  ],
+  "arxiv": "1606.03476"
+ },
+ {
+  "id": "fujimoto2019offpolicy",
+  "title": "Off-Policy Deep Reinforcement Learning without Exploration",
+  "authors": "Fujimoto S, Meger D, Precup D",
+  "year": 2019,
+  "venue": "ICML 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Identified extrapolation error as the reason off-policy methods fail on fixed datasets and proposed Batch-Constrained Q-learning (BCQ), which keeps actions close to the data. It started the modern deep offline RL line.",
+  "builds_on": [
+   "fujimoto2018addressing",
+   "ernst2005treebased"
+  ],
+  "arxiv": "1812.02900"
+ },
+ {
+  "id": "fu2020d4rl",
+  "title": "D4RL: Datasets for Deep Data-Driven Reinforcement Learning",
+  "authors": "Fu J, Kumar A, Nachum O, Tucker G, Levine S",
+  "year": 2020,
+  "venue": "arXiv 2020",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "dataset",
+  "importance": 1,
+  "summary": "A benchmark suite of offline RL datasets covering locomotion, mazes and manipulation, collected with a range of data-generating policies. It became the standard offline RL benchmark.",
+  "builds_on": [
+   "fujimoto2019offpolicy",
+   "brockman2016openai"
+  ],
+  "arxiv": "2004.07219"
+ },
+ {
+  "id": "kumar2020conservative",
+  "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+  "authors": "Kumar A, Zhou A, Tucker G, Levine S",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "CQL regularizes Q-values so that the learned values lower-bound the true policy value, preventing overestimation on out-of-distribution actions. A leading offline RL algorithm.",
+  "builds_on": [
+   "fujimoto2019offpolicy",
+   "haarnoja2018soft"
+  ],
+  "arxiv": "2006.04779"
+ },
+ {
+  "id": "chen2021decision",
+  "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+  "authors": "Chen L, Lu K, Rajeswaran A, Lee K, Grover A, Laskin M, et al.",
+  "year": 2021,
+  "venue": "NeurIPS 2021",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Recasts offline RL as conditional sequence modeling: a causal transformer predicts actions conditioned on desired return, past states and past actions. It linked RL with the transformer and language-model paradigm.",
+  "builds_on": [
+   "vaswani2017attention",
+   "radford2019language",
+   "fujimoto2019offpolicy"
+  ],
+  "arxiv": "2106.01345"
+ },
+ {
+  "id": "kostrikov2022offline",
+  "title": "Offline Reinforcement Learning with Implicit Q-Learning",
+  "authors": "Kostrikov I, Nair A, Levine S",
+  "year": 2022,
+  "venue": "ICLR 2022",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "IQL avoids querying unseen actions by fitting values with expectile regression and extracting the policy by advantage-weighted regression. Simple and strong, it is widely used for offline and offline-to-online RL.",
+  "builds_on": [
+   "kumar2020conservative",
+   "fujimoto2019offpolicy"
+  ],
+  "arxiv": "2110.06169"
+ },
+ {
+  "id": "reed2022generalist",
+  "title": "A Generalist Agent",
+  "authors": "Reed S, Zolna K, Parisotto E, Colmenarejo SG, Novikov A, Barth-Maron G, et al.",
+  "year": 2022,
+  "venue": "Transactions on Machine Learning Research 2022",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Offline RL & imitation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Gato is a single transformer trained by supervised imitation on hundreds of tasks, including Atari, captioning, chat and robot control, all serialized as tokens. It was an early step toward generalist agents.",
+  "builds_on": [
+   "chen2021decision",
+   "vaswani2017attention"
+  ],
+  "arxiv": "2205.06175"
+ },
+ {
+  "id": "levine2013guided",
+  "title": "Guided Policy Search",
+  "authors": "Levine S, Koltun V",
+  "year": 2013,
+  "venue": "ICML 2013",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Uses trajectory optimization to produce guiding samples that steer the training of complex neural network policies toward high-reward regions. A precursor of end-to-end visuomotor learning.",
+  "builds_on": [
+   "ziebart2008maximum",
+   "deisenroth2011pilco"
+  ]
+ },
+ {
+  "id": "levine2016endtoend",
+  "title": "End-to-End Training of Deep Visuomotor Policies",
+  "authors": "Levine S, Finn C, Darrell T, Abbeel P",
+  "year": 2016,
+  "venue": "Journal of Machine Learning Research 17(39):1-40",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Trained deep convolutional policies that map raw camera images directly to robot motor torques, using guided policy search. It showed end-to-end deep RL on real robots for manipulation tasks.",
+  "builds_on": [
+   "levine2013guided",
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1504.00702"
+ },
+ {
+  "id": "tobin2017domain",
+  "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+  "authors": "Tobin J, Fong R, Ray A, Schneider J, Zaremba W, Abbeel P",
+  "year": 2017,
+  "venue": "IROS 2017",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Randomizing textures, lighting and camera parameters in simulation makes the real world look like one more variation, so models trained only in simulation transfer to real robots. A key technique for sim-to-real transfer.",
+  "builds_on": [
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1703.06907"
+ },
+ {
+  "id": "kalashnikov2018qtopt",
+  "title": "QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation",
+  "authors": "Kalashnikov D, Irpan A, Pastor P, Ibarz J, Herzog A, Jang E, et al.",
+  "year": 2018,
+  "venue": "CoRL 2018",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Large-scale off-policy Q-learning with continuous actions chosen by cross-entropy-method optimization, trained on 580k real grasp attempts across a fleet of robots. It reached a 96% grasp success rate on unseen objects.",
+  "builds_on": [
+   "mnih2015human",
+   "levine2016endtoend"
+  ],
+  "arxiv": "1806.10293"
+ },
+ {
+  "id": "hwangbo2019learning",
+  "title": "Learning agile and dynamic motor skills for legged robots",
+  "authors": "Hwangbo J, Lee J, Dosovitskiy A, Bellicoso D, Tsounis V, Koltun V, et al.",
+  "year": 2019,
+  "venue": "Science Robotics 4(26):eaau5872",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Trained neural network policies in simulation, using a learned actuator model, and transferred them to the ANYmal quadruped. They gave agile locomotion and fall recovery beyond what hand-designed controllers achieved.",
+  "builds_on": [
+   "schulman2015trust",
+   "tobin2017domain"
+  ]
+ },
+ {
+  "id": "akkaya2019solving",
+  "title": "Solving Rubik's Cube with a Robot Hand",
+  "authors": "OpenAI, Akkaya I, Andrychowicz M, Chociej M, Litwin M, McGrew B, et al.",
+  "year": 2019,
+  "venue": "arXiv 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Trained a Shadow Dexterous Hand in simulation with PPO and Automatic Domain Randomization to manipulate and solve a Rubik's Cube in the real world. A landmark of sim-to-real dexterous manipulation.",
+  "builds_on": [
+   "tobin2017domain",
+   "schulman2017proximal"
+  ],
+  "arxiv": "1910.07113"
+ },
+ {
+  "id": "kaufmann2023champion",
+  "title": "Champion-level drone racing using deep reinforcement learning",
+  "authors": "Kaufmann E, Bauersfeld L, Loquercio A, Muller M, Koltun V, Scaramuzza D",
+  "year": 2023,
+  "venue": "Nature 620(7976):982-987",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Swift, a drone using only onboard sensors and a policy trained in simulation with RL, beat human world champions in real-world drone racing. It was the first time an autonomous system beat champions in a competitive physical sport.",
+  "builds_on": [
+   "schulman2017proximal",
+   "tobin2017domain"
+  ]
+ },
+ {
+  "id": "brohan2023rt1",
+  "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
+  "authors": "Brohan A, Brown N, Carbajal J, Chebotar Y, Dabis J, Finn C, et al.",
+  "year": 2023,
+  "venue": "RSS 2023",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A transformer policy trained on 130k real robot episodes covering more than 700 language-specified tasks. It showed that large, diverse robot data and high-capacity models improve generalization.",
+  "builds_on": [
+   "vaswani2017attention",
+   "reed2022generalist",
+   "kalashnikov2018qtopt"
+  ],
+  "arxiv": "2212.06817"
+ },
+ {
+  "id": "chi2023diffusion",
+  "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+  "authors": "Chi C, Feng S, Du Y, Xu Z, Cousineau E, Burchfiel B, et al.",
+  "year": 2023,
+  "venue": "RSS 2023",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Represents a robot visuomotor policy as a conditional denoising diffusion process over action sequences. This handles multimodal demonstrations well and became a dominant approach to imitation learning.",
+  "builds_on": [
+   "ho2020denoising",
+   "pomerleau1989alvinn"
+  ],
+  "arxiv": "2303.04137"
+ },
+ {
+  "id": "brohan2023rt2",
+  "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+  "authors": "Brohan A, Brown N, Carbajal J, Chebotar Y, Chen X, Choromanski K, et al.",
+  "year": 2023,
+  "venue": "CoRL 2023",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Co-fine-tuned large vision-language models on web data and robot trajectories, with actions written as text tokens, creating vision-language-action (VLA) models. They transfer semantic knowledge from the web to robot control.",
+  "builds_on": [
+   "brohan2023rt1",
+   "radford2021learning"
+  ],
+  "arxiv": "2307.15818"
+ },
+ {
+  "id": "oneill2024open",
+  "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+  "authors": "Open X-Embodiment Collaboration, O'Neill A, Rehman A, Gupta A, Maddukuri A, Gupta A, et al.",
+  "year": 2024,
+  "venue": "ICRA 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Pooled over a million robot trajectories from 22 robot embodiments across many institutions, and showed that RT-X models trained on the mixture transfer positively across robots.",
+  "builds_on": [
+   "brohan2023rt1",
+   "brohan2023rt2"
+  ],
+  "arxiv": "2310.08864"
+ },
+ {
+  "id": "kim2024openvla",
+  "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+  "authors": "Kim MJ, Pertsch K, Karamcheti S, Xiao T, Balakrishna A, Nair S, et al.",
+  "year": 2024,
+  "venue": "CoRL 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 1,
+  "summary": "A 7B-parameter open vision-language-action model built on Llama 2 and trained on Open X-Embodiment data. It outperformed larger closed models and made VLA research widely accessible.",
+  "builds_on": [
+   "brohan2023rt2",
+   "oneill2024open",
+   "touvron2023llama"
+  ],
+  "arxiv": "2406.09246"
+ },
+ {
+  "id": "black2024pi0",
+  "title": "pi0: A Vision-Language-Action Flow Model for General Robot Control",
+  "authors": "Black K, Brown N, Driess D, Esmail A, Equi M, Finn C, et al.",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "Robotics & embodied AI",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Physical Intelligence's pi0 attaches a flow-matching action expert to a pretrained vision-language model and trains it on diverse cross-embodiment data. It performs dexterous, long-horizon tasks such as laundry folding.",
+  "builds_on": [
+   "brohan2023rt2",
+   "chi2023diffusion",
+   "oneill2024open"
+  ],
+  "arxiv": "2410.24164"
+ },
+ {
+  "id": "christiano2017deep",
+  "title": "Deep Reinforcement Learning from Human Preferences",
+  "authors": "Christiano PF, Leike J, Brown TB, Martic M, Legg S, Amodei D",
+  "year": 2017,
+  "venue": "NIPS 2017",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Learned a reward model from human comparisons of pairs of trajectory segments and optimized it with deep RL. It solved Atari and MuJoCo tasks with feedback on under 1% of interactions and is the basis of RLHF.",
+  "builds_on": [
+   "ng2000algorithms",
+   "schulman2015trust",
+   "mnih2016asynchronous"
+  ],
+  "arxiv": "1706.03741"
+ },
+ {
+  "id": "ziegler2019finetuning",
+  "title": "Fine-Tuning Language Models from Human Preferences",
+  "authors": "Ziegler DM, Stiennon N, Wu J, Brown TB, Radford A, Amodei D, et al.",
+  "year": 2019,
+  "venue": "arXiv 2019",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First applied preference-based reward modeling and PPO with a KL penalty to fine-tune GPT-2 on stylistic continuation and summarization. It established the RLHF recipe for language models.",
+  "builds_on": [
+   "christiano2017deep",
+   "schulman2017proximal",
+   "radford2019language"
+  ],
+  "arxiv": "1909.08593"
+ },
+ {
+  "id": "stiennon2020learning",
+  "title": "Learning to summarize from human feedback",
+  "authors": "Stiennon N, Ouyang L, Wu J, Ziegler DM, Lowe R, Voss C, et al.",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Trained reward models on human comparisons of summaries and optimized policies with PPO. The resulting summaries beat both supervised baselines and the human-written references, showing RLHF works at scale.",
+  "builds_on": [
+   "ziegler2019finetuning",
+   "christiano2017deep"
+  ],
+  "arxiv": "2009.01325"
+ },
+ {
+  "id": "bai2022training",
+  "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+  "authors": "Bai Y, Jones A, Ndousse K, Askell A, Chen A, DasSarma N, et al.",
+  "year": 2022,
+  "venue": "arXiv 2022",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Applied RLHF to train helpful and harmless assistants, studied the tension between the two goals and iterated online with fresh human feedback. Its HH dataset became widely used.",
+  "builds_on": [
+   "stiennon2020learning",
+   "christiano2017deep"
+  ],
+  "arxiv": "2204.05862"
+ },
+ {
+  "id": "zelikman2022star",
+  "title": "STaR: Bootstrapping Reasoning With Reasoning",
+  "authors": "Zelikman E, Wu Y, Mu J, Goodman ND",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 1,
+  "summary": "A language model generates rationales, keeps those that reach correct answers and fine-tunes on them, iteratively improving its reasoning. A precursor of RL with verifiable rewards.",
+  "builds_on": [
+   "wei2022chain",
+   "williams1992simple"
+  ]
+ },
+ {
+  "id": "bai2022constitutional",
+  "title": "Constitutional AI: Harmlessness from AI Feedback",
+  "authors": "Bai Y, Kadavath S, Kundu S, Askell A, Kernion J, Jones A, et al.",
+  "year": 2022,
+  "venue": "arXiv 2022",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Replaces human harmlessness labels with AI feedback guided by a written set of principles, using self-critique and RL from AI feedback (RLAIF). It made alignment training more scalable and transparent.",
+  "builds_on": [
+   "bai2022training",
+   "ouyang2022training"
+  ],
+  "arxiv": "2212.08073"
+ },
+ {
+  "id": "lightman2024lets",
+  "title": "Let's Verify Step by Step",
+  "authors": "Lightman H, Kosaraju V, Burda Y, Edwards H, Baker B, Lee T, et al.",
+  "year": 2024,
+  "venue": "ICLR 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed that process reward models trained on step-level human labels (the PRM800K dataset) beat outcome supervision for checking mathematical reasoning.",
+  "builds_on": [
+   "stiennon2020learning",
+   "wei2022chain"
+  ],
+  "arxiv": "2305.20050"
+ },
+ {
+  "id": "shao2024deepseekmath",
+  "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+  "authors": "Shao Z, Wang P, Zhu Q, Xu R, Song J, Bi X, et al.",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced Group Relative Policy Optimization (GRPO), a PPO variant that drops the value network and computes advantages relative to a group of sampled answers. GRPO became the workhorse of RL for reasoning models.",
+  "builds_on": [
+   "schulman2017proximal",
+   "ouyang2022training",
+   "lightman2024lets"
+  ],
+  "arxiv": "2402.03300"
+ },
+ {
+  "id": "openai2024learning",
+  "title": "Learning to Reason with LLMs (OpenAI o1)",
+  "authors": "OpenAI",
+  "year": 2024,
+  "venue": "OpenAI technical report / blog, September 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Announced o1, a model trained with large-scale RL to produce long chains of thought before answering. Performance improved with both training compute and test-time thinking, starting the reasoning-model era.",
+  "builds_on": [
+   "wei2022chain",
+   "lightman2024lets",
+   "ouyang2022training"
+  ]
+ },
+ {
+  "id": "lambert2024tulu",
+  "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+  "authors": "Lambert N, Morrison J, Pyatkin V, Huang S, Ivison H, Brahman F, et al.",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 1,
+  "summary": "An openly released post-training recipe, with data, code and models, combining SFT, DPO and RL with verifiable rewards (RLVR) on tasks with checkable answers.",
+  "builds_on": [
+   "rafailov2023direct",
+   "ouyang2022training",
+   "schulman2017proximal"
+  ],
+  "arxiv": "2411.15124"
+ },
+ {
+  "id": "yue2025does",
+  "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+  "authors": "Yue Y, Chen Z, Lu R, Zhao A, Wang Z, Song S, et al.",
+  "year": 2025,
+  "venue": "NeurIPS 2025",
+  "domain": "ai",
+  "field": "Reinforcement Learning",
+  "subfield": "RL from human feedback & for LLMs",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Using pass@k at large k, found that RL with verifiable rewards mainly sharpens sampling toward reasoning paths the base model already contains, rather than adding new ones. A widely discussed analysis of what RL adds to LLMs.",
+  "builds_on": [
+   "deepseekai2025deepseekr1",
+   "shao2024deepseekmath"
+  ]
+ }
+]

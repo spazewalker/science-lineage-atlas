@@ -1,0 +1,1889 @@
+[
+ {
+  "id": "dayhoff1965atlas",
+  "title": "Atlas of Protein Sequence and Structure",
+  "authors": "Dayhoff MO, Eck RV, Chang MA, Sochard MR",
+  "year": 1965,
+  "venue": "National Biomedical Research Foundation",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "book",
+  "importance": 3,
+  "summary": "The first comprehensive compilation of protein sequences, effectively the first bioinformatics database and the template for later sequence databanks.",
+  "builds_on": []
+ },
+ {
+  "id": "dayhoff1978model",
+  "title": "A model of evolutionary change in proteins",
+  "authors": "Dayhoff MO, Schwartz RM, Orcutt BC",
+  "year": 1978,
+  "venue": "Atlas of Protein Sequence and Structure 5(Suppl 3):345-352",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the PAM (point accepted mutation) substitution matrices derived from closely related sequences, the standard scoring scheme for protein alignment for decades.",
+  "builds_on": [
+   "dayhoff1965atlas"
+  ]
+ },
+ {
+  "id": "needleman1970general",
+  "title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
+  "authors": "Needleman SB, Wunsch CD",
+  "year": 1970,
+  "venue": "J Mol Biol 48(3):443-453",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced dynamic programming for optimal global alignment of two sequences, the algorithmic foundation of sequence comparison.",
+  "builds_on": [
+   "dayhoff1965atlas"
+  ],
+  "doi": "10.1016/0022-2836(70)90057-4"
+ },
+ {
+  "id": "smith1981identification",
+  "title": "Identification of common molecular subsequences",
+  "authors": "Smith TF, Waterman MS",
+  "year": 1981,
+  "venue": "J Mol Biol 147(1):195-197",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Adapted dynamic programming to find optimal local alignments, the rigorous basis for detecting shared domains and for database search.",
+  "builds_on": [
+   "needleman1970general"
+  ],
+  "doi": "10.1016/0022-2836(81)90087-5"
+ },
+ {
+  "id": "felsenstein1981evolutionary",
+  "title": "Evolutionary trees from DNA sequences: a maximum likelihood approach",
+  "authors": "Felsenstein J",
+  "year": 1981,
+  "venue": "J Mol Evol 17(6):368-376",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced practical maximum-likelihood phylogenetic inference with the pruning algorithm, the statistical foundation of modern molecular phylogenetics.",
+  "builds_on": [
+   "dayhoff1978model"
+  ],
+  "doi": "10.1007/BF01734359"
+ },
+ {
+  "id": "bilofsky1986genbank",
+  "title": "The GenBank genetic sequence databank",
+  "authors": "Bilofsky HS, Burks C, Fickett JW, Goad WB, Lewitter FI, Rindone WP, et al.",
+  "year": 1986,
+  "venue": "Nucleic Acids Res 14(1):1-4",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Described GenBank, the public nucleotide sequence archive established in 1982 at Los Alamos and later run by NCBI, a core shared resource of genomics.",
+  "builds_on": [
+   "dayhoff1965atlas",
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "pearson1988improved",
+  "title": "Improved tools for biological sequence comparison",
+  "authors": "Pearson WR, Lipman DJ",
+  "year": 1988,
+  "venue": "Proc Natl Acad Sci USA 85(8):2444-2448",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the FASTA program, a fast k-tuple heuristic for sensitive database similarity search that preceded BLAST.",
+  "builds_on": [
+   "smith1981identification",
+   "dayhoff1978model"
+  ],
+  "doi": "10.1073/pnas.85.8.2444"
+ },
+ {
+  "id": "altschul1990basic",
+  "title": "Basic local alignment search tool",
+  "authors": "Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ",
+  "year": 1990,
+  "venue": "J Mol Biol 215(3):403-410",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced BLAST, a fast seed-and-extend heuristic with rigorous statistics for local alignment search, becoming one of the most-used tools in biology.",
+  "builds_on": [
+   "smith1981identification",
+   "pearson1988improved"
+  ],
+  "doi": "10.1016/S0022-2836(05)80360-2"
+ },
+ {
+  "id": "henikoff1992amino",
+  "title": "Amino acid substitution matrices from protein blocks",
+  "authors": "Henikoff S, Henikoff JG",
+  "year": 1992,
+  "venue": "Proc Natl Acad Sci USA 89(22):10915-10919",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Derived the BLOSUM substitution matrices from conserved blocks of distant homologs; BLOSUM62 became the default protein scoring matrix.",
+  "builds_on": [
+   "dayhoff1978model"
+  ],
+  "doi": "10.1073/pnas.89.22.10915"
+ },
+ {
+  "id": "thompson1994clustal",
+  "title": "CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice",
+  "authors": "Thompson JD, Higgins DG, Gibson TJ",
+  "year": 1994,
+  "venue": "Nucleic Acids Res 22(22):4673-4680",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 3,
+  "summary": "The widely used progressive multiple sequence alignment program, making MSAs routine for evolutionary and structural analysis.",
+  "builds_on": [
+   "needleman1970general",
+   "henikoff1992amino"
+  ],
+  "doi": "10.1093/nar/22.22.4673"
+ },
+ {
+  "id": "krogh1994hidden",
+  "title": "Hidden Markov models in computational biology: applications to protein modeling",
+  "authors": "Krogh A, Brown M, Mian IS, Sjölander K, Haussler D",
+  "year": 1994,
+  "venue": "J Mol Biol 235(5):1501-1531",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced profile hidden Markov models for protein families, giving a probabilistic framework for homology detection and alignment.",
+  "builds_on": [
+   "smith1981identification"
+  ]
+ },
+ {
+  "id": "sonnhammer1997pfam",
+  "title": "Pfam: a comprehensive database of protein domain families based on seed alignments",
+  "authors": "Sonnhammer EL, Eddy SR, Durbin R",
+  "year": 1997,
+  "venue": "Proteins 28(3):405-420",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Created Pfam, the curated database of protein domain families represented as profile HMMs, a standard resource for annotation and later for MSA-based structure prediction.",
+  "builds_on": [
+   "krogh1994hidden",
+   "thompson1994clustal"
+  ]
+ },
+ {
+  "id": "altschul1997gapped",
+  "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+  "authors": "Altschul SF, Madden TL, Schäffer AA, Zhang J, Zhang Z, Miller W, et al.",
+  "year": 1997,
+  "venue": "Nucleic Acids Res 25(17):3389-3402",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 3,
+  "summary": "Added gapped alignment and iterative position-specific scoring (PSI-BLAST) to BLAST, greatly improving remote homology detection and supplying profiles to structure predictors.",
+  "builds_on": [
+   "altschul1990basic",
+   "henikoff1992amino"
+  ],
+  "doi": "10.1093/nar/25.17.3389"
+ },
+ {
+  "id": "eddy1998profile",
+  "title": "Profile hidden Markov models",
+  "authors": "Eddy SR",
+  "year": 1998,
+  "venue": "Bioinformatics 14(9):755-763",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Reviewed and popularized profile HMMs and the HMMER software for sensitive protein family search.",
+  "builds_on": [
+   "krogh1994hidden"
+  ],
+  "doi": "10.1093/bioinformatics/14.9.755"
+ },
+ {
+  "id": "pevzner2001eulerian",
+  "title": "An Eulerian path approach to DNA fragment assembly",
+  "authors": "Pevzner PA, Tang H, Waterman MS",
+  "year": 2001,
+  "venue": "Proc Natl Acad Sci USA 98(17):9748-9753",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Recast genome assembly as finding Eulerian paths in a de Bruijn graph, the paradigm adopted by short-read assemblers.",
+  "builds_on": [
+   "sanger1977dna"
+  ],
+  "doi": "10.1073/pnas.171285098"
+ },
+ {
+  "id": "zerbino2008velvet",
+  "title": "Velvet: algorithms for de novo short read assembly using de Bruijn graphs",
+  "authors": "Zerbino DR, Birney E",
+  "year": 2008,
+  "venue": "Genome Res 18(5):821-829",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "A practical de Bruijn graph assembler for next-generation short reads, enabling de novo assembly of genomes from Illumina data.",
+  "builds_on": [
+   "pevzner2001eulerian",
+   "bentley2008accurate"
+  ],
+  "doi": "10.1101/gr.074492.107"
+ },
+ {
+  "id": "li2009fast",
+  "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+  "authors": "Li H, Durbin R",
+  "year": 2009,
+  "venue": "Bioinformatics 25(14):1754-1760",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 3,
+  "summary": "Introduced BWA, using the Burrows-Wheeler transform and FM-index to map short reads quickly to large genomes; a backbone of resequencing pipelines.",
+  "builds_on": [
+   "smith1981identification",
+   "bentley2008accurate"
+  ],
+  "doi": "10.1093/bioinformatics/btp324"
+ },
+ {
+  "id": "langmead2009ultrafast",
+  "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+  "authors": "Langmead B, Trapnell C, Pop M, Salzberg SL",
+  "year": 2009,
+  "venue": "Genome Biol 10(3):R25",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced Bowtie, a Burrows-Wheeler-indexed short-read aligner that made mapping to the human genome fast on ordinary hardware.",
+  "builds_on": [
+   "bentley2008accurate",
+   "lander2001initial"
+  ],
+  "doi": "10.1186/gb-2009-10-3-r25"
+ },
+ {
+  "id": "mckenna2010genome",
+  "title": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+  "authors": "McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, et al.",
+  "year": 2010,
+  "venue": "Genome Res 20(9):1297-1303",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced GATK, the standard framework for variant discovery and genotyping from high-throughput sequencing.",
+  "builds_on": [
+   "li2009fast"
+  ],
+  "doi": "10.1101/gr.107524.110"
+ },
+ {
+  "id": "love2014moderated",
+  "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+  "authors": "Love MI, Huber W, Anders S",
+  "year": 2014,
+  "venue": "Genome Biol 15(12):550",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced DESeq2, a negative-binomial shrinkage method for differential expression analysis that became a standard for RNA-seq.",
+  "builds_on": [
+   "bentley2008accurate"
+  ],
+  "doi": "10.1186/s13059-014-0550-8"
+ },
+ {
+  "id": "satija2015spatial",
+  "title": "Spatial reconstruction of single-cell gene expression data",
+  "authors": "Satija R, Farrell JA, Gennert D, Schier AF, Regev A",
+  "year": 2015,
+  "venue": "Nat Biotechnol 33(5):495-502",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced Seurat, which grew into the dominant R toolkit for single-cell RNA-seq clustering, integration and analysis.",
+  "builds_on": [
+   "macosko2015highly",
+   "klein2015droplet"
+  ],
+  "doi": "10.1038/nbt.3192"
+ },
+ {
+  "id": "steinegger2017mmseqs2",
+  "title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+  "authors": "Steinegger M, Söding J",
+  "year": 2017,
+  "venue": "Nat Biotechnol 35(11):1026-1028",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "A very fast sensitive protein search tool that made searches against billions of sequences practical; later powered ColabFold MSA generation.",
+  "builds_on": [
+   "altschul1997gapped",
+   "eddy1998profile",
+   "sonnhammer1997pfam"
+  ],
+  "doi": "10.1038/nbt.3988"
+ },
+ {
+  "id": "wolf2018scanpy",
+  "title": "SCANPY: large-scale single-cell gene expression data analysis",
+  "authors": "Wolf FA, Angerer P, Theis FJ",
+  "year": 2018,
+  "venue": "Genome Biol 19(1):15",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Sequence analysis & bioinformatics",
+  "type": "software",
+  "importance": 2,
+  "summary": "A scalable Python framework for single-cell analysis that anchors the scverse ecosystem.",
+  "builds_on": [
+   "satija2015spatial"
+  ],
+  "doi": "10.1186/s13059-017-1382-0"
+ },
+ {
+  "id": "bragg1913reflection",
+  "title": "The reflection of X-rays by crystals",
+  "authors": "Bragg WH, Bragg WL",
+  "year": 1913,
+  "venue": "Proc R Soc Lond A 88(605):428-438",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Established Bragg's law and X-ray crystal structure analysis, the origin of crystallography as a tool for atomic structure.",
+  "builds_on": []
+ },
+ {
+  "id": "pauling1951structure",
+  "title": "The structure of proteins: two hydrogen-bonded helical configurations of the polypeptide chain",
+  "authors": "Pauling L, Corey RB, Branson HR",
+  "year": 1951,
+  "venue": "Proc Natl Acad Sci USA 37(4):205-211",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Predicted the alpha-helix from stereochemical principles, founding the idea of regular protein secondary structure.",
+  "builds_on": [
+   "bragg1913reflection"
+  ],
+  "doi": "10.1073/pnas.37.4.205"
+ },
+ {
+  "id": "kendrew1958three",
+  "title": "A three-dimensional model of the myoglobin molecule obtained by X-ray analysis",
+  "authors": "Kendrew JC, Bodo G, Dintzis HM, Parrish RG, Wyckoff H, Phillips DC",
+  "year": 1958,
+  "venue": "Nature 181:662-666",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The first three-dimensional structure of a protein (myoglobin), proving that protein structures could be solved by X-ray crystallography.",
+  "builds_on": [
+   "bragg1913reflection",
+   "pauling1951structure"
+  ],
+  "doi": "10.1038/181662a0"
+ },
+ {
+  "id": "perutz1960structure",
+  "title": "Structure of haemoglobin: a three-dimensional Fourier synthesis at 5.5-Å resolution, obtained by X-ray analysis",
+  "authors": "Perutz MF, Rossmann MG, Cullis AF, Muirhead H, Will G, North ACT",
+  "year": 1960,
+  "venue": "Nature 185:416-422",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Solved haemoglobin using heavy-atom isomorphous replacement, opening the way to structure-function understanding of allostery; Nobel Prize 1962 with Kendrew.",
+  "builds_on": [
+   "kendrew1958three"
+  ],
+  "doi": "10.1038/185416a0"
+ },
+ {
+  "id": "ramachandran1963stereochemistry",
+  "title": "Stereochemistry of polypeptide chain configurations",
+  "authors": "Ramachandran GN, Ramakrishnan C, Sasisekharan V",
+  "year": 1963,
+  "venue": "J Mol Biol 7(1):95-99",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the Ramachandran plot of allowed backbone phi/psi angles, still the basic validation of protein structures and a constraint for prediction.",
+  "builds_on": [
+   "pauling1951structure"
+  ],
+  "doi": "10.1016/S0022-2836(63)80023-6"
+ },
+ {
+  "id": "bernstein1977protein",
+  "title": "The Protein Data Bank: a computer-based archival file for macromolecular structures",
+  "authors": "Bernstein FC, Koetzle TF, Williams GJ, Meyer EF Jr, Brice MD, Rodgers JR, et al.",
+  "year": 1977,
+  "venue": "J Mol Biol 112(3):535-542",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Described the Protein Data Bank archive founded in 1971, the shared repository of macromolecular coordinates.",
+  "builds_on": [
+   "kendrew1958three",
+   "perutz1960structure"
+  ]
+ },
+ {
+  "id": "williamson1985solution",
+  "title": "Solution conformation of proteinase inhibitor IIA from bull seminal plasma by 1H nuclear magnetic resonance and distance geometry",
+  "authors": "Williamson MP, Havel TF, Wüthrich K",
+  "year": 1985,
+  "venue": "J Mol Biol 182(2):295-315",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The first complete protein structure determined by NMR in solution, establishing NMR as a second route to atomic protein structures (Wüthrich, Nobel 2002).",
+  "builds_on": [
+   "kendrew1958three"
+  ]
+ },
+ {
+  "id": "dubochet1988cryoelectron",
+  "title": "Cryo-electron microscopy of vitrified specimens",
+  "authors": "Dubochet J, Adrian M, Chang JJ, Homo JC, Lepault J, McDowall AW, et al.",
+  "year": 1988,
+  "venue": "Q Rev Biophys 21(2):129-228",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Established vitrification of thin aqueous specimens in amorphous ice, the sample preparation underlying all biological cryo-EM (Nobel 2017).",
+  "builds_on": []
+ },
+ {
+  "id": "henderson1990model",
+  "title": "Model for the structure of bacteriorhodopsin based on high-resolution electron cryo-microscopy",
+  "authors": "Henderson R, Baldwin JM, Ceska TA, Zemlin F, Beckmann E, Downing KH",
+  "year": 1990,
+  "venue": "J Mol Biol 213(4):899-929",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The first atomic model of a membrane protein from electron cryo-microscopy, showing EM could reach near-atomic resolution (Nobel 2017).",
+  "builds_on": [
+   "dubochet1988cryoelectron"
+  ]
+ },
+ {
+  "id": "frank1996three",
+  "title": "Three-Dimensional Electron Microscopy of Macromolecular Assemblies",
+  "authors": "Frank J",
+  "year": 1996,
+  "venue": "Academic Press",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "book",
+  "importance": 2,
+  "summary": "Codified single-particle reconstruction, the image-processing framework (alignment, classification, 3D reconstruction) developed by Frank and used by all single-particle cryo-EM (Nobel 2017).",
+  "builds_on": [
+   "dubochet1988cryoelectron"
+  ]
+ },
+ {
+  "id": "berman2000protein",
+  "title": "The Protein Data Bank",
+  "authors": "Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, et al.",
+  "year": 2000,
+  "venue": "Nucleic Acids Res 28(1):235-242",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Described the modernized RCSB Protein Data Bank, the curated archive of experimental structures whose ~200,000 entries trained AlphaFold and successors.",
+  "builds_on": [
+   "bernstein1977protein"
+  ],
+  "doi": "10.1093/nar/28.1.235"
+ },
+ {
+  "id": "scheres2012relion",
+  "title": "RELION: implementation of a Bayesian approach to cryo-EM structure determination",
+  "authors": "Scheres SHW",
+  "year": 2012,
+  "venue": "J Struct Biol 180(3):519-530",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced Bayesian (maximum a posteriori) refinement for single-particle cryo-EM, central to the resolution revolution.",
+  "builds_on": [
+   "frank1996three"
+  ],
+  "doi": "10.1016/j.jsb.2012.09.006"
+ },
+ {
+  "id": "li2013electron",
+  "title": "Electron counting and beam-induced motion correction enable near-atomic-resolution single-particle cryo-EM",
+  "authors": "Li X, Mooney P, Zheng S, Booth CR, Braunfeld MB, Gubbens S, et al.",
+  "year": 2013,
+  "venue": "Nat Methods 10(6):584-590",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed that direct electron detectors with motion correction enable near-atomic resolution, a key enabler of the cryo-EM resolution revolution.",
+  "builds_on": [
+   "henderson1990model",
+   "frank1996three"
+  ],
+  "doi": "10.1038/nmeth.2472"
+ },
+ {
+  "id": "liao2013structure",
+  "title": "Structure of the TRPV1 ion channel determined by electron cryo-microscopy",
+  "authors": "Liao M, Cao E, Julius D, Cheng Y",
+  "year": 2013,
+  "venue": "Nature 504:107-112",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 3,
+  "summary": "A 3.4 Å single-particle cryo-EM structure of a membrane protein without crystals, the emblematic result of the resolution revolution.",
+  "builds_on": [
+   "li2013electron",
+   "scheres2012relion"
+  ],
+  "doi": "10.1038/nature12822"
+ },
+ {
+  "id": "kuhlbrandt2014resolution",
+  "title": "The resolution revolution",
+  "authors": "Kühlbrandt W",
+  "year": 2014,
+  "venue": "Science 343(6178):1443-1444",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Named and documented the 2013-2014 jump of cryo-EM to near-atomic resolution driven by direct detectors and new software.",
+  "builds_on": [
+   "liao2013structure",
+   "li2013electron"
+  ],
+  "doi": "10.1126/science.1251652"
+ },
+ {
+  "id": "punjani2017cryosparc",
+  "title": "cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination",
+  "authors": "Punjani A, Rubinstein JL, Fleet DJ, Brubaker MA",
+  "year": 2017,
+  "venue": "Nat Methods 14(3):290-296",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced stochastic gradient descent ab initio reconstruction and branch-and-bound refinement, making cryo-EM processing fast and accessible.",
+  "builds_on": [
+   "scheres2012relion"
+  ],
+  "doi": "10.1038/nmeth.4169"
+ },
+ {
+  "id": "nakane2020single",
+  "title": "Single-particle cryo-EM at atomic resolution",
+  "authors": "Nakane T, Kotecha A, Sente A, McMullan G, Masiulis S, Brown PMGE, et al.",
+  "year": 2020,
+  "venue": "Nature 587:152-156",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Structural biology methods",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Reached ~1.2 Å resolution for apoferritin, resolving individual atoms and hydrogens and establishing cryo-EM as a true atomic-resolution method.",
+  "builds_on": [
+   "kuhlbrandt2014resolution",
+   "scheres2012relion"
+  ]
+ },
+ {
+  "id": "levinthal1969how",
+  "title": "How to fold graciously",
+  "authors": "Levinthal C",
+  "year": 1969,
+  "venue": "Mössbauer Spectroscopy in Biological Systems, Univ. Illinois Press, pp. 22-24",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Posed Levinthal's paradox: random conformational search would take astronomically long, so folding must follow guided pathways.",
+  "builds_on": [
+   "kendrew1958three"
+  ]
+ },
+ {
+  "id": "anfinsen1973principles",
+  "title": "Principles that govern the folding of protein chains",
+  "authors": "Anfinsen CB",
+  "year": 1973,
+  "venue": "Science 181(4096):223-230",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Nobel lecture stating the thermodynamic hypothesis: the amino acid sequence determines the native structure, the premise of structure prediction.",
+  "builds_on": [
+   "kendrew1958three"
+  ],
+  "doi": "10.1126/science.181.4096.223"
+ },
+ {
+  "id": "bryngelson1987spin",
+  "title": "Spin glasses and the statistical mechanics of protein folding",
+  "authors": "Bryngelson JD, Wolynes PG",
+  "year": 1987,
+  "venue": "Proc Natl Acad Sci USA 84(21):7524-7528",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced energy-landscape theory and the principle of minimal frustration, resolving Levinthal's paradox via funneled landscapes.",
+  "builds_on": [
+   "levinthal1969how",
+   "anfinsen1973principles"
+  ]
+ },
+ {
+  "id": "jones1992new",
+  "title": "A new approach to protein fold recognition",
+  "authors": "Jones DT, Taylor WR, Thornton JM",
+  "year": 1992,
+  "venue": "Nature 358:86-89",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced threading, scoring sequence fit to known folds with pairwise potentials, to recognize folds beyond detectable homology.",
+  "builds_on": [
+   "berman2000protein",
+   "bernstein1977protein",
+   "altschul1990basic"
+  ]
+ },
+ {
+  "id": "rost1993prediction",
+  "title": "Prediction of protein secondary structure at better than 70% accuracy",
+  "authors": "Rost B, Sander C",
+  "year": 1993,
+  "venue": "J Mol Biol 232(2):584-599",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "PHD combined neural networks with multiple sequence alignment profiles, a decisive early use of evolutionary information and machine learning for prediction.",
+  "builds_on": [
+   "anfinsen1973principles",
+   "pauling1951structure",
+   "thompson1994clustal",
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "sali1993comparative",
+  "title": "Comparative protein modelling by satisfaction of spatial restraints",
+  "authors": "Šali A, Blundell TL",
+  "year": 1993,
+  "venue": "J Mol Biol 234(3):779-815",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced MODELLER, the standard homology-modeling approach that builds models from template-derived spatial restraints.",
+  "builds_on": [
+   "bernstein1977protein",
+   "needleman1970general"
+  ]
+ },
+ {
+  "id": "moult1995large",
+  "title": "A large-scale experiment to assess protein structure prediction methods",
+  "authors": "Moult J, Pedersen JT, Judson R, Fidelis K",
+  "year": 1995,
+  "venue": "Proteins 23(3):ii-v",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "Launched CASP, the blind biennial assessment of structure prediction that defined progress in the field and later certified AlphaFold.",
+  "builds_on": [
+   "anfinsen1973principles",
+   "jones1992new"
+  ]
+ },
+ {
+  "id": "simons1997assembly",
+  "title": "Assembly of protein tertiary structures from fragments with similar local sequences using simulated annealing and Bayesian scoring functions",
+  "authors": "Simons KT, Kooperberg C, Huang E, Baker D",
+  "year": 1997,
+  "venue": "J Mol Biol 268(1):209-225",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced Rosetta fragment-assembly de novo structure prediction, the basis of the Rosetta suite for both prediction and design.",
+  "builds_on": [
+   "bryngelson1987spin",
+   "moult1995large",
+   "berman2000protein"
+  ]
+ },
+ {
+  "id": "marks2011protein",
+  "title": "Protein 3D structure computed from evolutionary sequence variation",
+  "authors": "Marks DS, Colwell LJ, Sheridan R, Hopf TA, Pagnani A, Zecchina R, et al.",
+  "year": 2011,
+  "venue": "PLoS ONE 6(12):e28766",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "EVfold used global maximum-entropy models of coevolution to infer residue contacts and fold proteins de novo from sequence families alone.",
+  "builds_on": [
+   "sonnhammer1997pfam",
+   "simons1997assembly"
+  ],
+  "doi": "10.1371/journal.pone.0028766"
+ },
+ {
+  "id": "wang2017accurate",
+  "title": "Accurate de novo prediction of protein contact map by ultra-deep learning model",
+  "authors": "Wang S, Sun S, Li Z, Zhang R, Xu J",
+  "year": 2017,
+  "venue": "PLoS Comput Biol 13(1):e1005324",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "RaptorX-Contact applied deep residual networks to coevolution features, dramatically improving contact prediction in CASP12.",
+  "builds_on": [
+   "marks2011protein",
+   "he2016deep"
+  ]
+ },
+ {
+  "id": "senior2020improved",
+  "title": "Improved protein structure prediction using potentials from deep learning",
+  "authors": "Senior AW, Evans R, Jumper J, Kirkpatrick J, Sifre L, Green T, et al.",
+  "year": 2020,
+  "venue": "Nature 577:706-710",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaFold (CASP13) predicted inter-residue distance distributions with deep networks and folded proteins by gradient descent on the resulting potential.",
+  "builds_on": [
+   "wang2017accurate",
+   "marks2011protein",
+   "he2016deep"
+  ],
+  "doi": "10.1038/s41586-019-1923-7"
+ },
+ {
+  "id": "yang2020improved",
+  "title": "Improved protein structure prediction using predicted interresidue orientations",
+  "authors": "Yang J, Anishchenko I, Park H, Peng Z, Ovchinnikov S, Baker D",
+  "year": 2020,
+  "venue": "Proc Natl Acad Sci USA 117(3):1496-1503",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "trRosetta predicted inter-residue distances and orientations to drive Rosetta folding, a fast open alternative to AlphaFold 1.",
+  "builds_on": [
+   "senior2020improved",
+   "simons1997assembly"
+  ]
+ },
+ {
+  "id": "jumper2021highly",
+  "title": "Highly accurate protein structure prediction with AlphaFold",
+  "authors": "Jumper J, Evans R, Pritzel A, Green T, Figurnov M, Ronneberger O, et al.",
+  "year": 2021,
+  "venue": "Nature 596:583-589",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaFold2's Evoformer and structure module reached near-experimental accuracy in CASP14, largely solving single-chain protein structure prediction (Nobel 2024).",
+  "builds_on": [
+   "senior2020improved",
+   "vaswani2017attention",
+   "berman2000protein",
+   "moult1995large"
+  ],
+  "doi": "10.1038/s41586-021-03819-2"
+ },
+ {
+  "id": "baek2021accurate",
+  "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+  "authors": "Baek M, DiMaio F, Anishchenko I, Dauparas J, Ovchinnikov S, Lee GR, et al.",
+  "year": 2021,
+  "venue": "Science 373(6557):871-876",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "RoseTTAFold jointly reasoned over sequence, distance and 3D coordinates, achieving near-AlphaFold2 accuracy openly and modeling complexes.",
+  "builds_on": [
+   "yang2020improved",
+   "senior2020improved",
+   "vaswani2017attention"
+  ],
+  "doi": "10.1126/science.abj8754"
+ },
+ {
+  "id": "evans2021protein",
+  "title": "Protein complex prediction with AlphaFold-Multimer",
+  "authors": "Evans R, O'Neill M, Pritzel A, Antropova N, Senior A, Green T, et al.",
+  "year": 2021,
+  "venue": "bioRxiv (2021)",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Retrained AlphaFold for multi-chain inputs, substantially improving prediction of protein-protein complexes.",
+  "builds_on": [
+   "jumper2021highly"
+  ]
+ },
+ {
+  "id": "varadi2022alphafold",
+  "title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models",
+  "authors": "Varadi M, Anyango S, Deshpande M, Nair S, Natassia C, Yordanova G, et al.",
+  "year": 2022,
+  "venue": "Nucleic Acids Res 50(D1):D439-D444",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "The AlphaFold DB with EMBL-EBI, later expanded to over 200 million predicted structures covering nearly all of UniProt.",
+  "builds_on": [
+   "jumper2021highly"
+  ],
+  "doi": "10.1093/nar/gkab1061"
+ },
+ {
+  "id": "lin2023evolutionary",
+  "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+  "authors": "Lin Z, Akin H, Rao R, Hie B, Zhu Z, Lu W, et al.",
+  "year": 2023,
+  "venue": "Science 379(6637):1123-1130",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ESM-2 and ESMFold predicted structures from single sequences with a protein language model, enabling the ~600-million-structure ESM Metagenomic Atlas.",
+  "builds_on": [
+   "rives2021biological",
+   "jumper2021highly",
+   "kaplan2020scaling"
+  ],
+  "doi": "10.1126/science.ade2574"
+ },
+ {
+  "id": "abramson2024accurate",
+  "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+  "authors": "Abramson J, Adler J, Dunger J, Evans R, Green T, Pritzel A, et al.",
+  "year": 2024,
+  "venue": "Nature 630:493-500",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlphaFold 3 replaced the structure module with a diffusion model to predict joint structures of proteins, nucleic acids, ligands, ions and modifications.",
+  "builds_on": [
+   "jumper2021highly",
+   "evans2021protein",
+   "ho2020denoising"
+  ],
+  "doi": "10.1038/s41586-024-07487-w"
+ },
+ {
+  "id": "krishna2024generalized",
+  "title": "Generalized biomolecular modeling and design with RoseTTAFold All-Atom",
+  "authors": "Krishna R, Wang J, Ahern W, Sturmfels P, Venkatesh P, Kalvet I, et al.",
+  "year": 2024,
+  "venue": "Science 384(6693):eadl2528",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Extended RoseTTAFold to all-atom modeling of proteins with small molecules, metals, nucleic acids and covalent modifications, and enabled RFdiffusion All-Atom design.",
+  "builds_on": [
+   "baek2021accurate",
+   "watson2023novo"
+  ],
+  "doi": "10.1126/science.adl2528"
+ },
+ {
+  "id": "wohlwend2024boltz1",
+  "title": "Boltz-1: Democratizing biomolecular interaction modeling",
+  "authors": "Wohlwend J, Corso G, Passaro S, Reveiz M, Leidal K, Swiderski W, et al.",
+  "year": 2024,
+  "venue": "bioRxiv (2024)",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein structure prediction",
+  "type": "software",
+  "importance": 2,
+  "summary": "The first fully open-source model reaching AlphaFold 3-level accuracy on biomolecular complexes, with code and weights under a permissive license.",
+  "builds_on": [
+   "abramson2024accurate"
+  ]
+ },
+ {
+  "id": "smith1985filamentous",
+  "title": "Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface",
+  "authors": "Smith GP",
+  "year": 1985,
+  "venue": "Science 228(4705):1315-1317",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Invented phage display, linking genotype to displayed protein for library selection of binders and antibodies (Nobel 2018).",
+  "builds_on": [
+   "cohen1973construction"
+  ]
+ },
+ {
+  "id": "chen1993tuning",
+  "title": "Tuning the activity of an enzyme for unusual environments: sequential random mutagenesis of subtilisin E for catalysis in dimethylformamide",
+  "authors": "Chen K, Arnold FH",
+  "year": 1993,
+  "venue": "Proc Natl Acad Sci USA 90(12):5618-5622",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Demonstrated directed evolution of enzymes by iterative random mutagenesis and screening (Arnold, Nobel 2018).",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ]
+ },
+ {
+  "id": "dahiyat1997novo",
+  "title": "De novo protein design: fully automated sequence selection",
+  "authors": "Dahiyat BI, Mayo SL",
+  "year": 1997,
+  "venue": "Science 278(5335):82-87",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The first fully computationally designed sequence for a protein fold (a zinc-finger fold), validating physics-based automated design.",
+  "builds_on": [
+   "ramachandran1963stereochemistry",
+   "anfinsen1973principles"
+  ]
+ },
+ {
+  "id": "kuhlman2003design",
+  "title": "Design of a novel globular protein fold with atomic-level accuracy",
+  "authors": "Kuhlman B, Dantas G, Ireton GC, Varani G, Stoddard BL, Baker D",
+  "year": 2003,
+  "venue": "Science 302(5649):1364-1368",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Designed Top7, a protein with a fold not seen in nature, whose crystal structure matched the Rosetta model with atomic accuracy.",
+  "builds_on": [
+   "simons1997assembly",
+   "dahiyat1997novo"
+  ],
+  "doi": "10.1126/science.1089427"
+ },
+ {
+  "id": "rothlisberger2008kemp",
+  "title": "Kemp elimination catalysts by computational enzyme design",
+  "authors": "Röthlisberger D, Khersonsky O, Wollacott AM, Jiang L, DeChancie J, Betker J, et al.",
+  "year": 2008,
+  "venue": "Nature 453:190-195",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Computationally designed enzymes for a reaction with no natural catalyst, later improved by directed evolution.",
+  "builds_on": [
+   "kuhlman2003design",
+   "chen1993tuning"
+  ],
+  "doi": "10.1038/nature06879"
+ },
+ {
+  "id": "jiang2008novo",
+  "title": "De novo computational design of retro-aldol enzymes",
+  "authors": "Jiang L, Althoff EA, Clemente FR, Doyle L, Röthlisberger D, Zanghellini A, et al.",
+  "year": 2008,
+  "venue": "Science 319(5868):1387-1391",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Designed active retro-aldolases with multistep mechanisms using Rosetta theozyme placement, a landmark in de novo enzyme design.",
+  "builds_on": [
+   "kuhlman2003design"
+  ],
+  "doi": "10.1126/science.1152692"
+ },
+ {
+  "id": "correia2014proofofprinciple",
+  "title": "Proof of principle for epitope-focused vaccine design",
+  "authors": "Correia BE, Bates JT, Loomis RJ, Baneyx G, Carrico C, Jardine JG, et al.",
+  "year": 2014,
+  "venue": "Nature 507:201-206",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Computationally designed scaffolds presenting an RSV neutralizing epitope that elicited neutralizing antibodies in macaques.",
+  "builds_on": [
+   "kuhlman2003design",
+   "simons1997assembly"
+  ],
+  "doi": "10.1038/nature12966"
+ },
+ {
+  "id": "walls2020elicitation",
+  "title": "Elicitation of potent neutralizing antibody responses by designed protein nanoparticle vaccines for SARS-CoV-2",
+  "authors": "Walls AC, Fiala B, Schäfer A, Wrenn S, Pham MN, Murphy M, et al.",
+  "year": 2020,
+  "venue": "Cell 183(5):1367-1382",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A computationally designed two-component nanoparticle displaying the spike RBD; it became SKYCovione, the first approved vaccine built on a de novo designed protein.",
+  "builds_on": [
+   "correia2014proofofprinciple",
+   "kuhlman2003design"
+  ]
+ },
+ {
+  "id": "cao2022design",
+  "title": "Design of protein-binding proteins from the target structure alone",
+  "authors": "Cao L, Coventry B, Goreshnik I, Huang B, Sheffler W, Park JS, et al.",
+  "year": 2022,
+  "venue": "Nature 605:551-560",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A general Rosetta pipeline producing de novo binders to diverse targets using only the target structure.",
+  "builds_on": [
+   "kuhlman2003design",
+   "simons1997assembly"
+  ],
+  "doi": "10.1038/s41586-022-04654-9"
+ },
+ {
+  "id": "dauparas2022robust",
+  "title": "Robust deep learning-based protein sequence design using ProteinMPNN",
+  "authors": "Dauparas J, Anishchenko I, Bennett N, Bai H, Ragotte RJ, Milles LF, et al.",
+  "year": 2022,
+  "venue": "Science 378(6615):49-56",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "software",
+  "importance": 3,
+  "summary": "A message-passing network for inverse folding that designs sequences for backbones with far higher experimental success than Rosetta.",
+  "builds_on": [
+   "simons1997assembly",
+   "kuhlman2003design",
+   "baek2021accurate",
+   "kipf2017semisupervised"
+  ],
+  "doi": "10.1126/science.add2187"
+ },
+ {
+  "id": "madani2023large",
+  "title": "Large language models generate functional protein sequences across diverse families",
+  "authors": "Madani A, Krause B, Greene ER, Subramanian S, Mohr BP, Holton JM, et al.",
+  "year": 2023,
+  "venue": "Nat Biotechnol 41:1099-1106",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ProGen, a conditional protein language model, generated artificial lysozymes with natural-like activity despite low sequence identity.",
+  "builds_on": [
+   "radford2019language",
+   "rives2021biological"
+  ]
+ },
+ {
+  "id": "watson2023novo",
+  "title": "De novo design of protein structure and function with RFdiffusion",
+  "authors": "Watson JL, Juergens D, Bennett NR, Trippe BL, Yim J, Eisenach HE, et al.",
+  "year": 2023,
+  "venue": "Nature 620:1089-1100",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "software",
+  "importance": 3,
+  "summary": "Fine-tuned RoseTTAFold as a denoising diffusion model over backbones, enabling design of binders, symmetric assemblies and motif scaffolds with high success.",
+  "builds_on": [
+   "baek2021accurate",
+   "dauparas2022robust",
+   "ho2020denoising"
+  ],
+  "doi": "10.1038/s41586-023-06415-8"
+ },
+ {
+  "id": "ingraham2023illuminating",
+  "title": "Illuminating protein space with a programmable generative model",
+  "authors": "Ingraham JB, Baranov M, Costello Z, Barber KW, Wang W, Ismail A, et al.",
+  "year": 2023,
+  "venue": "Nature 623:1070-1078",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "software",
+  "importance": 2,
+  "summary": "Chroma, a diffusion model over protein complexes with programmable conditioning on symmetry, shape and semantics.",
+  "builds_on": [
+   "ho2020denoising",
+   "dauparas2022robust"
+  ],
+  "doi": "10.1038/s41586-023-06728-8"
+ },
+ {
+  "id": "nobel2024computational",
+  "title": "Nobel Prize in Chemistry 2024: computational protein design and protein structure prediction",
+  "authors": "Royal Swedish Academy of Sciences (laureates Baker D, Hassabis D, Jumper J)",
+  "year": 2024,
+  "venue": "Nobel Prize announcement, 9 October 2024",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "Awarded half to David Baker for computational protein design and half to Demis Hassabis and John Jumper for AlphaFold protein structure prediction.",
+  "builds_on": [
+   "kuhlman2003design",
+   "jumper2021highly",
+   "watson2023novo"
+  ]
+ },
+ {
+  "id": "jiang2024rapid",
+  "title": "Rapid in silico directed evolution by a protein language model with EVOLVEpro",
+  "authors": "Jiang K, Yan Z, Di Bernardo M, Sgrizzi SR, Villiger L, Kayabolen A, et al.",
+  "year": 2024,
+  "venue": "Science 387:eadr6006 (online Nov 2024)",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Combined protein language model embeddings with few-shot active learning to evolve antibodies, CRISPR nucleases and other proteins in few rounds.",
+  "builds_on": [
+   "lin2023evolutionary",
+   "chen1993tuning"
+  ]
+ },
+ {
+  "id": "hayes2025simulating",
+  "title": "Simulating 500 million years of evolution with a language model",
+  "authors": "Hayes T, Rao R, Akin H, Sofroniew NJ, Oktay D, Lin Z, et al.",
+  "year": 2025,
+  "venue": "Science 387(6736):850-858",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Protein design & engineering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ESM3, a multimodal generative model over sequence, structure and function tokens, generated a functional fluorescent protein (esmGFP) distant from known GFPs.",
+  "builds_on": [
+   "lin2023evolutionary",
+   "rives2021biological"
+  ]
+ },
+ {
+  "id": "michaelis1913kinetik",
+  "title": "Die Kinetik der Invertinwirkung",
+  "authors": "Michaelis L, Menten ML",
+  "year": 1913,
+  "venue": "Biochem Z 49:333-369",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Derived the Michaelis-Menten rate law for enzyme kinetics, the foundational quantitative model of biochemistry.",
+  "builds_on": []
+ },
+ {
+  "id": "hodgkin1952quantitative",
+  "title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+  "authors": "Hodgkin AL, Huxley AF",
+  "year": 1952,
+  "venue": "J Physiol 117(4):500-544",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Coupled differential equations reproducing the action potential from measured ionic conductances, the archetype of mechanistic biological modeling (Nobel 1963).",
+  "builds_on": [],
+  "doi": "10.1113/jphysiol.1952.sp004764"
+ },
+ {
+  "id": "turing1952chemical",
+  "title": "The chemical basis of morphogenesis",
+  "authors": "Turing AM",
+  "year": 1952,
+  "venue": "Phil Trans R Soc Lond B 237(641):37-72",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed reaction-diffusion systems can spontaneously form patterns, founding mathematical theories of developmental pattern formation.",
+  "builds_on": [],
+  "doi": "10.1098/rstb.1952.0012"
+ },
+ {
+  "id": "kauffman1969metabolic",
+  "title": "Metabolic stability and epigenesis in randomly constructed genetic nets",
+  "authors": "Kauffman SA",
+  "year": 1969,
+  "venue": "J Theor Biol 22(3):437-467",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced random Boolean networks as models of gene regulation, linking attractors to cell types.",
+  "builds_on": [
+   "turing1952chemical"
+  ]
+ },
+ {
+  "id": "mccammon1977dynamics",
+  "title": "Dynamics of folded proteins",
+  "authors": "McCammon JA, Gelin BR, Karplus M",
+  "year": 1977,
+  "venue": "Nature 267:585-590",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The first molecular dynamics simulation of a protein (BPTI), revealing internal fluid-like motions.",
+  "builds_on": [
+   "kendrew1958three"
+  ],
+  "doi": "10.1038/267585a0"
+ },
+ {
+  "id": "varma1994stoichiometric",
+  "title": "Stoichiometric flux balance models quantitatively predict growth and metabolic by-product secretion in wild-type Escherichia coli W3110",
+  "authors": "Varma A, Palsson BO",
+  "year": 1994,
+  "venue": "Appl Environ Microbiol 60(10):3724-3731",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed constraint-based flux balance analysis predicts E. coli growth and secretion quantitatively, launching genome-scale metabolic modeling.",
+  "builds_on": [
+   "michaelis1913kinetik"
+  ]
+ },
+ {
+  "id": "jeong2000largescale",
+  "title": "The large-scale organization of metabolic networks",
+  "authors": "Jeong H, Tombor B, Albert R, Oltvai ZN, Barabási AL",
+  "year": 2000,
+  "venue": "Nature 407:651-654",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Found scale-free topology across metabolic networks of 43 organisms, catalyzing network biology.",
+  "builds_on": [
+   "kauffman1969metabolic"
+  ]
+ },
+ {
+  "id": "kitano2002systems",
+  "title": "Systems biology: a brief overview",
+  "authors": "Kitano H",
+  "year": 2002,
+  "venue": "Science 295(5560):1662-1664",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Influential manifesto defining systems biology as system-level understanding through structure, dynamics, control and design.",
+  "builds_on": [
+   "schena1995quantitative",
+   "kauffman1969metabolic",
+   "hodgkin1952quantitative"
+  ],
+  "doi": "10.1126/science.1069492"
+ },
+ {
+  "id": "hucka2003systems",
+  "title": "The systems biology markup language (SBML): a medium for representation and exchange of biochemical network models",
+  "authors": "Hucka M, Finney A, Sauro HM, Bolouri H, Doyle JC, Kitano H, et al.",
+  "year": 2003,
+  "venue": "Bioinformatics 19(4):524-531",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "software",
+  "importance": 2,
+  "summary": "Defined SBML, the standard exchange format for biochemical network models.",
+  "builds_on": [
+   "kitano2002systems"
+  ],
+  "doi": "10.1093/bioinformatics/btg015"
+ },
+ {
+  "id": "alon2006introduction",
+  "title": "An Introduction to Systems Biology: Design Principles of Biological Circuits",
+  "authors": "Alon U",
+  "year": 2006,
+  "venue": "Chapman & Hall/CRC",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "book",
+  "importance": 2,
+  "summary": "Textbook framing gene circuits through network motifs, robustness and optimal design.",
+  "builds_on": [
+   "jeong2000largescale",
+   "elowitz2000synthetic"
+  ]
+ },
+ {
+  "id": "shaw2008anton",
+  "title": "Anton, a special-purpose machine for molecular dynamics simulation",
+  "authors": "Shaw DE, Deneroff MM, Dror RO, Kuskin JS, Larson RH, Salmon JK, et al.",
+  "year": 2008,
+  "venue": "Commun ACM 51(7):91-97",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "A purpose-built supercomputer accelerating biomolecular MD by orders of magnitude, opening millisecond timescales.",
+  "builds_on": [
+   "mccammon1977dynamics"
+  ]
+ },
+ {
+  "id": "shaw2010atomiclevel",
+  "title": "Atomic-level characterization of the structural dynamics of proteins",
+  "authors": "Shaw DE, Maragakis P, Lindorff-Larsen K, Piana S, Dror RO, Eastwood MP, et al.",
+  "year": 2010,
+  "venue": "Science 330(6002):341-346",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Millisecond-scale all-atom MD on Anton captured folding and native-state dynamics of small proteins.",
+  "builds_on": [
+   "shaw2008anton",
+   "mccammon1977dynamics"
+  ],
+  "doi": "10.1126/science.1187409"
+ },
+ {
+  "id": "karr2012wholecell",
+  "title": "A whole-cell computational model predicts phenotype from genotype",
+  "authors": "Karr JR, Sanghvi JC, Macklin DN, Gutschow MV, Jacobs JM, Bolival B Jr, et al.",
+  "year": 2012,
+  "venue": "Cell 150(2):389-401",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "Systems biology & modeling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The first whole-cell model, integrating 28 submodels to simulate the full life cycle of Mycoplasma genitalium.",
+  "builds_on": [
+   "varma1994stoichiometric",
+   "hucka2003systems"
+  ],
+  "doi": "10.1016/j.cell.2012.05.044"
+ },
+ {
+  "id": "hansch1964analysis",
+  "title": "p-σ-π Analysis. A method for the correlation of biological activity and chemical structure",
+  "authors": "Hansch C, Fujita T",
+  "year": 1964,
+  "venue": "J Am Chem Soc 86(8):1616-1626",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Founded QSAR by regressing biological activity on hydrophobic, electronic and steric descriptors, the start of computational drug design.",
+  "builds_on": []
+ },
+ {
+  "id": "kuntz1982geometric",
+  "title": "A geometric approach to macromolecule-ligand interactions",
+  "authors": "Kuntz ID, Blaney JM, Oatley SJ, Langridge R, Ferrin TE",
+  "year": 1982,
+  "venue": "J Mol Biol 161(2):269-288",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "software",
+  "importance": 3,
+  "summary": "Introduced DOCK, the first molecular docking program, matching ligand shapes to receptor sites for structure-based drug design.",
+  "builds_on": [
+   "bernstein1977protein"
+  ]
+ },
+ {
+  "id": "morris1998automated",
+  "title": "Automated docking using a Lamarckian genetic algorithm and an empirical binding free energy function",
+  "authors": "Morris GM, Goodsell DS, Halliday RS, Huey R, Hart WE, Belew RK, et al.",
+  "year": 1998,
+  "venue": "J Comput Chem 19(14):1639-1662",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "software",
+  "importance": 2,
+  "summary": "AutoDock 3 introduced a Lamarckian genetic algorithm and empirical free-energy scoring, becoming a widely used docking tool.",
+  "builds_on": [
+   "kuntz1982geometric"
+  ]
+ },
+ {
+  "id": "trott2010autodock",
+  "title": "AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading",
+  "authors": "Trott O, Olson AJ",
+  "year": 2010,
+  "venue": "J Comput Chem 31(2):455-461",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "software",
+  "importance": 2,
+  "summary": "A fast, accurate open-source docking program that became the most widely used docking engine.",
+  "builds_on": [
+   "morris1998automated"
+  ],
+  "doi": "10.1002/jcc.21334"
+ },
+ {
+  "id": "alipanahi2015predicting",
+  "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
+  "authors": "Alipanahi B, Delong A, Weirauch MT, Frey BJ",
+  "year": 2015,
+  "venue": "Nat Biotechnol 33(8):831-838",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DeepBind applied convolutional networks to learn protein-nucleic acid binding specificities, an early landmark of deep learning in genomics.",
+  "builds_on": [
+   "krizhevsky2012imagenet",
+   "encode2012integrated"
+  ],
+  "doi": "10.1038/nbt.3300"
+ },
+ {
+  "id": "zhou2015predicting",
+  "title": "Predicting effects of noncoding variants with deep learning-based sequence model",
+  "authors": "Zhou J, Troyanskaya OG",
+  "year": 2015,
+  "venue": "Nat Methods 12(10):931-934",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DeepSEA predicted chromatin features from sequence and scored effects of noncoding variants.",
+  "builds_on": [
+   "encode2012integrated",
+   "krizhevsky2012imagenet"
+  ],
+  "doi": "10.1038/nmeth.3547"
+ },
+ {
+  "id": "gomezbombarelli2018automatic",
+  "title": "Automatic chemical design using a data-driven continuous representation of molecules",
+  "authors": "Gómez-Bombarelli R, Wei JN, Duvenaud D, Hernández-Lobato JM, Sánchez-Lengeling B, Sheberla D, et al.",
+  "year": 2018,
+  "venue": "ACS Cent Sci 4(2):268-276",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Used a variational autoencoder to map molecules to a continuous latent space for gradient-based generative molecular design.",
+  "builds_on": [
+   "kingma2014autoencoding"
+  ]
+ },
+ {
+  "id": "riesselman2018deep",
+  "title": "Deep generative models of genetic variation capture the effects of mutations",
+  "authors": "Riesselman AJ, Ingraham JB, Marks DS",
+  "year": 2018,
+  "venue": "Nat Methods 15(10):816-822",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DeepSequence used VAEs on protein family alignments to predict mutation effects without labels.",
+  "builds_on": [
+   "marks2011protein",
+   "kingma2014autoencoding"
+  ]
+ },
+ {
+  "id": "lyu2019ultralarge",
+  "title": "Ultra-large library docking for discovering new chemotypes",
+  "authors": "Lyu J, Wang S, Balius TE, Singh I, Levit A, Moroz YS, et al.",
+  "year": 2019,
+  "venue": "Nature 566:224-229",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Docked ~170 million make-on-demand molecules, finding potent novel ligands and showing hit rates improve with library scale.",
+  "builds_on": [
+   "kuntz1982geometric"
+  ],
+  "doi": "10.1038/s41586-019-0917-9"
+ },
+ {
+  "id": "zhavoronkov2019deep",
+  "title": "Deep learning enables rapid identification of potent DDR1 kinase inhibitors",
+  "authors": "Zhavoronkov A, Ivanenkov YA, Aliper A, Veselov MS, Aladinskiy VA, Aladinskaya AV, et al.",
+  "year": 2019,
+  "venue": "Nat Biotechnol 37(9):1038-1040",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "GENTRL, a generative reinforcement-learning model, designed DDR1 inhibitors validated in cells and mice within weeks.",
+  "builds_on": [
+   "gomezbombarelli2018automatic",
+   "goodfellow2014generative"
+  ]
+ },
+ {
+  "id": "stokes2020deep",
+  "title": "A deep learning approach to antibiotic discovery",
+  "authors": "Stokes JM, Yang K, Swanson K, Jin W, Cubillos-Ruiz A, Donghia NM, et al.",
+  "year": 2020,
+  "venue": "Cell 180(4):688-702",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 3,
+  "summary": "A graph neural network screen identified halicin, a structurally novel broad-spectrum antibiotic, showcasing deep learning for drug discovery.",
+  "builds_on": [
+   "kipf2017semisupervised",
+   "hansch1964analysis"
+  ],
+  "doi": "10.1016/j.cell.2020.01.040"
+ },
+ {
+  "id": "rives2021biological",
+  "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+  "authors": "Rives A, Meier J, Sercu T, Goyal S, Lin Z, Liu J, et al.",
+  "year": 2021,
+  "venue": "Proc Natl Acad Sci USA 118(15):e2016239118",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ESM-1b trained a Transformer masked language model on UniRef protein sequences; its representations encoded structure, contacts and function without supervision.",
+  "builds_on": [
+   "devlin2019bert",
+   "vaswani2017attention",
+   "sonnhammer1997pfam"
+  ],
+  "doi": "10.1073/pnas.2016239118"
+ },
+ {
+  "id": "avsec2021effective",
+  "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+  "authors": "Avsec Ž, Agarwal V, Visentin D, Ledsam JR, Grabska-Barwinska A, Taylor KR, et al.",
+  "year": 2021,
+  "venue": "Nat Methods 18(10):1196-1203",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Enformer used Transformer attention over ~200 kb of DNA to predict gene expression and chromatin, improving variant-effect prediction.",
+  "builds_on": [
+   "zhou2015predicting",
+   "vaswani2017attention"
+  ],
+  "doi": "10.1038/s41592-021-01252-x"
+ },
+ {
+  "id": "corso2023diffdock",
+  "title": "DiffDock: Diffusion steps, twists, and turns for molecular docking",
+  "authors": "Corso G, Stärk H, Jing B, Barzilay R, Jaakkola T",
+  "year": 2023,
+  "venue": "ICLR 2023",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "software",
+  "importance": 2,
+  "summary": "Framed docking as generative diffusion over ligand translations, rotations and torsions, outperforming search-based docking on blind benchmarks.",
+  "builds_on": [
+   "trott2010autodock",
+   "song2021scorebased"
+  ]
+ },
+ {
+  "id": "theodoris2023transfer",
+  "title": "Transfer learning enables predictions in network biology",
+  "authors": "Theodoris CV, Xiao L, Chopra A, Chaffin MD, Al Sayed ZR, Hill MC, et al.",
+  "year": 2023,
+  "venue": "Nature 618:616-624",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Geneformer pretrained a Transformer on ~30 million single-cell transcriptomes, enabling transfer learning for network biology tasks.",
+  "builds_on": [
+   "devlin2019bert",
+   "wolf2018scanpy"
+  ],
+  "doi": "10.1038/s41586-023-06139-9"
+ },
+ {
+  "id": "cheng2023accurate",
+  "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+  "authors": "Cheng J, Novati G, Pan J, Bycroft C, Žemgulytė A, Applebaum T, et al.",
+  "year": 2023,
+  "venue": "Science 381(6664):eadg7492",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Adapted AlphaFold with protein language modeling to classify 71 million possible human missense variants as likely benign or pathogenic.",
+  "builds_on": [
+   "jumper2021highly",
+   "riesselman2018deep"
+  ],
+  "doi": "10.1126/science.adg7492"
+ },
+ {
+  "id": "cui2024scgpt",
+  "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+  "authors": "Cui H, Wang C, Maan H, Pang K, Luo F, Duan N, et al.",
+  "year": 2024,
+  "venue": "Nat Methods 21:1470-1480",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A generative Transformer pretrained on over 33 million cells for cell-type annotation, integration and perturbation prediction.",
+  "builds_on": [
+   "theodoris2023transfer",
+   "radford2018improving"
+  ]
+ },
+ {
+  "id": "wong2024discovery",
+  "title": "Discovery of a structural class of antibiotics with explainable deep learning",
+  "authors": "Wong F, Zheng EJ, Valeri JA, Donghia NM, Anahtar MN, Omori S, et al.",
+  "year": 2024,
+  "venue": "Nature 626:177-185",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Explainable graph neural network substructure search discovered a new structural class of antibiotics active against MRSA.",
+  "builds_on": [
+   "stokes2020deep"
+  ]
+ },
+ {
+  "id": "ren2024smallmolecule",
+  "title": "A small-molecule TNIK inhibitor targets fibrosis in preclinical and clinical models",
+  "authors": "Ren F, Aliper A, Chen J, Zhao H, Rao S, Kuppe C, et al.",
+  "year": 2024,
+  "venue": "Nat Biotechnol (2024)",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Described INS018_055 (rentosertib), an AI-nominated target and AI-generated TNIK inhibitor for idiopathic pulmonary fibrosis that advanced to positive phase 2a trials.",
+  "builds_on": [
+   "zhavoronkov2019deep"
+  ]
+ },
+ {
+  "id": "nguyen2024sequence",
+  "title": "Sequence modeling and design from molecular to genome scale with Evo",
+  "authors": "Nguyen E, Poli M, Durrant MG, Kang B, Katrekar D, Li DB, et al.",
+  "year": 2024,
+  "venue": "Science 386(6723):eado9336",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Evo, a 7B-parameter long-context DNA language model trained on prokaryotic genomes, predicted fitness and generated functional CRISPR-Cas and transposon systems.",
+  "builds_on": [
+   "avsec2021effective",
+   "rives2021biological",
+   "kaplan2020scaling"
+  ],
+  "doi": "10.1126/science.ado9336"
+ },
+ {
+  "id": "brixi2025genome",
+  "title": "Genome modeling and design across all domains of life with Evo 2",
+  "authors": "Brixi G, Durrant MG, Ku J, Poli M, Brockman G, Chang D, et al.",
+  "year": 2025,
+  "venue": "bioRxiv (2025)",
+  "domain": "bio",
+  "field": "Computational & Structural Biology",
+  "subfield": "AI for biology & drug discovery",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Evo 2 scaled DNA language modeling to 40B parameters and 1-Mb context on genomes across the tree of life, enabling zero-shot variant-effect prediction including BRCA1.",
+  "builds_on": [
+   "nguyen2024sequence"
+  ]
+ }
+]

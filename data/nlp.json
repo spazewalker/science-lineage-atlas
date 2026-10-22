@@ -1,0 +1,1939 @@
+[
+ {
+  "id": "shannon1948mathematical",
+  "title": "A Mathematical Theory of Communication",
+  "authors": "Shannon CE",
+  "year": 1948,
+  "venue": "Bell System Technical Journal 27(3):379-423",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Founded information theory and introduced n-gram (Markov) approximations of English text, the conceptual ancestor of statistical language modeling.",
+  "builds_on": [],
+  "doi": "10.1002/j.1538-7305.1948.tb01338.x"
+ },
+ {
+  "id": "turing1950computing",
+  "title": "Computing Machinery and Intelligence",
+  "authors": "Turing AM",
+  "year": 1950,
+  "venue": "Mind 59(236):433-460",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Proposed the imitation game (Turing test), framing machine intelligence in terms of natural-language conversation.",
+  "builds_on": [],
+  "doi": "10.1093/mind/LIX.236.433"
+ },
+ {
+  "id": "harris1954distributional",
+  "title": "Distributional Structure",
+  "authors": "Harris ZS",
+  "year": 1954,
+  "venue": "Word 10(2-3):146-162",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Articulated the distributional hypothesis that words occurring in similar contexts have similar meanings, the basis of later vector semantics.",
+  "builds_on": []
+ },
+ {
+  "id": "chomsky1957syntactic",
+  "title": "Syntactic Structures",
+  "authors": "Chomsky N",
+  "year": 1957,
+  "venue": "Mouton, The Hague",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "book",
+  "importance": 3,
+  "summary": "Introduced transformational generative grammar and formal language hierarchies, reshaping linguistics and early symbolic NLP.",
+  "builds_on": []
+ },
+ {
+  "id": "weizenbaum1966eliza",
+  "title": "ELIZA—A Computer Program for the Study of Natural Language Communication between Man and Machine",
+  "authors": "Weizenbaum J",
+  "year": 1966,
+  "venue": "Communications of the ACM 9(1):36-45",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pattern-matching chatbot that simulated a Rogerian therapist, the first widely known conversational program and an early lesson in anthropomorphism.",
+  "builds_on": [
+   "turing1950computing"
+  ],
+  "doi": "10.1145/365153.365168"
+ },
+ {
+  "id": "winograd1972understanding",
+  "title": "Understanding Natural Language",
+  "authors": "Winograd T",
+  "year": 1972,
+  "venue": "Academic Press",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "book",
+  "importance": 2,
+  "summary": "Described SHRDLU, a system that understood and executed English commands in a blocks world by integrating syntax, semantics and reasoning.",
+  "builds_on": [
+   "chomsky1957syntactic",
+   "weizenbaum1966eliza"
+  ]
+ },
+ {
+  "id": "church1988stochastic",
+  "title": "A Stochastic Parts Program and Noun Phrase Parser for Unrestricted Text",
+  "authors": "Church KW",
+  "year": 1988,
+  "venue": "Proc. 2nd Conference on Applied Natural Language Processing (ANLP 1988)",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed that a simple HMM-style statistical tagger trained on corpora achieves high part-of-speech accuracy, helping launch the empirical turn in NLP.",
+  "builds_on": [
+   "shannon1948mathematical",
+   "rabiner1989tutorial"
+  ]
+ },
+ {
+  "id": "rabiner1989tutorial",
+  "title": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+  "authors": "Rabiner LR",
+  "year": 1989,
+  "venue": "Proceedings of the IEEE 77(2):257-286",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Canonical exposition of HMM inference and training (forward-backward, Viterbi, Baum-Welch), the workhorse of speech and tagging for decades.",
+  "builds_on": [
+   "shannon1948mathematical"
+  ],
+  "doi": "10.1109/5.18626"
+ },
+ {
+  "id": "deerwester1990indexing",
+  "title": "Indexing by Latent Semantic Analysis",
+  "authors": "Deerwester S, Dumais ST, Furnas GW, Landauer TK, Harshman R",
+  "year": 1990,
+  "venue": "Journal of the American Society for Information Science 41(6):391-407",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Used truncated SVD of term-document matrices to obtain latent semantic vectors, an early dense distributional representation for retrieval.",
+  "builds_on": [
+   "harris1954distributional"
+  ]
+ },
+ {
+  "id": "brown1993mathematics",
+  "title": "The Mathematics of Statistical Machine Translation: Parameter Estimation",
+  "authors": "Brown PF, Della Pietra SA, Della Pietra VJ, Mercer RL",
+  "year": 1993,
+  "venue": "Computational Linguistics 19(2):263-311",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Defined IBM Models 1-5 for word alignment and translation trained with EM, the foundation of SMT for two decades.",
+  "builds_on": [
+   "shannon1948mathematical"
+  ]
+ },
+ {
+  "id": "marcus1993building",
+  "title": "Building a Large Annotated Corpus of English: The Penn Treebank",
+  "authors": "Marcus MP, Santorini B, Marcinkiewicz MA",
+  "year": 1993,
+  "venue": "Computational Linguistics 19(2):313-330",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Released a large POS-tagged and syntactically bracketed corpus that became the standard training and benchmark resource for tagging and parsing.",
+  "builds_on": [
+   "chomsky1957syntactic"
+  ]
+ },
+ {
+  "id": "kneser1995improved",
+  "title": "Improved Backing-off for M-gram Language Modeling",
+  "authors": "Kneser R, Ney H",
+  "year": 1995,
+  "venue": "ICASSP 1995",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced Kneser-Ney smoothing, which uses continuation counts for lower-order distributions and became the best-performing n-gram smoothing method.",
+  "builds_on": [
+   "shannon1948mathematical"
+  ]
+ },
+ {
+  "id": "lafferty2001conditional",
+  "title": "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+  "authors": "Lafferty J, McCallum A, Pereira F",
+  "year": 2001,
+  "venue": "ICML 2001",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced CRFs, globally normalized discriminative sequence models that avoid label bias and dominated tagging and NER before neural methods.",
+  "builds_on": [
+   "rabiner1989tutorial",
+   "church1988stochastic"
+  ]
+ },
+ {
+  "id": "papineni2002bleu",
+  "title": "BLEU: a Method for Automatic Evaluation of Machine Translation",
+  "authors": "Papineni K, Roukos S, Ward T, Zhu WJ",
+  "year": 2002,
+  "venue": "ACL 2002, pp. 311-318",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Proposed BLEU, an n-gram precision metric with a brevity penalty that became the standard automatic MT evaluation measure.",
+  "builds_on": [
+   "brown1993mathematics"
+  ],
+  "doi": "10.3115/1073083.1073135"
+ },
+ {
+  "id": "koehn2003statistical",
+  "title": "Statistical Phrase-Based Translation",
+  "authors": "Koehn P, Och FJ, Marcu D",
+  "year": 2003,
+  "venue": "HLT-NAACL 2003",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Phrase-based SMT translating multi-word segments, which became the dominant MT paradigm until neural MT.",
+  "builds_on": [
+   "brown1993mathematics",
+   "papineni2002bleu"
+  ]
+ },
+ {
+  "id": "blei2003latent",
+  "title": "Latent Dirichlet Allocation",
+  "authors": "Blei DM, Ng AY, Jordan MI",
+  "year": 2003,
+  "venue": "Journal of Machine Learning Research 3:993-1022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Linguistics & statistical NLP",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Bayesian generative topic model representing documents as mixtures of topics, the standard tool for unsupervised text exploration.",
+  "builds_on": [
+   "deerwester1990indexing"
+  ]
+ },
+ {
+  "id": "bengio2003neural",
+  "title": "A Neural Probabilistic Language Model",
+  "authors": "Bengio Y, Ducharme R, Vincent P, Jauvin C",
+  "year": 2003,
+  "venue": "Journal of Machine Learning Research 3:1137-1155",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Jointly learned distributed word embeddings and a neural network n-gram language model, beating smoothed n-grams and founding neural language modeling.",
+  "builds_on": [
+   "rumelhart1986learning",
+   "kneser1995improved",
+   "harris1954distributional"
+  ]
+ },
+ {
+  "id": "mikolov2010recurrent",
+  "title": "Recurrent Neural Network Based Language Model",
+  "authors": "Mikolov T, Karafiát M, Burget L, Černocký J, Khudanpur S",
+  "year": 2010,
+  "venue": "Interspeech 2010",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed recurrent neural language models substantially reduce perplexity and speech recognition error versus n-gram models.",
+  "builds_on": [
+   "bengio2003neural"
+  ]
+ },
+ {
+  "id": "collobert2011natural",
+  "title": "Natural Language Processing (Almost) from Scratch",
+  "authors": "Collobert R, Weston J, Bottou L, Karlen M, Kavukcuoglu K, Kuksa P",
+  "year": 2011,
+  "venue": "Journal of Machine Learning Research 12:2493-2537",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "A unified neural architecture with pretrained word embeddings learned from unlabeled text that matched feature-engineered systems on tagging, chunking, NER and SRL.",
+  "builds_on": [
+   "bengio2003neural",
+   "lafferty2001conditional"
+  ]
+ },
+ {
+  "id": "mikolov2013efficient",
+  "title": "Efficient Estimation of Word Representations in Vector Space",
+  "authors": "Mikolov T, Chen K, Corrado G, Dean J",
+  "year": 2013,
+  "venue": "ICLR 2013 Workshop",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced word2vec (CBOW and skip-gram), cheap log-linear models whose embeddings capture semantic and syntactic analogies at scale.",
+  "builds_on": [
+   "bengio2003neural",
+   "collobert2011natural"
+  ],
+  "arxiv": "1301.3781"
+ },
+ {
+  "id": "mikolov2013distributed",
+  "title": "Distributed Representations of Words and Phrases and their Compositionality",
+  "authors": "Mikolov T, Sutskever I, Chen K, Corrado G, Dean J",
+  "year": 2013,
+  "venue": "NeurIPS 2013",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Added negative sampling, frequent-word subsampling and phrase vectors to skip-gram, making word2vec the standard embedding method.",
+  "builds_on": [
+   "mikolov2013efficient"
+  ],
+  "arxiv": "1310.4546"
+ },
+ {
+  "id": "pennington2014glove",
+  "title": "GloVe: Global Vectors for Word Representation",
+  "authors": "Pennington J, Socher R, Manning CD",
+  "year": 2014,
+  "venue": "EMNLP 2014, pp. 1532-1543",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Learned word vectors by weighted least-squares factorization of global co-occurrence counts, unifying count-based and predictive embeddings.",
+  "builds_on": [
+   "mikolov2013efficient",
+   "deerwester1990indexing"
+  ],
+  "doi": "10.3115/v1/D14-1162"
+ },
+ {
+  "id": "bojanowski2017enriching",
+  "title": "Enriching Word Vectors with Subword Information",
+  "authors": "Bojanowski P, Grave E, Joulin A, Mikolov T",
+  "year": 2017,
+  "venue": "Transactions of the ACL 5:135-146",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "fastText: represented words as bags of character n-grams, giving embeddings for rare and unseen words and morphologically rich languages.",
+  "builds_on": [
+   "mikolov2013distributed"
+  ],
+  "arxiv": "1607.04606"
+ },
+ {
+  "id": "howard2018universal",
+  "title": "Universal Language Model Fine-tuning for Text Classification",
+  "authors": "Howard J, Ruder S",
+  "year": 2018,
+  "venue": "ACL 2018",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ULMFiT showed that pretraining an LSTM language model and fine-tuning it with careful schedules transfers strongly to text classification.",
+  "builds_on": [
+   "mikolov2010recurrent",
+   "hochreiter1997long"
+  ],
+  "arxiv": "1801.06146"
+ },
+ {
+  "id": "peters2018deep",
+  "title": "Deep Contextualized Word Representations",
+  "authors": "Peters ME, Neumann M, Iyyer M, Gardner M, Clark C, Lee K, Zettlemoyer L",
+  "year": 2018,
+  "venue": "NAACL 2018",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Word embeddings & neural LMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ELMo: contextual word representations from a deep bidirectional LSTM language model, delivering large gains across NLP tasks and heralding pretraining.",
+  "builds_on": [
+   "mikolov2013efficient",
+   "pennington2014glove",
+   "hochreiter1997long"
+  ],
+  "arxiv": "1802.05365"
+ },
+ {
+  "id": "cho2014learning",
+  "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation",
+  "authors": "Cho K, van Merriënboer B, Gulcehre C, Bahdanau D, Bougares F, Schwenk H, Bengio Y",
+  "year": 2014,
+  "venue": "EMNLP 2014",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the RNN encoder-decoder and the gated recurrent unit (GRU) for scoring phrase translations.",
+  "builds_on": [
+   "bengio2003neural",
+   "hochreiter1997long",
+   "koehn2003statistical"
+  ],
+  "arxiv": "1406.1078"
+ },
+ {
+  "id": "sutskever2014sequence",
+  "title": "Sequence to Sequence Learning with Neural Networks",
+  "authors": "Sutskever I, Vinyals O, Le QV",
+  "year": 2014,
+  "venue": "NeurIPS 2014",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed deep LSTM encoder-decoders map input to output sequences end to end, achieving competitive MT and establishing the seq2seq paradigm.",
+  "builds_on": [
+   "hochreiter1997long",
+   "mikolov2010recurrent",
+   "cho2014learning"
+  ],
+  "arxiv": "1409.3215"
+ },
+ {
+  "id": "bahdanau2015neural",
+  "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+  "authors": "Bahdanau D, Cho K, Bengio Y",
+  "year": 2015,
+  "venue": "ICLR 2015",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced soft attention letting the decoder align to encoder states, removing the fixed-vector bottleneck; the origin of attention in NLP.",
+  "builds_on": [
+   "cho2014learning",
+   "sutskever2014sequence"
+  ],
+  "arxiv": "1409.0473"
+ },
+ {
+  "id": "luong2015effective",
+  "title": "Effective Approaches to Attention-based Neural Machine Translation",
+  "authors": "Luong MT, Pham H, Manning CD",
+  "year": 2015,
+  "venue": "EMNLP 2015",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Systematized global and local attention with multiplicative scoring, simplifying and improving attentional NMT.",
+  "builds_on": [
+   "bahdanau2015neural"
+  ],
+  "arxiv": "1508.04025"
+ },
+ {
+  "id": "sennrich2016neural",
+  "title": "Neural Machine Translation of Rare Words with Subword Units",
+  "authors": "Sennrich R, Haddow B, Birch A",
+  "year": 2016,
+  "venue": "ACL 2016",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Adapted byte-pair encoding for open-vocabulary subword tokenization, now the basis of tokenizers in nearly all LLMs.",
+  "builds_on": [
+   "bahdanau2015neural"
+  ],
+  "arxiv": "1508.07909"
+ },
+ {
+  "id": "wu2016google",
+  "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+  "authors": "Wu Y, Schuster M, Chen Z, Le QV, Norouzi M, Macherey W, et al.",
+  "year": 2016,
+  "venue": "arXiv 2016",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 2,
+  "summary": "GNMT: deep LSTM attention model with wordpieces deployed in Google Translate, marking neural MT's production takeover from phrase-based SMT.",
+  "builds_on": [
+   "bahdanau2015neural",
+   "luong2015effective",
+   "koehn2003statistical"
+  ],
+  "arxiv": "1609.08144"
+ },
+ {
+  "id": "vaswani2017attention",
+  "title": "Attention Is All You Need",
+  "authors": "Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, et al.",
+  "year": 2017,
+  "venue": "NeurIPS 2017",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Seq2seq & attention",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the Transformer, relying solely on multi-head self-attention, enabling parallel training and becoming the architecture of essentially all modern language models.",
+  "builds_on": [
+   "bahdanau2015neural",
+   "luong2015effective",
+   "ba2016layer",
+   "he2016deep"
+  ],
+  "arxiv": "1706.03762"
+ },
+ {
+  "id": "bowman2015large",
+  "title": "A Large Annotated Corpus for Learning Natural Language Inference",
+  "authors": "Bowman SR, Angeli G, Potts C, Manning CD",
+  "year": 2015,
+  "venue": "EMNLP 2015",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "dataset",
+  "importance": 1,
+  "summary": "SNLI: 570k human-written premise-hypothesis pairs that made natural language inference a central neural benchmark.",
+  "builds_on": [
+   "pennington2014glove",
+   "marcus1993building"
+  ],
+  "arxiv": "1508.05326"
+ },
+ {
+  "id": "rajpurkar2016squad",
+  "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+  "authors": "Rajpurkar P, Zhang J, Lopyrev K, Liang P",
+  "year": 2016,
+  "venue": "EMNLP 2016",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Large extractive reading-comprehension dataset over Wikipedia that drove rapid progress in neural QA and pretrained models.",
+  "builds_on": [
+   "bowman2015large"
+  ],
+  "arxiv": "1606.05250"
+ },
+ {
+  "id": "radford2018improving",
+  "title": "Improving Language Understanding by Generative Pre-Training",
+  "authors": "Radford A, Narasimhan K, Salimans T, Sutskever I",
+  "year": 2018,
+  "venue": "OpenAI technical report",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 3,
+  "summary": "GPT-1: generative pretraining of a Transformer decoder followed by discriminative fine-tuning, establishing the pretrain-then-fine-tune Transformer recipe.",
+  "builds_on": [
+   "vaswani2017attention",
+   "howard2018universal",
+   "peters2018deep"
+  ]
+ },
+ {
+  "id": "wang2019glue",
+  "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+  "authors": "Wang A, Singh A, Michael J, Hill F, Levy O, Bowman SR",
+  "year": 2019,
+  "venue": "ICLR 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Nine-task NLU benchmark with a single leaderboard that became the yardstick for pretrained encoders such as BERT.",
+  "builds_on": [
+   "bowman2015large",
+   "rajpurkar2016squad"
+  ],
+  "arxiv": "1804.07461"
+ },
+ {
+  "id": "devlin2019bert",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "authors": "Devlin J, Chang MW, Lee K, Toutanova K",
+  "year": 2019,
+  "venue": "NAACL 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Pretrained a bidirectional Transformer encoder with masked language modeling and next-sentence prediction, setting new records on GLUE and SQuAD and defining the pretrained-encoder era.",
+  "builds_on": [
+   "vaswani2017attention",
+   "radford2018improving",
+   "peters2018deep"
+  ],
+  "arxiv": "1810.04805"
+ },
+ {
+  "id": "radford2019language",
+  "title": "Language Models are Unsupervised Multitask Learners",
+  "authors": "Radford A, Wu J, Child R, Luan D, Amodei D, Sutskever I",
+  "year": 2019,
+  "venue": "OpenAI technical report",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 3,
+  "summary": "GPT-2: a 1.5B-parameter decoder trained on WebText that performed many tasks zero-shot, showing scale alone yields broad capabilities.",
+  "builds_on": [
+   "radford2018improving"
+  ]
+ },
+ {
+  "id": "wang2019superglue",
+  "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+  "authors": "Wang A, Pruksachatkun Y, Nangia N, Singh A, Michael J, Hill F, et al.",
+  "year": 2019,
+  "venue": "NeurIPS 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "dataset",
+  "importance": 1,
+  "summary": "Harder successor to GLUE created after pretrained models surpassed human baselines on the original benchmark.",
+  "builds_on": [
+   "wang2019glue",
+   "devlin2019bert"
+  ],
+  "arxiv": "1905.00537"
+ },
+ {
+  "id": "liu2019roberta",
+  "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+  "authors": "Liu Y, Ott M, Goyal N, Du J, Joshi M, Chen D, et al.",
+  "year": 2019,
+  "venue": "arXiv 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed BERT was undertrained; more data, longer training, dynamic masking and dropping NSP gave large gains.",
+  "builds_on": [
+   "devlin2019bert"
+  ],
+  "arxiv": "1907.11692"
+ },
+ {
+  "id": "yang2019xlnet",
+  "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+  "authors": "Yang Z, Dai Z, Yang Y, Carbonell J, Salakhutdinov R, Le QV",
+  "year": 2019,
+  "venue": "NeurIPS 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Permutation language modeling combining autoregressive training with bidirectional context, outperforming BERT on many benchmarks.",
+  "builds_on": [
+   "devlin2019bert",
+   "radford2018improving"
+  ],
+  "arxiv": "1906.08237"
+ },
+ {
+  "id": "lewis2020bart",
+  "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+  "authors": "Lewis M, Liu Y, Goyal N, Ghazvininejad M, Mohamed A, Levy O, et al.",
+  "year": 2020,
+  "venue": "ACL 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Denoising autoencoder pretraining for an encoder-decoder Transformer, strong for summarization and generation.",
+  "builds_on": [
+   "devlin2019bert",
+   "radford2019language",
+   "vaswani2017attention"
+  ],
+  "arxiv": "1910.13461"
+ },
+ {
+  "id": "raffel2020exploring",
+  "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "authors": "Raffel C, Shazeer N, Roberts A, Lee K, Narang S, Matena M, et al.",
+  "year": 2020,
+  "venue": "Journal of Machine Learning Research 21(140):1-67",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 3,
+  "summary": "T5: cast every NLP task as text-to-text, released the C4 corpus and systematically studied pretraining objectives and scale.",
+  "builds_on": [
+   "devlin2019bert",
+   "radford2019language",
+   "vaswani2017attention"
+  ],
+  "arxiv": "1910.10683"
+ },
+ {
+  "id": "clark2020electra",
+  "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+  "authors": "Clark K, Luong MT, Le QV, Manning CD",
+  "year": 2020,
+  "venue": "ICLR 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Pretrained transformers",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Replaced-token detection pretraining that is far more compute-efficient than masked language modeling.",
+  "builds_on": [
+   "devlin2019bert",
+   "goodfellow2014generative"
+  ],
+  "arxiv": "2003.10555"
+ },
+ {
+  "id": "shoeybi2019megatron",
+  "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+  "authors": "Shoeybi M, Patwary M, Puri R, LeGresley P, Casper J, Catanzaro B",
+  "year": 2019,
+  "venue": "arXiv 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "software",
+  "importance": 2,
+  "summary": "Intra-layer tensor model parallelism for Transformers that enabled efficient training of multi-billion-parameter language models.",
+  "builds_on": [
+   "vaswani2017attention",
+   "radford2019language"
+  ],
+  "arxiv": "1909.08053"
+ },
+ {
+  "id": "brown2020language",
+  "title": "Language Models are Few-Shot Learners",
+  "authors": "Brown TB, Mann B, Ryder N, Subbiah M, Kaplan J, Dhariwal P, et al.",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "GPT-3: a 175B-parameter language model demonstrating in-context few-shot learning from prompts alone, launching the large language model era.",
+  "builds_on": [
+   "radford2019language",
+   "kaplan2020scaling",
+   "vaswani2017attention"
+  ],
+  "arxiv": "2005.14165"
+ },
+ {
+  "id": "chen2021evaluating",
+  "title": "Evaluating Large Language Models Trained on Code",
+  "authors": "Chen M, Tworek J, Jun H, Yuan Q, Pinto HPdO, Kaplan J, et al.",
+  "year": 2021,
+  "venue": "arXiv 2021",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced Codex and the HumanEval benchmark, showing code-trained LLMs can synthesize functional programs from docstrings.",
+  "builds_on": [
+   "brown2020language"
+  ],
+  "arxiv": "2107.03374"
+ },
+ {
+  "id": "fedus2022switch",
+  "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+  "authors": "Fedus W, Zoph B, Shazeer N",
+  "year": 2022,
+  "venue": "Journal of Machine Learning Research 23(120):1-39",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Simplified mixture-of-experts routing to top-1 experts, training trillion-parameter sparse language models efficiently.",
+  "builds_on": [
+   "shazeer2017outrageously",
+   "raffel2020exploring"
+  ],
+  "arxiv": "2101.03961"
+ },
+ {
+  "id": "chowdhery2022palm",
+  "title": "PaLM: Scaling Language Modeling with Pathways",
+  "authors": "Chowdhery A, Narang S, Devlin J, Bosma M, Mishra G, Roberts A, et al.",
+  "year": 2022,
+  "venue": "arXiv 2022; JMLR 24 (2023)",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A 540B dense Transformer trained on Pathways showing breakthrough few-shot and chain-of-thought reasoning performance.",
+  "builds_on": [
+   "brown2020language",
+   "kaplan2020scaling"
+  ],
+  "arxiv": "2204.02311"
+ },
+ {
+  "id": "openai2022chatgpt",
+  "title": "Introducing ChatGPT",
+  "authors": "OpenAI",
+  "year": 2022,
+  "venue": "OpenAI release, November 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "Public release of an RLHF-tuned conversational GPT-3.5 model whose rapid adoption brought LLMs into mainstream use.",
+  "builds_on": [
+   "ouyang2022training",
+   "brown2020language"
+  ]
+ },
+ {
+  "id": "touvron2023llama",
+  "title": "LLaMA: Open and Efficient Foundation Language Models",
+  "authors": "Touvron H, Lavril T, Izacard G, Martinet X, Lachaux MA, Lacroix T, et al.",
+  "year": 2023,
+  "venue": "arXiv 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Openly released 7B-65B models trained compute-optimally on public data, matching much larger models and catalyzing the open-weight LLM ecosystem.",
+  "builds_on": [
+   "brown2020language",
+   "hoffmann2022training",
+   "su2021roformer"
+  ],
+  "arxiv": "2302.13971"
+ },
+ {
+  "id": "openai2023gpt4",
+  "title": "GPT-4 Technical Report",
+  "authors": "OpenAI",
+  "year": 2023,
+  "venue": "arXiv 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Large multimodal model reaching human-level performance on many professional and academic exams, with predictable scaling of training outcomes.",
+  "builds_on": [
+   "brown2020language",
+   "ouyang2022training"
+  ],
+  "arxiv": "2303.08774"
+ },
+ {
+  "id": "touvron2023llama2",
+  "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "authors": "Touvron H, Martin L, Stone K, Albert P, Almahairi A, Babaei Y, et al.",
+  "year": 2023,
+  "venue": "arXiv 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Open-weight 7B-70B base and RLHF-tuned chat models with detailed safety and alignment methodology, licensed for commercial use.",
+  "builds_on": [
+   "touvron2023llama",
+   "ouyang2022training"
+  ],
+  "arxiv": "2307.09288"
+ },
+ {
+  "id": "bai2023qwen",
+  "title": "Qwen Technical Report",
+  "authors": "Bai J, Bai S, Chu Y, Cui Z, Dang K, Deng X, et al.",
+  "year": 2023,
+  "venue": "arXiv 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Alibaba's first Qwen open LLM family, beginning a leading line of multilingual open-weight models.",
+  "builds_on": [
+   "touvron2023llama"
+  ],
+  "arxiv": "2309.16609"
+ },
+ {
+  "id": "jiang2023mistral",
+  "title": "Mistral 7B",
+  "authors": "Jiang AQ, Sablayrolles A, Mensch A, Bamford C, Chaplot DS, de las Casas D, et al.",
+  "year": 2023,
+  "venue": "arXiv 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Compact open model using grouped-query and sliding-window attention that outperformed larger Llama 2 models.",
+  "builds_on": [
+   "touvron2023llama2"
+  ],
+  "arxiv": "2310.06825"
+ },
+ {
+  "id": "jiang2024mixtral",
+  "title": "Mixtral of Experts",
+  "authors": "Jiang AQ, Sablayrolles A, Roux A, Mensch A, Savary B, Bamford C, et al.",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Open sparse mixture-of-experts model (8 experts, 2 active) matching much larger dense models at lower inference cost.",
+  "builds_on": [
+   "jiang2023mistral",
+   "fedus2022switch"
+  ],
+  "arxiv": "2401.04088"
+ },
+ {
+  "id": "dubey2024llama",
+  "title": "The Llama 3 Herd of Models",
+  "authors": "Dubey A, Jauhri A, Pandey A, Kadian A, Al-Dahle A, Letman A, et al.",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Open dense models up to 405B parameters trained on ~15T tokens, approaching frontier closed-model quality.",
+  "builds_on": [
+   "touvron2023llama2"
+  ],
+  "arxiv": "2407.21783"
+ },
+ {
+  "id": "deepseekai2024deepseekv3",
+  "title": "DeepSeek-V3 Technical Report",
+  "authors": "DeepSeek-AI",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "671B-parameter MoE model trained with FP8 and multi-token prediction for a fraction of typical frontier cost, rivaling leading closed models.",
+  "builds_on": [
+   "jiang2024mixtral",
+   "dubey2024llama",
+   "shazeer2017outrageously"
+  ],
+  "arxiv": "2412.19437"
+ },
+ {
+  "id": "yang2025qwen3",
+  "title": "Qwen3 Technical Report",
+  "authors": "Yang A, Li A, Yang B, Zhang B, Hui B, Zheng B, et al.",
+  "year": 2025,
+  "venue": "arXiv 2025",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Open dense and MoE models unifying thinking and non-thinking modes with a controllable reasoning budget.",
+  "builds_on": [
+   "bai2023qwen",
+   "deepseekai2025deepseekr1"
+  ]
+ },
+ {
+  "id": "openai2025gpt5",
+  "title": "Introducing GPT-5",
+  "authors": "OpenAI",
+  "year": 2025,
+  "venue": "OpenAI release, August 2025",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Unified system routing between fast and extended-reasoning models, with strong coding and agentic tool-use performance.",
+  "builds_on": [
+   "openai2023gpt4",
+   "openai2024learning"
+  ]
+ },
+ {
+  "id": "ziegler2019finetuning",
+  "title": "Fine-Tuning Language Models from Human Preferences",
+  "authors": "Ziegler DM, Stiennon N, Wu J, Brown TB, Radford A, Amodei D, et al.",
+  "year": 2019,
+  "venue": "arXiv 2019",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First application of reward modeling from human comparisons plus PPO to fine-tune pretrained language models.",
+  "builds_on": [
+   "christiano2017deep",
+   "radford2019language",
+   "schulman2017proximal"
+  ],
+  "arxiv": "1909.08593"
+ },
+ {
+  "id": "stiennon2020learning",
+  "title": "Learning to Summarize from Human Feedback",
+  "authors": "Stiennon N, Ouyang L, Wu J, Ziegler DM, Lowe R, Voss C, et al.",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed RLHF summarization policies outperform supervised models and larger references, demonstrating the RLHF recipe at scale.",
+  "builds_on": [
+   "ziegler2019finetuning",
+   "christiano2017deep"
+  ],
+  "arxiv": "2009.01325"
+ },
+ {
+  "id": "wei2022finetuned",
+  "title": "Finetuned Language Models Are Zero-Shot Learners",
+  "authors": "Wei J, Bosma M, Zhao VY, Guu K, Yu AW, Lester B, et al.",
+  "year": 2022,
+  "venue": "ICLR 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "FLAN: instruction tuning on many tasks phrased as natural-language instructions markedly improves zero-shot performance on unseen tasks.",
+  "builds_on": [
+   "brown2020language",
+   "raffel2020exploring"
+  ],
+  "arxiv": "2109.01652"
+ },
+ {
+  "id": "sanh2022multitask",
+  "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+  "authors": "Sanh V, Webson A, Raffel C, Bach SH, Sutawika L, Alyafeai Z, et al.",
+  "year": 2022,
+  "venue": "ICLR 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 1,
+  "summary": "T0: multitask fine-tuning of T5 on a large collection of prompted datasets yields strong zero-shot generalization.",
+  "builds_on": [
+   "raffel2020exploring",
+   "wei2022finetuned"
+  ],
+  "arxiv": "2110.08207"
+ },
+ {
+  "id": "ouyang2022training",
+  "title": "Training Language Models to Follow Instructions with Human Feedback",
+  "authors": "Ouyang L, Wu J, Jiang X, Almeida D, Wainwright CL, Mishkin P, et al.",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 3,
+  "summary": "InstructGPT: supervised instruction tuning plus RLHF made a 1.3B model preferred over 175B GPT-3, the recipe behind ChatGPT.",
+  "builds_on": [
+   "stiennon2020learning",
+   "brown2020language",
+   "schulman2017proximal"
+  ],
+  "arxiv": "2203.02155"
+ },
+ {
+  "id": "chung2022scaling",
+  "title": "Scaling Instruction-Finetuned Language Models",
+  "authors": "Chung HW, Hou L, Longpre S, Zoph B, Tay Y, Fedus W, et al.",
+  "year": 2022,
+  "venue": "arXiv 2022; JMLR 25 (2024)",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Flan-T5/Flan-PaLM: scaled instruction tuning to 1,800+ tasks with chain-of-thought data, improving many model families.",
+  "builds_on": [
+   "wei2022finetuned",
+   "chowdhery2022palm",
+   "wei2022chain"
+  ],
+  "arxiv": "2210.11416"
+ },
+ {
+  "id": "bai2022constitutional",
+  "title": "Constitutional AI: Harmlessness from AI Feedback",
+  "authors": "Bai Y, Kadavath S, Kundu S, Askell A, Kernion J, Jones A, et al.",
+  "year": 2022,
+  "venue": "arXiv 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Trained harmless assistants using a written constitution and AI-generated critiques and preferences (RLAIF) instead of human harm labels.",
+  "builds_on": [
+   "ouyang2022training",
+   "stiennon2020learning"
+  ],
+  "arxiv": "2212.08073"
+ },
+ {
+  "id": "wang2023selfinstruct",
+  "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+  "authors": "Wang Y, Kordi Y, Mishra S, Liu A, Smith NA, Khashabi D, Hajishirzi H",
+  "year": 2023,
+  "venue": "ACL 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Bootstrapped instruction-tuning data from a model's own generations, inspiring cheap open instruction-tuned models like Alpaca.",
+  "builds_on": [
+   "wei2022finetuned",
+   "brown2020language"
+  ],
+  "arxiv": "2212.10560"
+ },
+ {
+  "id": "rafailov2023direct",
+  "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "authors": "Rafailov R, Sharma A, Mitchell E, Ermon S, Manning CD, Finn C",
+  "year": 2023,
+  "venue": "NeurIPS 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Derived a closed-form classification loss that optimizes the RLHF objective directly from preferences without a separate reward model or RL.",
+  "builds_on": [
+   "ouyang2022training",
+   "stiennon2020learning"
+  ],
+  "arxiv": "2305.18290"
+ },
+ {
+  "id": "zheng2023judging",
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "authors": "Zheng L, Chiang WL, Sheng Y, Zhuang S, Wu Z, Zhuang Y, et al.",
+  "year": 2023,
+  "venue": "NeurIPS 2023 Datasets and Benchmarks",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Validated strong LLMs as scalable judges of chat quality and introduced MT-Bench and crowdsourced Chatbot Arena evaluation.",
+  "builds_on": [
+   "openai2023gpt4",
+   "ouyang2022training"
+  ],
+  "arxiv": "2306.05685"
+ },
+ {
+  "id": "anthropic2024claude",
+  "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+  "authors": "Anthropic",
+  "year": 2024,
+  "venue": "Anthropic model card, March 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Alignment & instruction tuning",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Frontier multimodal assistant family trained with Constitutional AI and RLHF, emphasizing helpfulness, honesty and harmlessness.",
+  "builds_on": [
+   "bai2022constitutional",
+   "ouyang2022training"
+  ]
+ },
+ {
+  "id": "nakano2021webgpt",
+  "title": "WebGPT: Browser-assisted Question-Answering with Human Feedback",
+  "authors": "Nakano R, Hilton J, Balaji S, Wu J, Ouyang L, Kim C, et al.",
+  "year": 2021,
+  "venue": "arXiv 2021",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Fine-tuned GPT-3 to search and browse a text web environment and cite sources, an early tool-using LLM agent trained with human feedback.",
+  "builds_on": [
+   "brown2020language",
+   "stiennon2020learning"
+  ],
+  "arxiv": "2112.09332"
+ },
+ {
+  "id": "wei2022chain",
+  "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "authors": "Wei J, Wang X, Schuurmans D, Bosma M, Ichter B, Xia F, et al.",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed that prompting with step-by-step reasoning exemplars dramatically improves LLM arithmetic, commonsense and symbolic reasoning.",
+  "builds_on": [
+   "brown2020language",
+   "chowdhery2022palm"
+  ],
+  "arxiv": "2201.11903"
+ },
+ {
+  "id": "wang2023selfconsistency",
+  "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+  "authors": "Wang X, Wei J, Schuurmans D, Le Q, Chi E, Narang S, et al.",
+  "year": 2023,
+  "venue": "ICLR 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Sampled diverse reasoning paths and took a majority vote over answers, a simple and powerful early form of test-time compute.",
+  "builds_on": [
+   "wei2022chain"
+  ],
+  "arxiv": "2203.11171"
+ },
+ {
+  "id": "yao2023react",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "authors": "Yao S, Zhao J, Yu D, Du N, Shafran I, Narasimhan K, Cao Y",
+  "year": 2023,
+  "venue": "ICLR 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Interleaved reasoning traces with actions such as search calls, the template for modern LLM agents.",
+  "builds_on": [
+   "wei2022chain",
+   "nakano2021webgpt"
+  ],
+  "arxiv": "2210.03629"
+ },
+ {
+  "id": "schick2023toolformer",
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "authors": "Schick T, Dwivedi-Yu J, Dessì R, Raileanu R, Lomeli M, Zettlemoyer L, et al.",
+  "year": 2023,
+  "venue": "NeurIPS 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Self-supervised method for a model to learn when and how to call APIs such as calculators, search and translation.",
+  "builds_on": [
+   "brown2020language",
+   "yao2023react"
+  ],
+  "arxiv": "2302.04761"
+ },
+ {
+  "id": "yao2023tree",
+  "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+  "authors": "Yao S, Yu D, Zhao J, Shafran I, Griffiths TL, Cao Y, Narasimhan K",
+  "year": 2023,
+  "venue": "NeurIPS 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Generalized chain-of-thought to tree search over intermediate thoughts with self-evaluation and backtracking.",
+  "builds_on": [
+   "wei2022chain",
+   "wang2023selfconsistency"
+  ],
+  "arxiv": "2305.10601"
+ },
+ {
+  "id": "lightman2024lets",
+  "title": "Let's Verify Step by Step",
+  "authors": "Lightman H, Kosaraju V, Burda Y, Edwards H, Baker B, Lee T, et al.",
+  "year": 2024,
+  "venue": "ICLR 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed process supervision of each reasoning step trains better reward models than outcome supervision, releasing the PRM800K dataset.",
+  "builds_on": [
+   "wei2022chain",
+   "ouyang2022training"
+  ],
+  "arxiv": "2305.20050"
+ },
+ {
+  "id": "shao2024deepseekmath",
+  "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+  "authors": "Shao Z, Wang P, Zhu Q, Xu R, Song J, Bi X, et al.",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced Group Relative Policy Optimization (GRPO), a critic-free RL method later central to open reasoning models.",
+  "builds_on": [
+   "schulman2017proximal",
+   "wei2022chain"
+  ],
+  "arxiv": "2402.03300"
+ },
+ {
+  "id": "openai2024learning",
+  "title": "Learning to Reason with LLMs",
+  "authors": "OpenAI",
+  "year": 2024,
+  "venue": "OpenAI release (o1), September 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "o1 models trained with large-scale RL to produce long hidden chains of thought, showing performance scales with test-time reasoning compute.",
+  "builds_on": [
+   "wei2022chain",
+   "lightman2024lets",
+   "openai2023gpt4"
+  ]
+ },
+ {
+  "id": "snell2024scaling",
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "authors": "Snell C, Lee J, Xu K, Kumar A",
+  "year": 2024,
+  "venue": "arXiv 2024; ICLR 2025",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Analyzed compute-optimal allocation of inference-time search and revision, showing test-time compute can substitute for model scale.",
+  "builds_on": [
+   "wang2023selfconsistency",
+   "lightman2024lets"
+  ],
+  "arxiv": "2408.03314"
+ },
+ {
+  "id": "yang2024sweagent",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "authors": "Yang J, Jimenez CE, Wettig A, Lieret K, Yao S, Narasimhan K, Press O",
+  "year": 2024,
+  "venue": "NeurIPS 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed purpose-built agent-computer interfaces let LLM agents navigate repositories and fix real GitHub issues.",
+  "builds_on": [
+   "jimenez2024swebench",
+   "yao2023react"
+  ],
+  "arxiv": "2405.15793"
+ },
+ {
+  "id": "jimenez2024swebench",
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "authors": "Jimenez CE, Yang J, Wettig A, Yao S, Pei K, Press O, Narasimhan K",
+  "year": 2024,
+  "venue": "ICLR 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Benchmark of real GitHub issues from Python repositories, verified by unit tests, that became the main yardstick for coding agents.",
+  "builds_on": [
+   "chen2021evaluating"
+  ],
+  "arxiv": "2310.06770"
+ },
+ {
+  "id": "anthropic2024introducing",
+  "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+  "authors": "Anthropic",
+  "year": 2024,
+  "venue": "Anthropic release, October 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "First frontier model offered with general computer use, operating desktop GUIs via screenshots, mouse and keyboard actions.",
+  "builds_on": [
+   "anthropic2024claude",
+   "yao2023react"
+  ]
+ },
+ {
+  "id": "anthropic2024model",
+  "title": "Model Context Protocol",
+  "authors": "Anthropic",
+  "year": 2024,
+  "venue": "Open specification and SDKs, November 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "software",
+  "importance": 2,
+  "summary": "Open protocol standardizing how LLM applications connect to tools and data sources, widely adopted across agent frameworks.",
+  "builds_on": [
+   "schick2023toolformer",
+   "yao2023react"
+  ]
+ },
+ {
+  "id": "deepseekai2025deepseekr1",
+  "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+  "authors": "DeepSeek-AI",
+  "year": 2025,
+  "venue": "arXiv 2025; Nature 2025",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed pure RL with verifiable rewards (GRPO) elicits long chain-of-thought reasoning; released open reasoning weights and distilled models rivaling o1.",
+  "builds_on": [
+   "deepseekai2024deepseekv3",
+   "shao2024deepseekmath",
+   "openai2024learning"
+  ],
+  "arxiv": "2501.12948"
+ },
+ {
+  "id": "anthropic2025introducing",
+  "title": "Introducing Claude 4",
+  "authors": "Anthropic",
+  "year": 2025,
+  "venue": "Anthropic release, May 2025",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Reasoning & agents",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Claude Opus 4 and Sonnet 4 hybrid-reasoning models targeted at long-running agentic coding, leading SWE-bench at release.",
+  "builds_on": [
+   "anthropic2024introducing",
+   "jimenez2024swebench"
+  ]
+ },
+ {
+  "id": "hendrycks2021measuring",
+  "title": "Measuring Massive Multitask Language Understanding",
+  "authors": "Hendrycks D, Burns C, Basart S, Zou A, Mazeika M, Song D, Steinhardt J",
+  "year": 2021,
+  "venue": "ICLR 2021",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "MMLU: 57-subject multiple-choice exam benchmark that became the headline measure of LLM knowledge.",
+  "builds_on": [
+   "wang2019superglue",
+   "brown2020language"
+  ],
+  "arxiv": "2009.03300"
+ },
+ {
+  "id": "liang2023holistic",
+  "title": "Holistic Evaluation of Language Models",
+  "authors": "Liang P, Bommasani R, Lee T, Tsipras D, Soylu D, Yasunaga M, et al.",
+  "year": 2023,
+  "venue": "Transactions on Machine Learning Research 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Large language models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "HELM: standardized multi-metric evaluation of many LLMs across scenarios, covering accuracy, calibration, robustness, bias and efficiency.",
+  "builds_on": [
+   "hendrycks2021measuring",
+   "wang2019superglue"
+  ],
+  "arxiv": "2211.09110"
+ },
+ {
+  "id": "robertson2009probabilistic",
+  "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+  "authors": "Robertson S, Zaragoza H",
+  "year": 2009,
+  "venue": "Foundations and Trends in Information Retrieval 3(4):333-389",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Definitive account of the probabilistic relevance model and BM25, still the standard sparse retrieval baseline.",
+  "builds_on": [
+   "deerwester1990indexing"
+  ]
+ },
+ {
+  "id": "hinton2015distilling",
+  "title": "Distilling the Knowledge in a Neural Network",
+  "authors": "Hinton G, Vinyals O, Dean J",
+  "year": 2015,
+  "venue": "NeurIPS 2014 Deep Learning Workshop (arXiv 2015)",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Knowledge distillation: training a small student on a large teacher's softened outputs, widely used to compress language models.",
+  "builds_on": [
+   "srivastava2014dropout"
+  ],
+  "arxiv": "1503.02531"
+ },
+ {
+  "id": "sanh2019distilbert",
+  "title": "DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter",
+  "authors": "Sanh V, Debut L, Chaumond J, Wolf T",
+  "year": 2019,
+  "venue": "NeurIPS 2019 EMC2 Workshop",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Distilled BERT during pretraining into a 40% smaller model retaining about 97% of its language-understanding performance.",
+  "builds_on": [
+   "devlin2019bert",
+   "hinton2015distilling"
+  ],
+  "arxiv": "1910.01108"
+ },
+ {
+  "id": "guu2020realm",
+  "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+  "authors": "Guu K, Lee K, Tung Z, Pasupat P, Chang MW",
+  "year": 2020,
+  "venue": "ICML 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pretrained a masked LM jointly with a learned neural retriever over Wikipedia, improving open-domain QA with interpretable knowledge access.",
+  "builds_on": [
+   "devlin2019bert",
+   "robertson2009probabilistic"
+  ],
+  "arxiv": "2002.08909"
+ },
+ {
+  "id": "karpukhin2020dense",
+  "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+  "authors": "Karpukhin V, Oğuz B, Min S, Lewis P, Wu L, Edunov S, et al.",
+  "year": 2020,
+  "venue": "EMNLP 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Dual-encoder BERT retriever trained with in-batch negatives that outperformed BM25 for open-domain QA.",
+  "builds_on": [
+   "devlin2019bert",
+   "robertson2009probabilistic"
+  ],
+  "arxiv": "2004.04906"
+ },
+ {
+  "id": "lewis2020retrievalaugmented",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": "Lewis P, Perez E, Piktus A, Petroni F, Karpukhin V, Goyal N, et al.",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 3,
+  "summary": "RAG: combined a DPR retriever with a BART generator end to end, grounding generation in retrieved documents; the basis of retrieval-augmented LLM systems.",
+  "builds_on": [
+   "karpukhin2020dense",
+   "lewis2020bart",
+   "guu2020realm"
+  ],
+  "arxiv": "2005.11401"
+ },
+ {
+  "id": "su2021roformer",
+  "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+  "authors": "Su J, Lu Y, Pan S, Murtadha A, Wen B, Liu Y",
+  "year": 2021,
+  "venue": "arXiv 2021; Neurocomputing 568 (2024)",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Rotary position embedding (RoPE) encodes relative position by rotating queries and keys, now standard in most LLMs and the basis of context extension.",
+  "builds_on": [
+   "vaswani2017attention"
+  ],
+  "arxiv": "2104.09864"
+ },
+ {
+  "id": "borgeaud2022improving",
+  "title": "Improving Language Models by Retrieving from Trillions of Tokens",
+  "authors": "Borgeaud S, Mensch A, Hoffmann J, Cai T, Rutherford E, Millican K, et al.",
+  "year": 2022,
+  "venue": "ICML 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "RETRO: chunked cross-attention to a 2-trillion-token retrieval database let a 7.5B model match far larger LMs.",
+  "builds_on": [
+   "lewis2020retrievalaugmented",
+   "brown2020language"
+  ],
+  "arxiv": "2112.04426"
+ },
+ {
+  "id": "hu2022lora",
+  "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+  "authors": "Hu EJ, Shen Y, Wallis P, Allen-Zhu Z, Li Y, Wang S, et al.",
+  "year": 2022,
+  "venue": "ICLR 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Freezes pretrained weights and trains low-rank update matrices, cutting fine-tuning memory and storage by orders of magnitude; the dominant PEFT method.",
+  "builds_on": [
+   "brown2020language",
+   "devlin2019bert"
+  ],
+  "arxiv": "2106.09685"
+ },
+ {
+  "id": "frantar2023gptq",
+  "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+  "authors": "Frantar E, Ashkboos S, Hoefler T, Alistarh D",
+  "year": 2023,
+  "venue": "ICLR 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "One-shot second-order weight quantization to 3-4 bits for GPT-scale models, enabling LLM inference on single GPUs.",
+  "builds_on": [
+   "brown2020language"
+  ],
+  "arxiv": "2210.17323"
+ },
+ {
+  "id": "leviathan2023fast",
+  "title": "Fast Inference from Transformers via Speculative Decoding",
+  "authors": "Leviathan Y, Kalman M, Matias Y",
+  "year": 2023,
+  "venue": "ICML 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A small draft model proposes tokens that the large model verifies in parallel, giving 2-3x speedups with identical output distribution.",
+  "builds_on": [
+   "vaswani2017attention",
+   "raffel2020exploring"
+  ],
+  "arxiv": "2211.17192"
+ },
+ {
+  "id": "dettmers2023qlora",
+  "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+  "authors": "Dettmers T, Pagnoni A, Holtzman A, Zettlemoyer L",
+  "year": 2023,
+  "venue": "NeurIPS 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Backpropagates through a 4-bit NormalFloat quantized model into LoRA adapters, enabling 65B fine-tuning on a single 48GB GPU.",
+  "builds_on": [
+   "hu2022lora",
+   "frantar2023gptq",
+   "touvron2023llama"
+  ],
+  "arxiv": "2305.14314"
+ },
+ {
+  "id": "geminiteam2024gemini",
+  "title": "Gemini 1.5: Unlocking Multimodal Understanding across Millions of Tokens of Context",
+  "authors": "Gemini Team, Google",
+  "year": 2024,
+  "venue": "arXiv 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 2,
+  "summary": "MoE multimodal model with near-perfect recall over contexts of up to 10M tokens across text, audio and video.",
+  "builds_on": [
+   "geminiteam2023gemini",
+   "su2021roformer"
+  ],
+  "arxiv": "2403.05530"
+ },
+ {
+  "id": "comanici2025gemini",
+  "title": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+  "authors": "Comanici G, et al.",
+  "year": 2025,
+  "venue": "arXiv 2025",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Retrieval, efficiency & long context",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Thinking-enabled Gemini models combining million-token context, native multimodality and agentic capabilities.",
+  "builds_on": [
+   "geminiteam2024gemini",
+   "openai2024learning"
+  ]
+ },
+ {
+  "id": "li2022blip",
+  "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+  "authors": "Li J, Li D, Xiong C, Hoi S",
+  "year": 2022,
+  "venue": "ICML 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Unified vision-language encoder-decoder pretraining with caption bootstrapping to clean noisy web image-text data.",
+  "builds_on": [
+   "radford2021learning",
+   "dosovitskiy2021image",
+   "devlin2019bert"
+  ],
+  "arxiv": "2201.12086"
+ },
+ {
+  "id": "alayrac2022flamingo",
+  "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+  "authors": "Alayrac JB, Donahue J, Luc P, Miech A, Barr I, Hasson Y, et al.",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Bridged frozen vision encoders and LLMs with gated cross-attention and a perceiver resampler, enabling few-shot multimodal in-context learning on interleaved image-text.",
+  "builds_on": [
+   "brown2020language",
+   "radford2021learning",
+   "hoffmann2022training"
+  ],
+  "arxiv": "2204.14198"
+ },
+ {
+  "id": "li2023blip2",
+  "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+  "authors": "Li J, Li D, Savarese S, Hoi S",
+  "year": 2023,
+  "venue": "ICML 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "A lightweight Querying Transformer connects frozen image encoders to frozen LLMs, giving strong VLMs at low training cost.",
+  "builds_on": [
+   "li2022blip",
+   "alayrac2022flamingo"
+  ],
+  "arxiv": "2301.12597"
+ },
+ {
+  "id": "liu2023visual",
+  "title": "Visual Instruction Tuning",
+  "authors": "Liu H, Li C, Wu Q, Lee YJ",
+  "year": 2023,
+  "venue": "NeurIPS 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "paper",
+  "importance": 3,
+  "summary": "LLaVA: connected CLIP to an LLM with a projection and tuned on GPT-4-generated visual instruction data, a simple recipe behind open multimodal assistants.",
+  "builds_on": [
+   "radford2021learning",
+   "touvron2023llama",
+   "li2023blip2"
+  ],
+  "arxiv": "2304.08485"
+ },
+ {
+  "id": "openai2023gpt4vision",
+  "title": "GPT-4V(ision) System Card",
+  "authors": "OpenAI",
+  "year": 2023,
+  "venue": "OpenAI system card, September 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Deployment of GPT-4 with image input, bringing general visual understanding to a widely used assistant.",
+  "builds_on": [
+   "openai2023gpt4"
+  ]
+ },
+ {
+  "id": "geminiteam2023gemini",
+  "title": "Gemini: A Family of Highly Capable Multimodal Models",
+  "authors": "Gemini Team, Google",
+  "year": 2023,
+  "venue": "arXiv 2023",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Natively multimodal models trained jointly on text, images, audio and video, reporting the first human-expert-level MMLU score.",
+  "builds_on": [
+   "chowdhery2022palm",
+   "alayrac2022flamingo"
+  ],
+  "arxiv": "2312.11805"
+ },
+ {
+  "id": "openai2024hello",
+  "title": "Hello GPT-4o",
+  "authors": "OpenAI",
+  "year": 2024,
+  "venue": "OpenAI release, May 2024",
+  "domain": "ai",
+  "field": "Natural Language Processing",
+  "subfield": "Multimodal LLMs",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "End-to-end omni model processing text, audio and vision in one network, enabling real-time spoken conversation.",
+  "builds_on": [
+   "openai2023gpt4vision",
+   "openai2023gpt4"
+  ]
+ }
+]

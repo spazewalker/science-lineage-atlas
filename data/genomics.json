@@ -1,0 +1,2111 @@
+[
+ {
+  "id": "sanger1975rapid",
+  "title": "A rapid method for determining sequences in DNA by primed synthesis with DNA polymerase",
+  "authors": "Sanger F, Coulson AR",
+  "year": 1975,
+  "venue": "J Mol Biol 94:441-448",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The 'plus and minus' method, Sanger's first practical enzymatic DNA sequencing approach using primed polymerase synthesis.",
+  "builds_on": [
+   "watson1953molecular"
+  ]
+ },
+ {
+  "id": "maxam1977new",
+  "title": "A new method for sequencing DNA",
+  "authors": "Maxam AM, Gilbert W",
+  "year": 1977,
+  "venue": "PNAS 74(2):560-564",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Chemical-cleavage DNA sequencing using base-specific reactions on end-labelled DNA; one of the two founding sequencing methods.",
+  "builds_on": [
+   "smith1970restriction"
+  ],
+  "doi": "10.1073/pnas.74.2.560"
+ },
+ {
+  "id": "sanger1977dna",
+  "title": "DNA sequencing with chain-terminating inhibitors",
+  "authors": "Sanger F, Nicklen S, Coulson AR",
+  "year": 1977,
+  "venue": "PNAS 74(12):5463-5467",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced dideoxy chain-termination sequencing, the dominant DNA sequencing method for three decades and the basis of the Human Genome Project.",
+  "builds_on": [
+   "sanger1975rapid"
+  ],
+  "doi": "10.1073/pnas.74.12.5463"
+ },
+ {
+  "id": "smith1986fluorescence",
+  "title": "Fluorescence detection in automated DNA sequence analysis",
+  "authors": "Smith LM, Sanders JZ, Kaiser RJ, Hughes P, Dodd C, Connell CR, et al.",
+  "year": 1986,
+  "venue": "Nature 321:674-679",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Four-colour fluorescent primers with laser detection enabled automated Sanger sequencing, leading to the first commercial sequencers.",
+  "builds_on": [
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "huang1992dna",
+  "title": "DNA sequencing using capillary array electrophoresis",
+  "authors": "Huang XC, Quesada MA, Mathies RA",
+  "year": 1992,
+  "venue": "Anal Chem 64(18):2149-2154",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Capillary array electrophoresis for parallel fluorescent sequencing; basis of the capillary instruments (e.g. ABI 3700) that sequenced the human genome.",
+  "builds_on": [
+   "smith1986fluorescence"
+  ]
+ },
+ {
+  "id": "ronaghi1998sequencing",
+  "title": "A sequencing method based on real-time pyrophosphate",
+  "authors": "Ronaghi M, Uhlén M, Nyrén P",
+  "year": 1998,
+  "venue": "Science 281:363-365",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pyrosequencing: luminescent detection of pyrophosphate released during nucleotide incorporation, the chemistry later scaled by 454.",
+  "builds_on": [
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "kasianowicz1996characterization",
+  "title": "Characterization of individual polynucleotide molecules using a membrane channel",
+  "authors": "Kasianowicz JJ, Brandin E, Branton D, Deamer DW",
+  "year": 1996,
+  "venue": "PNAS 93(24):13770-13773",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed single-stranded nucleic acids translocating through an alpha-hemolysin pore produce measurable current blockades, founding nanopore sequencing.",
+  "builds_on": []
+ },
+ {
+  "id": "margulies2005genome",
+  "title": "Genome sequencing in microfabricated high-density picolitre reactors",
+  "authors": "Margulies M, Egholm M, Altman WE, Attiya S, Bader JS, Bemben LA, et al.",
+  "year": 2005,
+  "venue": "Nature 437:376-380",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "454 emulsion-PCR pyrosequencing in picolitre wells: the first commercial massively parallel next-generation sequencing platform.",
+  "builds_on": [
+   "ronaghi1998sequencing",
+   "saiki1985enzymatic"
+  ],
+  "doi": "10.1038/nature03959"
+ },
+ {
+  "id": "shendure2005accurate",
+  "title": "Accurate multiplex polony sequencing of an evolved bacterial genome",
+  "authors": "Shendure J, Porreca GJ, Reppas NB, Lin X, McCutcheon JP, Rosenbaum AM, et al.",
+  "year": 2005,
+  "venue": "Science 309:1728-1732",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Polony sequencing-by-ligation on bead arrays with off-the-shelf instrumentation; a key open-source demonstration of cyclic-array sequencing.",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ]
+ },
+ {
+  "id": "bentley2008accurate",
+  "title": "Accurate whole human genome sequencing using reversible terminator chemistry",
+  "authors": "Bentley DR, Balasubramanian S, Swerdlow HP, Smith GP, Milton J, Brown CG, et al.",
+  "year": 2008,
+  "venue": "Nature 456:53-59",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Solexa/Illumina bridge amplification with reversible-terminator sequencing-by-synthesis; resequenced a human genome and became the dominant short-read platform.",
+  "builds_on": [
+   "margulies2005genome",
+   "sanger1977dna"
+  ],
+  "doi": "10.1038/nature07517"
+ },
+ {
+  "id": "mckernan2009sequence",
+  "title": "Sequence and structural variation in a human genome uncovered by short-read, massively parallel ligation sequencing using two-base encoding",
+  "authors": "McKernan KJ, Peckham HE, Costa GL, McLaughlin SF, Fu Y, Tsung EF, et al.",
+  "year": 2009,
+  "venue": "Genome Res 19:1527-1541",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Applied Biosystems SOLiD sequencing-by-ligation with two-base colour encoding to a human genome.",
+  "builds_on": [
+   "shendure2005accurate"
+  ]
+ },
+ {
+  "id": "eid2009realtime",
+  "title": "Real-time DNA sequencing from single polymerase molecules",
+  "authors": "Eid J, Fehr A, Gray J, Luong K, Lyle J, Otto G, et al.",
+  "year": 2009,
+  "venue": "Science 323:133-138",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Pacific Biosciences single-molecule real-time (SMRT) sequencing in zero-mode waveguides, enabling long reads.",
+  "builds_on": [
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "rothberg2011integrated",
+  "title": "An integrated semiconductor device enabling non-optical genome sequencing",
+  "authors": "Rothberg JM, Hinz W, Rearick TM, Schultz J, Mileski W, Davey M, et al.",
+  "year": 2011,
+  "venue": "Nature 475:348-352",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Ion Torrent sequencing detecting proton release on CMOS ion-sensitive chips, eliminating optics.",
+  "builds_on": [
+   "margulies2005genome"
+  ]
+ },
+ {
+  "id": "li2009fast",
+  "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+  "authors": "Li H, Durbin R",
+  "year": 2009,
+  "venue": "Bioinformatics 25(14):1754-1760",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "software",
+  "importance": 2,
+  "summary": "BWA: FM-index based alignment of short reads to large genomes, a core tool of NGS analysis pipelines.",
+  "builds_on": [
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "jain2018nanopore",
+  "title": "Nanopore sequencing and assembly of a human genome with ultra-long reads",
+  "authors": "Jain M, Koren S, Miga KH, Quick J, Rand AC, Sasani TA, et al.",
+  "year": 2018,
+  "venue": "Nat Biotechnol 36:338-345",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Oxford Nanopore MinION sequencing of a human genome with reads exceeding 100 kb, demonstrating nanopore long reads for de novo assembly.",
+  "builds_on": [
+   "kasianowicz1996characterization",
+   "eid2009realtime"
+  ]
+ },
+ {
+  "id": "wenger2019accurate",
+  "title": "Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome",
+  "authors": "Wenger AM, Peluso P, Rowell WJ, Chang PC, Hall RJ, Concepcion GT, et al.",
+  "year": 2019,
+  "venue": "Nat Biotechnol 37:1155-1162",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "PacBio HiFi circular consensus sequencing giving long reads at >99% accuracy, transforming genome assembly and variant calling.",
+  "builds_on": [
+   "eid2009realtime"
+  ]
+ },
+ {
+  "id": "arslan2024sequencing",
+  "title": "Sequencing by avidity enables high accuracy with low reagent consumption",
+  "authors": "Arslan S, Garcia FJ, Guo M, Kellinger MW, Kruglyak S, LeVieux JA, et al.",
+  "year": 2024,
+  "venue": "Nat Biotechnol 42:132-138",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Sequencing technologies",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Element Biosciences avidity sequencing using multivalent dye-labelled polymers, a new high-accuracy short-read chemistry.",
+  "builds_on": [
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "sanger1977nucleotide",
+  "title": "Nucleotide sequence of bacteriophage phiX174 DNA",
+  "authors": "Sanger F, Air GM, Barrell BG, Brown NL, Coulson AR, Fiddes JC, et al.",
+  "year": 1977,
+  "venue": "Nature 265:687-695",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First complete DNA genome (5,386 nt), revealing overlapping genes.",
+  "builds_on": [
+   "sanger1975rapid"
+  ]
+ },
+ {
+  "id": "sanger1982nucleotide",
+  "title": "Nucleotide sequence of bacteriophage lambda DNA",
+  "authors": "Sanger F, Coulson AR, Hong GF, Hill DF, Petersen GB",
+  "year": 1982,
+  "venue": "J Mol Biol 162:729-773",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 1,
+  "summary": "48.5 kb lambda genome sequenced by random shotgun cloning, establishing shotgun sequencing.",
+  "builds_on": [
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "fleischmann1995whole",
+  "title": "Whole-genome random sequencing and assembly of Haemophilus influenzae Rd",
+  "authors": "Fleischmann RD, Adams MD, White O, Clayton RA, Kirkness EF, Kerlavage AR, et al.",
+  "year": 1995,
+  "venue": "Science 269:496-512",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First genome of a free-living organism, sequenced by whole-genome shotgun, proving the strategy for large genomes.",
+  "builds_on": [
+   "sanger1982nucleotide",
+   "smith1986fluorescence"
+  ],
+  "doi": "10.1126/science.7542800"
+ },
+ {
+  "id": "goffeau1996life",
+  "title": "Life with 6000 genes",
+  "authors": "Goffeau A, Barrell BG, Bussey H, Davis RW, Dujon B, Feldmann H, et al.",
+  "year": 1996,
+  "venue": "Science 274:546, 563-567",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Complete genome of Saccharomyces cerevisiae, the first eukaryotic genome.",
+  "builds_on": [
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "celegans1998genome",
+  "title": "Genome sequence of the nematode C. elegans: a platform for investigating biology",
+  "authors": "The C. elegans Sequencing Consortium",
+  "year": 1998,
+  "venue": "Science 282:2012-2018",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First genome of a multicellular animal, produced by clone-by-clone sequencing.",
+  "builds_on": [
+   "goffeau1996life"
+  ]
+ },
+ {
+  "id": "adams2000genome",
+  "title": "The genome sequence of Drosophila melanogaster",
+  "authors": "Adams MD, Celniker SE, Holt RA, Evans CA, Gocayne JD, Amanatides PG, et al.",
+  "year": 2000,
+  "venue": "Science 287:2185-2195",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Fly genome assembled by whole-genome shotgun at Celera, a pilot for the human WGS effort.",
+  "builds_on": [
+   "fleischmann1995whole",
+   "celegans1998genome"
+  ]
+ },
+ {
+  "id": "myers2000whole",
+  "title": "A whole-genome assembly of Drosophila",
+  "authors": "Myers EW, Sutton GG, Delcher AL, Dew IM, Fasulo DP, Flanigan MJ, et al.",
+  "year": 2000,
+  "venue": "Science 287:2196-2204",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 1,
+  "summary": "The Celera overlap-layout-consensus assembler that showed WGS could assemble a complex eukaryotic genome.",
+  "builds_on": [
+   "fleischmann1995whole"
+  ]
+ },
+ {
+  "id": "arabidopsis2000analysis",
+  "title": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
+  "authors": "The Arabidopsis Genome Initiative",
+  "year": 2000,
+  "venue": "Nature 408:796-815",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First plant genome, the model Arabidopsis thaliana.",
+  "builds_on": [
+   "celegans1998genome"
+  ]
+ },
+ {
+  "id": "lander2001initial",
+  "title": "Initial sequencing and analysis of the human genome",
+  "authors": "Lander ES, Linton LM, Birren B, Nusbaum C, Zody MC, Baldwin J, et al.",
+  "year": 2001,
+  "venue": "Nature 409:860-921",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Public Human Genome Project draft sequence from hierarchical clone-based shotgun sequencing.",
+  "builds_on": [
+   "sanger1977dna",
+   "huang1992dna",
+   "celegans1998genome"
+  ],
+  "doi": "10.1038/35057062"
+ },
+ {
+  "id": "venter2001sequence",
+  "title": "The sequence of the human genome",
+  "authors": "Venter JC, Adams MD, Myers EW, Li PW, Mural RJ, Sutton GG, et al.",
+  "year": 2001,
+  "venue": "Science 291:1304-1351",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Celera's whole-genome shotgun draft of the human genome, published alongside the public draft.",
+  "builds_on": [
+   "fleischmann1995whole",
+   "myers2000whole",
+   "huang1992dna"
+  ],
+  "doi": "10.1126/science.1058040"
+ },
+ {
+  "id": "ihgsc2004finishing",
+  "title": "Finishing the euchromatic sequence of the human genome",
+  "authors": "International Human Genome Sequencing Consortium",
+  "year": 2004,
+  "venue": "Nature 431:931-945",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Essentially finished human euchromatic sequence (99% coverage, ~1 error per 100 kb), revising the gene count to ~20,000-25,000.",
+  "builds_on": [
+   "lander2001initial"
+  ]
+ },
+ {
+  "id": "koren2017canu",
+  "title": "Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation",
+  "authors": "Koren S, Walenz BP, Berlin K, Miller JR, Bergman NH, Phillippy AM",
+  "year": 2017,
+  "venue": "Genome Res 27:722-736",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "software",
+  "importance": 1,
+  "summary": "Long-read assembler for noisy PacBio and nanopore reads, descended from the Celera Assembler.",
+  "builds_on": [
+   "myers2000whole",
+   "eid2009realtime"
+  ]
+ },
+ {
+  "id": "miga2020telomere",
+  "title": "Telomere-to-telomere assembly of a complete human X chromosome",
+  "authors": "Miga KH, Koren S, Rhie A, Vollger MR, Gershman A, Bzikadze A, et al.",
+  "year": 2020,
+  "venue": "Nature 585:79-84",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First gapless telomere-to-telomere human chromosome, including the X centromere, from ultra-long nanopore reads.",
+  "builds_on": [
+   "jain2018nanopore",
+   "koren2017canu"
+  ]
+ },
+ {
+  "id": "cheng2021haplotype",
+  "title": "Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm",
+  "authors": "Cheng H, Concepcion GT, Feng X, Zhang H, Li H",
+  "year": 2021,
+  "venue": "Nat Methods 18:170-175",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "software",
+  "importance": 1,
+  "summary": "Fast haplotype-resolved assembler for HiFi reads, central to T2T and pangenome assemblies.",
+  "builds_on": [
+   "wenger2019accurate"
+  ]
+ },
+ {
+  "id": "nurk2022complete",
+  "title": "The complete sequence of a human genome",
+  "authors": "Nurk S, Koren S, Rhie A, Rautiainen M, Bzikadze AV, Mikheenko A, et al.",
+  "year": 2022,
+  "venue": "Science 376:44-53",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "T2T-CHM13: the first gapless human genome, adding ~200 Mb including centromeres and rDNA arrays.",
+  "builds_on": [
+   "miga2020telomere",
+   "wenger2019accurate",
+   "ihgsc2004finishing"
+  ],
+  "doi": "10.1126/science.abj6987"
+ },
+ {
+  "id": "liao2023draft",
+  "title": "A draft human pangenome reference",
+  "authors": "Liao WW, Asri M, Ebler J, Doerr D, Haukness M, Hickey G, et al.",
+  "year": 2023,
+  "venue": "Nature 617:312-324",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Human Pangenome Reference Consortium graph of 47 phased diploid assemblies capturing diversity missing from a single linear reference.",
+  "builds_on": [
+   "nurk2022complete",
+   "cheng2021haplotype",
+   "thousandgenomes2015global"
+  ]
+ },
+ {
+  "id": "yoo2025complete",
+  "title": "Complete sequencing of ape genomes",
+  "authors": "Yoo D, Rhie A, Hebbar P, Antonacci F, Logsdon GA, Solar SJ, et al.",
+  "year": 2025,
+  "venue": "Nature 2025",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Genome projects & assemblies",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Telomere-to-telomere diploid genomes of six ape species, enabling complete comparative analysis of great-ape genome evolution.",
+  "builds_on": [
+   "nurk2022complete",
+   "cheng2021haplotype"
+  ]
+ },
+ {
+  "id": "adams1991complementary",
+  "title": "Complementary DNA sequencing: expressed sequence tags and human genome project",
+  "authors": "Adams MD, Kelley JM, Gocayne JD, Dubnick M, Polymeropoulos MH, Xiao H, et al.",
+  "year": 1991,
+  "venue": "Science 252:1651-1656",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Expressed sequence tags (ESTs): rapid partial cDNA sequencing for gene discovery.",
+  "builds_on": [
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "fodor1991lightdirected",
+  "title": "Light-directed, spatially addressable parallel chemical synthesis",
+  "authors": "Fodor SP, Read JL, Pirrung MC, Stryer L, Lu AT, Solas D",
+  "year": 1991,
+  "venue": "Science 251:767-773",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Photolithographic in situ synthesis of high-density peptide and oligonucleotide arrays, the basis of Affymetrix GeneChips.",
+  "builds_on": []
+ },
+ {
+  "id": "schena1995quantitative",
+  "title": "Quantitative monitoring of gene expression patterns with a complementary DNA microarray",
+  "authors": "Schena M, Shalon D, Davis RW, Brown PO",
+  "year": 1995,
+  "venue": "Science 270:467-470",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Spotted cDNA microarrays with two-colour fluorescence for parallel gene expression measurement, launching transcriptomics.",
+  "builds_on": [
+   "adams1991complementary"
+  ],
+  "doi": "10.1126/science.270.5235.467"
+ },
+ {
+  "id": "velculescu1995serial",
+  "title": "Serial analysis of gene expression",
+  "authors": "Velculescu VE, Zhang L, Vogelstein B, Kinzler KW",
+  "year": 1995,
+  "venue": "Science 270:484-487",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "SAGE: counting concatenated short cDNA tags by sequencing to quantify transcript abundance, a precursor of tag-based RNA-seq.",
+  "builds_on": [
+   "adams1991complementary"
+  ]
+ },
+ {
+  "id": "ren2000genomewide",
+  "title": "Genome-wide location and function of DNA binding proteins",
+  "authors": "Ren B, Robert F, Wyrick JJ, Aparicio O, Jennings EG, Simon I, et al.",
+  "year": 2000,
+  "venue": "Science 290:2306-2309",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "ChIP-chip: chromatin immunoprecipitation combined with microarrays to map transcription-factor binding genome-wide.",
+  "builds_on": [
+   "schena1995quantitative"
+  ]
+ },
+ {
+  "id": "dekker2002capturing",
+  "title": "Capturing chromosome conformation",
+  "authors": "Dekker J, Rippe K, Dekker M, Kleckner N",
+  "year": 2002,
+  "venue": "Science 295:1306-1311",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Chromosome conformation capture (3C), measuring physical contacts between genomic loci by proximity ligation.",
+  "builds_on": []
+ },
+ {
+  "id": "encode2007identification",
+  "title": "Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project",
+  "authors": "ENCODE Project Consortium",
+  "year": 2007,
+  "venue": "Nature 447:799-816",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ENCODE pilot: integrated maps of transcription, chromatin and binding over 1% of the genome, revealing pervasive transcription.",
+  "builds_on": [
+   "lander2001initial"
+  ]
+ },
+ {
+  "id": "johnson2007genomewide",
+  "title": "Genome-wide mapping of in vivo protein-DNA interactions",
+  "authors": "Johnson DS, Mortazavi A, Myers RM, Wold B",
+  "year": 2007,
+  "venue": "Science 316:1497-1502",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ChIP-seq: sequencing immunoprecipitated DNA to map transcription-factor (NRSF) binding at high resolution genome-wide.",
+  "builds_on": [
+   "ren2000genomewide",
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "boyle2008highresolution",
+  "title": "High-resolution mapping and characterization of open chromatin across the genome",
+  "authors": "Boyle AP, Davis S, Shulha HP, Meltzer P, Margulies EH, Weng Z, et al.",
+  "year": 2008,
+  "venue": "Cell 132:311-322",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "DNase-seq genome-wide mapping of DNase I hypersensitive sites (open chromatin).",
+  "builds_on": [
+   "johnson2007genomewide"
+  ]
+ },
+ {
+  "id": "mortazavi2008mapping",
+  "title": "Mapping and quantifying mammalian transcriptomes by RNA-Seq",
+  "authors": "Mortazavi A, Williams BA, McCue K, Schaeffer L, Wold B",
+  "year": 2008,
+  "venue": "Nat Methods 5:621-628",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "RNA-seq with RPKM quantification of mouse tissue transcriptomes, replacing microarrays for expression profiling.",
+  "builds_on": [
+   "velculescu1995serial",
+   "schena1995quantitative",
+   "bentley2008accurate"
+  ],
+  "doi": "10.1038/nmeth.1226"
+ },
+ {
+  "id": "liebermanaiden2009comprehensive",
+  "title": "Comprehensive mapping of long-range interactions reveals folding principles of the human genome",
+  "authors": "Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al.",
+  "year": 2009,
+  "venue": "Science 326:289-293",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Hi-C: genome-wide proximity ligation sequencing revealing A/B compartments and fractal-globule chromatin folding.",
+  "builds_on": [
+   "dekker2002capturing"
+  ],
+  "doi": "10.1126/science.1181369"
+ },
+ {
+  "id": "lister2009human",
+  "title": "Human DNA methylomes at base resolution show widespread epigenomic differences",
+  "authors": "Lister R, Pelizzola M, Dowen RH, Hawkins RD, Hon G, Tonti-Filippini J, et al.",
+  "year": 2009,
+  "venue": "Nature 462:315-322",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First single-base whole-genome bisulfite methylomes of human cells, revealing non-CG methylation in stem cells.",
+  "builds_on": [
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "trapnell2010transcript",
+  "title": "Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation",
+  "authors": "Trapnell C, Williams BA, Pertea G, Mortazavi A, Kwan G, van Baren MJ, et al.",
+  "year": 2010,
+  "venue": "Nat Biotechnol 28:511-515",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "software",
+  "importance": 2,
+  "summary": "Cufflinks: reference-based transcript assembly and isoform-level abundance estimation from RNA-seq.",
+  "builds_on": [
+   "mortazavi2008mapping"
+  ]
+ },
+ {
+  "id": "dixon2012topological",
+  "title": "Topological domains in mammalian genomes identified by analysis of chromatin interactions",
+  "authors": "Dixon JR, Selvaraj S, Yue F, Kim A, Li Y, Shen Y, et al.",
+  "year": 2012,
+  "venue": "Nature 485:376-380",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Identified topologically associating domains (TADs) as conserved megabase-scale units of chromatin organisation.",
+  "builds_on": [
+   "liebermanaiden2009comprehensive"
+  ]
+ },
+ {
+  "id": "encode2012integrated",
+  "title": "An integrated encyclopedia of DNA elements in the human genome",
+  "authors": "ENCODE Project Consortium",
+  "year": 2012,
+  "venue": "Nature 489:57-74",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ENCODE phase 2: 1,640 datasets across 147 cell types assigning biochemical activity to most of the genome.",
+  "builds_on": [
+   "encode2007identification",
+   "johnson2007genomewide",
+   "mortazavi2008mapping",
+   "boyle2008highresolution"
+  ],
+  "doi": "10.1038/nature11247"
+ },
+ {
+  "id": "buenrostro2013transposition",
+  "title": "Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position",
+  "authors": "Buenrostro JD, Giresi PG, Zaba LC, Chang HY, Greenleaf WJ",
+  "year": 2013,
+  "venue": "Nat Methods 10:1213-1218",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ATAC-seq: Tn5 transposase tagmentation of accessible chromatin, a fast low-input replacement for DNase-seq.",
+  "builds_on": [
+   "boyle2008highresolution"
+  ],
+  "doi": "10.1038/nmeth.2688"
+ },
+ {
+  "id": "shalem2014genomescale",
+  "title": "Genome-scale CRISPR-Cas9 knockout screening in human cells",
+  "authors": "Shalem O, Sanjana NE, Hartenian E, Shi X, Scott DA, Mikkelsen TS, et al.",
+  "year": 2014,
+  "venue": "Science 343:84-87",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pooled lentiviral sgRNA libraries for genome-wide loss-of-function screens read out by sequencing.",
+  "builds_on": [
+   "cong2013multiplex",
+   "mali2013rna"
+  ]
+ },
+ {
+  "id": "rao2014map",
+  "title": "A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping",
+  "authors": "Rao SSP, Huntley MH, Durand NC, Stamenova EK, Bochkov ID, Robinson JT, et al.",
+  "year": 2014,
+  "venue": "Cell 159:1665-1680",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "In situ Hi-C at kilobase resolution identifying ~10,000 CTCF-anchored loops with convergent motif orientation.",
+  "builds_on": [
+   "liebermanaiden2009comprehensive",
+   "dixon2012topological"
+  ]
+ },
+ {
+  "id": "roadmap2015integrative",
+  "title": "Integrative analysis of 111 reference human epigenomes",
+  "authors": "Roadmap Epigenomics Consortium, Kundaje A, Meuleman W, Ernst J, Bilenky M, Yen A, et al.",
+  "year": 2015,
+  "venue": "Nature 518:317-330",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Reference epigenomes for 111 human tissues and cell types, linking chromatin states to disease-associated variants.",
+  "builds_on": [
+   "encode2012integrated",
+   "lister2009human"
+  ]
+ },
+ {
+  "id": "gtex2015genotypetissue",
+  "title": "The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans",
+  "authors": "GTEx Consortium",
+  "year": 2015,
+  "venue": "Science 348:648-660",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pilot multi-tissue RNA-seq and genotypes from postmortem donors, mapping eQTLs across human tissues.",
+  "builds_on": [
+   "mortazavi2008mapping",
+   "hapmap2005haplotype"
+  ]
+ },
+ {
+  "id": "encode2020expanded",
+  "title": "Expanded encyclopaedias of DNA elements in the human and mouse genomes",
+  "authors": "ENCODE Project Consortium, Moore JE, Purcaro MJ, Pratt HE, Epstein CB, Shoresh N, et al.",
+  "year": 2020,
+  "venue": "Nature 583:699-710",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "ENCODE phase 3 with a registry of ~926,000 human and ~339,000 mouse candidate cis-regulatory elements.",
+  "builds_on": [
+   "encode2012integrated"
+  ]
+ },
+ {
+  "id": "gtex2020gtex",
+  "title": "The GTEx Consortium atlas of genetic regulatory effects across human tissues",
+  "authors": "GTEx Consortium",
+  "year": 2020,
+  "venue": "Science 369:1318-1330",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "GTEx v8: eQTLs and sQTLs in 49 tissues from 838 donors, a central resource for interpreting GWAS loci.",
+  "builds_on": [
+   "gtex2015genotypetissue"
+  ]
+ },
+ {
+  "id": "avsec2021effective",
+  "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+  "authors": "Avsec Ž, Agarwal V, Visentin D, Ledsam JR, Grabska-Barwinska A, Taylor KR, et al.",
+  "year": 2021,
+  "venue": "Nat Methods 18:1196-1203",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Enformer: transformer predicting expression and chromatin tracks from 200 kb of DNA sequence, improving variant-effect prediction.",
+  "builds_on": [
+   "encode2012integrated",
+   "vaswani2017attention"
+  ]
+ },
+ {
+  "id": "replogle2022mapping",
+  "title": "Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq",
+  "authors": "Replogle JM, Saunders RA, Pogson AN, Hussmann JA, Lenail A, Guna A, et al.",
+  "year": 2022,
+  "venue": "Cell 185:2559-2575",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Genome-scale CRISPRi Perturb-seq profiling transcriptional effects of perturbing every expressed gene.",
+  "builds_on": [
+   "dixit2016perturbseq",
+   "shalem2014genomescale"
+  ]
+ },
+ {
+  "id": "nguyen2024sequence",
+  "title": "Sequence modeling and design from molecular to genome scale with Evo",
+  "authors": "Nguyen E, Poli M, Durrant MG, Kang B, Katrekar D, Li DB, et al.",
+  "year": 2024,
+  "venue": "Science 386:eado9336",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Evo: a 7B-parameter long-context genomic foundation model trained on prokaryotic genomes for prediction and generation of DNA, RNA and protein.",
+  "builds_on": [
+   "avsec2021effective",
+   "brown2020language"
+  ]
+ },
+ {
+  "id": "avsec2025alphagenome",
+  "title": "AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model",
+  "authors": "Avsec Ž, Latysheva N, Cheng J, Novati G, Taylor KR, Ward T, et al.",
+  "year": 2025,
+  "venue": "bioRxiv 2025",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Functional & regulatory genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Megabase-context sequence model jointly predicting thousands of functional genomic tracks at base resolution for regulatory variant-effect prediction.",
+  "builds_on": [
+   "avsec2021effective",
+   "encode2020expanded"
+  ]
+ },
+ {
+  "id": "raj2008imaging",
+  "title": "Imaging individual mRNA molecules using multiple singly labeled probes",
+  "authors": "Raj A, van den Bogaard P, Rifkin SA, van Oudenaarden A, Tyagi S",
+  "year": 2008,
+  "venue": "Nat Methods 5:877-879",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Single-molecule FISH with many short labelled oligo probes, the foundation for multiplexed imaging transcriptomics.",
+  "builds_on": []
+ },
+ {
+  "id": "tang2009mrnaseq",
+  "title": "mRNA-Seq whole-transcriptome analysis of a single cell",
+  "authors": "Tang F, Barbacioru C, Wang Y, Nordman E, Lee C, Xu N, et al.",
+  "year": 2009,
+  "venue": "Nat Methods 6:377-382",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First single-cell RNA-seq, profiling the transcriptome of individual mouse blastomeres.",
+  "builds_on": [
+   "mortazavi2008mapping"
+  ]
+ },
+ {
+  "id": "ramskold2012fulllength",
+  "title": "Full-length mRNA-Seq from single-cell levels of RNA and individual circulating tumor cells",
+  "authors": "Ramsköld D, Luo S, Wang YC, Li R, Deng Q, Faridani OR, et al.",
+  "year": 2012,
+  "venue": "Nat Biotechnol 30:777-782",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Smart-seq: template-switching full-length single-cell RNA-seq.",
+  "builds_on": [
+   "tang2009mrnaseq"
+  ]
+ },
+ {
+  "id": "picelli2013smartseq2",
+  "title": "Smart-seq2 for sensitive full-length transcriptome profiling in single cells",
+  "authors": "Picelli S, Björklund ÅK, Faridani OR, Sagasser S, Winberg G, Sandberg R",
+  "year": 2013,
+  "venue": "Nat Methods 10:1096-1098",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Optimised template-switching chemistry giving sensitive full-length single-cell transcriptomes; a plate-based standard.",
+  "builds_on": [
+   "ramskold2012fulllength"
+  ]
+ },
+ {
+  "id": "jaitin2014massively",
+  "title": "Massively parallel single-cell RNA-seq for marker-free decomposition of tissues into cell types",
+  "authors": "Jaitin DA, Kenigsberg E, Keren-Shaul H, Elefant N, Paul F, Zaretsky I, et al.",
+  "year": 2014,
+  "venue": "Science 343:776-779",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "MARS-seq: automated barcoded 3' single-cell RNA-seq of thousands of immune cells.",
+  "builds_on": [
+   "tang2009mrnaseq"
+  ]
+ },
+ {
+  "id": "lubeck2014singlecell",
+  "title": "Single-cell in situ RNA profiling by sequential hybridization",
+  "authors": "Lubeck E, Coskun AF, Zhiyentayev T, Ahmad M, Cai L",
+  "year": 2014,
+  "venue": "Nat Methods 11:360-361",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "seqFISH: sequential rounds of smFISH barcoding to multiplex transcript detection in situ.",
+  "builds_on": [
+   "raj2008imaging"
+  ]
+ },
+ {
+  "id": "chen2015spatially",
+  "title": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+  "authors": "Chen KH, Boettiger AN, Moffitt JR, Wang S, Zhuang X",
+  "year": 2015,
+  "venue": "Science 348:aaa6090",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "MERFISH: error-robust combinatorial barcoding imaging of hundreds to thousands of RNA species in single cells.",
+  "builds_on": [
+   "raj2008imaging"
+  ]
+ },
+ {
+  "id": "macosko2015highly",
+  "title": "Highly parallel genome-wide expression profiling of individual cells using nanoliter droplets",
+  "authors": "Macosko EZ, Basu A, Satija R, Nemesh J, Shekhar K, Goldman M, et al.",
+  "year": 2015,
+  "venue": "Cell 161:1202-1214",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Drop-seq: barcoded beads in nanolitre droplets enabling transcriptomes of tens of thousands of cells.",
+  "builds_on": [
+   "tang2009mrnaseq",
+   "jaitin2014massively"
+  ],
+  "doi": "10.1016/j.cell.2015.05.002"
+ },
+ {
+  "id": "klein2015droplet",
+  "title": "Droplet barcoding for single-cell transcriptomics applied to embryonic stem cells",
+  "authors": "Klein AM, Mazutis L, Akartuna I, Tallapragada N, Veres A, Li V, et al.",
+  "year": 2015,
+  "venue": "Cell 161:1187-1201",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "inDrop: hydrogel-bead droplet barcoding for high-throughput single-cell RNA-seq.",
+  "builds_on": [
+   "tang2009mrnaseq",
+   "jaitin2014massively"
+  ],
+  "doi": "10.1016/j.cell.2015.04.044"
+ },
+ {
+  "id": "satija2015spatial",
+  "title": "Spatial reconstruction of single-cell gene expression data",
+  "authors": "Satija R, Farrell JA, Gennert D, Schier AF, Regev A",
+  "year": 2015,
+  "venue": "Nat Biotechnol 33:495-502",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "software",
+  "importance": 2,
+  "summary": "Introduced Seurat, inferring spatial origin of single cells; became the leading single-cell analysis toolkit.",
+  "builds_on": [
+   "tang2009mrnaseq"
+  ]
+ },
+ {
+  "id": "stahl2016visualization",
+  "title": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics",
+  "authors": "Ståhl PL, Salmén F, Vickovic S, Lundmark A, Navarro JF, Magnusson J, et al.",
+  "year": 2016,
+  "venue": "Science 353:78-82",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Spatial Transcriptomics: spatially barcoded oligo-dT arrays capture mRNA from tissue sections, the basis of 10x Visium.",
+  "builds_on": [
+   "schena1995quantitative",
+   "mortazavi2008mapping"
+  ],
+  "doi": "10.1126/science.aaf2403"
+ },
+ {
+  "id": "dixit2016perturbseq",
+  "title": "Perturb-Seq: dissecting molecular circuits with scalable single-cell RNA profiling of pooled genetic screens",
+  "authors": "Dixit A, Parnas O, Li B, Chen J, Fulco CP, Jerby-Arnon L, et al.",
+  "year": 2016,
+  "venue": "Cell 167:1853-1866",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Combined pooled CRISPR perturbations with droplet single-cell RNA-seq readout.",
+  "builds_on": [
+   "macosko2015highly",
+   "shalem2014genomescale"
+  ]
+ },
+ {
+  "id": "zheng2017massively",
+  "title": "Massively parallel digital transcriptional profiling of single cells",
+  "authors": "Zheng GXY, Terry JM, Belgrader P, Ryvkin P, Ziraldo SB, Wheeler TD, et al.",
+  "year": 2017,
+  "venue": "Nat Commun 8:14049",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "10x Genomics GemCode/Chromium droplet platform profiling ~250,000 cells, the commercial standard for scRNA-seq.",
+  "builds_on": [
+   "macosko2015highly",
+   "klein2015droplet"
+  ]
+ },
+ {
+  "id": "stoeckius2017simultaneous",
+  "title": "Simultaneous epitope and transcriptome measurement in single cells",
+  "authors": "Stoeckius M, Hafemeister C, Stephenson W, Houck-Loomis B, Chattopadhyay PK, Swerdlow H, et al.",
+  "year": 2017,
+  "venue": "Nat Methods 14:865-868",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "CITE-seq: oligo-barcoded antibodies for joint surface-protein and RNA profiling in single cells.",
+  "builds_on": [
+   "macosko2015highly",
+   "klein2015droplet"
+  ]
+ },
+ {
+  "id": "regev2017human",
+  "title": "The Human Cell Atlas",
+  "authors": "Regev A, Teichmann SA, Lander ES, Amit I, Benoist C, Birney E, et al.",
+  "year": 2017,
+  "venue": "eLife 6:e27041",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "White paper launching the Human Cell Atlas to map every human cell type with single-cell and spatial methods.",
+  "builds_on": [
+   "zheng2017massively",
+   "macosko2015highly"
+  ]
+ },
+ {
+  "id": "tabulamuris2018singlecell",
+  "title": "Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris",
+  "authors": "Tabula Muris Consortium",
+  "year": 2018,
+  "venue": "Nature 562:367-372",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Organism-wide mouse cell atlas from ~100,000 cells profiled with both droplet and Smart-seq2 methods.",
+  "builds_on": [
+   "zheng2017massively",
+   "picelli2013smartseq2"
+  ]
+ },
+ {
+  "id": "rodriques2019slideseq",
+  "title": "Slide-seq: a scalable technology for measuring genome-wide expression at high spatial resolution",
+  "authors": "Rodriques SG, Stickels RR, Goeva A, Martin CA, Murray E, Vanderburg CR, et al.",
+  "year": 2019,
+  "venue": "Science 363:1463-1467",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Spatial transcriptomics on surfaces of DNA-barcoded beads at 10 micron resolution.",
+  "builds_on": [
+   "stahl2016visualization",
+   "macosko2015highly"
+  ]
+ },
+ {
+  "id": "tabulasapiens2022tabula",
+  "title": "The Tabula Sapiens: a multiple-organ, single-cell transcriptomic atlas of humans",
+  "authors": "Tabula Sapiens Consortium",
+  "year": 2022,
+  "venue": "Science 376:eabl4896",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Human cell atlas of ~500,000 cells from 24 organs of the same donors.",
+  "builds_on": [
+   "tabulamuris2018singlecell",
+   "regev2017human"
+  ]
+ },
+ {
+  "id": "theodoris2023transfer",
+  "title": "Transfer learning enables predictions in network biology",
+  "authors": "Theodoris CV, Xiao L, Chopra A, Chaffin MD, Al Sayed ZR, Hill MC, et al.",
+  "year": 2023,
+  "venue": "Nature 618:616-624",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Geneformer: transformer pretrained on ~30 million single-cell transcriptomes, fine-tuned for network-biology predictions.",
+  "builds_on": [
+   "tabulasapiens2022tabula",
+   "devlin2019bert"
+  ]
+ },
+ {
+  "id": "cui2024scgpt",
+  "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+  "authors": "Cui H, Wang C, Maan H, Pang K, Luo F, Duan N, et al.",
+  "year": 2024,
+  "venue": "Nat Methods 21:1470-1480",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Single-cell & spatial omics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Generative transformer pretrained on over 33 million cells for annotation, integration and perturbation prediction.",
+  "builds_on": [
+   "theodoris2023transfer",
+   "radford2018improving"
+  ]
+ },
+ {
+  "id": "risch1996future",
+  "title": "The future of genetic studies of complex human diseases",
+  "authors": "Risch N, Merikangas K",
+  "year": 1996,
+  "venue": "Science 273:1516-1517",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Argued genome-wide association would be far more powerful than linkage for common complex-disease alleles.",
+  "builds_on": [
+   "mendel1866versuche"
+  ]
+ },
+ {
+  "id": "lo1997presence",
+  "title": "Presence of fetal DNA in maternal plasma and serum",
+  "authors": "Lo YMD, Corbetta N, Chamberlain PF, Rai V, Sargent IL, Redman CW, et al.",
+  "year": 1997,
+  "venue": "Lancet 350:485-487",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Discovered cell-free fetal DNA in maternal plasma, founding non-invasive prenatal testing and cfDNA diagnostics.",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ]
+ },
+ {
+  "id": "krings1997neandertal",
+  "title": "Neandertal DNA sequences and the origin of modern humans",
+  "authors": "Krings M, Stone A, Schmitz RW, Krainitzki H, Stoneking M, Pääbo S",
+  "year": 1997,
+  "venue": "Cell 90:19-30",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First Neanderthal mitochondrial DNA sequence from the type specimen, launching ancient human DNA research.",
+  "builds_on": [
+   "saiki1985enzymatic",
+   "sanger1977dna"
+  ]
+ },
+ {
+  "id": "hapmap2005haplotype",
+  "title": "A haplotype map of the human genome",
+  "authors": "International HapMap Consortium",
+  "year": 2005,
+  "venue": "Nature 437:1299-1320",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Genotyped over one million SNPs in four populations to chart linkage disequilibrium, enabling tag-SNP GWAS design.",
+  "builds_on": [
+   "lander2001initial",
+   "risch1996future"
+  ]
+ },
+ {
+  "id": "klein2005complement",
+  "title": "Complement factor H polymorphism in age-related macular degeneration",
+  "authors": "Klein RJ, Zeiss C, Chew EY, Tsai JY, Sackler RS, Haynes C, et al.",
+  "year": 2005,
+  "venue": "Science 308:385-389",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First successful genome-wide association study, finding a CFH variant strongly associated with AMD.",
+  "builds_on": [
+   "risch1996future"
+  ]
+ },
+ {
+  "id": "wtccc2007genomewide",
+  "title": "Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls",
+  "authors": "Wellcome Trust Case Control Consortium",
+  "year": 2007,
+  "venue": "Nature 447:661-678",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Landmark GWAS establishing design and QC standards and identifying 24 loci across seven common diseases.",
+  "builds_on": [
+   "hapmap2005haplotype",
+   "klein2005complement"
+  ]
+ },
+ {
+  "id": "turnbaugh2007human",
+  "title": "The Human Microbiome Project",
+  "authors": "Turnbaugh PJ, Ley RE, Hamady M, Fraser-Liggett CM, Knight R, Gordon JI",
+  "year": 2007,
+  "venue": "Nature 449:804-810",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Outlined the Human Microbiome Project to characterise microbial communities of the human body by metagenomics.",
+  "builds_on": [
+   "fleischmann1995whole",
+   "margulies2005genome"
+  ]
+ },
+ {
+  "id": "ley2008dna",
+  "title": "DNA sequencing of a cytogenetically normal acute myeloid leukaemia genome",
+  "authors": "Ley TJ, Mardis ER, Ding L, Fulton B, McLellan MD, Chen K, et al.",
+  "year": 2008,
+  "venue": "Nature 456:66-72",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First whole cancer genome sequenced against matched normal, using Illumina short reads.",
+  "builds_on": [
+   "bentley2008accurate",
+   "lander2001initial"
+  ]
+ },
+ {
+  "id": "tcga2008comprehensive",
+  "title": "Comprehensive genomic characterization defines human glioblastoma genes and core pathways",
+  "authors": "Cancer Genome Atlas Research Network",
+  "year": 2008,
+  "venue": "Nature 455:1061-1068",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First TCGA marker paper, integrating copy number, expression, methylation and sequencing of glioblastomas.",
+  "builds_on": [
+   "lander2001initial"
+  ]
+ },
+ {
+  "id": "chiu2008noninvasive",
+  "title": "Noninvasive prenatal diagnosis of fetal chromosomal aneuploidy by massively parallel genomic sequencing of DNA in maternal plasma",
+  "authors": "Chiu RWK, Chan KCA, Gao Y, Lau VYM, Zheng W, Leung TY, et al.",
+  "year": 2008,
+  "venue": "PNAS 105(51):20458-20463",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Shotgun counting of maternal plasma DNA to detect fetal trisomy 21, the basis of clinical NIPT.",
+  "builds_on": [
+   "lo1997presence",
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "ng2009targeted",
+  "title": "Targeted capture and massively parallel sequencing of 12 human exomes",
+  "authors": "Ng SB, Turner EH, Robertson PD, Flygare SD, Bigham AW, Lee C, et al.",
+  "year": 2009,
+  "venue": "Nature 461:272-276",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Exome capture sequencing proof of concept, identifying the cause of Freeman-Sheldon syndrome.",
+  "builds_on": [
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "purcell2009common",
+  "title": "Common polygenic variation contributes to risk of schizophrenia and bipolar disorder",
+  "authors": "International Schizophrenia Consortium, Purcell SM, Wray NR, Stone JL, Visscher PM, O'Donovan MC, et al.",
+  "year": 2009,
+  "venue": "Nature 460:748-752",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced polygenic risk scores built from many sub-threshold GWAS variants.",
+  "builds_on": [
+   "wtccc2007genomewide"
+  ]
+ },
+ {
+  "id": "ng2010exome",
+  "title": "Exome sequencing identifies the cause of a mendelian disorder",
+  "authors": "Ng SB, Buckingham KJ, Lee C, Bigham AW, Tabor HK, Dent KM, et al.",
+  "year": 2010,
+  "venue": "Nat Genet 42:30-35",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Identified DHODH mutations as the cause of Miller syndrome, the first novel Mendelian gene discovered by exome sequencing.",
+  "builds_on": [
+   "ng2009targeted"
+  ]
+ },
+ {
+  "id": "icgc2010international",
+  "title": "International network of cancer genome projects",
+  "authors": "International Cancer Genome Consortium",
+  "year": 2010,
+  "venue": "Nature 464:993-998",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Launched the ICGC to coordinate comprehensive genomic catalogues of 50 cancer types.",
+  "builds_on": [
+   "tcga2008comprehensive"
+  ]
+ },
+ {
+  "id": "green2010draft",
+  "title": "A draft sequence of the Neandertal genome",
+  "authors": "Green RE, Krause J, Briggs AW, Maricic T, Stenzel U, Kircher M, et al.",
+  "year": 2010,
+  "venue": "Science 328:710-722",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First Neanderthal nuclear genome, showing 1-4% Neanderthal ancestry in non-Africans.",
+  "builds_on": [
+   "krings1997neandertal",
+   "margulies2005genome"
+  ]
+ },
+ {
+  "id": "mckenna2010genome",
+  "title": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+  "authors": "McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, et al.",
+  "year": 2010,
+  "venue": "Genome Res 20:1297-1303",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "software",
+  "importance": 2,
+  "summary": "GATK, the standard framework for germline and somatic variant calling from NGS data.",
+  "builds_on": [
+   "li2009fast"
+  ]
+ },
+ {
+  "id": "thousandgenomes2010map",
+  "title": "A map of human genome variation from population-scale sequencing",
+  "authors": "1000 Genomes Project Consortium",
+  "year": 2010,
+  "venue": "Nature 467:1061-1073",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pilot of population-scale low-coverage sequencing cataloguing ~15 million variants.",
+  "builds_on": [
+   "hapmap2005haplotype",
+   "bentley2008accurate"
+  ]
+ },
+ {
+  "id": "hmp2012structure",
+  "title": "Structure, function and diversity of the healthy human microbiome",
+  "authors": "Human Microbiome Project Consortium",
+  "year": 2012,
+  "venue": "Nature 486:207-214",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Reference survey of microbial communities across body sites in 242 healthy adults.",
+  "builds_on": [
+   "turnbaugh2007human"
+  ]
+ },
+ {
+  "id": "alexandrov2013signatures",
+  "title": "Signatures of mutational processes in human cancer",
+  "authors": "Alexandrov LB, Nik-Zainal S, Wedge DC, Aparicio SAJR, Behjati S, Biankin AV, et al.",
+  "year": 2013,
+  "venue": "Nature 500:415-421",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Extracted 21 mutational signatures from ~7,000 cancers, linking them to processes such as smoking, UV and APOBEC.",
+  "builds_on": [
+   "ley2008dna",
+   "icgc2010international"
+  ]
+ },
+ {
+  "id": "thousandgenomes2015global",
+  "title": "A global reference for human genetic variation",
+  "authors": "1000 Genomes Project Consortium",
+  "year": 2015,
+  "venue": "Nature 526:68-74",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Final phase genomes of 2,504 individuals from 26 populations, the standard reference panel for imputation.",
+  "builds_on": [
+   "thousandgenomes2010map"
+  ]
+ },
+ {
+  "id": "lek2016analysis",
+  "title": "Analysis of protein-coding genetic variation in 60,706 humans",
+  "authors": "Lek M, Karczewski KJ, Minikel EV, Samocha KE, Banks E, Fennell T, et al.",
+  "year": 2016,
+  "venue": "Nature 536:285-291",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "ExAC exome aggregation, quantifying gene constraint against loss-of-function variation.",
+  "builds_on": [
+   "ng2010exome",
+   "mckenna2010genome"
+  ]
+ },
+ {
+  "id": "bycroft2018uk",
+  "title": "The UK Biobank resource with deep phenotyping and genomic data",
+  "authors": "Bycroft C, Freeman C, Petkova D, Band G, Elliott LT, Sharp K, et al.",
+  "year": 2018,
+  "venue": "Nature 562:203-209",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Genotypes and imputation for ~500,000 deeply phenotyped participants, powering biobank-scale genetics.",
+  "builds_on": [
+   "wtccc2007genomewide",
+   "thousandgenomes2015global"
+  ]
+ },
+ {
+  "id": "khera2018genomewide",
+  "title": "Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutations",
+  "authors": "Khera AV, Chaffin M, Aragam KG, Haas ME, Roselli C, Choi SH, et al.",
+  "year": 2018,
+  "venue": "Nat Genet 50:1219-1224",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed genome-wide polygenic scores identify individuals with risk comparable to monogenic mutations.",
+  "builds_on": [
+   "purcell2009common",
+   "bycroft2018uk"
+  ]
+ },
+ {
+  "id": "karczewski2020mutational",
+  "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+  "authors": "Karczewski KJ, Francioli LC, Tiao G, Cummings BB, Alföldi J, Wang Q, et al.",
+  "year": 2020,
+  "venue": "Nature 581:434-443",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "gnomAD exomes and genomes defining loss-of-function constraint (LOEUF), central to rare-disease variant interpretation.",
+  "builds_on": [
+   "lek2016analysis"
+  ]
+ },
+ {
+  "id": "pcawg2020pancancer",
+  "title": "Pan-cancer analysis of whole genomes",
+  "authors": "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium",
+  "year": 2020,
+  "venue": "Nature 578:82-93",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Whole-genome analysis of 2,658 cancers revealing non-coding drivers, chromothripsis and structural variation.",
+  "builds_on": [
+   "icgc2010international",
+   "alexandrov2013signatures"
+  ]
+ },
+ {
+  "id": "cheng2023accurate",
+  "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+  "authors": "Cheng J, Novati G, Pan J, Bycroft C, Žemgulytė A, Applebaum T, et al.",
+  "year": 2023,
+  "venue": "Science 381:eadg7492",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "AlphaFold-derived model classifying pathogenicity of all 71 million possible human missense variants.",
+  "builds_on": [
+   "jumper2021highly",
+   "karczewski2020mutational"
+  ]
+ },
+ {
+  "id": "allofus2024genomic",
+  "title": "Genomic data in the All of Us Research Program",
+  "authors": "All of Us Research Program Genomics Investigators",
+  "year": 2024,
+  "venue": "Nature 627:340-346",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "dataset",
+  "importance": 1,
+  "summary": "Release of ~245,000 clinical-grade whole genomes from a diverse US cohort.",
+  "builds_on": [
+   "bycroft2018uk",
+   "karczewski2020mutational"
+  ]
+ },
+ {
+  "id": "ukbiobank2025wholegenome",
+  "title": "Whole-genome sequencing of 490,640 UK Biobank participants",
+  "authors": "UK Biobank Whole-Genome Sequencing Consortium",
+  "year": 2025,
+  "venue": "Nature 2025",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Population & medical genomics",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Whole genomes for nearly all UK Biobank participants, cataloguing ~1.5 billion variants for biobank-scale rare-variant studies.",
+  "builds_on": [
+   "bycroft2018uk"
+  ]
+ },
+ {
+  "id": "tanaka1988protein",
+  "title": "Protein and polymer analyses up to m/z 100 000 by laser ionization time-of-flight mass spectrometry",
+  "authors": "Tanaka K, Waki H, Ido Y, Akita S, Yoshida Y, Yoshida T",
+  "year": 1988,
+  "venue": "Rapid Commun Mass Spectrom 2:151-153",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Soft laser desorption ionisation of intact proteins (Nobel Prize 2002), alongside MALDI by Karas and Hillenkamp.",
+  "builds_on": []
+ },
+ {
+  "id": "karas1988laser",
+  "title": "Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons",
+  "authors": "Karas M, Hillenkamp F",
+  "year": 1988,
+  "venue": "Anal Chem 60:2299-2301",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Matrix-assisted laser desorption/ionisation (MALDI) of large proteins.",
+  "builds_on": []
+ },
+ {
+  "id": "fenn1989electrospray",
+  "title": "Electrospray ionization for mass spectrometry of large biomolecules",
+  "authors": "Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM",
+  "year": 1989,
+  "venue": "Science 246:64-71",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Electrospray ionisation producing multiply charged ions of large biomolecules (Nobel Prize 2002), enabling LC-MS/MS proteomics.",
+  "builds_on": []
+ },
+ {
+  "id": "eng1994approach",
+  "title": "An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database",
+  "authors": "Eng JK, McCormack AL, Yates JR",
+  "year": 1994,
+  "venue": "J Am Soc Mass Spectrom 5:976-989",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "software",
+  "importance": 2,
+  "summary": "SEQUEST database search matching MS/MS spectra to sequences, the basis of shotgun proteomics.",
+  "builds_on": [
+   "fenn1989electrospray"
+  ]
+ },
+ {
+  "id": "gygi1999quantitative",
+  "title": "Quantitative analysis of complex protein mixtures using isotope-coded affinity tags",
+  "authors": "Gygi SP, Rist B, Gerber SA, Turecek F, Gelb MH, Aebersold R",
+  "year": 1999,
+  "venue": "Nat Biotechnol 17:994-999",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ICAT stable-isotope labelling for relative quantification by mass spectrometry.",
+  "builds_on": [
+   "eng1994approach"
+  ]
+ },
+ {
+  "id": "nicholson1999metabonomics",
+  "title": "'Metabonomics': understanding the metabolic responses of living systems to pathophysiological stimuli via multivariate statistical analysis of biological NMR spectroscopic data",
+  "authors": "Nicholson JK, Lindon JC, Holmes E",
+  "year": 1999,
+  "venue": "Xenobiotica 29:1181-1189",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Defined metabonomics: NMR-based multivariate profiling of systemic metabolic responses.",
+  "builds_on": []
+ },
+ {
+  "id": "makarov2000electrostatic",
+  "title": "Electrostatic axially harmonic orbital trapping: a high-performance technique of mass analysis",
+  "authors": "Makarov A",
+  "year": 2000,
+  "venue": "Anal Chem 72:1156-1162",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The Orbitrap mass analyser, delivering high resolution and accuracy that came to dominate proteomics.",
+  "builds_on": []
+ },
+ {
+  "id": "washburn2001largescale",
+  "title": "Large-scale analysis of the yeast proteome by multidimensional protein identification technology",
+  "authors": "Washburn MP, Wolters D, Yates JR",
+  "year": 2001,
+  "venue": "Nat Biotechnol 19:242-247",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "MudPIT: multidimensional LC-MS/MS identifying ~1,500 yeast proteins without gels.",
+  "builds_on": [
+   "eng1994approach"
+  ]
+ },
+ {
+  "id": "fiehn2002metabolomics",
+  "title": "Metabolomics - the link between genotypes and phenotypes",
+  "authors": "Fiehn O",
+  "year": 2002,
+  "venue": "Plant Mol Biol 48:155-171",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Influential framing of mass-spectrometry metabolomics as the phenotypic layer linking genotype to phenotype.",
+  "builds_on": [
+   "nicholson1999metabonomics"
+  ]
+ },
+ {
+  "id": "ong2002stable",
+  "title": "Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics",
+  "authors": "Ong SE, Blagoev B, Kratchmarova I, Kristensen DB, Steen H, Pandey A, et al.",
+  "year": 2002,
+  "venue": "Mol Cell Proteomics 1:376-386",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "SILAC metabolic labelling for accurate MS-based quantitative proteomics.",
+  "builds_on": [
+   "gygi1999quantitative"
+  ]
+ },
+ {
+  "id": "thompson2003tandem",
+  "title": "Tandem mass tags: a novel quantification strategy for comparative analysis of complex protein mixtures by MS/MS",
+  "authors": "Thompson A, Schäfer J, Kuhn K, Kienle S, Schwarz J, Schmidt G, et al.",
+  "year": 2003,
+  "venue": "Anal Chem 75:1895-1904",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Isobaric tandem mass tags allowing multiplexed peptide quantification.",
+  "builds_on": [
+   "gygi1999quantitative"
+  ]
+ },
+ {
+  "id": "gold2010aptamerbased",
+  "title": "Aptamer-based multiplexed proteomic technology for biomarker discovery",
+  "authors": "Gold L, Ayers D, Bertino J, Bock C, Bock A, Brody EN, et al.",
+  "year": 2010,
+  "venue": "PLoS One 5:e15004",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "SomaScan: slow off-rate modified aptamers (SOMAmers) measuring >800 plasma proteins, later ~7,000-11,000.",
+  "builds_on": [
+   "schena1995quantitative"
+  ]
+ },
+ {
+  "id": "gillet2012targeted",
+  "title": "Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: a new concept for consistent and accurate proteome analysis",
+  "authors": "Gillet LC, Navarro P, Tate S, Röst H, Selevsek N, Reiter L, et al.",
+  "year": 2012,
+  "venue": "Mol Cell Proteomics 11:O111.016717",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "SWATH-MS data-independent acquisition with targeted extraction for reproducible proteome quantification.",
+  "builds_on": [
+   "washburn2001largescale"
+  ]
+ },
+ {
+  "id": "kim2014draft",
+  "title": "A draft map of the human proteome",
+  "authors": "Kim MS, Pinto SM, Getnet D, Nirujogi RS, Manda SS, Chaerkady R, et al.",
+  "year": 2014,
+  "venue": "Nature 509:575-581",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "MS-based draft human proteome across 30 tissues, published with a parallel ProteomicsDB map (Wilhelm et al.).",
+  "builds_on": [
+   "makarov2000electrostatic",
+   "lander2001initial"
+  ]
+ },
+ {
+  "id": "assarsson2014homogenous",
+  "title": "Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability",
+  "authors": "Assarsson E, Lundberg M, Holmquist G, Björkesten J, Thorsen SB, Ekman D, et al.",
+  "year": 2014,
+  "venue": "PLoS One 9:e95192",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Olink proximity extension assay: antibody pairs with DNA reporters read by PCR (later NGS) for multiplexed protein quantification.",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ]
+ },
+ {
+  "id": "sun2018genomic",
+  "title": "Genomic atlas of the human plasma proteome",
+  "authors": "Sun BB, Maranville JC, Peters JE, Stacey D, Staley JR, Blackshaw J, et al.",
+  "year": 2018,
+  "venue": "Nature 558:73-79",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Mapped ~1,900 pQTLs for 3,600 plasma proteins measured by SomaScan, linking proteins to disease loci.",
+  "builds_on": [
+   "gold2010aptamerbased",
+   "wtccc2007genomewide"
+  ]
+ },
+ {
+  "id": "swaminathan2018highly",
+  "title": "Highly parallel single-molecule identification of proteins in zeptomole-scale mixtures",
+  "authors": "Swaminathan J, Boulgakov AA, Hernandez ET, Bardo AM, Bachman JL, Marotta J, et al.",
+  "year": 2018,
+  "venue": "Nat Biotechnol 36:1076-1082",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Fluorosequencing: single-molecule peptide identification by Edman degradation of fluorescently labelled residues.",
+  "builds_on": [
+   "kim2014draft"
+  ]
+ },
+ {
+  "id": "reed2022realtime",
+  "title": "Real-time dynamic single-molecule protein sequencing on an integrated semiconductor device",
+  "authors": "Reed BD, Meyer MJ, Abramzon V, Ad O, Ad P, Adcock P, et al.",
+  "year": 2022,
+  "venue": "Science 378:186-192",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Single-molecule protein sequencing by kinetic recognition of N-terminal amino acids on a semiconductor chip (Quantum-Si).",
+  "builds_on": [
+   "swaminathan2018highly",
+   "eid2009realtime"
+  ]
+ },
+ {
+  "id": "sun2023plasma",
+  "title": "Plasma proteomic associations with genetics and health in the UK Biobank",
+  "authors": "Sun BB, Chiou J, Traylor M, Benner C, Hsu YH, Richardson TG, et al.",
+  "year": 2023,
+  "venue": "Nature 622:329-338",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "UK Biobank Pharma Proteomics Project: Olink profiling of ~3,000 proteins in 54,000 people, mapping >14,000 pQTLs.",
+  "builds_on": [
+   "sun2018genomic",
+   "assarsson2014homogenous",
+   "bycroft2018uk"
+  ]
+ },
+ {
+  "id": "guzman2024ultrafast",
+  "title": "Ultra-fast label-free quantification and comprehensive proteome coverage with narrow-window data-independent acquisition",
+  "authors": "Guzman UH, Martinez-Val A, Ye Z, Damoc E, Arrey TN, Pashkova A, et al.",
+  "year": 2024,
+  "venue": "Nat Biotechnol 2024",
+  "domain": "bio",
+  "field": "Genomics & Sequencing",
+  "subfield": "Proteomics & metabolomics",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Orbitrap Astral narrow-window DIA quantifying near-complete human proteomes in short gradients.",
+  "builds_on": [
+   "gillet2012targeted",
+   "makarov2000electrostatic"
+  ]
+ }
+]

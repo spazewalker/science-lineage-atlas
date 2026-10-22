@@ -1,0 +1,1914 @@
+[
+ {
+  "id": "hubel1962receptive",
+  "title": "Receptive fields, binocular interaction and functional architecture in the cat's visual cortex",
+  "authors": "Hubel DH, Wiesel TN",
+  "year": 1962,
+  "venue": "Journal of Physiology 160:106-154",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Characterized simple and complex cells and hierarchical receptive fields in visual cortex, inspiring hierarchical feature models from the Neocognitron to CNNs.",
+  "builds_on": [],
+  "doi": "10.1113/jphysiol.1962.sp006837"
+ },
+ {
+  "id": "roberts1963machine",
+  "title": "Machine Perception of Three-Dimensional Solids",
+  "authors": "Roberts LG",
+  "year": 1963,
+  "venue": "PhD thesis, MIT",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The 'blocks world' thesis: extracted edges from photographs and matched them to 3D polyhedral models, often cited as the start of computer vision.",
+  "builds_on": []
+ },
+ {
+  "id": "marr1982vision",
+  "title": "Vision: A Computational Investigation into the Human Representation and Processing of Visual Information",
+  "authors": "Marr D",
+  "year": 1982,
+  "venue": "W. H. Freeman",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "book",
+  "importance": 3,
+  "summary": "Framed vision as information processing across computational, algorithmic and implementation levels, with the primal sketch / 2.5D sketch / 3D model pipeline that shaped decades of research.",
+  "builds_on": [
+   "hubel1962receptive",
+   "roberts1963machine"
+  ]
+ },
+ {
+  "id": "horn1981determining",
+  "title": "Determining Optical Flow",
+  "authors": "Horn BKP, Schunck BG",
+  "year": 1981,
+  "venue": "Artificial Intelligence 17:185-203",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Global variational optical flow method combining brightness constancy with a smoothness prior; the foundation of dense flow estimation.",
+  "builds_on": [],
+  "doi": "10.1016/0004-3702(81)90024-2"
+ },
+ {
+  "id": "lucas1981iterative",
+  "title": "An Iterative Image Registration Technique with an Application to Stereo Vision",
+  "authors": "Lucas BD, Kanade T",
+  "year": 1981,
+  "venue": "IJCAI 1981",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Local least-squares, gradient-based image alignment (Lucas-Kanade), the basis of sparse optical flow and feature tracking.",
+  "builds_on": []
+ },
+ {
+  "id": "fischler1981random",
+  "title": "Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography",
+  "authors": "Fischler MA, Bolles RC",
+  "year": 1981,
+  "venue": "Communications of the ACM 24(6):381-395",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 3,
+  "summary": "RANSAC: robust model fitting by hypothesize-and-verify on random minimal samples; ubiquitous in geometric vision.",
+  "builds_on": []
+ },
+ {
+  "id": "longuethiggins1981computer",
+  "title": "A computer algorithm for reconstructing a scene from two projections",
+  "authors": "Longuet-Higgins HC",
+  "year": 1981,
+  "venue": "Nature 293:133-135",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the essential matrix and the eight-point algorithm for two-view relative pose and structure recovery.",
+  "builds_on": []
+ },
+ {
+  "id": "canny1986computational",
+  "title": "A Computational Approach to Edge Detection",
+  "authors": "Canny J",
+  "year": 1986,
+  "venue": "IEEE TPAMI 8(6):679-698",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Derived an optimal edge detector with non-maximum suppression and hysteresis thresholding; still the standard edge detector.",
+  "builds_on": [
+   "marr1982vision"
+  ],
+  "doi": "10.1109/TPAMI.1986.4767851"
+ },
+ {
+  "id": "kass1988snakes",
+  "title": "Snakes: Active Contour Models",
+  "authors": "Kass M, Witkin A, Terzopoulos D",
+  "year": 1988,
+  "venue": "International Journal of Computer Vision 1(4):321-331",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Energy-minimizing deformable contours for boundary extraction, launching the variational / active contour approach to segmentation.",
+  "builds_on": [
+   "canny1986computational"
+  ]
+ },
+ {
+  "id": "harris1988combined",
+  "title": "A Combined Corner and Edge Detector",
+  "authors": "Harris C, Stephens M",
+  "year": 1988,
+  "venue": "Alvey Vision Conference 1988",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 3,
+  "summary": "The Harris corner detector based on the local structure tensor, a foundational interest-point detector for matching and tracking.",
+  "builds_on": [
+   "lucas1981iterative"
+  ]
+ },
+ {
+  "id": "turk1991eigenfaces",
+  "title": "Eigenfaces for Recognition",
+  "authors": "Turk M, Pentland A",
+  "year": 1991,
+  "venue": "Journal of Cognitive Neuroscience 3(1):71-86",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Face recognition by projecting images onto principal components ('eigenfaces'), a landmark of appearance-based recognition.",
+  "builds_on": [],
+  "doi": "10.1162/jocn.1991.3.1.71"
+ },
+ {
+  "id": "shi2000normalized",
+  "title": "Normalized Cuts and Image Segmentation",
+  "authors": "Shi J, Malik J",
+  "year": 2000,
+  "venue": "IEEE TPAMI 22(8):888-905",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Formulated segmentation as normalized graph partitioning solved via spectral relaxation; a cornerstone of grouping-based segmentation.",
+  "builds_on": [
+   "kass1988snakes"
+  ]
+ },
+ {
+  "id": "viola2001rapid",
+  "title": "Rapid Object Detection using a Boosted Cascade of Simple Features",
+  "authors": "Viola P, Jones M",
+  "year": 2001,
+  "venue": "CVPR 2001",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Real-time face detection using Haar-like features, integral images, AdaBoost and an attentional cascade; the first practical real-time detector.",
+  "builds_on": [
+   "turk1991eigenfaces"
+  ]
+ },
+ {
+  "id": "sivic2003video",
+  "title": "Video Google: A Text Retrieval Approach to Object Matching in Videos",
+  "authors": "Sivic J, Zisserman A",
+  "year": 2003,
+  "venue": "ICCV 2003",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Quantized local descriptors into 'visual words' for inverted-file retrieval, establishing the bag-of-visual-words paradigm.",
+  "builds_on": [
+   "lowe2004distinctive"
+  ]
+ },
+ {
+  "id": "lowe2004distinctive",
+  "title": "Distinctive Image Features from Scale-Invariant Keypoints",
+  "authors": "Lowe DG",
+  "year": 2004,
+  "venue": "International Journal of Computer Vision 60(2):91-110",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 3,
+  "summary": "SIFT: scale-space keypoint detection with gradient-histogram descriptors invariant to scale and rotation; dominated matching, recognition and SfM for a decade.",
+  "builds_on": [
+   "harris1988combined",
+   "marr1982vision"
+  ],
+  "doi": "10.1023/B:VISI.0000029664.99615.94"
+ },
+ {
+  "id": "dalal2005histograms",
+  "title": "Histograms of Oriented Gradients for Human Detection",
+  "authors": "Dalal N, Triggs B",
+  "year": 2005,
+  "venue": "CVPR 2005",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "HOG descriptors with a linear SVM for pedestrian detection; the dominant hand-crafted detection feature before deep learning.",
+  "builds_on": [
+   "lowe2004distinctive",
+   "viola2001rapid"
+  ]
+ },
+ {
+  "id": "bay2006surf",
+  "title": "SURF: Speeded Up Robust Features",
+  "authors": "Bay H, Tuytelaars T, Van Gool L",
+  "year": 2006,
+  "venue": "ECCV 2006",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Classical vision",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Fast scale- and rotation-invariant detector/descriptor using integral images and box-filter Hessian approximations.",
+  "builds_on": [
+   "lowe2004distinctive"
+  ]
+ },
+ {
+  "id": "felzenszwalb2010object",
+  "title": "Object Detection with Discriminatively Trained Part-Based Models",
+  "authors": "Felzenszwalb PF, Girshick RB, McAllester D, Ramanan D",
+  "year": 2010,
+  "venue": "IEEE TPAMI 32(9):1627-1645",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Deformable Part Models: HOG-based root and part filters trained with latent SVM; state of the art on PASCAL VOC before CNNs.",
+  "builds_on": [
+   "dalal2005histograms",
+   "everingham2010pascal"
+  ]
+ },
+ {
+  "id": "triggs2000bundle",
+  "title": "Bundle Adjustment - A Modern Synthesis",
+  "authors": "Triggs B, McLauchlan PF, Hartley RI, Fitzgibbon AW",
+  "year": 2000,
+  "venue": "Vision Algorithms: Theory and Practice, LNCS 1883",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Comprehensive treatment of sparse nonlinear least-squares refinement of cameras and 3D points, the backbone of SfM and SLAM.",
+  "builds_on": [
+   "longuethiggins1981computer"
+  ]
+ },
+ {
+  "id": "hartley2000multiple",
+  "title": "Multiple View Geometry in Computer Vision",
+  "authors": "Hartley R, Zisserman A",
+  "year": 2000,
+  "venue": "Cambridge University Press",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "book",
+  "importance": 3,
+  "summary": "The standard reference on projective geometry, epipolar geometry, the fundamental matrix, and multi-view reconstruction.",
+  "builds_on": [
+   "longuethiggins1981computer",
+   "fischler1981random"
+  ]
+ },
+ {
+  "id": "snavely2006photo",
+  "title": "Photo Tourism: Exploring Photo Collections in 3D",
+  "authors": "Snavely N, Seitz SM, Szeliski R",
+  "year": 2006,
+  "venue": "ACM Transactions on Graphics 25(3) (SIGGRAPH 2006)",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Large-scale structure from motion on unordered Internet photos (Bundler), enabling 3D browsing of tourist sites.",
+  "builds_on": [
+   "lowe2004distinctive",
+   "triggs2000bundle",
+   "hartley2000multiple"
+  ]
+ },
+ {
+  "id": "davison2007monoslam",
+  "title": "MonoSLAM: Real-Time Single Camera SLAM",
+  "authors": "Davison AJ, Reid ID, Molton ND, Stasse O",
+  "year": 2007,
+  "venue": "IEEE TPAMI 29(6):1052-1067",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Real-time monocular simultaneous localization and mapping with an EKF over sparse features.",
+  "builds_on": [
+   "lucas1981iterative",
+   "harris1988combined",
+   "hartley2000multiple"
+  ]
+ },
+ {
+  "id": "murartal2015orbslam",
+  "title": "ORB-SLAM: A Versatile and Accurate Monocular SLAM System",
+  "authors": "Mur-Artal R, Montiel JMM, Tardós JD",
+  "year": 2015,
+  "venue": "IEEE Transactions on Robotics 31(5):1147-1163",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Feature-based keyframe SLAM with ORB features, loop closing and bundle adjustment; a widely used SLAM baseline.",
+  "builds_on": [
+   "davison2007monoslam",
+   "triggs2000bundle"
+  ]
+ },
+ {
+  "id": "schonberger2016structure",
+  "title": "Structure-from-Motion Revisited",
+  "authors": "Schönberger JL, Frahm JM",
+  "year": 2016,
+  "venue": "CVPR 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced COLMAP, a robust incremental SfM pipeline that became the default tool for camera pose estimation, including for NeRF data.",
+  "builds_on": [
+   "snavely2006photo"
+  ]
+ },
+ {
+  "id": "fukushima1980neocognitron",
+  "title": "Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position",
+  "authors": "Fukushima K",
+  "year": 1980,
+  "venue": "Biological Cybernetics 36:193-202",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Hierarchical network of alternating feature-extracting and pooling layers inspired by Hubel and Wiesel; the architectural precursor of CNNs.",
+  "builds_on": [
+   "hubel1962receptive"
+  ]
+ },
+ {
+  "id": "lecun1989backpropagation",
+  "title": "Backpropagation Applied to Handwritten Zip Code Recognition",
+  "authors": "LeCun Y, Boser B, Denker JS, Henderson D, Howard RE, Hubbard W, et al.",
+  "year": 1989,
+  "venue": "Neural Computation 1(4):541-551",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Trained a convolutional network end-to-end with backpropagation on real zip-code digits, establishing the modern CNN.",
+  "builds_on": [
+   "fukushima1980neocognitron",
+   "rumelhart1986learning"
+  ],
+  "doi": "10.1162/neco.1989.1.4.541"
+ },
+ {
+  "id": "lecun1998gradient",
+  "title": "Gradient-Based Learning Applied to Document Recognition",
+  "authors": "LeCun Y, Bottou L, Bengio Y, Haffner P",
+  "year": 1998,
+  "venue": "Proceedings of the IEEE 86(11):2278-2324",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Presented LeNet-5 and the MNIST benchmark, and graph transformer networks for deployed check reading.",
+  "builds_on": [
+   "lecun1989backpropagation"
+  ],
+  "doi": "10.1109/5.726791"
+ },
+ {
+  "id": "krizhevsky2012imagenet",
+  "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+  "authors": "Krizhevsky A, Sutskever I, Hinton GE",
+  "year": 2012,
+  "venue": "NeurIPS 2012 (NIPS 25)",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "AlexNet: a GPU-trained deep CNN with ReLU and dropout that won ILSVRC-2012 by a wide margin, igniting the deep learning era.",
+  "builds_on": [
+   "lecun1998gradient",
+   "deng2009imagenet",
+   "nair2010rectified",
+   "srivastava2014dropout"
+  ]
+ },
+ {
+  "id": "zeiler2014visualizing",
+  "title": "Visualizing and Understanding Convolutional Networks",
+  "authors": "Zeiler MD, Fergus R",
+  "year": 2014,
+  "venue": "ECCV 2014",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ZFNet: deconvolutional visualization of CNN features that guided architecture improvements and won ILSVRC-2013.",
+  "builds_on": [
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1311.2901"
+ },
+ {
+  "id": "simonyan2015very",
+  "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "authors": "Simonyan K, Zisserman A",
+  "year": 2015,
+  "venue": "ICLR 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "VGG: showed depth with stacks of 3x3 convolutions improves accuracy; VGG features became a universal backbone.",
+  "builds_on": [
+   "krizhevsky2012imagenet",
+   "zeiler2014visualizing"
+  ],
+  "arxiv": "1409.1556"
+ },
+ {
+  "id": "szegedy2015going",
+  "title": "Going Deeper with Convolutions",
+  "authors": "Szegedy C, Liu W, Jia Y, Sermanet P, Reed S, Anguelov D, et al.",
+  "year": 2015,
+  "venue": "CVPR 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "GoogLeNet/Inception: multi-branch Inception modules with 1x1 bottlenecks; won ILSVRC-2014 with high efficiency.",
+  "builds_on": [
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1409.4842"
+ },
+ {
+  "id": "he2016deep",
+  "title": "Deep Residual Learning for Image Recognition",
+  "authors": "He K, Zhang X, Ren S, Sun J",
+  "year": 2016,
+  "venue": "CVPR 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ResNet: identity skip connections enabled training of 100+ layer networks; won ILSVRC-2015 and became the default backbone across deep learning.",
+  "builds_on": [
+   "simonyan2015very",
+   "szegedy2015going",
+   "ioffe2015batch"
+  ],
+  "arxiv": "1512.03385"
+ },
+ {
+  "id": "huang2017densely",
+  "title": "Densely Connected Convolutional Networks",
+  "authors": "Huang G, Liu Z, van der Maaten L, Weinberger KQ",
+  "year": 2017,
+  "venue": "CVPR 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DenseNet: connects each layer to all subsequent layers for feature reuse and parameter efficiency.",
+  "builds_on": [
+   "he2016deep"
+  ],
+  "arxiv": "1608.06993"
+ },
+ {
+  "id": "howard2017mobilenets",
+  "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+  "authors": "Howard AG, Zhu M, Chen B, Kalenichenko D, Wang W, Weyand T, et al.",
+  "year": 2017,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Depthwise-separable convolutions with width/resolution multipliers for efficient on-device vision.",
+  "builds_on": [
+   "szegedy2015going"
+  ],
+  "arxiv": "1704.04861"
+ },
+ {
+  "id": "tan2019efficientnet",
+  "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+  "authors": "Tan M, Le QV",
+  "year": 2019,
+  "venue": "ICML 2019",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Compound scaling of depth, width and resolution on a NAS-found base network, giving strong accuracy-efficiency trade-offs.",
+  "builds_on": [
+   "howard2017mobilenets",
+   "he2016deep"
+  ],
+  "arxiv": "1905.11946"
+ },
+ {
+  "id": "dosovitskiy2021image",
+  "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+  "authors": "Dosovitskiy A, Beyer L, Kolesnikov A, Weissenborn D, Zhai X, Unterthiner T, et al.",
+  "year": 2021,
+  "venue": "ICLR 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Vision Transformer (ViT): a pure Transformer on image patches that matches or beats CNNs when pre-trained at scale, launching transformer-based vision.",
+  "builds_on": [
+   "vaswani2017attention",
+   "he2016deep",
+   "devlin2019bert"
+  ],
+  "arxiv": "2010.11929"
+ },
+ {
+  "id": "touvron2021training",
+  "title": "Training data-efficient image transformers & distillation through attention",
+  "authors": "Touvron H, Cord M, Douze M, Massa F, Sablayrolles A, Jégou H",
+  "year": 2021,
+  "venue": "ICML 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DeiT: trained ViTs competitively on ImageNet-1k alone using strong augmentation and a distillation token.",
+  "builds_on": [
+   "dosovitskiy2021image"
+  ],
+  "arxiv": "2012.12877"
+ },
+ {
+  "id": "liu2021swin",
+  "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "authors": "Liu Z, Lin Y, Cao Y, Hu H, Wei Y, Zhang Z, et al.",
+  "year": 2021,
+  "venue": "ICCV 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Hierarchical transformer backbone with shifted-window local attention, bringing ViTs to dense prediction; ICCV 2021 Marr Prize.",
+  "builds_on": [
+   "dosovitskiy2021image",
+   "lin2017feature"
+  ],
+  "arxiv": "2103.14030"
+ },
+ {
+  "id": "liu2022convnet",
+  "title": "A ConvNet for the 2020s",
+  "authors": "Liu Z, Mao H, Wu CY, Feichtenhofer C, Darrell T, Xie S",
+  "year": 2022,
+  "venue": "CVPR 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "CNN architectures",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ConvNeXt: modernized ResNets with transformer-era design choices, showing pure ConvNets can match Swin Transformers.",
+  "builds_on": [
+   "he2016deep",
+   "liu2021swin"
+  ],
+  "arxiv": "2201.03545"
+ },
+ {
+  "id": "girshick2014rich",
+  "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+  "authors": "Girshick R, Donahue J, Darrell T, Malik J",
+  "year": 2014,
+  "venue": "CVPR 2014",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "R-CNN: CNN features on region proposals with ImageNet pre-training and fine-tuning, nearly doubling PASCAL VOC mAP.",
+  "builds_on": [
+   "krizhevsky2012imagenet",
+   "felzenszwalb2010object"
+  ],
+  "arxiv": "1311.2524"
+ },
+ {
+  "id": "girshick2015fast",
+  "title": "Fast R-CNN",
+  "authors": "Girshick R",
+  "year": 2015,
+  "venue": "ICCV 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Shared convolutional features with RoI pooling and a multi-task loss, making R-CNN training and inference much faster.",
+  "builds_on": [
+   "girshick2014rich"
+  ],
+  "arxiv": "1504.08083"
+ },
+ {
+  "id": "ren2015faster",
+  "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "authors": "Ren S, He K, Girshick R, Sun J",
+  "year": 2015,
+  "venue": "NeurIPS 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Region Proposal Network with anchors sharing features with the detector, yielding the canonical two-stage detector.",
+  "builds_on": [
+   "girshick2015fast",
+   "simonyan2015very"
+  ],
+  "arxiv": "1506.01497"
+ },
+ {
+  "id": "redmon2016you",
+  "title": "You Only Look Once: Unified, Real-Time Object Detection",
+  "authors": "Redmon J, Divvala S, Girshick R, Farhadi A",
+  "year": 2016,
+  "venue": "CVPR 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "YOLO: single-network grid-based regression of boxes and classes, enabling real-time detection and spawning a long model family.",
+  "builds_on": [
+   "girshick2014rich"
+  ],
+  "arxiv": "1506.02640"
+ },
+ {
+  "id": "liu2016ssd",
+  "title": "SSD: Single Shot MultiBox Detector",
+  "authors": "Liu W, Anguelov D, Erhan D, Szegedy C, Reed S, Fu CY, Berg AC",
+  "year": 2016,
+  "venue": "ECCV 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Single-stage detector predicting boxes from default anchors on multi-scale feature maps.",
+  "builds_on": [
+   "ren2015faster",
+   "redmon2016you"
+  ],
+  "arxiv": "1512.02325"
+ },
+ {
+  "id": "lin2017feature",
+  "title": "Feature Pyramid Networks for Object Detection",
+  "authors": "Lin TY, Dollár P, Girshick R, He K, Hariharan B, Belongie S",
+  "year": 2017,
+  "venue": "CVPR 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Top-down pathway with lateral connections building semantically strong multi-scale features; a standard detection neck.",
+  "builds_on": [
+   "ren2015faster",
+   "he2016deep"
+  ],
+  "arxiv": "1612.03144"
+ },
+ {
+  "id": "lin2017focal",
+  "title": "Focal Loss for Dense Object Detection",
+  "authors": "Lin TY, Goyal P, Girshick R, He K, Dollár P",
+  "year": 2017,
+  "venue": "ICCV 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 2,
+  "summary": "RetinaNet: focal loss down-weights easy negatives, letting one-stage detectors match two-stage accuracy.",
+  "builds_on": [
+   "lin2017feature",
+   "liu2016ssd"
+  ],
+  "arxiv": "1708.02002"
+ },
+ {
+  "id": "carion2020endtoend",
+  "title": "End-to-End Object Detection with Transformers",
+  "authors": "Carion N, Massa F, Synnaeve G, Usunier N, Kirillov A, Zagoruyko S",
+  "year": 2020,
+  "venue": "ECCV 2020",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 3,
+  "summary": "DETR: set prediction with a transformer encoder-decoder and Hungarian matching, removing anchors and NMS.",
+  "builds_on": [
+   "vaswani2017attention",
+   "ren2015faster"
+  ],
+  "arxiv": "2005.12872"
+ },
+ {
+  "id": "zhu2021deformable",
+  "title": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+  "authors": "Zhu X, Su W, Lu L, Li B, Wang X, Dai J",
+  "year": 2021,
+  "venue": "ICLR 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Sparse multi-scale deformable attention that speeds DETR convergence and improves small-object detection.",
+  "builds_on": [
+   "carion2020endtoend",
+   "lin2017feature"
+  ],
+  "arxiv": "2010.04159"
+ },
+ {
+  "id": "liu2024grounding",
+  "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+  "authors": "Liu S, Zeng Z, Ren T, Li F, Zhang H, Yang J, et al.",
+  "year": 2024,
+  "venue": "ECCV 2024",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Object detection",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Open-vocabulary detector fusing language and vision in a DETR-style architecture, detecting arbitrary objects from text prompts.",
+  "builds_on": [
+   "zhu2021deformable",
+   "radford2021learning"
+  ],
+  "arxiv": "2303.05499"
+ },
+ {
+  "id": "long2015fully",
+  "title": "Fully Convolutional Networks for Semantic Segmentation",
+  "authors": "Long J, Shelhamer E, Darrell T",
+  "year": 2015,
+  "venue": "CVPR 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Converted classification CNNs into fully convolutional networks with skip-connected upsampling for end-to-end pixelwise prediction.",
+  "builds_on": [
+   "krizhevsky2012imagenet",
+   "simonyan2015very"
+  ],
+  "arxiv": "1411.4038"
+ },
+ {
+  "id": "ronneberger2015unet",
+  "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+  "authors": "Ronneberger O, Fischer P, Brox T",
+  "year": 2015,
+  "venue": "MICCAI 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Symmetric encoder-decoder with skip connections trained from few annotated images; dominant in medical imaging and later the standard diffusion denoiser.",
+  "builds_on": [
+   "long2015fully"
+  ],
+  "arxiv": "1505.04597"
+ },
+ {
+  "id": "chen2015semantic",
+  "title": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+  "authors": "Chen LC, Papandreou G, Kokkinos I, Murphy K, Yuille AL",
+  "year": 2015,
+  "venue": "ICLR 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DeepLab: atrous (dilated) convolution plus a dense CRF for sharper semantic segmentation.",
+  "builds_on": [
+   "long2015fully"
+  ],
+  "arxiv": "1412.7062"
+ },
+ {
+  "id": "he2017mask",
+  "title": "Mask R-CNN",
+  "authors": "He K, Gkioxari G, Dollár P, Girshick R",
+  "year": 2017,
+  "venue": "ICCV 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Extended Faster R-CNN with a mask branch and RoIAlign for instance segmentation; ICCV 2017 Marr Prize.",
+  "builds_on": [
+   "ren2015faster",
+   "lin2017feature",
+   "long2015fully"
+  ],
+  "arxiv": "1703.06870"
+ },
+ {
+  "id": "cheng2022maskedattention",
+  "title": "Masked-attention Mask Transformer for Universal Image Segmentation",
+  "authors": "Cheng B, Misra I, Schwing AG, Kirillov A, Girdhar R",
+  "year": 2022,
+  "venue": "CVPR 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Mask2Former: a single mask-classification transformer architecture for semantic, instance and panoptic segmentation.",
+  "builds_on": [
+   "carion2020endtoend",
+   "he2017mask"
+  ],
+  "arxiv": "2112.01527"
+ },
+ {
+  "id": "kirillov2023segment",
+  "title": "Segment Anything",
+  "authors": "Kirillov A, Mintun E, Ravi N, Mao H, Rolland C, Gustafson L, et al.",
+  "year": 2023,
+  "venue": "ICCV 2023",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "SAM: a promptable segmentation foundation model trained on the SA-1B dataset of over 1 billion masks, with strong zero-shot transfer.",
+  "builds_on": [
+   "he2022masked",
+   "dosovitskiy2021image",
+   "cheng2022maskedattention"
+  ],
+  "arxiv": "2304.02643"
+ },
+ {
+  "id": "ravi2024sam",
+  "title": "SAM 2: Segment Anything in Images and Videos",
+  "authors": "Ravi N, Gabeur V, Hu YT, Hu R, Ryali C, Ma T, et al.",
+  "year": 2024,
+  "venue": "arXiv preprint (ICLR 2025)",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Segmentation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Extended SAM to video with a streaming memory architecture for promptable video object segmentation, trained on the SA-V dataset.",
+  "builds_on": [
+   "kirillov2023segment"
+  ],
+  "arxiv": "2408.00714"
+ },
+ {
+  "id": "dosovitskiy2014discriminative",
+  "title": "Discriminative Unsupervised Feature Learning with Convolutional Neural Networks",
+  "authors": "Dosovitskiy A, Springenberg JT, Riedmiller M, Brox T",
+  "year": 2014,
+  "venue": "NeurIPS 2014",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Exemplar CNN: treats each image and its augmentations as a surrogate class, an early instance-discrimination approach to self-supervision.",
+  "builds_on": [
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1406.6651"
+ },
+ {
+  "id": "wu2018unsupervised",
+  "title": "Unsupervised Feature Learning via Non-Parametric Instance Discrimination",
+  "authors": "Wu Z, Xiong Y, Yu SX, Lin D",
+  "year": 2018,
+  "venue": "CVPR 2018",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Instance discrimination with a memory bank and NCE loss, a direct precursor to MoCo and SimCLR.",
+  "builds_on": [
+   "dosovitskiy2014discriminative"
+  ]
+ },
+ {
+  "id": "he2020momentum",
+  "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+  "authors": "He K, Fan H, Wu Y, Xie S, Girshick R",
+  "year": 2020,
+  "venue": "CVPR 2020",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "MoCo: contrastive learning with a queue of negatives and a momentum encoder, rivaling supervised pre-training for transfer.",
+  "builds_on": [
+   "wu2018unsupervised",
+   "he2016deep"
+  ],
+  "arxiv": "1911.05722"
+ },
+ {
+  "id": "chen2020simple",
+  "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+  "authors": "Chen T, Kornblith S, Norouzi M, Hinton G",
+  "year": 2020,
+  "venue": "ICML 2020",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "SimCLR: in-batch contrastive learning with strong augmentation and a projection head, showing the key ingredients of contrastive SSL.",
+  "builds_on": [
+   "wu2018unsupervised",
+   "dosovitskiy2014discriminative",
+   "he2016deep"
+  ],
+  "arxiv": "2002.05709"
+ },
+ {
+  "id": "grill2020bootstrap",
+  "title": "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
+  "authors": "Grill JB, Strub F, Altché F, Tallec C, Richemond PH, Buchatskaya E, et al.",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "BYOL: self-supervised learning without negatives via an online network predicting a momentum target network.",
+  "builds_on": [
+   "he2020momentum",
+   "chen2020simple"
+  ],
+  "arxiv": "2006.07733"
+ },
+ {
+  "id": "radford2021learning",
+  "title": "Learning Transferable Visual Models From Natural Language Supervision",
+  "authors": "Radford A, Kim JW, Hallacy C, Ramesh A, Goh G, Agarwal S, et al.",
+  "year": 2021,
+  "venue": "ICML 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "CLIP: contrastive image-text pre-training on 400M web pairs, enabling zero-shot classification and becoming the core vision-language component of generative models.",
+  "builds_on": [
+   "chen2020simple",
+   "dosovitskiy2021image",
+   "radford2019language"
+  ],
+  "arxiv": "2103.00020"
+ },
+ {
+  "id": "jia2021scaling",
+  "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+  "authors": "Jia C, Yang Y, Xia Y, Chen YT, Parekh Z, Pham H, et al.",
+  "year": 2021,
+  "venue": "ICML 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ALIGN: dual-encoder contrastive training on over a billion noisy alt-text pairs, showing scale overcomes noise.",
+  "builds_on": [
+   "chen2020simple",
+   "tan2019efficientnet"
+  ],
+  "arxiv": "2102.05918"
+ },
+ {
+  "id": "caron2021emerging",
+  "title": "Emerging Properties in Self-Supervised Vision Transformers",
+  "authors": "Caron M, Touvron H, Misra I, Jégou H, Mairal J, Bojanowski P, Joulin A",
+  "year": 2021,
+  "venue": "ICCV 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "DINO: self-distillation with no labels for ViTs, revealing emergent object segmentation in attention maps and strong k-NN features.",
+  "builds_on": [
+   "grill2020bootstrap",
+   "dosovitskiy2021image",
+   "touvron2021training"
+  ],
+  "arxiv": "2104.14294"
+ },
+ {
+  "id": "he2022masked",
+  "title": "Masked Autoencoders Are Scalable Vision Learners",
+  "authors": "He K, Chen X, Xie S, Li Y, Dollár P, Girshick R",
+  "year": 2022,
+  "venue": "CVPR 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "MAE: reconstructing pixels from heavily (75%) masked patches with an asymmetric encoder-decoder; simple, scalable ViT pre-training.",
+  "builds_on": [
+   "devlin2019bert",
+   "dosovitskiy2021image",
+   "caron2021emerging"
+  ],
+  "arxiv": "2111.06377"
+ },
+ {
+  "id": "oquab2024dinov2",
+  "title": "DINOv2: Learning Robust Visual Features without Supervision",
+  "authors": "Oquab M, Darcet T, Moutakanni T, Vo H, Szafraniec M, Khalidov V, et al.",
+  "year": 2024,
+  "venue": "Transactions on Machine Learning Research (TMLR) 2024",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Scaled discriminative self-supervised ViT training on a curated 142M-image dataset, producing general-purpose frozen features.",
+  "builds_on": [
+   "caron2021emerging",
+   "he2022masked"
+  ],
+  "arxiv": "2304.07193"
+ },
+ {
+  "id": "yang2024depth",
+  "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+  "authors": "Yang L, Kang B, Huang Z, Xu X, Feng J, Zhao H",
+  "year": 2024,
+  "venue": "CVPR 2024",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Monocular depth foundation model trained with pseudo-labels on ~62M unlabeled images on a DINOv2 encoder, with strong zero-shot generalization.",
+  "builds_on": [
+   "oquab2024dinov2"
+  ],
+  "arxiv": "2401.10891"
+ },
+ {
+  "id": "simeoni2025dinov3",
+  "title": "DINOv3",
+  "authors": "Siméoni O, Vo HV, Seitzer M, Baldassarre F, Oquab M, Jose C, et al.",
+  "year": 2025,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Self-supervised & foundation models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Scaled DINO-style self-supervised training to a 7B-parameter ViT on 1.7B images, with Gram anchoring to keep dense features high quality.",
+  "builds_on": [
+   "oquab2024dinov2"
+  ]
+ },
+ {
+  "id": "qi2017pointnet",
+  "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+  "authors": "Qi CR, Su H, Mo K, Guibas LJ",
+  "year": 2017,
+  "venue": "CVPR 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Permutation-invariant network operating directly on raw point clouds via shared MLPs and symmetric pooling.",
+  "builds_on": [
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1612.00593"
+ },
+ {
+  "id": "mildenhall2020nerf",
+  "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+  "authors": "Mildenhall B, Srinivasan PP, Tancik M, Barron JT, Ramamoorthi R, Ng R",
+  "year": 2020,
+  "venue": "ECCV 2020",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Represented a scene as an MLP mapping position and view direction to density and color, rendered by differentiable volume rendering for photorealistic novel view synthesis.",
+  "builds_on": [
+   "schonberger2016structure",
+   "rumelhart1986learning"
+  ],
+  "arxiv": "2003.08934"
+ },
+ {
+  "id": "poole2023dreamfusion",
+  "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+  "authors": "Poole B, Jain A, Barron JT, Mildenhall B",
+  "year": 2023,
+  "venue": "ICLR 2023",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Score distillation sampling optimizes a NeRF using a pretrained 2D text-to-image diffusion model, enabling text-to-3D without 3D data.",
+  "builds_on": [
+   "mildenhall2020nerf",
+   "saharia2022photorealistic"
+  ],
+  "arxiv": "2209.14988"
+ },
+ {
+  "id": "kerbl20233d",
+  "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+  "authors": "Kerbl B, Kopanas G, Leimkühler T, Drettakis G",
+  "year": 2023,
+  "venue": "ACM Transactions on Graphics 42(4) (SIGGRAPH 2023)",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Represents scenes as optimized anisotropic 3D Gaussians rasterized differentiably, achieving NeRF-quality view synthesis at real-time frame rates.",
+  "builds_on": [
+   "mildenhall2020nerf",
+   "schonberger2016structure"
+  ],
+  "arxiv": "2308.04079"
+ },
+ {
+  "id": "wang2024dust3r",
+  "title": "DUSt3R: Geometric 3D Vision Made Easy",
+  "authors": "Wang S, Leroy V, Cabon Y, Chidlovskii B, Revaud J",
+  "year": 2024,
+  "venue": "CVPR 2024",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Regresses dense pointmaps from uncalibrated image pairs with a transformer, unifying calibration, pose and reconstruction without classical SfM.",
+  "builds_on": [
+   "dosovitskiy2021image",
+   "schonberger2016structure"
+  ],
+  "arxiv": "2312.14132"
+ },
+ {
+  "id": "wang2025vggt",
+  "title": "VGGT: Visual Geometry Grounded Transformer",
+  "authors": "Wang J, Chen M, Karaev N, Vedaldi A, Rupprecht C, Novotny D",
+  "year": 2025,
+  "venue": "CVPR 2025",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "3D vision & rendering",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Feed-forward transformer that predicts cameras, depth, pointmaps and tracks from many views in one pass; CVPR 2025 best paper.",
+  "builds_on": [
+   "wang2024dust3r",
+   "oquab2024dinov2"
+  ]
+ },
+ {
+  "id": "simonyan2014twostream",
+  "title": "Two-Stream Convolutional Networks for Action Recognition in Videos",
+  "authors": "Simonyan K, Zisserman A",
+  "year": 2014,
+  "venue": "NeurIPS 2014",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Separate spatial (RGB) and temporal (optical flow) CNN streams fused for action recognition.",
+  "builds_on": [
+   "krizhevsky2012imagenet",
+   "horn1981determining"
+  ],
+  "arxiv": "1406.2199"
+ },
+ {
+  "id": "tran2015learning",
+  "title": "Learning Spatiotemporal Features with 3D Convolutional Networks",
+  "authors": "Tran D, Bourdev L, Fergus R, Torresani L, Paluri M",
+  "year": 2015,
+  "venue": "ICCV 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 2,
+  "summary": "C3D: 3x3x3 convolutions over space-time learn generic video features.",
+  "builds_on": [
+   "simonyan2014twostream",
+   "simonyan2015very"
+  ],
+  "arxiv": "1412.0767"
+ },
+ {
+  "id": "dosovitskiy2015flownet",
+  "title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+  "authors": "Dosovitskiy A, Fischer P, Ilg E, Häusser P, Hazırbaş C, Golkov V, et al.",
+  "year": 2015,
+  "venue": "ICCV 2015",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First end-to-end CNN for optical flow estimation, trained on synthetic Flying Chairs data.",
+  "builds_on": [
+   "horn1981determining",
+   "long2015fully"
+  ],
+  "arxiv": "1504.06852"
+ },
+ {
+  "id": "carreira2017quo",
+  "title": "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset",
+  "authors": "Carreira J, Zisserman A",
+  "year": 2017,
+  "venue": "CVPR 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 3,
+  "summary": "I3D: inflated 2D ImageNet filters into 3D two-stream ConvNets and showed Kinetics pre-training transfers strongly.",
+  "builds_on": [
+   "simonyan2014twostream",
+   "tran2015learning",
+   "szegedy2015going",
+   "kay2017kinetics"
+  ],
+  "arxiv": "1705.07750"
+ },
+ {
+  "id": "feichtenhofer2019slowfast",
+  "title": "SlowFast Networks for Video Recognition",
+  "authors": "Feichtenhofer C, Fan H, Malik J, He K",
+  "year": 2019,
+  "venue": "ICCV 2019",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Two pathways at low and high frame rates capturing semantics and motion, a strong video recognition backbone.",
+  "builds_on": [
+   "carreira2017quo"
+  ],
+  "arxiv": "1812.03982"
+ },
+ {
+  "id": "teed2020raft",
+  "title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+  "authors": "Teed Z, Deng J",
+  "year": 2020,
+  "venue": "ECCV 2020",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 2,
+  "summary": "All-pairs correlation volumes with recurrent iterative updates; ECCV 2020 best paper and a new optical flow standard.",
+  "builds_on": [
+   "dosovitskiy2015flownet",
+   "horn1981determining"
+  ],
+  "arxiv": "2003.12039"
+ },
+ {
+  "id": "bertasius2021spacetime",
+  "title": "Is Space-Time Attention All You Need for Video Understanding?",
+  "authors": "Bertasius G, Wang H, Torresani L",
+  "year": 2021,
+  "venue": "ICML 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 2,
+  "summary": "TimeSformer: convolution-free video transformer with divided space-time attention.",
+  "builds_on": [
+   "dosovitskiy2021image",
+   "carreira2017quo"
+  ],
+  "arxiv": "2102.05095"
+ },
+ {
+  "id": "ho2022video",
+  "title": "Video Diffusion Models",
+  "authors": "Ho J, Salimans T, Gritsenko A, Chan W, Norouzi M, Fleet DJ",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Extended diffusion models to video with a space-time factorized 3D U-Net and joint image-video training.",
+  "builds_on": [
+   "ho2020denoising",
+   "ronneberger2015unet"
+  ],
+  "arxiv": "2204.03458"
+ },
+ {
+  "id": "brooks2024video",
+  "title": "Video generation models as world simulators",
+  "authors": "Brooks T, Peebles B, Holmes C, DePue W, Guo Y, Jing L, et al.",
+  "year": 2024,
+  "venue": "OpenAI technical report",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Video & motion",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "Sora: a diffusion transformer over spacetime latent patches generating minute-long, high-fidelity videos, marking a leap in video generation.",
+  "builds_on": [
+   "peebles2023scalable",
+   "ho2022video",
+   "dosovitskiy2021image"
+  ]
+ },
+ {
+  "id": "gatys2016image",
+  "title": "Image Style Transfer Using Convolutional Neural Networks",
+  "authors": "Gatys LA, Ecker AS, Bethge M",
+  "year": 2016,
+  "venue": "CVPR 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Neural style transfer: optimizes an image to match CNN content features and Gram-matrix style statistics.",
+  "builds_on": [
+   "simonyan2015very"
+  ]
+ },
+ {
+  "id": "radford2016unsupervised",
+  "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+  "authors": "Radford A, Metz L, Chintala S",
+  "year": 2016,
+  "venue": "ICLR 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DCGAN: architectural guidelines for stable convolutional GANs and meaningful latent arithmetic.",
+  "builds_on": [
+   "goodfellow2014generative",
+   "ioffe2015batch"
+  ],
+  "arxiv": "1511.06434"
+ },
+ {
+  "id": "isola2017image",
+  "title": "Image-to-Image Translation with Conditional Adversarial Networks",
+  "authors": "Isola P, Zhu JY, Zhou T, Efros AA",
+  "year": 2017,
+  "venue": "CVPR 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "pix2pix: conditional GAN with U-Net generator and PatchGAN discriminator for paired image translation.",
+  "builds_on": [
+   "goodfellow2014generative",
+   "ronneberger2015unet",
+   "radford2016unsupervised"
+  ],
+  "arxiv": "1611.07004"
+ },
+ {
+  "id": "zhu2017unpaired",
+  "title": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+  "authors": "Zhu JY, Park T, Isola P, Efros AA",
+  "year": 2017,
+  "venue": "ICCV 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "CycleGAN: cycle-consistency loss enabling translation between domains without paired data.",
+  "builds_on": [
+   "isola2017image"
+  ],
+  "arxiv": "1703.10593"
+ },
+ {
+  "id": "oord2017neural",
+  "title": "Neural Discrete Representation Learning",
+  "authors": "van den Oord A, Vinyals O, Kavukcuoglu K",
+  "year": 2017,
+  "venue": "NeurIPS 2017",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "VQ-VAE: discrete latent codes learned by vector quantization, a basis for tokenized image generation.",
+  "builds_on": [
+   "kingma2014autoencoding"
+  ],
+  "arxiv": "1711.00937"
+ },
+ {
+  "id": "karras2019stylebased",
+  "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+  "authors": "Karras T, Laine S, Aila T",
+  "year": 2019,
+  "venue": "CVPR 2019",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "StyleGAN: mapping network and AdaIN style modulation giving disentangled control and state-of-the-art photorealism; introduced FFHQ.",
+  "builds_on": [
+   "radford2016unsupervised",
+   "gatys2016image"
+  ],
+  "arxiv": "1812.04948"
+ },
+ {
+  "id": "esser2021taming",
+  "title": "Taming Transformers for High-Resolution Image Synthesis",
+  "authors": "Esser P, Rombach R, Ommer B",
+  "year": 2021,
+  "venue": "CVPR 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "VQGAN: adversarially trained perceptual codebook plus an autoregressive transformer prior for high-resolution synthesis.",
+  "builds_on": [
+   "oord2017neural",
+   "vaswani2017attention",
+   "isola2017image"
+  ],
+  "arxiv": "2012.09841"
+ },
+ {
+  "id": "ramesh2021zeroshot",
+  "title": "Zero-Shot Text-to-Image Generation",
+  "authors": "Ramesh A, Pavlov M, Goh G, Gray S, Voss C, Radford A, et al.",
+  "year": 2021,
+  "venue": "ICML 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "DALL-E: a 12B-parameter autoregressive transformer over text and discrete image tokens, demonstrating compositional zero-shot text-to-image generation.",
+  "builds_on": [
+   "oord2017neural",
+   "brown2020language",
+   "vaswani2017attention"
+  ],
+  "arxiv": "2102.12092"
+ },
+ {
+  "id": "dhariwal2021diffusion",
+  "title": "Diffusion Models Beat GANs on Image Synthesis",
+  "authors": "Dhariwal P, Nichol A",
+  "year": 2021,
+  "venue": "NeurIPS 2021",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Improved diffusion architectures and classifier guidance surpassed BigGAN on ImageNet sample quality.",
+  "builds_on": [
+   "ho2020denoising",
+   "karras2019stylebased"
+  ],
+  "arxiv": "2105.05233"
+ },
+ {
+  "id": "nichol2022glide",
+  "title": "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models",
+  "authors": "Nichol A, Dhariwal P, Ramesh A, Shyam P, Mishkin P, McGrew B, et al.",
+  "year": 2022,
+  "venue": "ICML 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Text-conditional diffusion comparing CLIP guidance with classifier-free guidance, with inpainting-based editing.",
+  "builds_on": [
+   "dhariwal2021diffusion",
+   "radford2021learning"
+  ],
+  "arxiv": "2112.10741"
+ },
+ {
+  "id": "ramesh2022hierarchical",
+  "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+  "authors": "Ramesh A, Dhariwal P, Nichol A, Chu C, Chen M",
+  "year": 2022,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DALL-E 2 (unCLIP): a prior maps text to CLIP image embeddings and a diffusion decoder renders them.",
+  "builds_on": [
+   "nichol2022glide",
+   "radford2021learning"
+  ],
+  "arxiv": "2204.06125"
+ },
+ {
+  "id": "saharia2022photorealistic",
+  "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+  "authors": "Saharia C, Chan W, Saxena S, Li L, Whang J, Denton E, et al.",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Imagen: cascaded pixel diffusion conditioned on a frozen T5 text encoder, showing language-model scale matters most.",
+  "builds_on": [
+   "nichol2022glide",
+   "raffel2020exploring"
+  ],
+  "arxiv": "2205.11487"
+ },
+ {
+  "id": "rombach2022high",
+  "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+  "authors": "Rombach R, Blattmann A, Lorenz D, Esser P, Ommer B",
+  "year": 2022,
+  "venue": "CVPR 2022",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Latent diffusion in a pretrained autoencoder's latent space with cross-attention conditioning; the basis of open-source Stable Diffusion.",
+  "builds_on": [
+   "ho2020denoising",
+   "esser2021taming",
+   "ronneberger2015unet",
+   "radford2021learning"
+  ],
+  "arxiv": "2112.10752"
+ },
+ {
+  "id": "zhang2023adding",
+  "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+  "authors": "Zhang L, Rao A, Agrawala M",
+  "year": 2023,
+  "venue": "ICCV 2023",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ControlNet: a trainable copy of the diffusion encoder connected via zero-initialized convolutions adds spatial conditions such as edges, depth and pose.",
+  "builds_on": [
+   "rombach2022high",
+   "canny1986computational"
+  ],
+  "arxiv": "2302.05543"
+ },
+ {
+  "id": "peebles2023scalable",
+  "title": "Scalable Diffusion Models with Transformers",
+  "authors": "Peebles W, Xie S",
+  "year": 2023,
+  "venue": "ICCV 2023",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 3,
+  "summary": "DiT: replaces the U-Net with a transformer over latent patches, showing diffusion quality scales cleanly with compute; basis of Sora and SD3.",
+  "builds_on": [
+   "rombach2022high",
+   "dosovitskiy2021image"
+  ],
+  "arxiv": "2212.09748"
+ },
+ {
+  "id": "esser2024scaling",
+  "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+  "authors": "Esser P, Kulal S, Blattmann A, Entezari R, Müller J, Saini H, et al.",
+  "year": 2024,
+  "venue": "ICML 2024",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Stable Diffusion 3: rectified-flow training with a multimodal diffusion transformer (MM-DiT), scaling to 8B parameters.",
+  "builds_on": [
+   "peebles2023scalable",
+   "rombach2022high"
+  ],
+  "arxiv": "2403.03206"
+ },
+ {
+  "id": "tian2024visual",
+  "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+  "authors": "Tian K, Jiang Y, Yuan Z, Peng B, Wang L",
+  "year": 2024,
+  "venue": "NeurIPS 2024",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Image generation",
+  "type": "paper",
+  "importance": 2,
+  "summary": "VAR: coarse-to-fine next-scale autoregressive prediction that outperforms diffusion transformers on ImageNet; NeurIPS 2024 best paper.",
+  "builds_on": [
+   "esser2021taming",
+   "peebles2023scalable"
+  ],
+  "arxiv": "2404.02905"
+ },
+ {
+  "id": "feifei2004learning",
+  "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+  "authors": "Fei-Fei L, Fergus R, Perona P",
+  "year": 2004,
+  "venue": "CVPR Workshop on Generative-Model Based Vision 2004",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 1,
+  "summary": "Introduced Caltech-101, an early multi-category object recognition benchmark.",
+  "builds_on": [
+   "turk1991eigenfaces"
+  ]
+ },
+ {
+  "id": "deng2009imagenet",
+  "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+  "authors": "Deng J, Dong W, Socher R, Li LJ, Li K, Fei-Fei L",
+  "year": 2009,
+  "venue": "CVPR 2009",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Millions of images organized by WordNet synsets and crowd-labeled; its ILSVRC subset catalyzed the deep learning revolution.",
+  "builds_on": [
+   "feifei2004learning"
+  ],
+  "doi": "10.1109/CVPR.2009.5206848"
+ },
+ {
+  "id": "everingham2010pascal",
+  "title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "authors": "Everingham M, Van Gool L, Williams CKI, Winn J, Zisserman A",
+  "year": 2010,
+  "venue": "International Journal of Computer Vision 88(2):303-338",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Annual benchmark (2005-2012) for classification, detection and segmentation that standardized mAP evaluation.",
+  "builds_on": [
+   "feifei2004learning"
+  ]
+ },
+ {
+  "id": "geiger2012are",
+  "title": "Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite",
+  "authors": "Geiger A, Lenz P, Urtasun R",
+  "year": 2012,
+  "venue": "CVPR 2012",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Driving benchmark for stereo, optical flow, visual odometry and 3D detection from a sensor-equipped car.",
+  "builds_on": [
+   "everingham2010pascal"
+  ]
+ },
+ {
+  "id": "soomro2012ucf101",
+  "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+  "authors": "Soomro K, Zamir AR, Shah M",
+  "year": 2012,
+  "venue": "arXiv preprint (CRCV-TR-12-01)",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 1,
+  "summary": "13K YouTube clips across 101 actions; a standard action recognition benchmark of the early deep era.",
+  "builds_on": [],
+  "arxiv": "1212.0402"
+ },
+ {
+  "id": "lin2014microsoft",
+  "title": "Microsoft COCO: Common Objects in Context",
+  "authors": "Lin TY, Maire M, Belongie S, Hays J, Perona P, Ramanan D, et al.",
+  "year": 2014,
+  "venue": "ECCV 2014",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "Large-scale dataset with instance segmentation of 80 categories in context plus captions; the primary detection and segmentation benchmark.",
+  "builds_on": [
+   "everingham2010pascal",
+   "deng2009imagenet"
+  ],
+  "arxiv": "1405.0312"
+ },
+ {
+  "id": "russakovsky2015imagenet",
+  "title": "ImageNet Large Scale Visual Recognition Challenge",
+  "authors": "Russakovsky O, Deng J, Su H, Krause J, Satheesh S, Ma S, et al.",
+  "year": 2015,
+  "venue": "International Journal of Computer Vision 115(3):211-252",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Describes the ILSVRC benchmark (2010-2017) and its role in tracking progress from hand-crafted features to deep CNNs.",
+  "builds_on": [
+   "deng2009imagenet",
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1409.0575"
+ },
+ {
+  "id": "cordts2016cityscapes",
+  "title": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+  "authors": "Cordts M, Omran M, Ramos S, Rehfeld T, Enzweiler M, Benenson R, et al.",
+  "year": 2016,
+  "venue": "CVPR 2016",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "High-quality pixel-level annotations of urban street scenes from 50 cities; the standard driving segmentation benchmark.",
+  "builds_on": [
+   "everingham2010pascal",
+   "geiger2012are"
+  ],
+  "arxiv": "1604.01685"
+ },
+ {
+  "id": "kay2017kinetics",
+  "title": "The Kinetics Human Action Video Dataset",
+  "authors": "Kay W, Carreira J, Simonyan K, Zhang B, Hillier C, Vijayanarasimhan S, et al.",
+  "year": 2017,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 2,
+  "summary": "Large-scale YouTube action dataset (400 classes, later 600/700) that became the ImageNet of video recognition.",
+  "builds_on": [
+   "simonyan2014twostream"
+  ],
+  "arxiv": "1705.06950"
+ },
+ {
+  "id": "schuhmann2022laion",
+  "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+  "authors": "Schuhmann C, Beaumont R, Vencu R, Gordon C, Wightman R, Cherti M, et al.",
+  "year": 2022,
+  "venue": "NeurIPS 2022 Datasets and Benchmarks",
+  "domain": "ai",
+  "field": "Computer Vision",
+  "subfield": "Datasets & benchmarks",
+  "type": "dataset",
+  "importance": 3,
+  "summary": "5.85B CLIP-filtered web image-text pairs released openly, enabling open CLIP replications and Stable Diffusion training.",
+  "builds_on": [
+   "radford2021learning",
+   "jia2021scaling"
+  ],
+  "arxiv": "2210.08402"
+ }
+]

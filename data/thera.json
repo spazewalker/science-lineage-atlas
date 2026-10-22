@@ -1,0 +1,1873 @@
+[
+ {
+  "id": "behring1890ueber",
+  "title": "Ueber das Zustandekommen der Diphtherie-Immunität und der Tetanus-Immunität bei Thieren",
+  "authors": "Behring E, Kitasato S",
+  "year": 1890,
+  "venue": "Deutsche Medizinische Wochenschrift 16:1113–1114",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed that serum from immunized animals transfers protection against diphtheria and tetanus toxins, founding antitoxin serum therapy and the concept of antibodies as therapeutics.",
+  "builds_on": [
+   "pasteur1881compte"
+  ]
+ },
+ {
+  "id": "banting1922internal",
+  "title": "The internal secretion of the pancreas",
+  "authors": "Banting FG, Best CH",
+  "year": 1922,
+  "venue": "Journal of Laboratory and Clinical Medicine 7:251–266",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Isolation of pancreatic extracts (insulin) that lowered blood glucose in diabetic dogs, leading to the first protein hormone therapy.",
+  "builds_on": []
+ },
+ {
+  "id": "kohler1975continuous",
+  "title": "Continuous cultures of fused cells secreting antibody of predefined specificity",
+  "authors": "Köhler G, Milstein C",
+  "year": 1975,
+  "venue": "Nature 256:495–497",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Invented hybridoma technology for producing monoclonal antibodies of a single defined specificity, the foundation of antibody therapeutics and immunodiagnostics.",
+  "builds_on": [
+   "behring1890ueber"
+  ],
+  "doi": "10.1038/256495a0"
+ },
+ {
+  "id": "itakura1977expression",
+  "title": "Expression in Escherichia coli of a chemically synthesized gene for the hormone somatostatin",
+  "authors": "Itakura K, Hirose T, Crea R, Riggs AD, Heyneker HL, Bolivar F, et al.",
+  "year": 1977,
+  "venue": "Science 198:1056–1063",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First expression of a chemically synthesized human peptide hormone gene in bacteria, proving recombinant production of human proteins was feasible.",
+  "builds_on": [
+   "cohen1973construction",
+   "smith1970restriction"
+  ],
+  "doi": "10.1126/science.412251"
+ },
+ {
+  "id": "goeddel1979expression",
+  "title": "Expression in Escherichia coli of chemically synthesized genes for human insulin",
+  "authors": "Goeddel DV, Kleid DG, Bolivar F, Heyneker HL, Yansura DG, Crea R, et al.",
+  "year": 1979,
+  "venue": "PNAS 76:106–110",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Genentech's recombinant production of human insulin A and B chains in E. coli, leading to Humulin (1982), the first approved recombinant drug and the start of the biotech industry.",
+  "builds_on": [
+   "itakura1977expression",
+   "banting1922internal"
+  ],
+  "doi": "10.1073/pnas.76.1.106"
+ },
+ {
+  "id": "goeddel1979direct",
+  "title": "Direct expression in Escherichia coli of a DNA sequence coding for human growth hormone",
+  "authors": "Goeddel DV, Heyneker HL, Hozumi T, Arentzen R, Itakura K, Yansura DG, et al.",
+  "year": 1979,
+  "venue": "Nature 281:544–548",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Recombinant human growth hormone produced in bacteria, which replaced cadaver-derived hGH after prion contamination was discovered.",
+  "builds_on": [
+   "itakura1977expression",
+   "goeddel1979expression"
+  ],
+  "doi": "10.1038/281544a0"
+ },
+ {
+  "id": "milstein1983hybrid",
+  "title": "Hybrid hybridomas and their use in immunohistochemistry",
+  "authors": "Milstein C, Cuello AC",
+  "year": 1983,
+  "venue": "Nature 305:537–540",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Fused two hybridomas ('quadromas') to produce bispecific antibodies, the conceptual origin of bispecific antibody therapeutics.",
+  "builds_on": [
+   "kohler1975continuous"
+  ],
+  "doi": "10.1038/305537a0"
+ },
+ {
+  "id": "morrison1984chimeric",
+  "title": "Chimeric human antibody molecules: mouse antigen-binding domains with human constant region domains",
+  "authors": "Morrison SL, Johnson MJ, Herzenberg LA, Oi VT",
+  "year": 1984,
+  "venue": "PNAS 81:6851–6855",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Engineered mouse-human chimeric antibodies to reduce immunogenicity, the format later used by rituximab and infliximab.",
+  "builds_on": [
+   "kohler1975continuous"
+  ],
+  "doi": "10.1073/pnas.81.21.6851"
+ },
+ {
+  "id": "lin1985cloning",
+  "title": "Cloning and expression of the human erythropoietin gene",
+  "authors": "Lin FK, Suggs S, Lin CH, Browne JK, Smalling R, Egrie JC, et al.",
+  "year": 1985,
+  "venue": "PNAS 82:7580–7584",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Amgen's cloning and mammalian-cell expression of human EPO, yielding epoetin alfa, one of the most commercially successful early biologics.",
+  "builds_on": [
+   "goeddel1979expression"
+  ],
+  "doi": "10.1073/pnas.82.22.7580"
+ },
+ {
+  "id": "jones1986replacing",
+  "title": "Replacing the complementarity-determining regions in a human antibody with those from a mouse",
+  "authors": "Jones PT, Dear PH, Foote J, Neuberger MS, Winter G",
+  "year": 1986,
+  "venue": "Nature 321:522–525",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced CDR grafting to humanize antibodies, enabling a generation of therapeutics such as trastuzumab and many others.",
+  "builds_on": [
+   "morrison1984chimeric",
+   "kohler1975continuous"
+  ],
+  "doi": "10.1038/321522a0"
+ },
+ {
+  "id": "mccafferty1990phage",
+  "title": "Phage antibodies: filamentous phage displaying antibody variable domains",
+  "authors": "McCafferty J, Griffiths AD, Winter G, Chiswell DJ",
+  "year": 1990,
+  "venue": "Nature 348:552–554",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Displayed antibody fragments on filamentous phage, enabling in vitro selection of fully human antibodies (e.g. adalimumab).",
+  "builds_on": [
+   "jones1986replacing"
+  ],
+  "doi": "10.1038/348552a0"
+ },
+ {
+  "id": "elliott1994randomised",
+  "title": "Randomised double-blind comparison of chimeric monoclonal antibody to tumour necrosis factor alpha (cA2) versus placebo in rheumatoid arthritis",
+  "authors": "Elliott MJ, Maini RN, Feldmann M, Kalden JR, Antoni C, Smolen JS, et al.",
+  "year": 1994,
+  "venue": "Lancet 344:1105–1110",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Controlled trial showing anti-TNF antibody (infliximab) treats rheumatoid arthritis, validating cytokine blockade and launching the anti-TNF biologic class.",
+  "builds_on": [
+   "morrison1984chimeric"
+  ]
+ },
+ {
+  "id": "mclaughlin1998rituximab",
+  "title": "Rituximab chimeric anti-CD20 monoclonal antibody therapy for relapsed indolent lymphoma: half of patients respond to a four-dose treatment program",
+  "authors": "McLaughlin P, Grillo-López AJ, Link BK, Levy R, Czuczman MS, Williams ME, et al.",
+  "year": 1998,
+  "venue": "Journal of Clinical Oncology 16:2825–2833",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pivotal trial of rituximab, the first monoclonal antibody approved for cancer (1997), transforming lymphoma treatment.",
+  "builds_on": [
+   "morrison1984chimeric"
+  ]
+ },
+ {
+  "id": "slamon2001use",
+  "title": "Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2",
+  "authors": "Slamon DJ, Leyland-Jones B, Shak S, Fuchs H, Paton V, Bajamonde A, et al.",
+  "year": 2001,
+  "venue": "New England Journal of Medicine 344:783–792",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Phase 3 trial showing humanized anti-HER2 trastuzumab improves survival, a landmark for biomarker-targeted antibody therapy.",
+  "builds_on": [
+   "jones1986replacing"
+  ],
+  "doi": "10.1056/NEJM200103153441101"
+ },
+ {
+  "id": "fda2002adalimumab",
+  "title": "Approval of adalimumab (Humira), the first fully human therapeutic monoclonal antibody",
+  "authors": "US Food and Drug Administration; Abbott Laboratories",
+  "year": 2002,
+  "venue": "FDA approval, December 2002",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Adalimumab, derived by phage display, became the first fully human mAb approved and later the world's best-selling drug.",
+  "builds_on": [
+   "mccafferty1990phage",
+   "elliott1994randomised"
+  ]
+ },
+ {
+  "id": "doronina2003development",
+  "title": "Development of potent monoclonal antibody auristatin conjugates for cancer therapy",
+  "authors": "Doronina SO, Toki BE, Torgov MY, Mendelsohn BA, Cerveny CG, Chace DF, et al.",
+  "year": 2003,
+  "venue": "Nature Biotechnology 21:778–784",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Developed MMAE auristatin linker-payload chemistry that underpins many antibody-drug conjugates, including brentuximab vedotin.",
+  "builds_on": [
+   "kohler1975continuous"
+  ],
+  "doi": "10.1038/nbt832"
+ },
+ {
+  "id": "bargou2008tumor",
+  "title": "Tumor regression in cancer patients by very low doses of a T cell-engaging antibody",
+  "authors": "Bargou R, Leo E, Zugmaier G, Klinger M, Goebeler M, Knop S, et al.",
+  "year": 2008,
+  "venue": "Science 321:974–977",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Clinical proof that the CD19xCD3 bispecific T-cell engager blinatumomab redirects T cells to kill lymphoma, establishing the BiTE class.",
+  "builds_on": [
+   "milstein1983hybrid"
+  ],
+  "doi": "10.1126/science.1158545"
+ },
+ {
+  "id": "verma2012trastuzumab",
+  "title": "Trastuzumab emtansine for HER2-positive advanced breast cancer",
+  "authors": "Verma S, Miles D, Gianni L, Krop IE, Welslau M, Baselga J, et al.",
+  "year": 2012,
+  "venue": "New England Journal of Medicine 367:1783–1791",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "EMILIA trial establishing T-DM1, an antibody-drug conjugate, as superior to standard therapy in HER2+ breast cancer.",
+  "builds_on": [
+   "slamon2001use",
+   "doronina2003development"
+  ],
+  "doi": "10.1056/NEJMoa1209124"
+ },
+ {
+  "id": "eng1992isolation",
+  "title": "Isolation and characterization of exendin-4, an exendin-3 analogue, from Heloderma suspectum venom",
+  "authors": "Eng J, Kleinman WA, Singh L, Singh G, Raufman JP",
+  "year": 1992,
+  "venue": "Journal of Biological Chemistry 267:7402–7405",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Discovered exendin-4 in Gila monster venom, a long-acting GLP-1 receptor agonist that became exenatide, the first GLP-1 drug.",
+  "builds_on": [
+   "banting1922internal"
+  ]
+ },
+ {
+  "id": "wilding2021onceweekly",
+  "title": "Once-weekly semaglutide in adults with overweight or obesity",
+  "authors": "Wilding JPH, Batterham RL, Calanna S, Davies M, Van Gaal LF, Lingvay I, et al.",
+  "year": 2021,
+  "venue": "New England Journal of Medicine 384:989–1002",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 3,
+  "summary": "STEP 1 trial showing ~15% weight loss with semaglutide, launching the GLP-1 obesity drug era.",
+  "builds_on": [
+   "eng1992isolation"
+  ],
+  "doi": "10.1056/NEJMoa2032183"
+ },
+ {
+  "id": "modi2022trastuzumab",
+  "title": "Trastuzumab deruxtecan in previously treated HER2-low advanced breast cancer",
+  "authors": "Modi S, Jacot W, Yamashita T, Sohn J, Vidal M, Tokunaga E, et al.",
+  "year": 2022,
+  "venue": "New England Journal of Medicine 387:9–20",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DESTINY-Breast04 showed a next-generation ADC benefits HER2-low tumors, redefining a new targetable breast cancer population.",
+  "builds_on": [
+   "verma2012trastuzumab"
+  ],
+  "doi": "10.1056/NEJMoa2203690"
+ },
+ {
+  "id": "vandyck2023lecanemab",
+  "title": "Lecanemab in early Alzheimer's disease",
+  "authors": "van Dyck CH, Swanson CJ, Aisen P, Bateman RJ, Chen C, Gee M, et al.",
+  "year": 2023,
+  "venue": "New England Journal of Medicine 388:9–21",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Biologics & antibodies",
+  "type": "paper",
+  "importance": 2,
+  "summary": "CLARITY AD trial: an anti-amyloid protofibril antibody modestly slowed cognitive decline, leading to full approval of the first disease-modifying Alzheimer's antibody.",
+  "builds_on": [
+   "jones1986replacing"
+  ],
+  "doi": "10.1056/NEJMoa2212948"
+ },
+ {
+  "id": "jenner1798inquiry",
+  "title": "An Inquiry into the Causes and Effects of the Variolae Vaccinae",
+  "authors": "Jenner E",
+  "year": 1798,
+  "venue": "London: Sampson Low",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "book",
+  "importance": 3,
+  "summary": "Described cowpox inoculation protecting against smallpox, founding vaccination.",
+  "builds_on": []
+ },
+ {
+  "id": "pasteur1881compte",
+  "title": "Compte rendu sommaire des expériences faites à Pouilly-le-Fort, près de Melun, sur la vaccination charbonneuse",
+  "authors": "Pasteur L, Chamberland C, Roux E",
+  "year": 1881,
+  "venue": "Comptes Rendus de l'Académie des Sciences 92",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Public demonstration of an attenuated anthrax vaccine in sheep, generalizing vaccination to laboratory-attenuated pathogens.",
+  "builds_on": [
+   "jenner1798inquiry"
+  ]
+ },
+ {
+  "id": "enders1949cultivation",
+  "title": "Cultivation of the Lansing strain of poliomyelitis virus in cultures of various human embryonic tissues",
+  "authors": "Enders JF, Weller TH, Robbins FC",
+  "year": 1949,
+  "venue": "Science 109:85–87",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Grew poliovirus in non-neural tissue culture, enabling mass production of viral vaccines (Nobel 1954).",
+  "builds_on": [],
+  "doi": "10.1126/science.109.2822.85"
+ },
+ {
+  "id": "salk1953studies",
+  "title": "Studies in human subjects on active immunization against poliomyelitis. I. A preliminary report of experiments in progress",
+  "authors": "Salk JE",
+  "year": 1953,
+  "venue": "JAMA 151:1081–1098",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First human results with formalin-inactivated poliovirus vaccine, leading to the 1954 field trial and 1955 licensure.",
+  "builds_on": [
+   "enders1949cultivation",
+   "pasteur1881compte"
+  ]
+ },
+ {
+  "id": "sabin1961oral",
+  "title": "Oral poliovirus vaccine (Sabin strains) licensed in the United States",
+  "authors": "Sabin AB",
+  "year": 1961,
+  "venue": "US licensure of monovalent OPV, 1961 (trivalent 1963)",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Live attenuated oral polio vaccine providing mucosal immunity and easy mass administration, the workhorse of global polio eradication.",
+  "builds_on": [
+   "enders1949cultivation",
+   "salk1953studies"
+  ]
+ },
+ {
+  "id": "schneerson1980preparation",
+  "title": "Preparation, characterization, and immunogenicity of Haemophilus influenzae type b polysaccharide-protein conjugates",
+  "authors": "Schneerson R, Barrera O, Sutton A, Robbins JB",
+  "year": 1980,
+  "venue": "Journal of Experimental Medicine 152:361–376",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Conjugating capsular polysaccharide to a carrier protein made it immunogenic in infants, the basis of Hib, pneumococcal and meningococcal conjugate vaccines.",
+  "builds_on": [
+   "behring1890ueber"
+  ],
+  "doi": "10.1084/jem.152.2.361"
+ },
+ {
+  "id": "valenzuela1982synthesis",
+  "title": "Synthesis and assembly of hepatitis B virus surface antigen particles in yeast",
+  "authors": "Valenzuela P, Medina A, Rutter WJ, Ammerer G, Hall BD",
+  "year": 1982,
+  "venue": "Nature 298:347–350",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Yeast-expressed HBsAg self-assembled into particles, leading to the first recombinant vaccine (hepatitis B, licensed 1986).",
+  "builds_on": [
+   "blumberg1965new",
+   "goeddel1979expression"
+  ],
+  "doi": "10.1038/298347a0"
+ },
+ {
+  "id": "kirnbauer1992papillomavirus",
+  "title": "Papillomavirus L1 major capsid protein self-assembles into virus-like particles that are highly immunogenic",
+  "authors": "Kirnbauer R, Booy F, Cheng N, Lowy DR, Schiller JT",
+  "year": 1992,
+  "venue": "PNAS 89:12180–12184",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed recombinant L1 forms highly immunogenic virus-like particles, the basis of HPV vaccines.",
+  "builds_on": [
+   "valenzuela1982synthesis"
+  ],
+  "doi": "10.1073/pnas.89.24.12180"
+ },
+ {
+  "id": "futureii2007quadrivalent",
+  "title": "Quadrivalent vaccine against human papillomavirus to prevent high-grade cervical lesions",
+  "authors": "FUTURE II Study Group",
+  "year": 2007,
+  "venue": "New England Journal of Medicine 356:1915–1927",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Phase 3 efficacy of the quadrivalent HPV VLP vaccine (Gardasil) against cervical precancer, enabling cervical cancer prevention by vaccination.",
+  "builds_on": [
+   "kirnbauer1992papillomavirus"
+  ],
+  "doi": "10.1056/NEJMoa061741"
+ },
+ {
+  "id": "mclellan2013structurebased",
+  "title": "Structure-based design of a fusion glycoprotein vaccine for respiratory syncytial virus",
+  "authors": "McLellan JS, Chen M, Joyce MG, Sastry M, Stewart-Jones GBE, Yang Y, et al.",
+  "year": 2013,
+  "venue": "Science 342:592–598",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Stabilized RSV F in its prefusion conformation (DS-Cav1), demonstrating structure-based vaccine design and paving the way for RSV vaccines.",
+  "builds_on": [
+   "berman2000protein"
+  ],
+  "doi": "10.1126/science.1243283"
+ },
+ {
+  "id": "pallesen2017immunogenicity",
+  "title": "Immunogenicity and structures of a rationally designed prefusion MERS-CoV spike antigen",
+  "authors": "Pallesen J, Wang N, Corbett KS, Wrapp D, Kirchdoerfer RN, Turner HL, et al.",
+  "year": 2017,
+  "venue": "PNAS 114:E7348–E7357",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the two-proline (2P) prefusion-stabilizing mutations in coronavirus spikes, used in most COVID-19 vaccines.",
+  "builds_on": [
+   "mclellan2013structurebased"
+  ],
+  "doi": "10.1073/pnas.1707304114"
+ },
+ {
+  "id": "jackson2020mrna",
+  "title": "An mRNA vaccine against SARS-CoV-2 — preliminary report",
+  "authors": "Jackson LA, Anderson EJ, Rouphael NG, Roberts PC, Makhene M, Coler RN, et al.",
+  "year": 2020,
+  "venue": "New England Journal of Medicine 383:1920–1931",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First-in-human phase 1 results for mRNA-1273, showing robust neutralizing responses within months of the viral sequence release.",
+  "builds_on": [
+   "kariko2008incorporation",
+   "pallesen2017immunogenicity",
+   "semple2010rational"
+  ],
+  "doi": "10.1056/NEJMoa2022483"
+ },
+ {
+  "id": "polack2020safe",
+  "title": "Safety and efficacy of the BNT162b2 mRNA Covid-19 vaccine",
+  "authors": "Polack FP, Thomas SJ, Kitchin N, Absalon J, Gurtman A, Lockhart S, et al.",
+  "year": 2020,
+  "venue": "New England Journal of Medicine 383:2603–2615",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Phase 3 trial showing 95% efficacy of the Pfizer-BioNTech nucleoside-modified mRNA-LNP vaccine; first mRNA product ever authorized.",
+  "builds_on": [
+   "kariko2005suppression",
+   "kariko2008incorporation",
+   "pallesen2017immunogenicity",
+   "semple2010rational"
+  ],
+  "doi": "10.1056/NEJMoa2034577"
+ },
+ {
+  "id": "baden2021efficacy",
+  "title": "Efficacy and safety of the mRNA-1273 SARS-CoV-2 vaccine",
+  "authors": "Baden LR, El Sahly HM, Essink B, Kotloff K, Frey S, Novak R, et al.",
+  "year": 2021,
+  "venue": "New England Journal of Medicine 384:403–416",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 3,
+  "summary": "COVE phase 3 trial showing 94.1% efficacy of Moderna's mRNA-1273, confirming the mRNA vaccine platform.",
+  "builds_on": [
+   "jackson2020mrna",
+   "kariko2008incorporation"
+  ],
+  "doi": "10.1056/NEJMoa2035389"
+ },
+ {
+  "id": "papi2023respiratory",
+  "title": "Respiratory syncytial virus prefusion F protein vaccine in older adults",
+  "authors": "Papi A, Ison MG, Langley JM, Lee DG, Leroux-Roels I, Martinon-Torres F, et al.",
+  "year": 2023,
+  "venue": "New England Journal of Medicine 388:595–608",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "AReSVi-006 trial of an adjuvanted prefusion-F vaccine, leading to the first approved RSV vaccines in 2023.",
+  "builds_on": [
+   "mclellan2013structurebased"
+  ],
+  "doi": "10.1056/NEJMoa2209604"
+ },
+ {
+  "id": "datoo2024safety",
+  "title": "Safety and efficacy of malaria vaccine candidate R21/Matrix-M in African children: a multicentre, double-blind, randomised, phase 3 trial",
+  "authors": "Datoo MS, Dicko A, Tinto H, Ouédraogo JB, Hamaluba M, Olotu A, et al.",
+  "year": 2024,
+  "venue": "Lancet 403:533–544",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Vaccines",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Phase 3 results for R21/Matrix-M, a circumsporozoite-HBsAg VLP malaria vaccine recommended by WHO for children.",
+  "builds_on": [
+   "valenzuela1982synthesis"
+  ]
+ },
+ {
+  "id": "blaese1995lymphocyte",
+  "title": "T lymphocyte-directed gene therapy for ADA- SCID: initial trial results after 4 years",
+  "authors": "Blaese RM, Culver KW, Miller AD, Carter CS, Fleisher T, Clerici M, et al.",
+  "year": 1995,
+  "venue": "Science 270:475–480",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Report of the first approved human gene therapy trial (begun 1990 with Ashanti DeSilva), using retrovirally transduced T cells to treat ADA deficiency.",
+  "builds_on": [
+   "cohen1973construction"
+  ],
+  "doi": "10.1126/science.270.5235.475"
+ },
+ {
+  "id": "naldini1996vivo",
+  "title": "In vivo gene delivery and stable transduction of nondividing cells by a lentiviral vector",
+  "authors": "Naldini L, Blömer U, Gallay P, Ory D, Mulligan R, Gage FH, et al.",
+  "year": 1996,
+  "venue": "Science 272:263–267",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Developed HIV-derived lentiviral vectors that transduce non-dividing cells, now standard for ex vivo HSC gene therapy and CAR-T manufacturing.",
+  "builds_on": [
+   "blaese1995lymphocyte"
+  ],
+  "doi": "10.1126/science.272.5259.263"
+ },
+ {
+  "id": "cavazzanacalvo2000gene",
+  "title": "Gene therapy of human severe combined immunodeficiency (SCID)-X1 disease",
+  "authors": "Cavazzana-Calvo M, Hacein-Bey S, de Saint Basile G, Gross F, Yvon E, Nusbaum P, et al.",
+  "year": 2000,
+  "venue": "Science 288:669–672",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First clear clinical success of gene therapy: retrovirally corrected stem cells restored immunity in X-SCID infants.",
+  "builds_on": [
+   "blaese1995lymphocyte"
+  ],
+  "doi": "10.1126/science.288.5466.669"
+ },
+ {
+  "id": "gao2002novel",
+  "title": "Novel adeno-associated viruses from rhesus monkeys as vectors for human gene therapy",
+  "authors": "Gao GP, Alvira MR, Wang L, Calcedo R, Johnston J, Wilson JM",
+  "year": 2002,
+  "venue": "PNAS 99:11854–11859",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Discovered AAV7 and AAV8 serotypes with improved tissue tropism, expanding the AAV vector toolkit used in liver and muscle gene therapies.",
+  "builds_on": []
+ },
+ {
+  "id": "raper2003fatal",
+  "title": "Fatal systemic inflammatory response syndrome in a ornithine transcarbamylase deficient patient following adenoviral gene transfer",
+  "authors": "Raper SE, Chirmule N, Lee FS, Wivel NA, Bagg A, Gao GP, et al.",
+  "year": 2003,
+  "venue": "Molecular Genetics and Metabolism 80:148–158",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Analysis of the 1999 death of Jesse Gelsinger after adenoviral vector infusion, which reshaped gene therapy safety oversight.",
+  "builds_on": [
+   "blaese1995lymphocyte"
+  ]
+ },
+ {
+  "id": "haceinbeyabina2003lmo2associated",
+  "title": "LMO2-associated clonal T cell proliferation in two patients after gene therapy for SCID-X1",
+  "authors": "Hacein-Bey-Abina S, von Kalle C, Schmidt M, McCormack MP, Wulffraat N, Leboulch P, et al.",
+  "year": 2003,
+  "venue": "Science 302:415–419",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Revealed insertional oncogenesis by gamma-retroviral vectors, driving the shift to self-inactivating and lentiviral vectors.",
+  "builds_on": [
+   "cavazzanacalvo2000gene"
+  ],
+  "doi": "10.1126/science.1088547"
+ },
+ {
+  "id": "nathwani2011adenovirusassociated",
+  "title": "Adenovirus-associated virus vector-mediated gene transfer in hemophilia B",
+  "authors": "Nathwani AC, Tuddenham EGD, Rangarajan S, Rosales C, McIntosh J, Linch DC, et al.",
+  "year": 2011,
+  "venue": "New England Journal of Medicine 365:2357–2365",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Single peripheral infusion of AAV8-factor IX produced durable expression in hemophilia B, a turning point for systemic AAV gene therapy.",
+  "builds_on": [
+   "gao2002novel"
+  ],
+  "doi": "10.1056/NEJMoa1108046"
+ },
+ {
+  "id": "bauer2013erythroid",
+  "title": "An erythroid enhancer of BCL11A subject to genetic variation determines fetal hemoglobin level",
+  "authors": "Bauer DE, Kamran SC, Lessard S, Xu J, Fujiwara Y, Lin C, et al.",
+  "year": 2013,
+  "venue": "Science 342:253–257",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Identified the erythroid-specific BCL11A enhancer as a target whose disruption reactivates fetal hemoglobin, the basis of exa-cel.",
+  "builds_on": [
+   "lander2001initial"
+  ],
+  "doi": "10.1126/science.1242088"
+ },
+ {
+  "id": "russell2017efficacy",
+  "title": "Efficacy and safety of voretigene neparvovec (AAV2-hRPE65v2) in patients with RPE65-mediated inherited retinal dystrophy: a randomised, controlled, open-label, phase 3 trial",
+  "authors": "Russell S, Bennett J, Wellman JA, Chung DC, Yu ZF, Tillman A, et al.",
+  "year": 2017,
+  "venue": "Lancet 390:849–860",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Phase 3 trial supporting Luxturna, the first FDA-approved gene therapy for an inherited disease (2017).",
+  "builds_on": [
+   "gao2002novel"
+  ],
+  "doi": "10.1016/S0140-6736(17)31868-8"
+ },
+ {
+  "id": "mendell2017singledose",
+  "title": "Single-dose gene-replacement therapy for spinal muscular atrophy",
+  "authors": "Mendell JR, Al-Zaidy S, Shell R, Arnold WD, Rodino-Klapac LR, Prior TW, et al.",
+  "year": 2017,
+  "venue": "New England Journal of Medicine 377:1713–1722",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Intravenous AAV9-SMN1 dramatically improved survival in SMA type 1 infants, leading to Zolgensma approval (2019).",
+  "builds_on": [
+   "gao2002novel"
+  ],
+  "doi": "10.1056/NEJMoa1706198"
+ },
+ {
+  "id": "frangoul2021crisprcas9",
+  "title": "CRISPR-Cas9 gene editing for sickle cell disease and β-thalassemia",
+  "authors": "Frangoul H, Altshuler D, Cappellini MD, Chen YS, Domm J, Eustace BK, et al.",
+  "year": 2021,
+  "venue": "New England Journal of Medicine 384:252–260",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First patients treated with CRISPR-edited autologous stem cells disrupting the BCL11A enhancer (exa-cel), eliminating crises and transfusion dependence.",
+  "builds_on": [
+   "jinek2012programmable",
+   "cong2013multiplex",
+   "bauer2013erythroid"
+  ],
+  "doi": "10.1056/NEJMoa2031054"
+ },
+ {
+  "id": "gillmore2021crisprcas9",
+  "title": "CRISPR-Cas9 in vivo gene editing for transthyretin amyloidosis",
+  "authors": "Gillmore JD, Gane E, Taubel J, Kao J, Fontana M, Maitland ML, et al.",
+  "year": 2021,
+  "venue": "New England Journal of Medicine 385:493–502",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First systemic in vivo CRISPR editing in humans: LNP-delivered NTLA-2001 knocked out TTR in the liver.",
+  "builds_on": [
+   "jinek2012programmable",
+   "adams2018patisiran"
+  ],
+  "doi": "10.1056/NEJMoa2107454"
+ },
+ {
+  "id": "musunuru2021vivo",
+  "title": "In vivo CRISPR base editing of PCSK9 durably lowers cholesterol in primates",
+  "authors": "Musunuru K, Chadwick AC, Mizoguchi T, Garcia SP, DeNizio JE, Reiss CW, et al.",
+  "year": 2021,
+  "venue": "Nature 593:429–434",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "LNP-delivered adenine base editor durably knocked down PCSK9 in monkeys, enabling in vivo base-editing therapies.",
+  "builds_on": [
+   "komor2016programmable",
+   "gaudelli2017programmable",
+   "semple2010rational"
+  ],
+  "doi": "10.1038/s41586-021-03534-y"
+ },
+ {
+  "id": "fda2023casgevy",
+  "title": "Approval of Casgevy (exagamglogene autotemcel), the first CRISPR-based therapy",
+  "authors": "UK MHRA; US Food and Drug Administration; Vertex Pharmaceuticals; CRISPR Therapeutics",
+  "year": 2023,
+  "venue": "UK MHRA approval (Nov 2023) and US FDA approval (Dec 2023)",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "First regulatory approvals of a CRISPR genome-editing medicine, for sickle cell disease and transfusion-dependent β-thalassemia.",
+  "builds_on": [
+   "frangoul2021crisprcas9"
+  ]
+ },
+ {
+  "id": "musunuru2025patientspecific",
+  "title": "Patient-specific in vivo gene editing to cure a rare genetic disease",
+  "authors": "Musunuru K, Grandinette SA, Wang X, et al.",
+  "year": 2025,
+  "venue": "New England Journal of Medicine",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Gene therapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "A bespoke LNP-delivered base editor designed and dosed within months to treat infant KJ with CPS1 deficiency, the first personalized in vivo gene-editing therapy.",
+  "builds_on": [
+   "musunuru2021vivo",
+   "gaudelli2017programmable",
+   "gillmore2021crisprcas9"
+  ]
+ },
+ {
+  "id": "thomas1957intravenous",
+  "title": "Intravenous infusion of bone marrow in patients receiving radiation and chemotherapy",
+  "authors": "Thomas ED, Lochte HL Jr, Lu WC, Ferrebee JW",
+  "year": 1957,
+  "venue": "New England Journal of Medicine 257:491–496",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Early human bone marrow infusion studies that founded hematopoietic stem cell transplantation, the first cell therapy (Nobel 1990).",
+  "builds_on": [],
+  "doi": "10.1056/NEJM195709122571102"
+ },
+ {
+  "id": "evans1981establishment",
+  "title": "Establishment in culture of pluripotential cells from mouse embryos",
+  "authors": "Evans MJ, Kaufman MH",
+  "year": 1981,
+  "venue": "Nature 292:154–156",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Derived mouse embryonic stem cells, enabling gene targeting and the field of pluripotent stem cell biology.",
+  "builds_on": [],
+  "doi": "10.1038/292154a0"
+ },
+ {
+  "id": "martin1981isolation",
+  "title": "Isolation of a pluripotent cell line from early mouse embryos cultured in medium conditioned by teratocarcinoma stem cells",
+  "authors": "Martin GR",
+  "year": 1981,
+  "venue": "PNAS 78:7634–7638",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Independent derivation of mouse ES cells; coined the term 'embryonic stem cell'.",
+  "builds_on": [],
+  "doi": "10.1073/pnas.78.12.7634"
+ },
+ {
+  "id": "wilmut1997viable",
+  "title": "Viable offspring derived from fetal and adult mammalian cells",
+  "authors": "Wilmut I, Schnieke AE, McWhir J, Kind AJ, Campbell KHS",
+  "year": 1997,
+  "venue": "Nature 385:810–813",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Cloning of Dolly the sheep by somatic cell nuclear transfer, proving adult nuclei can be reprogrammed to totipotency.",
+  "builds_on": [],
+  "doi": "10.1038/385810a0"
+ },
+ {
+  "id": "thomson1998embryonic",
+  "title": "Embryonic stem cell lines derived from human blastocysts",
+  "authors": "Thomson JA, Itskovitz-Eldor J, Shapiro SS, Waknitz MA, Swiergiel JJ, Marshall VS, et al.",
+  "year": 1998,
+  "venue": "Science 282:1145–1147",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First human embryonic stem cell lines, opening human regenerative medicine and disease modeling.",
+  "builds_on": [
+   "evans1981establishment",
+   "martin1981isolation"
+  ],
+  "doi": "10.1126/science.282.5391.1145"
+ },
+ {
+  "id": "shapiro2000islet",
+  "title": "Islet transplantation in seven patients with type 1 diabetes mellitus using a glucocorticoid-free immunosuppressive regimen",
+  "authors": "Shapiro AMJ, Lakey JRT, Ryan EA, Korbutt GS, Toth E, Warnock GL, et al.",
+  "year": 2000,
+  "venue": "New England Journal of Medicine 343:230–238",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The Edmonton protocol achieved insulin independence via donor islet infusion, proving cell replacement could treat type 1 diabetes.",
+  "builds_on": [
+   "thomas1957intravenous"
+  ],
+  "doi": "10.1056/NEJM200007273430401"
+ },
+ {
+  "id": "takahashi2006induction",
+  "title": "Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors",
+  "authors": "Takahashi K, Yamanaka S",
+  "year": 2006,
+  "venue": "Cell 126:663–676",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Four transcription factors (Oct4, Sox2, Klf4, c-Myc) reprogram fibroblasts into induced pluripotent stem cells (Nobel 2012).",
+  "builds_on": [
+   "evans1981establishment",
+   "wilmut1997viable"
+  ],
+  "doi": "10.1016/j.cell.2006.07.024"
+ },
+ {
+  "id": "takahashi2007induction",
+  "title": "Induction of pluripotent stem cells from adult human fibroblasts by defined factors",
+  "authors": "Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda K, et al.",
+  "year": 2007,
+  "venue": "Cell 131:861–872",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Generated human iPSCs, providing patient-specific pluripotent cells without embryos.",
+  "builds_on": [
+   "takahashi2006induction",
+   "thomson1998embryonic"
+  ],
+  "doi": "10.1016/j.cell.2007.11.019"
+ },
+ {
+  "id": "sato2009single",
+  "title": "Single Lgr5 stem cells build crypt-villus structures in vitro without a mesenchymal niche",
+  "authors": "Sato T, Vries RG, Snippert HJ, van de Wetering M, Barker N, Stange DE, et al.",
+  "year": 2009,
+  "venue": "Nature 459:262–265",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Grew self-organizing intestinal organoids from single adult stem cells, launching organoid technology for disease modeling and regeneration.",
+  "builds_on": [],
+  "doi": "10.1038/nature07935"
+ },
+ {
+  "id": "pagliuca2014generation",
+  "title": "Generation of functional human pancreatic β cells in vitro",
+  "authors": "Pagliuca FW, Millman JR, Gürtler M, Segel M, Van Dervort A, Ryu JH, et al.",
+  "year": 2014,
+  "venue": "Cell 159:428–439",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Scalable differentiation of human pluripotent stem cells into glucose-responsive beta cells, the basis of stem-cell islet therapies.",
+  "builds_on": [
+   "thomson1998embryonic",
+   "shapiro2000islet"
+  ],
+  "doi": "10.1016/j.cell.2014.09.040"
+ },
+ {
+  "id": "mandai2017autologous",
+  "title": "Autologous induced stem-cell-derived retinal cells for macular degeneration",
+  "authors": "Mandai M, Watanabe A, Kurimoto Y, Hirami Y, Morinaga C, Daimon T, et al.",
+  "year": 2017,
+  "venue": "New England Journal of Medicine 376:1038–1046",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First transplantation of iPSC-derived tissue (retinal pigment epithelium) into a patient.",
+  "builds_on": [
+   "takahashi2007induction"
+  ],
+  "doi": "10.1056/NEJMoa1608368"
+ },
+ {
+  "id": "reichman2025stem",
+  "title": "Stem cell-derived, fully differentiated islets for type 1 diabetes",
+  "authors": "Reichman TW, Markmann JF, Odorico J, et al.",
+  "year": 2025,
+  "venue": "New England Journal of Medicine",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Phase 1/2 results for zimislecel (VX-880), stem cell-derived islets that restored endogenous insulin and produced insulin independence in most patients.",
+  "builds_on": [
+   "pagliuca2014generation",
+   "shapiro2000islet"
+  ]
+ },
+ {
+  "id": "tabar2025phase",
+  "title": "Phase I trial of hES cell-derived dopaminergic neurons for Parkinson's disease",
+  "authors": "Tabar V, Sarva H, Lozano AM, et al.",
+  "year": 2025,
+  "venue": "Nature",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Cell therapy & regenerative medicine",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First-in-human trial of embryonic stem cell-derived dopaminergic progenitors (bemdaneprocel) showing graft survival and safety in Parkinson's disease.",
+  "builds_on": [
+   "thomson1998embryonic"
+  ]
+ },
+ {
+  "id": "zamecnik1978inhibition",
+  "title": "Inhibition of Rous sarcoma virus replication and cell transformation by a specific oligodeoxynucleotide",
+  "authors": "Zamecnik PC, Stephenson ML",
+  "year": 1978,
+  "venue": "PNAS 75:280–284",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First demonstration that a synthetic antisense oligonucleotide can inhibit gene expression, founding antisense therapeutics.",
+  "builds_on": [],
+  "doi": "10.1073/pnas.75.1.280"
+ },
+ {
+  "id": "malone1989cationic",
+  "title": "Cationic liposome-mediated RNA transfection",
+  "authors": "Malone RW, Felgner PL, Verma IM",
+  "year": 1989,
+  "venue": "PNAS 86:6077–6081",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Delivered mRNA into cells with cationic lipids and observed protein expression, an early step toward lipid-delivered mRNA medicines.",
+  "builds_on": [],
+  "doi": "10.1073/pnas.86.16.6077"
+ },
+ {
+  "id": "wolff1990direct",
+  "title": "Direct gene transfer into mouse muscle in vivo",
+  "authors": "Wolff JA, Malone RW, Williams P, Chong W, Acsadi G, Jani A, et al.",
+  "year": 1990,
+  "venue": "Science 247:1465–1468",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed naked mRNA and plasmid DNA injected into muscle are expressed in vivo, the conceptual origin of mRNA and DNA vaccines.",
+  "builds_on": [
+   "malone1989cationic"
+  ],
+  "doi": "10.1126/science.1690918"
+ },
+ {
+  "id": "fire1998potent",
+  "title": "Potent and specific genetic interference by double-stranded RNA in Caenorhabditis elegans",
+  "authors": "Fire A, Xu S, Montgomery MK, Kostas SA, Driver SE, Mello CC",
+  "year": 1998,
+  "venue": "Nature 391:806–811",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Discovered RNA interference triggered by double-stranded RNA (Nobel 2006).",
+  "builds_on": [
+   "zamecnik1978inhibition"
+  ],
+  "doi": "10.1038/35888"
+ },
+ {
+  "id": "elbashir2001duplexes",
+  "title": "Duplexes of 21-nucleotide RNAs mediate RNA interference in cultured mammalian cells",
+  "authors": "Elbashir SM, Harborth J, Lendeckel W, Yalcin A, Weber K, Tuschl T",
+  "year": 2001,
+  "venue": "Nature 411:494–498",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Synthetic siRNAs silence genes in mammalian cells without the interferon response, enabling RNAi therapeutics.",
+  "builds_on": [
+   "fire1998potent"
+  ],
+  "doi": "10.1038/35078107"
+ },
+ {
+  "id": "kariko2005suppression",
+  "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA",
+  "authors": "Karikó K, Buckstein M, Ni H, Weissman D",
+  "year": 2005,
+  "venue": "Immunity 23:165–175",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed modified nucleosides (e.g. pseudouridine) let mRNA evade innate immune sensing, the key enabler of mRNA vaccines (Nobel 2023).",
+  "builds_on": [
+   "wolff1990direct"
+  ],
+  "doi": "10.1016/j.immuni.2005.06.008"
+ },
+ {
+  "id": "kariko2008incorporation",
+  "title": "Incorporation of pseudouridine into mRNA yields superior nonimmunogenic vector with increased translational capacity and biological stability",
+  "authors": "Karikó K, Muramatsu H, Welsh FA, Ludwig J, Kato H, Akira S, et al.",
+  "year": 2008,
+  "venue": "Molecular Therapy 16:1833–1840",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Pseudouridine-modified mRNA was both less immunogenic and more efficiently translated in vivo.",
+  "builds_on": [
+   "kariko2005suppression"
+  ],
+  "doi": "10.1038/mt.2008.200"
+ },
+ {
+  "id": "semple2010rational",
+  "title": "Rational design of cationic lipids for siRNA delivery",
+  "authors": "Semple SC, Akinc A, Chen J, Sandhu AP, Mui BL, Cho CK, et al.",
+  "year": 2010,
+  "venue": "Nature Biotechnology 28:172–176",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Designed ionizable lipids (DLin-KC2-DMA) for potent lipid nanoparticle delivery, the lineage leading to patisiran and mRNA vaccine LNPs.",
+  "builds_on": [
+   "elbashir2001duplexes",
+   "malone1989cationic"
+  ],
+  "doi": "10.1038/nbt.1602"
+ },
+ {
+  "id": "nair2014multivalent",
+  "title": "Multivalent N-acetylgalactosamine-conjugated siRNA localizes in hepatocytes and elicits robust RNAi-mediated gene silencing",
+  "authors": "Nair JK, Willoughby JLS, Chan A, Charisse K, Alam MR, Wang Q, et al.",
+  "year": 2014,
+  "venue": "Journal of the American Chemical Society 136:16958–16961",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Triantennary GalNAc conjugates deliver subcutaneous siRNA to hepatocytes, the platform behind givosiran, inclisiran and others.",
+  "builds_on": [
+   "elbashir2001duplexes"
+  ],
+  "doi": "10.1021/ja505986a"
+ },
+ {
+  "id": "finkel2017nusinersen",
+  "title": "Nusinersen versus sham control in infantile-onset spinal muscular atrophy",
+  "authors": "Finkel RS, Mercuri E, Darras BT, Connolly AM, Kuntz NL, Kirschner J, et al.",
+  "year": 2017,
+  "venue": "New England Journal of Medicine 377:1723–1732",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "ENDEAR trial of a splice-switching antisense oligonucleotide that increases SMN protein, the first approved SMA therapy.",
+  "builds_on": [
+   "zamecnik1978inhibition"
+  ],
+  "doi": "10.1056/NEJMoa1702752"
+ },
+ {
+  "id": "adams2018patisiran",
+  "title": "Patisiran, an RNAi therapeutic, for hereditary transthyretin amyloidosis",
+  "authors": "Adams D, Gonzalez-Duarte A, O'Riordan WD, Yang CC, Ueda M, Kristen AV, et al.",
+  "year": 2018,
+  "venue": "New England Journal of Medicine 379:11–21",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "APOLLO trial leading to patisiran, the first approved siRNA drug and first LNP-delivered RNA medicine.",
+  "builds_on": [
+   "semple2010rational",
+   "elbashir2001duplexes"
+  ],
+  "doi": "10.1056/NEJMoa1716153"
+ },
+ {
+  "id": "ray2020two",
+  "title": "Two phase 3 trials of inclisiran in patients with elevated LDL cholesterol",
+  "authors": "Ray KK, Wright RS, Kallend D, Koenig W, Leiter LA, Raal FJ, et al.",
+  "year": 2020,
+  "venue": "New England Journal of Medicine 382:1507–1519",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "RNA therapeutics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Twice-yearly GalNAc-siRNA against PCSK9 halved LDL cholesterol, bringing RNAi to common cardiovascular disease.",
+  "builds_on": [
+   "nair2014multivalent"
+  ],
+  "doi": "10.1056/NEJMoa1912387"
+ },
+ {
+  "id": "coley1893treatment",
+  "title": "The treatment of malignant tumors by repeated inoculations of erysipelas: with a report of ten original cases",
+  "authors": "Coley WB",
+  "year": 1893,
+  "venue": "American Journal of the Medical Sciences 105:487–511",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Bacterial toxin injections ('Coley's toxins') induced tumor regressions, the earliest systematic cancer immunotherapy.",
+  "builds_on": []
+ },
+ {
+  "id": "rosenberg1988use",
+  "title": "Use of tumor-infiltrating lymphocytes and interleukin-2 in the immunotherapy of patients with metastatic melanoma",
+  "authors": "Rosenberg SA, Packard BS, Aebersold PM, Solomon D, Topalian SL, Toy ST, et al.",
+  "year": 1988,
+  "venue": "New England Journal of Medicine 319:1676–1680",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Adoptive transfer of expanded tumor-infiltrating lymphocytes caused melanoma regressions, founding adoptive T-cell therapy.",
+  "builds_on": [
+   "coley1893treatment"
+  ],
+  "doi": "10.1056/NEJM198812223192527"
+ },
+ {
+  "id": "ishida1992induced",
+  "title": "Induced expression of PD-1, a novel member of the immunoglobulin gene superfamily, upon programmed cell death",
+  "authors": "Ishida Y, Agata Y, Shibahara K, Honjo T",
+  "year": 1992,
+  "venue": "EMBO Journal 11:3887–3895",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Discovered PD-1, later shown to be an inhibitory immune checkpoint and the target of anti-PD-1 therapies (Nobel 2018).",
+  "builds_on": [],
+  "doi": "10.1002/j.1460-2075.1992.tb05481.x"
+ },
+ {
+  "id": "eshhar1993specific",
+  "title": "Specific activation and targeting of cytotoxic lymphocytes through chimeric single chains consisting of antibody-binding domains and the gamma or zeta subunits of the immunoglobulin and T-cell receptors",
+  "authors": "Eshhar Z, Waks T, Gross G, Schindler DG",
+  "year": 1993,
+  "venue": "PNAS 90:720–724",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Created the single-chain chimeric antigen receptor (scFv fused to CD3ζ), the blueprint of CAR-T cells.",
+  "builds_on": [
+   "kohler1975continuous"
+  ],
+  "doi": "10.1073/pnas.90.2.720"
+ },
+ {
+  "id": "leach1996enhancement",
+  "title": "Enhancement of antitumor immunity by CTLA-4 blockade",
+  "authors": "Leach DR, Krummel MF, Allison JP",
+  "year": 1996,
+  "venue": "Science 271:1734–1736",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Antibody blockade of the CTLA-4 checkpoint caused tumor rejection in mice, the founding experiment of checkpoint immunotherapy (Nobel 2018).",
+  "builds_on": [
+   "coley1893treatment"
+  ],
+  "doi": "10.1126/science.271.5256.1734"
+ },
+ {
+  "id": "hodi2010improved",
+  "title": "Improved survival with ipilimumab in patients with metastatic melanoma",
+  "authors": "Hodi FS, O'Day SJ, McDermott DF, Weber RW, Sosman JA, Haanen JB, et al.",
+  "year": 2010,
+  "venue": "New England Journal of Medicine 363:711–723",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "First therapy to improve overall survival in metastatic melanoma, leading to approval of the first checkpoint inhibitor.",
+  "builds_on": [
+   "leach1996enhancement"
+  ],
+  "doi": "10.1056/NEJMoa1003466"
+ },
+ {
+  "id": "porter2011chimeric",
+  "title": "Chimeric antigen receptor–modified T cells in chronic lymphoid leukemia",
+  "authors": "Porter DL, Levine BL, Kalos M, Bagg A, June CH",
+  "year": 2011,
+  "venue": "New England Journal of Medicine 365:725–733",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Lentiviral CD19 CAR-T cells with 4-1BB costimulation expanded and induced complete remission in CLL.",
+  "builds_on": [
+   "eshhar1993specific",
+   "naldini1996vivo"
+  ],
+  "doi": "10.1056/NEJMoa1103849"
+ },
+ {
+  "id": "hamid2013safety",
+  "title": "Safety and tumor responses with lambrolizumab (anti-PD-1) in melanoma",
+  "authors": "Hamid O, Robert C, Daud A, Hodi FS, Hwu WJ, Kefford R, et al.",
+  "year": 2013,
+  "venue": "New England Journal of Medicine 369:134–144",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Early trial of lambrolizumab (pembrolizumab) showing high response rates, leading to the first anti-PD-1 approval (2014).",
+  "builds_on": [
+   "ishida1992induced",
+   "hodi2010improved"
+  ],
+  "doi": "10.1056/NEJMoa1305133"
+ },
+ {
+  "id": "maude2014chimeric",
+  "title": "Chimeric antigen receptor T cells for sustained remissions in leukemia",
+  "authors": "Maude SL, Frey N, Shaw PA, Aplenc R, Barrett DM, Bunin NJ, et al.",
+  "year": 2014,
+  "venue": "New England Journal of Medicine 371:1507–1517",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 3,
+  "summary": "CTL019 CAR-T achieved 90% complete remission in relapsed ALL, the basis for Kymriah approval.",
+  "builds_on": [
+   "porter2011chimeric"
+  ],
+  "doi": "10.1056/NEJMoa1407222"
+ },
+ {
+  "id": "sahin2017personalized",
+  "title": "Personalized RNA mutanome vaccines mobilize poly-specific therapeutic immunity against cancer",
+  "authors": "Sahin U, Derhovanessian E, Miller M, Kloke BP, Simon P, Löwer M, et al.",
+  "year": 2017,
+  "venue": "Nature 547:222–226",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First-in-human individualized neoantigen mRNA vaccines in melanoma, establishing personalized cancer vaccines.",
+  "builds_on": [
+   "kariko2008incorporation",
+   "rosenberg1988use"
+  ],
+  "doi": "10.1038/nature23003"
+ },
+ {
+  "id": "fda2017kymriah",
+  "title": "Approval of Kymriah (tisagenlecleucel), the first CAR-T cell therapy",
+  "authors": "US Food and Drug Administration; Novartis",
+  "year": 2017,
+  "venue": "FDA approval, August 2017",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "milestone",
+  "importance": 3,
+  "summary": "First FDA-approved gene-modified cell therapy, for pediatric and young adult B-cell ALL.",
+  "builds_on": [
+   "maude2014chimeric"
+  ]
+ },
+ {
+  "id": "nathan2021overall",
+  "title": "Overall survival benefit with tebentafusp in metastatic uveal melanoma",
+  "authors": "Nathan P, Hassel JC, Rutkowski P, Baurain JJ, Butler MO, Schlaak M, et al.",
+  "year": 2021,
+  "venue": "New England Journal of Medicine 385:1196–1206",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 1,
+  "summary": "First TCR-based bispecific (ImmTAC) to improve survival, validating soluble TCR therapeutics against intracellular antigens.",
+  "builds_on": [
+   "bargou2008tumor"
+  ],
+  "doi": "10.1056/NEJMoa2103485"
+ },
+ {
+  "id": "mackensen2022anticd19",
+  "title": "Anti-CD19 CAR T cell therapy for refractory systemic lupus erythematosus",
+  "authors": "Mackensen A, Müller F, Mougiakakos D, Böltz S, Wilhelm A, Aigner M, et al.",
+  "year": 2022,
+  "venue": "Nature Medicine 28:2124–2132",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "CD19 CAR-T induced drug-free remission in refractory lupus, extending CAR-T from cancer to autoimmune disease (followed by a 2024 NEJM case series).",
+  "builds_on": [
+   "fda2017kymriah",
+   "maude2014chimeric"
+  ],
+  "doi": "10.1038/s41591-022-02017-5"
+ },
+ {
+  "id": "majzner2022gd2car",
+  "title": "GD2-CAR T cell therapy for diffuse midline gliomas",
+  "authors": "Majzner RG, Ramakrishna S, Yeom KW, Patel S, Chinnasamy H, Schultz LM, et al.",
+  "year": 2022,
+  "venue": "Nature 603:934–941",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "GD2-directed CAR-T cells produced responses in lethal pediatric gliomas, a step toward CAR-T for solid tumors.",
+  "builds_on": [
+   "maude2014chimeric"
+  ],
+  "doi": "10.1038/s41586-022-04489-4"
+ },
+ {
+  "id": "rojas2023personalized",
+  "title": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer",
+  "authors": "Rojas LA, Sethna Z, Soares KC, Olcese C, Pang N, Patterson E, et al.",
+  "year": 2023,
+  "venue": "Nature 618:144–150",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Individualized mRNA neoantigen vaccines (autogene cevumeran) induced durable T cells correlated with delayed recurrence in pancreatic cancer.",
+  "builds_on": [
+   "sahin2017personalized"
+  ],
+  "doi": "10.1038/s41586-023-06063-y"
+ },
+ {
+  "id": "weber2024individualised",
+  "title": "Individualised neoantigen therapy mRNA-4157 (V940) plus pembrolizumab versus pembrolizumab monotherapy in resected melanoma (KEYNOTE-942): a randomised, phase 2b study",
+  "authors": "Weber JS, Carlino MS, Khattak A, Meniawy T, Ansstas G, Taylor MH, et al.",
+  "year": 2024,
+  "venue": "Lancet 403:632–644",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Immunotherapy",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Randomized evidence that a personalized mRNA cancer vaccine added to anti-PD-1 reduces melanoma recurrence.",
+  "builds_on": [
+   "sahin2017personalized",
+   "hamid2013safety"
+  ]
+ },
+ {
+  "id": "papanicolaou1943diagnosis",
+  "title": "Diagnosis of Uterine Cancer by the Vaginal Smear",
+  "authors": "Papanicolaou GN, Traut HF",
+  "year": 1943,
+  "venue": "New York: The Commonwealth Fund",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "book",
+  "importance": 2,
+  "summary": "Established the Pap smear for cytological cancer screening, which greatly reduced cervical cancer mortality.",
+  "builds_on": []
+ },
+ {
+  "id": "yalow1960immunoassay",
+  "title": "Immunoassay of endogenous plasma insulin in man",
+  "authors": "Yalow RS, Berson SA",
+  "year": 1960,
+  "venue": "Journal of Clinical Investigation 39:1157–1175",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced radioimmunoassay for measuring hormones at picomolar concentrations (Nobel 1977).",
+  "builds_on": [
+   "banting1922internal"
+  ],
+  "doi": "10.1172/JCI104130"
+ },
+ {
+  "id": "blumberg1965new",
+  "title": "A \"new\" antigen in leukemia sera",
+  "authors": "Blumberg BS, Alter HJ, Visnich S",
+  "year": 1965,
+  "venue": "JAMA 191:541–546",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Discovered the Australia antigen (HBsAg), enabling hepatitis B blood screening and later the hepatitis B vaccine.",
+  "builds_on": []
+ },
+ {
+  "id": "engvall1971enzymelinked",
+  "title": "Enzyme-linked immunosorbent assay (ELISA). Quantitative assay of immunoglobulin G",
+  "authors": "Engvall E, Perlmann P",
+  "year": 1971,
+  "venue": "Immunochemistry 8:871–874",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Invented ELISA, replacing radioisotopes with enzyme labels and becoming the most widely used immunodiagnostic format.",
+  "builds_on": [
+   "yalow1960immunoassay"
+  ],
+  "doi": "10.1016/0019-2791(71)90454-X"
+ },
+ {
+  "id": "unilever1988clearblue",
+  "title": "Clearblue One Step: first lateral-flow home pregnancy test",
+  "authors": "Unilever",
+  "year": 1988,
+  "venue": "Product launch, 1988",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "Monoclonal-antibody lateral-flow immunoassay for hCG, popularizing the rapid test format later used for COVID-19 antigen tests.",
+  "builds_on": [
+   "engvall1971enzymelinked",
+   "kohler1975continuous"
+  ]
+ },
+ {
+  "id": "holland1991detection",
+  "title": "Detection of specific polymerase chain reaction product by utilizing the 5'→3' exonuclease activity of Thermus aquaticus DNA polymerase",
+  "authors": "Holland PM, Abramson RD, Watson R, Gelfand DH",
+  "year": 1991,
+  "venue": "PNAS 88:7276–7280",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the 5' nuclease (TaqMan) probe principle for sequence-specific PCR detection.",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ],
+  "doi": "10.1073/pnas.88.16.7276"
+ },
+ {
+  "id": "higuchi1993kinetic",
+  "title": "Kinetic PCR analysis: real-time monitoring of DNA amplification reactions",
+  "authors": "Higuchi R, Fockler C, Dollinger G, Watson R",
+  "year": 1993,
+  "venue": "Bio/Technology 11:1026–1030",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Real-time quantitative PCR via fluorescence monitoring, now the gold standard for molecular diagnostics.",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ]
+ },
+ {
+  "id": "lo1997presence",
+  "title": "Presence of fetal DNA in maternal plasma and serum",
+  "authors": "Lo YMD, Corbetta N, Chamberlain PF, Rai V, Sargent IL, Redman CWG, et al.",
+  "year": 1997,
+  "venue": "Lancet 350:485–487",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Discovered cell-free fetal DNA in maternal blood, the foundation of noninvasive prenatal testing and of cell-free DNA diagnostics.",
+  "builds_on": [
+   "saiki1985enzymatic"
+  ],
+  "doi": "10.1016/S0140-6736(97)02174-0"
+ },
+ {
+  "id": "chiu2008noninvasive",
+  "title": "Noninvasive prenatal diagnosis of fetal chromosomal aneuploidy by massively parallel genomic sequencing of DNA in maternal plasma",
+  "authors": "Chiu RWK, Chan KCA, Gao Y, Lau VYM, Zheng W, Leung TY, et al.",
+  "year": 2008,
+  "venue": "PNAS 105:20458–20463",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Counting sequencing reads from maternal plasma detected fetal trisomy 21, enabling clinical NIPT.",
+  "builds_on": [
+   "lo1997presence",
+   "bentley2008accurate"
+  ],
+  "doi": "10.1073/pnas.0810641105"
+ },
+ {
+  "id": "bettegowda2014detection",
+  "title": "Detection of circulating tumor DNA in early- and late-stage human malignancies",
+  "authors": "Bettegowda C, Sausen M, Leary RJ, Kinde I, Wang Y, Agrawal N, et al.",
+  "year": 2014,
+  "venue": "Science Translational Medicine 6:224ra24",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Systematic survey of ctDNA across cancers showing liquid biopsy feasibility for detection and monitoring.",
+  "builds_on": [
+   "lo1997presence"
+  ],
+  "doi": "10.1126/scitranslmed.3007094"
+ },
+ {
+  "id": "gootenberg2017nucleic",
+  "title": "Nucleic acid detection with CRISPR-Cas13a/C2c2",
+  "authors": "Gootenberg JS, Abudayyeh OO, Lee JW, Essletzbichler P, Dy AJ, Joung J, et al.",
+  "year": 2017,
+  "venue": "Science 356:438–442",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "SHERLOCK: Cas13 collateral cleavage combined with isothermal amplification for attomolar nucleic acid detection.",
+  "builds_on": [
+   "jinek2012programmable"
+  ],
+  "doi": "10.1126/science.aam9321"
+ },
+ {
+  "id": "chen2018crisprcas12a",
+  "title": "CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity",
+  "authors": "Chen JS, Ma E, Harrington LB, Da Costa M, Tian X, Palefsky JM, et al.",
+  "year": 2018,
+  "venue": "Science 360:436–439",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Discovered Cas12a collateral ssDNase activity and built DETECTR for rapid HPV detection.",
+  "builds_on": [
+   "jinek2012programmable"
+  ],
+  "doi": "10.1126/science.aar6245"
+ },
+ {
+  "id": "cohen2018detection",
+  "title": "Detection and localization of surgically resectable cancers with a multi-analyte blood test",
+  "authors": "Cohen JD, Li L, Wang Y, Thoburn C, Afsari B, Danilova L, et al.",
+  "year": 2018,
+  "venue": "Science 359:926–930",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "CancerSEEK combined ctDNA mutations and protein markers for multi-cancer early detection.",
+  "builds_on": [
+   "bettegowda2014detection"
+  ],
+  "doi": "10.1126/science.aar3247"
+ },
+ {
+  "id": "corman2020detection",
+  "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+  "authors": "Corman VM, Landt O, Kaiser M, Molenkamp R, Meijer A, Chu DKW, et al.",
+  "year": 2020,
+  "venue": "Eurosurveillance 25(3):2000045",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "The first validated SARS-CoV-2 RT-qPCR protocol, distributed worldwide by WHO in January 2020.",
+  "builds_on": [
+   "holland1991detection",
+   "higuchi1993kinetic"
+  ],
+  "doi": "10.2807/1560-7917.ES.2020.25.3.2000045"
+ },
+ {
+  "id": "broughton2020crisprcas12based",
+  "title": "CRISPR–Cas12-based detection of SARS-CoV-2",
+  "authors": "Broughton JP, Deng X, Yu G, Fasching CL, Servellita V, Singh J, et al.",
+  "year": 2020,
+  "venue": "Nature Biotechnology 38:870–874",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DETECTR-based lateral-flow SARS-CoV-2 assay, among the first clinical CRISPR diagnostics.",
+  "builds_on": [
+   "chen2018crisprcas12a"
+  ],
+  "doi": "10.1038/s41587-020-0513-4"
+ },
+ {
+  "id": "palmqvist2020discriminative",
+  "title": "Discriminative accuracy of plasma phospho-tau217 for Alzheimer disease vs other neurodegenerative disorders",
+  "authors": "Palmqvist S, Janelidze S, Quiroz YT, Zetterberg H, Lopera F, Stomrud E, et al.",
+  "year": 2020,
+  "venue": "JAMA 324:772–781",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Plasma p-tau217 matched PET and CSF for Alzheimer's diagnosis, leading to blood-based Alzheimer's tests cleared from 2025.",
+  "builds_on": [
+   "engvall1971enzymelinked"
+  ],
+  "doi": "10.1001/jama.2020.12134"
+ },
+ {
+  "id": "chung2024cellfree",
+  "title": "A cell-free DNA blood-based test for colorectal cancer screening",
+  "authors": "Chung DC, Gray DM 2nd, Singh H, Issaka RB, Raymond VM, Eagle C, et al.",
+  "year": 2024,
+  "venue": "New England Journal of Medicine 390:973–983",
+  "domain": "bio",
+  "field": "Therapeutics & Medical Biotech",
+  "subfield": "Diagnostics",
+  "type": "paper",
+  "importance": 2,
+  "summary": "ECLIPSE study supporting the first FDA-approved blood test (Shield) for primary colorectal cancer screening.",
+  "builds_on": [
+   "bettegowda2014detection",
+   "cohen2018detection"
+  ],
+  "doi": "10.1056/NEJMoa2304714"
+ }
+]

@@ -1,0 +1,598 @@
+<title>AI &amp; Biotech Lineage Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: full-height app — controls on top, swimlane timeline (lanes = subfields, x = year, edges = "builds on") with a citation panel on the right. */
+:root{
+  --bg:#f4f5f9; --panel:#ffffff; --ink:#141a2e; --ink2:#4a5172; --ink3:#828aa8; --line:#dde1ec; --band:#eceef6; --band2:#f4f5f9;
+  --accent:#3646d1; --accent-soft:#e4e7fb;
+  --f0:#4351d4; --f1:#0a8585; --f2:#8649e6; --f3:#cc2c78; --f4:#2c8f40; --f5:#bf7604; --f6:#c4352b; --f7:#94562a;
+  --edge:rgba(36,44,90,.13); --edge-on:#141a2e; --edge-anc:#3646d1; --edge-desc:#c4352b;
+  --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --labelW:200px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c0f17; --panel:#131722; --ink:#e6e8f2; --ink2:#a9afc8; --ink3:#6e7593; --line:#252a3b; --band:#11141e; --band2:#0c0f17;
+  --accent:#8b96ff; --accent-soft:#1f2442;
+  --f0:#8691ff; --f1:#32c2c2; --f2:#b28dff; --f3:#ff6eac; --f4:#5ccc6d; --f5:#f0b23c; --f6:#ff7b6c; --f7:#d79c6b;
+  --edge:rgba(196,206,255,.12); --edge-on:#ffffff; --edge-anc:#8b96ff; --edge-desc:#ff7b6c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c0f17; --panel:#131722; --ink:#e6e8f2; --ink2:#a9afc8; --ink3:#6e7593; --line:#252a3b; --band:#11141e; --band2:#0c0f17;
+  --accent:#8b96ff; --accent-soft:#1f2442;
+  --f0:#8691ff; --f1:#32c2c2; --f2:#b28dff; --f3:#ff6eac; --f4:#5ccc6d; --f5:#f0b23c; --f6:#ff7b6c; --f7:#d79c6b;
+  --edge:rgba(196,206,255,.12); --edge-on:#ffffff; --edge-anc:#8b96ff; --edge-desc:#ff7b6c; color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;display:flex;flex-direction:column;overflow:hidden}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding-block:12px 8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));border-bottom:1px solid var(--line);background:var(--panel)}
+.brand{display:flex;flex-direction:column;min-width:0}
+.brand h1{font-family:var(--display);font-weight:700;font-size:20px;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.brand .stats{font-family:var(--mono);font-size:11px;color:var(--ink3);letter-spacing:.02em}
+.tabs{display:flex;gap:2px;background:var(--band);border-radius:8px;padding:3px}
+.tabs button,.seg button{border:0;background:transparent;padding:5px 12px;border-radius:6px;cursor:pointer;color:var(--ink2);font-weight:600;font-size:13px}
+.tabs button[aria-pressed="true"],.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.search{position:relative;margin-left:auto;flex:1 1 240px;max-width:380px}
+.search input{width:100%;box-sizing:border-box;padding:7px 10px 7px 30px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.search svg{position:absolute;left:9px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--ink3);fill:none}
+.results{position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--panel);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);z-index:30;max-height:340px;overflow:auto}
+.results button{display:flex;gap:8px;width:100%;text-align:left;border:0;background:transparent;padding:7px 10px;cursor:pointer;align-items:baseline}
+.results button:hover,.results button.act{background:var(--accent-soft)}
+.results .yr{font-family:var(--mono);font-size:11px;color:var(--ink3);flex:none}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding-block:8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));border-bottom:1px solid var(--line);background:var(--panel)}
+.ctl{display:flex;align-items:center;gap:6px}
+.ctl>.lab{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink3);font-weight:600}
+.seg{display:flex;gap:2px;background:var(--band);border-radius:8px;padding:2px}
+.seg button{padding:3px 9px;font-size:12px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:3px 10px 3px 8px;font-size:12px;cursor:pointer;color:var(--ink2);font-weight:600}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed="false"]{opacity:.45}
+.chip[aria-pressed="false"] i{background:transparent;box-shadow:inset 0 0 0 1.5px var(--c)}
+.chip .n{font-family:var(--mono);font-size:10px;color:var(--ink3);font-weight:400}
+.iconbtn{border:1px solid var(--line);background:var(--panel);border-radius:6px;width:28px;height:26px;cursor:pointer;font-weight:700;color:var(--ink2)}
+.toggle{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--ink2);cursor:pointer}
+.main{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 390px}
+.view{min-width:0;min-height:0;position:relative}
+.scroller{position:absolute;inset:0;overflow:auto;overscroll-behavior:contain}
+.canvas{display:grid;position:relative}
+.corner{position:sticky;top:0;left:0;z-index:4;background:var(--panel);border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:11px;color:var(--ink3);display:flex;align-items:flex-end;padding:0 0 6px 12px;box-sizing:border-box;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.axis{position:sticky;top:0;z-index:3;background:var(--panel);border-bottom:1px solid var(--line)}
+.lanes{position:sticky;left:0;z-index:2;background:var(--panel);border-right:1px solid var(--line)}
+.lane-l{position:absolute;left:0;right:0;display:flex;align-items:center;padding:0 10px 0 14px;box-sizing:border-box;font-size:12px;color:var(--ink2);line-height:1.15;overflow:hidden}
+.lane-l.alt{background:var(--band)}
+.lane-l .cnt{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--ink3);padding-left:6px}
+.lane-f{position:absolute;left:0;right:0;display:flex;align-items:center;gap:7px;padding:0 10px;box-sizing:border-box;font-family:var(--display);font-weight:700;font-size:13px;border-top:1px solid var(--line);background:var(--panel)}
+.lane-f i{width:10px;height:10px;border-radius:3px;background:var(--c);flex:none}
+.lane-f .dom{margin-left:auto;font-family:var(--mono);font-weight:400;font-size:10px;color:var(--ink3);text-transform:uppercase;letter-spacing:.08em}
+svg text{font-family:var(--body)}
+.ax-t{font-family:var(--mono);font-size:10px;fill:var(--ink3)}
+.ax-l{stroke:var(--line)}
+.ax-era{font-family:var(--display);font-size:11px;fill:var(--ink2);font-weight:500}
+.band{fill:var(--band)}
+.fband{fill:var(--panel)}
+.fsep{stroke:var(--line)}
+.grid{stroke:var(--line);stroke-width:1;opacity:.7}
+.e{fill:none;stroke:var(--edge);stroke-width:1}
+.e.x{stroke-dasharray:3 3}
+.n{stroke:var(--panel);stroke-width:1.5;cursor:pointer}
+.n.i3{stroke-width:2}
+.f0{fill:var(--f0)}.f1{fill:var(--f1)}.f2{fill:var(--f2)}.f3{fill:var(--f3)}.f4{fill:var(--f4)}.f5{fill:var(--f5)}.f6{fill:var(--f6)}.f7{fill:var(--f7)}
+.lbl{font-size:11px;fill:var(--ink2);pointer-events:none;font-weight:600}
+.lbl.i2{font-weight:400;fill:var(--ink3)}
+#chart.focus .n,#chart.focus .lbl{opacity:.13}
+#chart.focus .e{opacity:.25}
+#chart.focus .n.on,#chart.focus .lbl.on{opacity:1}
+#chart .e.anc{stroke:var(--edge-anc);stroke-width:1.6;opacity:1}
+#chart .e.desc{stroke:var(--edge-desc);stroke-width:1.6;opacity:1}
+#chart .e.hov{stroke:var(--edge-on);stroke-width:1.4;opacity:1}
+.n.sel{stroke:var(--ink);stroke-width:2.5}
+.n.match{stroke:var(--accent);stroke-width:2.5}
+.tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:6px;font-size:12px;max-width:300px;line-height:1.3;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.tip b{font-family:var(--mono);font-weight:600;margin-right:6px}
+/* detail panel */
+.detail{border-left:1px solid var(--line);background:var(--panel);overflow:auto;min-height:0;padding-block:18px 28px;padding-left:20px;padding-right:max(20px,env(safe-area-inset-right,0px))}
+.detail h2{font-family:var(--display);font-size:22px;line-height:1.15;margin:6px 0 8px;font-weight:700;text-wrap:balance;letter-spacing:-.01em}
+.detail h3{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink3);margin:20px 0 7px;font-weight:600}
+.meta-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--band);color:var(--ink2)}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.pill.rank3{background:var(--ink);color:var(--panel)}
+.authors{color:var(--ink2);line-height:1.4}
+.venue{font-family:var(--mono);font-size:12px;color:var(--ink3);margin-top:4px}
+.summary{line-height:1.55;font-size:15px;margin-top:12px;max-width:62ch}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.links a{font-size:12px;font-weight:600;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:4px 9px}
+.links a:hover{background:var(--accent-soft)}
+.cite{position:relative;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:12.5px;line-height:1.45;color:var(--ink2)}
+.cite pre{margin:0;font-family:var(--mono);font-size:11px;white-space:pre-wrap;word-break:break-word}
+.copy{position:absolute;top:6px;right:6px;border:1px solid var(--line);background:var(--panel);border-radius:5px;font-size:11px;padding:2px 7px;cursor:pointer;color:var(--ink2);font-weight:600}
+.rel{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.rel button{display:flex;gap:8px;align-items:baseline;width:100%;text-align:left;border:0;background:transparent;padding:5px 6px;border-radius:6px;cursor:pointer;line-height:1.3}
+.rel button:hover{background:var(--band)}
+.rel .dot{width:8px;height:8px;border-radius:50%;background:var(--c);flex:none;transform:translateY(1px)}
+.rel .yr{font-family:var(--mono);font-size:11px;color:var(--ink3);flex:none;width:34px}
+.rel .t{min-width:0}
+.empty{color:var(--ink3);font-size:13px}
+.legend{display:grid;grid-template-columns:1fr;gap:4px}
+.legend .row{display:flex;align-items:center;gap:8px;font-size:13px}
+.legend .row i{width:10px;height:10px;border-radius:3px;background:var(--c)}
+.legend .row .n{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--ink3)}
+.howto{line-height:1.55;color:var(--ink2);font-size:13.5px;max-width:60ch}
+.howto p{margin:0 0 8px}
+.keyrow{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink2);margin-top:6px;align-items:center}
+.keyrow svg{vertical-align:middle}
+.closebtn{display:none}
+.lineage-toggle{display:flex;gap:6px;align-items:center;margin-top:8px}
+.note{font-size:11.5px;color:var(--ink3);line-height:1.45;margin-top:22px;border-top:1px solid var(--line);padding-top:12px}
+/* table */
+.tablewrap{position:absolute;inset:0;overflow:auto}
+.tbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 16px;position:sticky;left:0}
+.tbar .c{font-family:var(--mono);font-size:12px;color:var(--ink3)}
+.btn{border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:4px 10px;font-size:12px;font-weight:600;cursor:pointer;color:var(--ink2)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:13px}
+thead th{position:sticky;top:0;background:var(--panel);text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink3);padding:8px 10px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;z-index:1}
+tbody td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--band)}
+tbody tr.sel{background:var(--accent-soft)}
+td.yr{font-family:var(--mono);font-size:12px;color:var(--ink2);font-variant-numeric:tabular-nums}
+td .tt{font-weight:600}
+td .au{color:var(--ink3);font-size:12px}
+td .fd{display:inline-flex;gap:6px;align-items:center}
+td .fd i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+td.rk{font-family:var(--mono);color:var(--ink3)}
+@media (max-width:860px){
+  :root{--labelW:120px}
+  .main{grid-template-columns:minmax(0,1fr)}
+  .detail{position:fixed;left:0;right:0;bottom:0;max-height:62%;z-index:40;border-left:0;border-top:1px solid var(--line);box-shadow:0 -10px 30px rgba(0,0,0,.25);border-radius:14px 14px 0 0;padding-bottom:max(24px,env(safe-area-inset-bottom,0px));padding-left:max(18px,env(safe-area-inset-left,0px))}
+  .detail.idle{display:none}
+  .closebtn{display:block;position:sticky;top:0;margin-left:auto;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:3px 10px;font-size:12px;font-weight:600;cursor:pointer;color:var(--ink2)}
+  .lane-l{font-size:11px;padding:0 6px 0 8px}
+  .lane-l .cnt,.lane-f .dom{display:none}
+  .search{max-width:none;margin-left:0}
+  .controls{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .controls>*,.chips{flex:none}
+  .chips{flex-wrap:nowrap}
+  .top{gap:8px 12px;padding-block:10px 8px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<header class="top">
+  <div class="brand">
+    <h1>AI &amp; Biotech Lineage Atlas</h1>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="tabs" role="group" aria-label="View">
+    <button id="tabTimeline" aria-pressed="true">Timeline</button>
+    <button id="tabTable" aria-pressed="false">Table</button>
+  </div>
+  <div class="search">
+    <svg viewBox="0 0 16 16" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l4 4"/></svg>
+    <input id="q" type="search" placeholder="Search titles, authors, venues…" autocomplete="off" aria-label="Search works">
+    <div class="results" id="results" hidden></div>
+  </div>
+</header>
+<div class="controls">
+  <div class="ctl"><span class="lab">Domain</span>
+    <div class="seg" id="segDomain"><button data-v="all" aria-pressed="true">All</button><button data-v="ai" aria-pressed="false">AI</button><button data-v="bio" aria-pressed="false">Biotech</button></div></div>
+  <div class="chips" id="chips"></div>
+  <div class="ctl"><span class="lab">Show</span>
+    <div class="seg" id="segImp"><button data-v="1" aria-pressed="true">All</button><button data-v="2" aria-pressed="false">Major+</button><button data-v="3" aria-pressed="false">Landmarks</button></div></div>
+  <div class="ctl"><span class="lab">Lanes</span>
+    <div class="seg" id="segGroup"><button data-v="sub" aria-pressed="true">Subfield</button><button data-v="field" aria-pressed="false">Field</button></div></div>
+  <div class="ctl"><span class="lab">Zoom</span>
+    <button class="iconbtn" id="zoomOut" aria-label="Zoom out">−</button><button class="iconbtn" id="zoomIn" aria-label="Zoom in">+</button></div>
+  <label class="toggle"><input type="checkbox" id="edgesAll" checked> All links</label>
+</div>
+<main class="main">
+  <section class="view" id="timelineView">
+    <div class="scroller" id="scroller">
+      <div class="canvas" id="canvas">
+        <div class="corner">Subfield</div>
+        <div class="axis"><svg id="axisSvg"></svg></div>
+        <div class="lanes" id="laneLabels"></div>
+        <svg id="chart"></svg>
+      </div>
+    </div>
+  </section>
+  <section class="view" id="tableView" hidden>
+    <div class="tablewrap" id="tablewrap">
+      <div class="tbar"><span class="c" id="tcount"></span><button class="btn" id="copyBib">Copy BibTeX for these</button><button class="btn" id="copyCsv">Copy as CSV</button></div>
+      <table><thead><tr><th data-k="year">Year</th><th data-k="title">Work</th><th data-k="field">Field · subfield</th><th data-k="venue">Venue</th><th data-k="importance">Rank</th></tr></thead><tbody id="tbody"></tbody></table>
+    </div>
+  </section>
+  <aside class="detail idle" id="detail" aria-live="polite"></aside>
+</main>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const DATA = /*DATA*/[];
+const SUBS = {
+  "Deep Learning Foundations":["Early neural networks","Training & optimization","Architectures & building blocks","Generative models","Theory & scaling","Graph & geometric DL","Hardware, software & infrastructure"],
+  "Natural Language Processing":["Linguistics & statistical NLP","Word embeddings & neural LMs","Seq2seq & attention","Pretrained transformers","Large language models","Alignment & instruction tuning","Reasoning & agents","Retrieval, efficiency & long context","Multimodal LLMs"],
+  "Computer Vision":["Classical vision","CNN architectures","Object detection","Segmentation","Self-supervised & foundation models","3D vision & rendering","Video & motion","Image generation","Datasets & benchmarks"],
+  "Reinforcement Learning":["Foundations & classical RL","Value-based deep RL","Policy gradient & actor-critic","Model-based RL & planning","Game-playing milestones","Exploration, hierarchy & multi-agent","Offline RL & imitation","Robotics & embodied AI","RL from human feedback & for LLMs"],
+  "Molecular Biology & Genetic Engineering":["Foundations of molecular biology","Recombinant DNA & core tools","Genome editing","Synthetic biology","Agricultural & industrial biotech"],
+  "Genomics & Sequencing":["Sequencing technologies","Genome projects & assemblies","Functional & regulatory genomics","Single-cell & spatial omics","Population & medical genomics","Proteomics & metabolomics"],
+  "Therapeutics & Medical Biotech":["Biologics & antibodies","Vaccines","Gene therapy","Cell therapy & regenerative medicine","RNA therapeutics","Immunotherapy","Diagnostics"],
+  "Computational & Structural Biology":["Sequence analysis & bioinformatics","Structural biology methods","Protein structure prediction","Protein design & engineering","Systems biology & modeling","AI for biology & drug discovery"]
+};
+const FIELDS = Object.keys(SUBS);
+const SHORT = ["Deep learning","NLP","Computer vision","Reinforcement learning","Molecular bio & gene eng.","Genomics & sequencing","Therapeutics","Comp. & structural bio"];
+const RANK = {3:"Landmark",2:"Major",1:"Notable"};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const byId = new Map();
+DATA.forEach(d => { d.fi = FIELDS.indexOf(d.field); if (d.fi < 0) d.fi = 7; d.kids = []; byId.set(d.id, d); });
+DATA.forEach(d => { d.builds_on = (d.builds_on || []).filter(p => byId.has(p)); d.builds_on.forEach(p => byId.get(p).kids.push(d.id)); });
+DATA.forEach(d => { if (!SUBS[d.field]) return; if (!SUBS[d.field].includes(d.subfield)) SUBS[d.field].push(d.subfield); });
+const nEdges = DATA.reduce((s, d) => s + d.builds_on.length, 0);
+const minY = Math.min(...DATA.map(d => d.year)), maxY = Math.max(...DATA.map(d => d.year));
+$("#stats").textContent = `${DATA.length} works · ${nEdges} lineage links · ${minY}–${maxY}`;
+
+const st = { domain:"all", fields:new Set(FIELDS), imp:1, group:"sub", zoom:1, sel:null, full:false, q:"", view:"timeline", edgesAll:true, sortK:"year", sortDir:1 };
+const visible = d => (st.domain === "all" || d.domain === st.domain) && st.fields.has(d.field) && d.importance >= st.imp;
+const label = d => d.label || shortTitle(d.title);
+function shortTitle(t){ const c = t.indexOf(":"); if (c >= 2 && c <= 26) return t.slice(0, c); return t.length > 34 ? t.slice(0, 32).trim() + "…" : t; }
+
+/* ---------- year scale: piecewise, denser where the literature is denser ---------- */
+const SEG = [[1790,1940,2.2],[1940,1975,7],[1975,2005,15],[2005,2012,30],[2012,2027,62]];
+const X0 = 24;
+function pxYear(y){ for (const [a,b,p] of SEG) if (y >= a && y < b) return p * st.zoom; return SEG[SEG.length-1][2] * st.zoom; }
+function xOf(y){ let x = X0; for (const [a,b,p] of SEG){ if (y <= a) break; x += (Math.min(y,b) - a) * p * st.zoom; } return x; }
+const START = Math.min(1790, Math.floor(minY/10)*10), END = Math.max(2027, maxY + 1);
+
+/* ---------- field chips ---------- */
+const counts = FIELDS.map(f => DATA.filter(d => d.field === f).length);
+$("#chips").innerHTML = FIELDS.map((f,i) => `<button class="chip" data-f="${esc(f)}" aria-pressed="true" style="--c:var(--f${i})" title="${esc(f)}"><i></i>${SHORT[i]} <span class="n">${counts[i]}</span></button>`).join("");
+$("#chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const f = b.dataset.f;
+  if (e.altKey || e.metaKey) { st.fields = new Set([f]); }
+  else if (st.fields.has(f)) { st.fields.delete(f); if (!st.fields.size) st.fields = new Set(FIELDS); }
+  else st.fields.add(f);
+  syncChips(); renderAll();
+});
+function syncChips(){ document.querySelectorAll(".chip").forEach(b => b.setAttribute("aria-pressed", st.fields.has(b.dataset.f))); }
+function seg(id, key, cast = v => v){
+  $(id).addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+    st[key] = cast(b.dataset.v); $(id).querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    if (key === "domain") { st.fields = new Set(FIELDS.filter((f,i) => st.domain === "all" || (st.domain === "ai" ? i < 4 : i >= 4))); syncChips(); }
+    renderAll(); });
+}
+seg("#segDomain","domain"); seg("#segImp","imp",Number); seg("#segGroup","group");
+$("#zoomIn").onclick = () => setZoom(st.zoom * 1.35);
+$("#zoomOut").onclick = () => setZoom(st.zoom / 1.35);
+$("#edgesAll").onchange = e => { st.edgesAll = e.target.checked; renderChart(); };
+
+function setZoom(z){
+  const sc = $("#scroller"), lw = labelW();
+  const centerX = sc.scrollLeft + (sc.clientWidth - lw) / 2;
+  const yr = yearAt(centerX);
+  st.zoom = Math.max(.45, Math.min(4, z));
+  renderChart();
+  sc.scrollLeft = xOf(yr) - (sc.clientWidth - lw) / 2;
+}
+function yearAt(x){ for (let y = START; y < END; y += .25) if (xOf(y) >= x) return y; return END; }
+const labelW = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--labelW")) || 200;
+
+/* ---------- timeline ---------- */
+const ROWH = 17, PAD = 7, FH = 30, AXH = 46;
+let nodeEl = new Map(), lblEl = new Map(), edgeEls = [], pos = new Map();
+const R = {3:6.5, 2:4.8, 1:3.4};
+
+function layout(){
+  const lanes = []; let y = 0; pos = new Map();
+  FIELDS.forEach((f, fi) => {
+    const items = DATA.filter(d => d.field === f && visible(d));
+    if (!items.length) return;
+    lanes.push({ kind:"field", f, fi, y, h:FH }); y += FH;
+    const groups = st.group === "sub" ? SUBS[f].map(s => [s, items.filter(d => d.subfield === s)]) : [[`All ${SHORT[fi].toLowerCase()}`, items]];
+    let alt = false;
+    for (const [name, list] of groups){
+      if (!list.length) continue;
+      list.sort((a,b) => a.year - b.year || b.importance - a.importance);
+      const rows = [];
+      for (const d of list){
+        const yw = pxYear(d.year), x = xOf(d.year) + Math.min(yw/2, 14);
+        const showL = d.importance === 3 || (d.importance === 2 && st.zoom >= 1.7);
+        const lw = showL ? label(d).length * 6.1 + 8 : 0;
+        const left = x - R[d.importance] - 2, right = x + R[d.importance] + 3 + lw;
+        let r = rows.findIndex(v => v < left); if (r < 0) { r = rows.length; rows.push(0); }
+        rows[r] = right;
+        pos.set(d.id, { x, row:r, showL, laneY:y });
+      }
+      const h = PAD*2 + Math.max(1, rows.length) * ROWH;
+      list.forEach(d => { const p = pos.get(d.id); p.y = y + PAD + p.row*ROWH + ROWH/2; });
+      lanes.push({ kind:"sub", name, fi, y, h, n:list.length, alt }); alt = !alt; y += h;
+    }
+  });
+  return { lanes, H: y + 20 };
+}
+
+function ticks(){
+  const out = []; let y = START;
+  while (y <= END){ const p = pxYear(y); const step = [1,2,5,10,20,25,50].find(s => s * p >= 42) || 50;
+    if (y % step === 0) out.push(y); y++; }
+  return out;
+}
+const ERAS = [[1790,"Origins"],[1940,"Cybernetics & the double helix"],[1975,"Recombinant era · connectionism"],[2005,"Deep learning · NGS"],[2017,"Transformers · CRISPR · AlphaFold"]];
+
+function renderChart(){
+  const { lanes, H } = layout();
+  const W = xOf(END) + 40, lw = labelW();
+  const cv = $("#canvas");
+  cv.style.gridTemplateColumns = `${lw}px ${W}px`; cv.style.width = (lw + W) + "px"; cv.style.gridTemplateRows = `${AXH}px ${H}px`;
+  // axis
+  const tk = ticks();
+  let ax = `<svg width="${W}" height="${AXH}" id="axisSvg">`;
+  ERAS.forEach(([y,n]) => { if (y >= START) ax += `<text class="ax-era" x="${xOf(y)+4}" y="15">${esc(n)}</text><line class="ax-l" x1="${xOf(y)}" x2="${xOf(y)}" y1="2" y2="${AXH}"/>`; });
+  tk.forEach(y => ax += `<line class="ax-l" x1="${xOf(y)}" x2="${xOf(y)}" y1="${AXH-8}" y2="${AXH}"/><text class="ax-t" x="${xOf(y)+3}" y="${AXH-11}">${y}</text>`);
+  $(".axis").innerHTML = ax + "</svg>";
+  // lane labels
+  $("#laneLabels").style.height = H + "px";
+  $("#laneLabels").innerHTML = lanes.map(l => l.kind === "field"
+    ? `<div class="lane-f" style="top:${l.y}px;height:${l.h}px;--c:var(--f${l.fi})"><i></i>${esc(SHORT[l.fi])}<span class="dom">${l.fi<4?"AI":"Bio"}</span></div>`
+    : `<div class="lane-l${l.alt?" alt":""}" style="top:${l.y}px;height:${l.h}px" title="${esc(l.name)}">${esc(l.name)}<span class="cnt">${l.n}</span></div>`).join("");
+  // chart body
+  let s = "";
+  lanes.forEach(l => { if (l.kind === "sub" && l.alt) s += `<rect class="band" x="0" y="${l.y}" width="${W}" height="${l.h}"/>`;
+    if (l.kind === "field") s += `<rect class="fband" x="0" y="${l.y}" width="${W}" height="${l.h}"/><line class="fsep" x1="0" x2="${W}" y1="${l.y+.5}" y2="${l.y+.5}"/>`; });
+  tk.forEach(y => s += `<line class="grid" x1="${xOf(y)}" x2="${xOf(y)}" y1="0" y2="${H}"/>`);
+  s += `<g id="edges">`;
+  const vis = DATA.filter(d => pos.has(d.id));
+  edgeEls = [];
+  const eList = [];
+  vis.forEach(d => d.builds_on.forEach(p => { if (pos.has(p)) eList.push([p, d.id]); }));
+  eList.forEach(([a,b], i) => {
+    const A = pos.get(a), B = pos.get(b), dx = Math.max(18, Math.abs(B.x - A.x) / 2);
+    const cross = byId.get(a).domain !== byId.get(b).domain;
+    s += `<path class="e${cross?" x":""}" data-i="${i}" d="M${A.x.toFixed(1)},${A.y.toFixed(1)} C${(A.x+dx).toFixed(1)},${A.y.toFixed(1)} ${(B.x-dx).toFixed(1)},${B.y.toFixed(1)} ${B.x.toFixed(1)},${B.y.toFixed(1)}"${st.edgesAll?"":' visibility="hidden"'}/>`;
+  });
+  s += `</g><g id="nodes">`;
+  vis.sort((a,b) => a.importance - b.importance).forEach(d => { const p = pos.get(d.id);
+    s += `<circle class="n f${d.fi} i${d.importance}" data-id="${d.id}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${R[d.importance]}"/>`;
+    if (p.showL) s += `<text class="lbl i${d.importance}" data-id="${d.id}" x="${(p.x + R[d.importance] + 3).toFixed(1)}" y="${(p.y + 3.8).toFixed(1)}">${esc(label(d))}</text>`; });
+  s += `</g>`;
+  const chart = $("#chart"); chart.setAttribute("width", W); chart.setAttribute("height", H); chart.innerHTML = s;
+  nodeEl = new Map(); lblEl = new Map();
+  chart.querySelectorAll("circle.n").forEach(el => nodeEl.set(el.dataset.id, el));
+  chart.querySelectorAll("text.lbl").forEach(el => lblEl.set(el.dataset.id, el));
+  const paths = chart.querySelectorAll("path.e");
+  edgeEls = eList.map(([a,b], i) => ({ a, b, el: paths[i] }));
+  applyFocus();
+}
+
+function lineage(id){
+  const anc = new Set(), desc = new Set();
+  const walk = (start, next, set) => { let frontier = [start], depth = 0;
+    while (frontier.length && (st.full || depth < 1)){ const nf = [];
+      frontier.forEach(x => next(x).forEach(y => { if (!set.has(y)) { set.add(y); nf.push(y); } }));
+      frontier = nf; depth++; } };
+  walk(id, x => byId.get(x).builds_on, anc);
+  walk(id, x => byId.get(x).kids, desc);
+  return { anc, desc };
+}
+let matches = null;
+function applyFocus(){
+  const chart = $("#chart");
+  nodeEl.forEach(el => el.classList.remove("on","sel","match"));
+  lblEl.forEach(el => el.classList.remove("on"));
+  edgeEls.forEach(e => { e.el.classList.remove("anc","desc"); if (!st.edgesAll) e.el.setAttribute("visibility","hidden"); });
+  const on = id => { nodeEl.get(id)?.classList.add("on"); lblEl.get(id)?.classList.add("on"); };
+  if (st.sel){
+    const { anc, desc } = lineage(st.sel);
+    chart.classList.add("focus");
+    on(st.sel); nodeEl.get(st.sel)?.classList.add("sel");
+    anc.forEach(on); desc.forEach(on);
+    edgeEls.forEach(e => {
+      let c = "";
+      if ((e.b === st.sel || anc.has(e.b)) && anc.has(e.a)) c = "anc";
+      else if ((e.a === st.sel || desc.has(e.a)) && desc.has(e.b)) c = "desc";
+      if (c){ e.el.classList.add(c); e.el.removeAttribute("visibility"); }
+    });
+    // keep the selection's label readable even when its lane normally hides labels
+  } else if (matches){
+    chart.classList.add("focus");
+    matches.forEach(id => { on(id); nodeEl.get(id)?.classList.add("match"); });
+  } else chart.classList.remove("focus");
+}
+
+/* hover + click */
+const tip = $("#tip");
+$("#chart").addEventListener("mousemove", e => {
+  const n = e.target.closest("circle.n");
+  edgeEls.forEach(x => x.el.classList.remove("hov"));
+  if (!n){ tip.hidden = true; return; }
+  const d = byId.get(n.dataset.id);
+  tip.innerHTML = `<b>${d.year}</b>${esc(d.title)}`; tip.hidden = false;
+  const tx = Math.min(e.clientX + 14, innerWidth - 310); tip.style.left = tx + "px"; tip.style.top = (e.clientY + 14) + "px";
+  edgeEls.forEach(x => { if (x.a === d.id || x.b === d.id){ x.el.classList.add("hov"); x.el.removeAttribute("visibility"); } });
+});
+$("#chart").addEventListener("mouseleave", () => { tip.hidden = true; edgeEls.forEach(x => x.el.classList.remove("hov")); applyFocus(); });
+$("#chart").addEventListener("click", e => {
+  const n = e.target.closest("circle.n");
+  if (n) select(n.dataset.id, false); else select(null);
+});
+
+function select(id, scroll = true){
+  st.sel = id;
+  try { history.replaceState(null, "", id ? "#" + id : location.pathname + location.search); } catch {}
+  applyFocus(); renderDetail();
+  if (st.view === "table") highlightRow();
+  if (id && scroll && st.view === "timeline") scrollToNode(id);
+}
+function scrollToNode(id){
+  let p = pos.get(id);
+  if (!p){ // make it visible: relax filters that hide it
+    const d = byId.get(id);
+    st.fields.add(d.field); if (st.domain !== "all" && st.domain !== d.domain){ st.domain = "all"; $("#segDomain").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === "all")); }
+    if (d.importance < st.imp){ st.imp = 1; $("#segImp").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === "1")); }
+    syncChips(); renderChart(); p = pos.get(id); if (!p) return;
+  }
+  const sc = $("#scroller"), lw = labelW();
+  sc.scrollTo({ left: Math.max(0, p.x - (sc.clientWidth - lw) / 2), top: Math.max(0, p.y - sc.clientHeight / 2 + AXH), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+}
+
+/* ---------- citations ---------- */
+function authorsList(d){ return String(d.authors || "").split(/,\s*/).filter(Boolean); }
+function citeText(d){
+  let s = `${d.authors} (${d.year}). ${d.title}.`;
+  if (d.venue) s += ` ${d.venue}.`;
+  if (d.doi) s += ` https://doi.org/${d.doi}`; else if (d.arxiv) s += ` arXiv:${d.arxiv}`;
+  return s;
+}
+function bibtex(d){
+  const au = authorsList(d).map(a => { if (/et al\.?$/i.test(a)) return "others"; const m = a.trim().match(/^(.*?)\s+([A-ZÀ-Ý][A-Za-zÀ-ÿ.\-]*)$/); return m ? `${m[1]}, ${m[2]}` : a.trim(); });
+  const type = d.type === "book" ? "book" : (d.type === "paper" ? "article" : "misc");
+  const f = [`  title     = {${d.title}}`, `  author    = {${au.join(" and ")}}`, `  year      = {${d.year}}`];
+  if (d.venue) f.push(type === "book" ? `  publisher = {${d.venue}}` : type === "article" ? `  journal   = {${d.venue}}` : `  howpublished = {${d.venue}}`);
+  if (d.doi) f.push(`  doi       = {${d.doi}}`);
+  if (d.arxiv) f.push(`  eprint    = {${d.arxiv}}`, `  archivePrefix = {arXiv}`);
+  return `@${type}{${d.id},\n${f.join(",\n")}\n}`;
+}
+function copy(text, btn){
+  const done = () => { const o = btn.textContent; btn.textContent = "Copied"; setTimeout(() => btn.textContent = o, 1200); };
+  const fallback = () => { const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); done(); } catch { btn.textContent = "Select & copy manually"; } ta.remove(); };
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch { fallback(); }
+}
+
+/* ---------- detail panel ---------- */
+function relItem(id){ const d = byId.get(id); return `<li><button data-go="${d.id}"><span class="dot" style="--c:var(--f${d.fi})"></span><span class="yr">${d.year}</span><span class="t">${esc(d.title)}</span></button></li>`; }
+function renderDetail(){
+  const el = $("#detail");
+  if (!st.sel){ el.classList.add("idle"); el.innerHTML = overview(); return; }
+  el.classList.remove("idle");
+  const d = byId.get(st.sel);
+  const q = encodeURIComponent(`"${d.title}"`);
+  const kids = [...d.kids].sort((a,b) => byId.get(a).year - byId.get(b).year);
+  const pars = [...d.builds_on].sort((a,b) => byId.get(a).year - byId.get(b).year);
+  el.innerHTML = `
+    <button class="closebtn" data-close>Close</button>
+    <div class="meta-row">
+      <span class="pill" style="--c:var(--f${d.fi})"><i></i>${esc(SHORT[d.fi])}</span>
+      <span class="pill">${esc(d.subfield)}</span>
+      <span class="pill rank${d.importance}">${RANK[d.importance]}</span>
+      ${d.type && d.type !== "paper" ? `<span class="pill">${esc(d.type)}</span>` : ""}
+    </div>
+    <h2>${esc(d.title)}</h2>
+    <div class="authors">${esc(d.authors)}</div>
+    <div class="venue">${d.year}${d.venue ? " · " + esc(d.venue) : ""}</div>
+    <p class="summary">${esc(d.summary)}</p>
+    <div class="links">
+      ${d.doi ? `<a href="https://doi.org/${esc(d.doi)}" target="_blank" rel="noopener">DOI ${esc(d.doi)}</a>` : ""}
+      ${d.arxiv ? `<a href="https://arxiv.org/abs/${esc(d.arxiv)}" target="_blank" rel="noopener">arXiv ${esc(d.arxiv)}</a>` : ""}
+      <a href="https://scholar.google.com/scholar?q=${q}" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.semanticscholar.org/search?q=${encodeURIComponent(d.title)}" target="_blank" rel="noopener">Semantic Scholar</a>
+    </div>
+    <h3>Builds on · ${pars.length}</h3>
+    ${pars.length ? `<ul class="rel">${pars.map(relItem).join("")}</ul>` : `<div class="empty">An origin point in this map.</div>`}
+    <h3>Led to · ${kids.length}</h3>
+    ${kids.length ? `<ul class="rel">${kids.map(relItem).join("")}</ul>` : `<div class="empty">No later work in this map builds on it yet.</div>`}
+    <label class="toggle lineage-toggle"><input type="checkbox" id="fullLin" ${st.full ? "checked" : ""}> Highlight full lineage on the timeline (all ancestors and descendants)</label>
+    <h3>Citation</h3>
+    <div class="cite"><button class="copy" data-copy="cite">Copy</button><div style="padding-right:46px">${esc(citeText(d))}</div></div>
+    <h3>BibTeX</h3>
+    <div class="cite"><button class="copy" data-copy="bib">Copy</button><pre>${esc(bibtex(d))}</pre></div>`;
+}
+function overview(){
+  const land = FIELDS.map((f,i) => DATA.filter(d => d.field === f && d.importance === 3).sort((a,b) => a.year - b.year));
+  const picks = land.map(l => l.length ? [l[0], l[Math.floor(l.length/2)], l[l.length-1]] : []).flat().filter((v,i,a) => v && a.indexOf(v) === i);
+  return `
+    <h2>How to read the atlas</h2>
+    <div class="howto">
+      <p>Each dot is a paper, book, dataset, patent or milestone, placed by year. Each lane is a subfield. A curve means the later work builds directly on the earlier one.</p>
+      <p>Select a dot to see its full citation, BibTeX and lineage. Earlier work it builds on turns blue and later work that builds on it turns red. Dashed curves are links that cross between AI and biotech.</p>
+      <div class="keyrow">
+        <span><svg width="16" height="16"><circle cx="8" cy="8" r="6.5" fill="var(--ink2)"/></svg> Landmark</span>
+        <span><svg width="14" height="14"><circle cx="7" cy="7" r="4.8" fill="var(--ink2)"/></svg> Major</span>
+        <span><svg width="12" height="12"><circle cx="6" cy="6" r="3.4" fill="var(--ink2)"/></svg> Notable</span>
+      </div>
+    </div>
+    <h3>Fields</h3>
+    <div class="legend">${FIELDS.map((f,i) => `<div class="row" style="--c:var(--f${i})"><i></i>${esc(f)}<span class="n">${counts[i]}</span></div>`).join("")}</div>
+    <h3>Start with a landmark</h3>
+    <ul class="rel">${picks.map(d => relItem(d.id)).join("")}</ul>
+    <p class="note">Curated from the research literature. DOIs and arXiv IDs appear only where they could be stated with confidence. The Scholar links let you check any entry against the source record.</p>`;
+}
+$("#detail").addEventListener("click", e => {
+  const g = e.target.closest("[data-go]"); if (g) return select(g.dataset.go);
+  if (e.target.closest("[data-close]")) return select(null);
+  const c = e.target.closest("[data-copy]"); if (c){ const d = byId.get(st.sel); copy(c.dataset.copy === "bib" ? bibtex(d) : citeText(d), c); }
+});
+$("#detail").addEventListener("change", e => { if (e.target.id === "fullLin"){ st.full = e.target.checked; applyFocus(); } });
+
+/* ---------- search ---------- */
+const qEl = $("#q"), resEl = $("#results"); let resIdx = 0, resList = [];
+function norm(s){ return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+DATA.forEach(d => d._s = norm([d.title, d.authors, d.venue, d.subfield, d.label || "", d.year].join(" ")));
+qEl.addEventListener("input", () => {
+  st.q = qEl.value.trim();
+  const terms = norm(st.q).split(/\s+/).filter(Boolean);
+  if (!terms.length){ matches = null; resEl.hidden = true; applyFocus(); if (st.view === "table") renderTable(); return; }
+  resList = DATA.filter(d => terms.every(t => d._s.includes(t))).sort((a,b) => b.importance - a.importance || a.year - b.year);
+  matches = new Set(resList.map(d => d.id));
+  resIdx = 0; drawResults(); if (!st.sel) applyFocus();
+  if (st.view === "table") renderTable();
+});
+function drawResults(){
+  if (st.view === "table"){ resEl.hidden = true; return; }
+  resEl.hidden = false;
+  resEl.innerHTML = resList.length ? resList.slice(0, 14).map((d,i) => `<button data-go="${d.id}" class="${i===resIdx?"act":""}"><span class="yr">${d.year}</span><span>${esc(d.title)}</span></button>`).join("") : `<div class="empty" style="padding:10px">No works match “${esc(st.q)}”.</div>`;
+}
+qEl.addEventListener("keydown", e => {
+  if (e.key === "ArrowDown"){ resIdx = Math.min(resIdx + 1, Math.min(13, resList.length - 1)); drawResults(); e.preventDefault(); }
+  else if (e.key === "ArrowUp"){ resIdx = Math.max(0, resIdx - 1); drawResults(); e.preventDefault(); }
+  else if (e.key === "Enter" && resList[resIdx]){ select(resList[resIdx].id); resEl.hidden = true; }
+  else if (e.key === "Escape"){ qEl.value = ""; qEl.dispatchEvent(new Event("input")); }
+});
+resEl.addEventListener("mousedown", e => { const b = e.target.closest("[data-go]"); if (b){ e.preventDefault(); select(b.dataset.go); resEl.hidden = true; } });
+qEl.addEventListener("blur", () => setTimeout(() => resEl.hidden = true, 120));
+qEl.addEventListener("focus", () => { if (st.q) drawResults(); });
+
+/* ---------- table ---------- */
+function tableRows(){
+  const terms = norm(st.q).split(/\s+/).filter(Boolean);
+  const k = st.sortK, dir = st.sortDir;
+  return DATA.filter(d => visible(d) && terms.every(t => d._s.includes(t))).sort((a,b) => {
+    const A = k === "field" ? a.fi * 100 + SUBS[a.field].indexOf(a.subfield) : a[k], B = k === "field" ? b.fi * 100 + SUBS[b.field].indexOf(b.subfield) : b[k];
+    return (A > B ? 1 : A < B ? -1 : a.year - b.year) * dir; });
+}
+function renderTable(){
+  const rows = tableRows();
+  $("#tcount").textContent = `${rows.length} works`;
+  $("#tbody").innerHTML = rows.map(d => `<tr data-id="${d.id}" class="${d.id===st.sel?"sel":""}"><td class="yr">${d.year}</td><td><div class="tt">${esc(d.title)}</div><div class="au">${esc(d.authors)}</div></td><td><span class="fd" style="--c:var(--f${d.fi})"><i></i>${esc(SHORT[d.fi])}</span><div class="au">${esc(d.subfield)}</div></td><td class="au">${esc(d.venue)}</td><td class="rk">${"●".repeat(d.importance)}</td></tr>`).join("");
+}
+function highlightRow(){ document.querySelectorAll("#tbody tr").forEach(r => r.classList.toggle("sel", r.dataset.id === st.sel)); }
+$("#tbody").addEventListener("click", e => { const r = e.target.closest("tr"); if (r) select(r.dataset.id, false); });
+document.querySelector("thead").addEventListener("click", e => { const th = e.target.closest("th"); if (!th) return;
+  const k = th.dataset.k; st.sortDir = st.sortK === k ? -st.sortDir : (k === "importance" ? -1 : 1); st.sortK = k; renderTable(); });
+$("#copyBib").onclick = e => copy(tableRows().map(bibtex).join("\n\n"), e.target);
+$("#copyCsv").onclick = e => { const c = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
+  copy(["id,year,title,authors,venue,field,subfield,type,importance,doi,arxiv,builds_on"].concat(tableRows().map(d => [d.id,d.year,d.title,d.authors,d.venue,d.field,d.subfield,d.type,d.importance,d.doi,d.arxiv,d.builds_on.join(" ")].map(c).join(","))).join("\n"), e.target); };
+
+/* ---------- views ---------- */
+function setView(v){
+  st.view = v;
+  $("#tabTimeline").setAttribute("aria-pressed", v === "timeline"); $("#tabTable").setAttribute("aria-pressed", v === "table");
+  $("#timelineView").hidden = v !== "timeline"; $("#tableView").hidden = v !== "table";
+  if (v === "table") renderTable();
+}
+$("#tabTimeline").onclick = () => setView("timeline");
+$("#tabTable").onclick = () => setView("table");
+function renderAll(){ renderChart(); if (st.view === "table") renderTable(); if (st.sel && !visible(byId.get(st.sel))) select(null); }
+
+/* ---------- boot ---------- */
+renderChart(); renderDetail();
+const h = decodeURIComponent(location.hash.slice(1));
+if (byId.has(h)) setTimeout(() => select(h), 50);
+else { const sc = $("#scroller"); sc.scrollLeft = xOf(1985); }
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(renderChart, 150); });
+</script>

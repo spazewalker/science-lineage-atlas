@@ -1,0 +1,1880 @@
+[
+  {
+    "id": "mendel1866versuche",
+    "title": "Versuche über Pflanzen-Hybriden",
+    "authors": "Mendel G",
+    "year": 1866,
+    "venue": "Verhandlungen des naturforschenden Vereines in Brünn 4:3-47",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Pea-hybrid crossing experiments establishing that discrete hereditary factors segregate and assort independently, founding genetics.",
+    "builds_on": []
+  },
+  {
+    "id": "miescher1871ueber",
+    "title": "Ueber die chemische Zusammensetzung der Eiterzellen",
+    "authors": "Miescher F",
+    "year": 1871,
+    "venue": "Medicinisch-chemische Untersuchungen 4:441-460",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Isolated a phosphorus-rich, non-protein substance from leucocyte nuclei that he called nuclein, the first description of DNA as a chemical entity.",
+    "builds_on": []
+  },
+  {
+    "id": "sutton1903chromosomes",
+    "title": "The chromosomes in heredity",
+    "authors": "Sutton WS",
+    "year": 1903,
+    "venue": "Biological Bulletin 4:231-251",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Proposed that Mendelian hereditary factors reside on chromosomes, uniting cytology with genetics in the chromosome theory of inheritance.",
+    "builds_on": [
+      "mendel1866versuche"
+    ]
+  },
+  {
+    "id": "muller1927artificial",
+    "title": "Artificial transmutation of the gene",
+    "authors": "Muller HJ",
+    "year": 1927,
+    "venue": "Science 66:84-87",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Showed X-rays greatly increase mutation rate in Drosophila, proving genes are physical structures that can be altered experimentally.",
+    "builds_on": [
+      "morgan1910sexlimited"
+    ]
+  },
+  {
+    "id": "morgan1910sexlimited",
+    "title": "Sex limited inheritance in Drosophila",
+    "authors": "Morgan TH",
+    "year": 1910,
+    "venue": "Science 32:120-122",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "The white-eye mutant linked a specific trait to the X chromosome, giving the first direct experimental evidence that genes lie on chromosomes.",
+    "builds_on": [
+      "sutton1903chromosomes",
+      "mendel1866versuche"
+    ]
+  },
+  {
+    "id": "griffith1928significance",
+    "title": "The significance of pneumococcal types",
+    "authors": "Griffith F",
+    "year": 1928,
+    "venue": "Journal of Hygiene 27:113-159",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Discovered bacterial transformation: heat-killed virulent pneumococci conferred their type on live avirulent cells, implying a transmissible 'transforming principle'.",
+    "builds_on": [
+      "mendel1866versuche"
+    ]
+  },
+  {
+    "id": "beadle1941genetic",
+    "title": "Genetic control of biochemical reactions in Neurospora",
+    "authors": "Beadle GW, Tatum EL",
+    "year": 1941,
+    "venue": "PNAS 27:499-506",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Nutritional mutants of Neurospora established the one gene–one enzyme hypothesis, tying genes directly to specific biochemical steps.",
+    "builds_on": [
+      "morgan1910sexlimited",
+      "muller1927artificial"
+    ]
+  },
+  {
+    "id": "avery1944studies",
+    "title": "Studies on the chemical nature of the substance inducing transformation of pneumococcal types",
+    "authors": "Avery OT, MacLeod CM, McCarty M",
+    "year": 1944,
+    "venue": "Journal of Experimental Medicine 79:137-158",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Purified Griffith's transforming principle and identified it as DNA, the first strong evidence that DNA is the hereditary material.",
+    "builds_on": [
+      "griffith1928significance",
+      "miescher1871ueber"
+    ]
+  },
+  {
+    "id": "chargaff1950chemical",
+    "title": "Chemical specificity of nucleic acids and mechanism of their enzymatic degradation",
+    "authors": "Chargaff E",
+    "year": 1950,
+    "venue": "Experientia 6:201-209",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Established that in DNA adenine equals thymine and guanine equals cytosine while base composition varies between species, the key constraint behind base pairing.",
+    "builds_on": [
+      "avery1944studies"
+    ]
+  },
+  {
+    "id": "hershey1952independent",
+    "title": "Independent functions of viral protein and nucleic acid in growth of bacteriophage",
+    "authors": "Hershey AD, Chase M",
+    "year": 1952,
+    "venue": "Journal of General Physiology 36:39-56",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Radioisotope labelling of phage showed DNA, not protein, enters the host and carries genetic information, settling the question Avery had opened.",
+    "builds_on": [
+      "avery1944studies"
+    ]
+  },
+  {
+    "id": "franklin1953molecular",
+    "title": "Molecular configuration in sodium thymonucleate",
+    "authors": "Franklin R, Gosling RG",
+    "year": 1953,
+    "venue": "Nature 171:740-741",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "X-ray fibre diffraction of B-form DNA (including Photo 51) giving the helical parameters and phosphate-outside geometry that constrained the double helix.",
+    "builds_on": [
+      "chargaff1950chemical"
+    ]
+  },
+  {
+    "id": "watson1953molecular",
+    "title": "Molecular structure of nucleic acids: a structure for deoxyribose nucleic acid",
+    "authors": "Watson JD, Crick FHC",
+    "year": 1953,
+    "venue": "Nature 171:737-738",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "The antiparallel double helix with complementary A-T and G-C base pairs, immediately suggesting a copying mechanism for heredity.",
+    "builds_on": [
+      "franklin1953molecular",
+      "chargaff1950chemical",
+      "hershey1952independent"
+    ]
+  },
+  {
+    "id": "kornberg1956enzymatic",
+    "title": "Enzymatic synthesis of deoxyribonucleic acid",
+    "authors": "Kornberg A, Lehman IR, Bessman MJ, Simms ES",
+    "year": 1956,
+    "venue": "Biochimica et Biophysica Acta 21:197-198",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "First template-dependent enzymatic synthesis of DNA in vitro, the discovery of DNA polymerase and the start of in vitro nucleic acid biochemistry.",
+    "builds_on": [
+      "watson1953molecular"
+    ]
+  },
+  {
+    "id": "meselson1958replication",
+    "title": "The replication of DNA in Escherichia coli",
+    "authors": "Meselson M, Stahl FW",
+    "year": 1958,
+    "venue": "PNAS 44:671-682",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Density-gradient labelling showed DNA replicates semiconservatively, confirming the strand-separation prediction of the double helix.",
+    "builds_on": [
+      "watson1953molecular",
+      "kornberg1956enzymatic"
+    ]
+  },
+  {
+    "id": "crick1958protein",
+    "title": "On protein synthesis",
+    "authors": "Crick FHC",
+    "year": 1958,
+    "venue": "Symposia of the Society for Experimental Biology 12:138-163",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Set out the sequence hypothesis, the adaptor hypothesis and the central dogma of information flow from DNA to RNA to protein.",
+    "builds_on": [
+      "watson1953molecular",
+      "beadle1941genetic"
+    ]
+  },
+  {
+    "id": "brenner1961unstable",
+    "title": "An unstable intermediate carrying information from genes to ribosomes for protein synthesis",
+    "authors": "Brenner S, Jacob F, Meselson M",
+    "year": 1961,
+    "venue": "Nature 190:576-581",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Demonstrated a short-lived RNA messenger that carries genetic information to pre-existing ribosomes, establishing mRNA.",
+    "builds_on": [
+      "crick1958protein",
+      "meselson1958replication"
+    ]
+  },
+  {
+    "id": "jacob1961genetic",
+    "title": "Genetic regulatory mechanisms in the synthesis of proteins",
+    "authors": "Jacob F, Monod J",
+    "year": 1961,
+    "venue": "Journal of Molecular Biology 3:318-356",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "The operon model of coordinated gene regulation by repressors acting on operators, founding the study of gene expression control.",
+    "builds_on": [
+      "brenner1961unstable",
+      "beadle1941genetic"
+    ]
+  },
+  {
+    "id": "nirenberg1961dependence",
+    "title": "The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides",
+    "authors": "Nirenberg MW, Matthaei JH",
+    "year": 1961,
+    "venue": "PNAS 47:1588-1602",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Poly(U) directed synthesis of polyphenylalanine in a cell-free extract, cracking the first codon and opening the way to the genetic code.",
+    "builds_on": [
+      "crick1958protein",
+      "brenner1961unstable"
+    ]
+  },
+  {
+    "id": "crick1961general",
+    "title": "General nature of the genetic code for proteins",
+    "authors": "Crick FHC, Barnett L, Brenner S, Watts-Tobin RJ",
+    "year": 1961,
+    "venue": "Nature 192:1227-1232",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Frameshift mutant analysis in phage T4 showed the code is read in non-overlapping triplets from a fixed starting point.",
+    "builds_on": [
+      "crick1958protein",
+      "nirenberg1961dependence"
+    ]
+  },
+  {
+    "id": "nirenberg1964rna",
+    "title": "RNA codewords and protein synthesis: the effect of trinucleotides upon the binding of sRNA to ribosomes",
+    "authors": "Nirenberg M, Leder P",
+    "year": 1964,
+    "venue": "Science 145:1399-1407",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "The triplet-binding assay that allowed systematic assignment of codons and, with Khorana's synthetic polymers, completion of the genetic code.",
+    "builds_on": [
+      "nirenberg1961dependence",
+      "crick1961general"
+    ]
+  },
+  {
+    "id": "holley1965structure",
+    "title": "Structure of a ribonucleic acid",
+    "authors": "Holley RW, Apgar J, Everett GA, Madison JT, Marquisee M, Merrill SH, et al.",
+    "year": 1965,
+    "venue": "Science 147:1462-1465",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "First complete sequence of a nucleic acid, yeast alanine tRNA, identifying the adaptor molecule Crick had postulated.",
+    "builds_on": [
+      "crick1958protein",
+      "nirenberg1964rna"
+    ]
+  },
+  {
+    "id": "temin1970rna",
+    "title": "RNA-dependent DNA polymerase in virions of Rous sarcoma virus",
+    "authors": "Temin HM, Mizutani S",
+    "year": 1970,
+    "venue": "Nature 226:1211-1213",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Discovery of reverse transcriptase in an RNA tumour virus, showing information can flow from RNA back to DNA.",
+    "builds_on": [
+      "crick1958protein",
+      "kornberg1956enzymatic"
+    ]
+  },
+  {
+    "id": "baltimore1970rna",
+    "title": "RNA-dependent DNA polymerase in virions of RNA tumour viruses",
+    "authors": "Baltimore D",
+    "year": 1970,
+    "venue": "Nature 226:1209-1211",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Independent demonstration of reverse transcriptase, the enzyme that later made cDNA cloning and much of molecular biology possible.",
+    "builds_on": [
+      "crick1958protein",
+      "kornberg1956enzymatic"
+    ]
+  },
+  {
+    "id": "berget1977spliced",
+    "title": "Spliced segments at the 5' terminus of adenovirus 2 late mRNA",
+    "authors": "Berget SM, Moore C, Sharp PA",
+    "year": 1977,
+    "venue": "PNAS 74:3171-3175",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Foundations of molecular biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Showed mRNA is assembled from discontinuous genomic segments, revealing RNA splicing and introns in eukaryotic gene expression.",
+    "builds_on": [
+      "brenner1961unstable",
+      "baltimore1970rna"
+    ]
+  },
+  {
+    "id": "meselson1968restriction",
+    "title": "DNA restriction enzyme from E. coli",
+    "authors": "Meselson M, Yuan R",
+    "year": 1968,
+    "venue": "Nature 217:1110-1114",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Isolated the first restriction enzyme activity, giving biochemical substance to Arber's host-controlled restriction and modification.",
+    "builds_on": [
+      "kornberg1956enzymatic",
+      "hershey1952independent"
+    ]
+  },
+  {
+    "id": "smith1970restriction",
+    "title": "A restriction enzyme from Hemophilus influenzae. I. Purification and general properties",
+    "authors": "Smith HO, Wilcox KW",
+    "year": 1970,
+    "venue": "Journal of Biological Chemistry 245:5516-5521",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Purified HindII, the first sequence-specific restriction endonuclease, providing the molecular scissors that made DNA cloning possible.",
+    "builds_on": [
+      "meselson1968restriction"
+    ]
+  },
+  {
+    "id": "danna1971specific",
+    "title": "Specific cleavage of simian virus 40 DNA by restriction endonuclease of Hemophilus influenzae",
+    "authors": "Danna K, Nathans D",
+    "year": 1971,
+    "venue": "PNAS 68:2913-2917",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Used a restriction enzyme to cut a viral genome into defined fragments, producing the first physical restriction map of a DNA molecule.",
+    "builds_on": [
+      "smith1970restriction"
+    ]
+  },
+  {
+    "id": "weiss1967enzymatic",
+    "title": "Enzymatic breakage and joining of deoxyribonucleic acid, I. Repair of single-strand breaks in DNA by an enzyme from E. coli infected with T4 bacteriophage",
+    "authors": "Weiss B, Richardson CC",
+    "year": 1967,
+    "venue": "PNAS 57:1021-1028",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Characterised DNA ligase, the enzyme that seals DNA backbones and became the essential joining reagent of recombinant DNA work.",
+    "builds_on": [
+      "kornberg1956enzymatic"
+    ]
+  },
+  {
+    "id": "jackson1972biochemical",
+    "title": "Biochemical method for inserting new genetic information into DNA of simian virus 40: circular SV40 DNA molecules containing lambda phage genes and the galactose operon of Escherichia coli",
+    "authors": "Jackson DA, Symons RH, Berg P",
+    "year": 1972,
+    "venue": "PNAS 69:2904-2909",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "First construction of a recombinant DNA molecule in vitro, joining viral and bacterial DNA and creating the field of genetic engineering.",
+    "builds_on": [
+      "smith1970restriction",
+      "weiss1967enzymatic",
+      "danna1971specific"
+    ]
+  },
+  {
+    "id": "cohen1973construction",
+    "title": "Construction of biologically functional bacterial plasmids in vitro",
+    "authors": "Cohen SN, Chang AC, Boyer HW, Helling RB",
+    "year": 1973,
+    "venue": "PNAS 70:3240-3244",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Built recombinant plasmids that replicated and expressed their inserted genes in E. coli, making molecular cloning a practical, general technology.",
+    "builds_on": [
+      "jackson1972biochemical",
+      "smith1970restriction",
+      "weiss1967enzymatic"
+    ]
+  },
+  {
+    "id": "berg1975asilomar",
+    "title": "Summary statement of the Asilomar Conference on recombinant DNA molecules",
+    "authors": "Berg P, Baltimore D, Brenner S, Roblin RO, Singer MF",
+    "year": 1975,
+    "venue": "PNAS 72:1981-1984",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "milestone",
+    "importance": 3,
+    "summary": "The Asilomar consensus on containment-based self-governance of recombinant DNA research, the template for later biotechnology governance.",
+    "builds_on": [
+      "cohen1973construction",
+      "jackson1972biochemical"
+    ]
+  },
+  {
+    "id": "cohen1980process",
+    "title": "Process for producing biologically functional molecular chimeras (US Patent 4,237,224)",
+    "authors": "Cohen SN, Boyer HW",
+    "year": 1980,
+    "venue": "United States Patent and Trademark Office",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "patent",
+    "importance": 2,
+    "summary": "The Cohen-Boyer gene-splicing patent, licensed broadly to industry and the commercial foundation of the biotechnology sector.",
+    "builds_on": [
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "southern1975detection",
+    "title": "Detection of specific sequences among DNA fragments separated by gel electrophoresis",
+    "authors": "Southern EM",
+    "year": 1975,
+    "venue": "Journal of Molecular Biology 98:503-517",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "The Southern blot: transfer of electrophoresed DNA to a membrane and detection by hybridisation, the workhorse assay of early gene analysis.",
+    "builds_on": [
+      "danna1971specific",
+      "smith1970restriction"
+    ]
+  },
+  {
+    "id": "itakura1977expression",
+    "title": "Expression in Escherichia coli of a chemically synthesized gene for the hormone somatostatin",
+    "authors": "Itakura K, Hirose T, Crea R, Riggs AD, Heyneker HL, Bolivar F, et al.",
+    "year": 1977,
+    "venue": "Science 198:1056-1063",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "First bacterial expression of a chemically synthesised gene encoding a human peptide hormone, the proof of concept for recombinant pharmaceuticals.",
+    "builds_on": [
+      "cohen1973construction",
+      "jacob1961genetic"
+    ]
+  },
+  {
+    "id": "hutchison1978mutagenesis",
+    "title": "Mutagenesis at a specific position in a DNA sequence",
+    "authors": "Hutchison CA 3rd, Phillips S, Edgell MH, Gillam S, Jahnke P, Smith M",
+    "year": 1978,
+    "venue": "Journal of Biological Chemistry 253:6551-6560",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Used a synthetic mismatched oligonucleotide to introduce a predetermined point mutation, inventing oligonucleotide-directed site-specific mutagenesis.",
+    "builds_on": [
+      "cohen1973construction",
+      "sanger1977dna"
+    ]
+  },
+  {
+    "id": "saiki1985enzymatic",
+    "title": "Enzymatic amplification of beta-globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia",
+    "authors": "Saiki RK, Scharf S, Faloona F, Mullis KB, Horn GT, Erlich HA, et al.",
+    "year": 1985,
+    "venue": "Science 230:1350-1354",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "First published application of the polymerase chain reaction, amplifying a human gene segment for genetic diagnosis.",
+    "builds_on": [
+      "kornberg1956enzymatic",
+      "southern1975detection",
+      "hutchison1978mutagenesis"
+    ]
+  },
+  {
+    "id": "saiki1988primerdirected",
+    "title": "Primer-directed enzymatic amplification of DNA with a thermostable DNA polymerase",
+    "authors": "Saiki RK, Gelfand DH, Stoffel S, Scharf SJ, Higuchi R, Horn GT, et al.",
+    "year": 1988,
+    "venue": "Science 239:487-491",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Introduced Taq polymerase into PCR, giving specificity, long products and automation and turning PCR into universal laboratory infrastructure.",
+    "builds_on": [
+      "saiki1985enzymatic"
+    ]
+  },
+  {
+    "id": "chalfie1994green",
+    "title": "Green fluorescent protein as a marker for gene expression",
+    "authors": "Chalfie M, Tu Y, Euskirchen G, Ward WW, Prasher DC",
+    "year": 1994,
+    "venue": "Science 263:802-805",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Showed GFP fluoresces when expressed heterologously, creating a genetically encoded reporter that transformed cell and developmental biology.",
+    "builds_on": [
+      "cohen1973construction",
+      "itakura1977expression"
+    ]
+  },
+  {
+    "id": "gordon1980genetic",
+    "title": "Genetic transformation of mouse embryos by microinjection of purified DNA",
+    "authors": "Gordon JW, Scangos GA, Plotkin DJ, Barbosa JA, Ruddle FH",
+    "year": 1980,
+    "venue": "PNAS 77:7380-7384",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "First transgenic mice made by pronuclear microinjection, extending recombinant DNA from microbes to whole animals.",
+    "builds_on": [
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "palmiter1982dramatic",
+    "title": "Dramatic growth of mice that develop from eggs microinjected with metallothionein-growth hormone fusion genes",
+    "authors": "Palmiter RD, Brinster RL, Hammer RE, Trumbauer ME, Rosenfeld MG, Birnberg NC, et al.",
+    "year": 1982,
+    "venue": "Nature 300:611-615",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "A regulated transgene produced a dramatic whole-animal phenotype, establishing transgenic animals as tools for studying gene function and expression.",
+    "builds_on": [
+      "gordon1980genetic",
+      "jacob1961genetic"
+    ]
+  },
+  {
+    "id": "smithies1985insertion",
+    "title": "Insertion of DNA sequences into the human chromosomal beta-globin locus by homologous recombination",
+    "authors": "Smithies O, Gregg RG, Boggs SS, Koralewski MA, Kucherlapati RS",
+    "year": 1985,
+    "venue": "Nature 317:230-234",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Showed exogenous DNA can be targeted to a chosen chromosomal locus in mammalian cells by homologous recombination, the origin of gene targeting.",
+    "builds_on": [
+      "cohen1973construction",
+      "southern1975detection"
+    ]
+  },
+  {
+    "id": "thomas1987sitedirected",
+    "title": "Site-directed mutagenesis by gene targeting in mouse embryo-derived stem cells",
+    "authors": "Thomas KR, Capecchi MR",
+    "year": 1987,
+    "venue": "Cell 51:503-512",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Gene targeting in embryonic stem cells, the route to knockout mice and to systematic reverse genetics in mammals.",
+    "builds_on": [
+      "smithies1985insertion",
+      "palmiter1982dramatic",
+      "thomson1998embryonic"
+    ]
+  },
+  {
+    "id": "smith1985filamentous",
+    "title": "Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface",
+    "authors": "Smith GP",
+    "year": 1985,
+    "venue": "Science 228:1315-1317",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Invented phage display, physically linking a peptide to the gene encoding it so vast libraries can be selected by binding.",
+    "builds_on": [
+      "cohen1973construction",
+      "itakura1977expression"
+    ]
+  },
+  {
+    "id": "mccafferty1990phage",
+    "title": "Phage antibodies: filamentous phage displaying antibody variable domains",
+    "authors": "McCafferty J, Griffiths AD, Winter G, Chiswell DJ",
+    "year": 1990,
+    "venue": "Nature 348:552-554",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Displayed antibody fragments on phage, enabling fully in vitro selection of human antibodies and a generation of antibody drugs.",
+    "builds_on": [
+      "smith1985filamentous",
+      "kohler1975continuous"
+    ]
+  },
+  {
+    "id": "chen1993tuning",
+    "title": "Tuning the activity of an enzyme for unusual environments: sequential random mutagenesis of subtilisin E for catalysis in dimethylformamide",
+    "authors": "Chen K, Arnold FH",
+    "year": 1993,
+    "venue": "PNAS 90:5618-5622",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Iterated rounds of random mutagenesis and screening improved an enzyme far beyond rational design, establishing directed evolution of proteins.",
+    "builds_on": [
+      "hutchison1978mutagenesis",
+      "saiki1988primerdirected"
+    ]
+  },
+  {
+    "id": "stemmer1994rapid",
+    "title": "Rapid evolution of a protein in vitro by DNA shuffling",
+    "authors": "Stemmer WPC",
+    "year": 1994,
+    "venue": "Nature 370:389-391",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Recombinant DNA & core tools",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Added in vitro recombination to directed evolution, letting beneficial mutations from different variants be combined efficiently.",
+    "builds_on": [
+      "chen1993tuning",
+      "saiki1988primerdirected"
+    ]
+  },
+  {
+    "id": "rouet1994introduction",
+    "title": "Introduction of double-strand breaks into the genome of mouse cells by expression of a rare-cutting endonuclease",
+    "authors": "Rouet P, Smih F, Jasin M",
+    "year": 1994,
+    "venue": "Molecular and Cellular Biology 14:8096-8106",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Showed a targeted double-strand break made by a meganuclease greatly stimulates recombination at that site, the founding principle of nuclease-based genome editing.",
+    "builds_on": [
+      "smithies1985insertion",
+      "thomas1987sitedirected",
+      "smith1970restriction"
+    ]
+  },
+  {
+    "id": "kim1996hybrid",
+    "title": "Hybrid restriction enzymes: zinc finger fusions to Fok I cleavage domain",
+    "authors": "Kim YG, Cha J, Chandrasegaran S",
+    "year": 1996,
+    "venue": "PNAS 93:1156-1160",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Fused programmable zinc-finger DNA-binding domains to a nuclease domain, creating the first designer nucleases (ZFNs).",
+    "builds_on": [
+      "smith1970restriction",
+      "rouet1994introduction"
+    ]
+  },
+  {
+    "id": "urnov2005highly",
+    "title": "Highly efficient endogenous human gene correction using designed zinc-finger nucleases",
+    "authors": "Urnov FD, Miller JC, Lee YL, Beausejour CM, Rock JM, Augustus S, et al.",
+    "year": 2005,
+    "venue": "Nature 435:646-651",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Efficient correction of an endogenous human disease gene in cultured cells, showing therapeutic genome editing was feasible.",
+    "builds_on": [
+      "kim1996hybrid",
+      "rouet1994introduction"
+    ]
+  },
+  {
+    "id": "boch2009breaking",
+    "title": "Breaking the code of DNA binding specificity of TAL-type III effectors",
+    "authors": "Boch J, Scholze H, Schornack S, Landgraf A, Hahn S, Kay S, et al.",
+    "year": 2009,
+    "venue": "Science 326:1509-1512",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Independently cracked and experimentally validated the TAL effector recognition code, enabling custom DNA-binding protein design.",
+    "builds_on": [
+      "kim1996hybrid"
+    ]
+  },
+  {
+    "id": "miller2011tale",
+    "title": "A TALE nuclease architecture for efficient genome editing",
+    "authors": "Miller JC, Tan S, Qiao G, Barlow KA, Wang J, Xia DF, et al.",
+    "year": 2011,
+    "venue": "Nature Biotechnology 29:143-148",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Built TALE nucleases that edit endogenous human genes efficiently, giving an easier-to-design alternative to ZFNs.",
+    "builds_on": [
+      "boch2009breaking",
+      "kim1996hybrid",
+      "urnov2005highly"
+    ]
+  },
+  {
+    "id": "ishino1987nucleotide",
+    "title": "Nucleotide sequence of the iap gene, responsible for alkaline phosphatase isozyme conversion in Escherichia coli, and identification of the gene product",
+    "authors": "Ishino Y, Shinagawa H, Makino K, Amemura M, Nakata A",
+    "year": 1987,
+    "venue": "Journal of Bacteriology 169:5429-5433",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 1,
+    "summary": "Incidentally reported the first CRISPR array: an unexplained set of interspaced repeats downstream of the E. coli iap gene.",
+    "builds_on": [
+      "sanger1977dna"
+    ]
+  },
+  {
+    "id": "jansen2002identification",
+    "title": "Identification of genes that are associated with DNA repeats in prokaryotes",
+    "authors": "Jansen R, van Embden JDA, Gaastra W, Schouls LM",
+    "year": 2002,
+    "venue": "Molecular Microbiology 43:1565-1575",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Named CRISPR and the associated cas genes, recognising the repeat family as a coherent, widespread prokaryotic system.",
+    "builds_on": [
+      "ishino1987nucleotide"
+    ]
+  },
+  {
+    "id": "mojica2005intervening",
+    "title": "Intervening sequences of regularly spaced prokaryotic repeats derive from foreign genetic elements",
+    "authors": "Mojica FJM, Díez-Villaseñor C, García-Martínez J, Soria E",
+    "year": 2005,
+    "venue": "Journal of Molecular Evolution 60:174-182",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Found that CRISPR spacers match phage and plasmid sequences, and proposed CRISPR is a prokaryotic adaptive immune system.",
+    "builds_on": [
+      "jansen2002identification",
+      "ishino1987nucleotide"
+    ]
+  },
+  {
+    "id": "barrangou2007crispr",
+    "title": "CRISPR provides acquired resistance against viruses in prokaryotes",
+    "authors": "Barrangou R, Fremaux C, Deveau H, Richards M, Boyaval P, Moineau S, et al.",
+    "year": 2007,
+    "venue": "Science 315:1709-1712",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Experimental proof that spacer acquisition confers heritable, sequence-specific phage resistance requiring cas genes.",
+    "builds_on": [
+      "mojica2005intervening"
+    ]
+  },
+  {
+    "id": "brouns2008small",
+    "title": "Small CRISPR RNAs guide antiviral defense in prokaryotes",
+    "authors": "Brouns SJJ, Jore MM, Lundgren M, Westra ER, Slijkhuis RJH, Snijders APL, et al.",
+    "year": 2008,
+    "venue": "Science 321:960-964",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Showed CRISPR arrays are processed into small guide RNAs that direct Cas protein complexes to invader nucleic acid.",
+    "builds_on": [
+      "barrangou2007crispr"
+    ]
+  },
+  {
+    "id": "marraffini2008crispr",
+    "title": "CRISPR interference limits horizontal gene transfer in staphylococci by targeting DNA",
+    "authors": "Marraffini LA, Sontheimer EJ",
+    "year": 2008,
+    "venue": "Science 322:1843-1845",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Established that CRISPR systems target DNA rather than RNA, a prerequisite for using them as genome-editing tools.",
+    "builds_on": [
+      "barrangou2007crispr",
+      "brouns2008small"
+    ]
+  },
+  {
+    "id": "garneau2010crispr",
+    "title": "The CRISPR/Cas bacterial immune system cleaves bacteriophage and plasmid DNA",
+    "authors": "Garneau JE, Dupuis MÈ, Villion M, Romero DA, Barrangou R, Boyaval P, et al.",
+    "year": 2010,
+    "venue": "Nature 468:67-71",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Showed Cas9 introduces precise double-strand breaks in target DNA in vivo, identifying the enzyme later used for editing.",
+    "builds_on": [
+      "marraffini2008crispr",
+      "barrangou2007crispr"
+    ]
+  },
+  {
+    "id": "deltcheva2011crispr",
+    "title": "CRISPR RNA maturation by trans-encoded small RNA and host factor RNase III",
+    "authors": "Deltcheva E, Chylinski K, Sharma CM, Gonzales K, Chao Y, Pirzada ZA, et al.",
+    "year": 2011,
+    "venue": "Nature 471:602-607",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Discovered tracrRNA and its role in crRNA maturation, the missing component of the two-RNA Cas9 system.",
+    "builds_on": [
+      "garneau2010crispr",
+      "brouns2008small"
+    ]
+  },
+  {
+    "id": "jinek2012programmable",
+    "title": "A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity",
+    "authors": "Jinek M, Chylinski K, Fonfara I, Hauer M, Doudna JA, Charpentier E",
+    "year": 2012,
+    "venue": "Science 337:816-821",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Reconstituted Cas9 cleavage in vitro and showed a single chimeric guide RNA can be programmed to cut any chosen DNA sequence.",
+    "builds_on": [
+      "deltcheva2011crispr",
+      "garneau2010crispr",
+      "marraffini2008crispr"
+    ]
+  },
+  {
+    "id": "gasiunas2012cas9",
+    "title": "Cas9-crRNA ribonucleoprotein complex mediates specific DNA cleavage for adaptive immunity in bacteria",
+    "authors": "Gasiunas G, Barrangou R, Horvath P, Siksnys V",
+    "year": 2012,
+    "venue": "PNAS 109:E2579-E2586",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Independently reconstituted programmable Cas9-crRNA cleavage and defined the PAM requirement and cut-site geometry.",
+    "builds_on": [
+      "garneau2010crispr",
+      "marraffini2008crispr"
+    ]
+  },
+  {
+    "id": "cong2013multiplex",
+    "title": "Multiplex genome engineering using CRISPR/Cas systems",
+    "authors": "Cong L, Ran FA, Cox D, Lin S, Barretto R, Habib N, et al.",
+    "year": 2013,
+    "venue": "Science 339:819-823",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Engineered Cas9 for mammalian cells and showed efficient multiplexed editing of human and mouse genomes.",
+    "builds_on": [
+      "jinek2012programmable",
+      "miller2011tale",
+      "rouet1994introduction"
+    ]
+  },
+  {
+    "id": "mali2013rna",
+    "title": "RNA-guided human genome engineering via Cas9",
+    "authors": "Mali P, Yang L, Esvelt KM, Aach J, Guell M, DiCarlo JE, et al.",
+    "year": 2013,
+    "venue": "Science 339:823-826",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Demonstrated RNA-guided editing and homology-directed repair in human cells, including stem cells, with a simple guide-RNA toolkit.",
+    "builds_on": [
+      "jinek2012programmable",
+      "gasiunas2012cas9",
+      "miller2011tale"
+    ]
+  },
+  {
+    "id": "qi2013repurposing",
+    "title": "Repurposing CRISPR as an RNA-guided platform for sequence-specific control of gene expression",
+    "authors": "Qi LS, Larson MH, Gilbert LA, Doudna JA, Weissman JS, Arkin AP, et al.",
+    "year": 2013,
+    "venue": "Cell 152:1173-1183",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Catalytically dead Cas9 used as a programmable DNA-binding module (CRISPRi), separating targeting from cutting.",
+    "builds_on": [
+      "jinek2012programmable",
+      "mali2013rna",
+      "jacob1961genetic"
+    ]
+  },
+  {
+    "id": "shalem2014genomescale",
+    "title": "Genome-scale CRISPR-Cas9 knockout screening in human cells",
+    "authors": "Shalem O, Sanjana NE, Hartenian E, Shi X, Scott DA, Mikkelson T, et al.",
+    "year": 2014,
+    "venue": "Science 343:84-87",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Pooled genome-wide guide libraries turned editing into a forward-genetic screening platform in human cells.",
+    "builds_on": [
+      "cong2013multiplex",
+      "mali2013rna",
+      "fire1998potent"
+    ]
+  },
+  {
+    "id": "hilton2015epigenome",
+    "title": "Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers",
+    "authors": "Hilton IB, D'Ippolito AM, Vockley CM, Thakore PI, Crawford GE, Reddy TE, et al.",
+    "year": 2015,
+    "venue": "Nature Biotechnology 33:510-517",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Targeted a chromatin-modifying enzyme with dCas9 to switch on endogenous genes, founding programmable epigenome editing.",
+    "builds_on": [
+      "qi2013repurposing",
+      "mali2013rna"
+    ]
+  },
+  {
+    "id": "zetsche2015cpf1",
+    "title": "Cpf1 is a single RNA-guided endonuclease of a class 2 CRISPR-Cas system",
+    "authors": "Zetsche B, Gootenberg JS, Abudayyeh OO, Slaymaker IM, Makarova KS, Essletzbichler P, et al.",
+    "year": 2015,
+    "venue": "Cell 163:759-771",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Characterised Cas12a (Cpf1), a single-RNA-guided nuclease with a different PAM and staggered cuts, broadening the editing toolbox.",
+    "builds_on": [
+      "jinek2012programmable",
+      "cong2013multiplex"
+    ]
+  },
+  {
+    "id": "komor2016programmable",
+    "title": "Programmable editing of a target base in genomic DNA without double-stranded DNA cleavage",
+    "authors": "Komor AC, Kim YB, Packer MS, Zuris JA, Liu DR",
+    "year": 2016,
+    "venue": "Nature 533:420-424",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Fused a cytidine deaminase to dCas9 to convert C to T directly, inventing base editing without double-strand breaks.",
+    "builds_on": [
+      "qi2013repurposing",
+      "mali2013rna",
+      "cong2013multiplex"
+    ]
+  },
+  {
+    "id": "gaudelli2017programmable",
+    "title": "Programmable base editing of A·T to G·C in genomic DNA without DNA cleavage",
+    "authors": "Gaudelli NM, Komor AC, Rees HA, Packer MS, Badran AH, Bryson DI, et al.",
+    "year": 2017,
+    "venue": "Nature 551:464-471",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Evolved an adenine deaminase that does not exist in nature to make A-to-G base editors, covering the most common pathogenic point mutations.",
+    "builds_on": [
+      "komor2016programmable",
+      "esvelt2011system"
+    ]
+  },
+  {
+    "id": "abudayyeh2017rna",
+    "title": "RNA targeting with CRISPR-Cas13a",
+    "authors": "Abudayyeh OO, Gootenberg JS, Essletzbichler P, Han S, Joung J, Belanto JJ, et al.",
+    "year": 2017,
+    "venue": "Nature 550:280-284",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Used Cas13 for programmable knockdown and editing of RNA in mammalian cells, extending CRISPR beyond DNA.",
+    "builds_on": [
+      "zetsche2015cpf1",
+      "fire1998potent"
+    ]
+  },
+  {
+    "id": "anzalone2019search",
+    "title": "Search-and-replace genome editing without double-strand breaks or donor DNA",
+    "authors": "Anzalone AV, Randolph PB, Davis JR, Sousa AA, Koblan LW, Levy JM, et al.",
+    "year": 2019,
+    "venue": "Nature 576:149-157",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Prime editing: a Cas9 nickase fused to reverse transcriptase writes new sequence from an extended guide RNA, enabling insertions, deletions and all base changes.",
+    "builds_on": [
+      "komor2016programmable",
+      "gaudelli2017programmable",
+      "baltimore1970rna"
+    ]
+  },
+  {
+    "id": "frangoul2021crispr",
+    "title": "CRISPR-Cas9 gene editing for sickle cell disease and β-thalassemia",
+    "authors": "Frangoul H, Altshuler D, Cappellini MD, Chen YS, Domm J, Eustace BK, et al.",
+    "year": 2021,
+    "venue": "New England Journal of Medicine 384:252-260",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Ex vivo CRISPR editing of BCL11A in patient stem cells produced transfusion independence and freedom from crises, the first clear clinical cures by genome editing.",
+    "builds_on": [
+      "cong2013multiplex",
+      "mali2013rna",
+      "thomas1987sitedirected"
+    ]
+  },
+  {
+    "id": "gillmore2021crispr",
+    "title": "CRISPR-Cas9 in vivo gene editing for transthyretin amyloidosis",
+    "authors": "Gillmore JD, Gane E, Taubel J, Kao J, Fontana M, Maitland ML, et al.",
+    "year": 2021,
+    "venue": "New England Journal of Medicine 385:493-502",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 2,
+    "summary": "First demonstration that lipid-nanoparticle-delivered CRISPR can knock out a disease gene in the human liver in vivo.",
+    "builds_on": [
+      "cong2013multiplex",
+      "jinek2012programmable",
+      "kariko2005suppression"
+    ]
+  },
+  {
+    "id": "fda2023casgevy",
+    "title": "Approval of exagamglogene autotemcel (Casgevy), the first CRISPR-based therapy",
+    "authors": "US Food and Drug Administration",
+    "year": 2023,
+    "venue": "FDA Center for Biologics Evaluation and Research approval announcement",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "milestone",
+    "importance": 3,
+    "summary": "Regulatory approval of a CRISPR-edited cell therapy for sickle cell disease, eleven years after the Cas9 programmability papers.",
+    "builds_on": [
+      "frangoul2021crispr",
+      "jinek2012programmable"
+    ]
+  },
+  {
+    "id": "durrant2024bridge",
+    "title": "Bridge RNAs direct programmable recombination of target and donor DNA",
+    "authors": "Durrant MG, Perry NT, Pai JJ, Jangid AR, Athukoralage JS, Hiraizumi M, et al.",
+    "year": 2024,
+    "venue": "Nature 630:984-993",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "paper",
+    "importance": 3,
+    "summary": "IS110 insertion sequences use a bicistronic bridge RNA specifying both target and donor, giving a programmable recombinase that inserts, inverts and excises DNA.",
+    "builds_on": [
+      "anzalone2019search",
+      "komor2016programmable",
+      "jinek2012programmable"
+    ]
+  },
+  {
+    "id": "musunuru2025patientspecific",
+    "title": "Patient-specific in vivo gene editing to treat a rare genetic disease",
+    "authors": "Musunuru K, Grandinette SA, Wang X, Hudson TR, Briseno K, Berry AM, et al.",
+    "year": 2025,
+    "venue": "New England Journal of Medicine",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Genome editing",
+    "type": "milestone",
+    "importance": 2,
+    "summary": "A bespoke in vivo base-editing therapy designed and dosed for one infant with CPS1 deficiency, the first personalised genome-editing medicine.",
+    "builds_on": [
+      "gaudelli2017programmable",
+      "gillmore2021crispr",
+      "komor2016programmable"
+    ]
+  },
+  {
+    "id": "gardner2000construction",
+    "title": "Construction of a genetic toggle switch in Escherichia coli",
+    "authors": "Gardner TS, Cantor CR, Collins JJ",
+    "year": 2000,
+    "venue": "Nature 403:339-342",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Built a bistable genetic switch from mutually repressing promoters, the first designed, model-driven synthetic gene circuit.",
+    "builds_on": [
+      "jacob1961genetic",
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "elowitz2000synthetic",
+    "title": "A synthetic oscillatory network of transcriptional regulators",
+    "authors": "Elowitz MB, Leibler S",
+    "year": 2000,
+    "venue": "Nature 403:335-338",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "The repressilator, a three-repressor ring that oscillates in single cells, showing that dynamic behaviour can be designed from parts.",
+    "builds_on": [
+      "jacob1961genetic",
+      "chalfie1994green"
+    ]
+  },
+  {
+    "id": "knight2003idempotent",
+    "title": "Idempotent vector design for standard assembly of BioBricks",
+    "authors": "Knight TF",
+    "year": 2003,
+    "venue": "MIT Synthetic Biology Working Group Technical Report",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "milestone",
+    "importance": 2,
+    "summary": "Defined the BioBrick standard prefix/suffix assembly scheme, introducing interchangeable parts and engineering abstraction to biology.",
+    "builds_on": [
+      "cohen1973construction",
+      "gardner2000construction"
+    ]
+  },
+  {
+    "id": "ro2006production",
+    "title": "Production of the antimalarial drug precursor artemisinic acid in engineered yeast",
+    "authors": "Ro DK, Paradise EM, Ouellet M, Fisher KJ, Newman KL, Ndungu JM, et al.",
+    "year": 2006,
+    "venue": "Nature 440:940-943",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Rebuilt a plant terpenoid pathway in yeast to make artemisinic acid, the landmark demonstration of metabolic engineering for a drug.",
+    "builds_on": [
+      "cohen1973construction",
+      "gardner2000construction",
+      "itakura1977expression"
+    ]
+  },
+  {
+    "id": "paddon2013highlevel",
+    "title": "High-level semi-synthetic production of the potent antimalarial artemisinin",
+    "authors": "Paddon CJ, Westfall PJ, Pitera DJ, Benjamin K, Fisher K, McPhee D, et al.",
+    "year": 2013,
+    "venue": "Nature 496:528-532",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Scaled engineered yeast plus chemical conversion to industrial semi-synthetic artemisinin, the first commercial synthetic-biology drug supply.",
+    "builds_on": [
+      "ro2006production"
+    ]
+  },
+  {
+    "id": "gibson2009enzymatic",
+    "title": "Enzymatic assembly of DNA molecules up to several hundred kilobases",
+    "authors": "Gibson DG, Young L, Chuang RY, Venter JC, Hutchison CA 3rd, Smith HO",
+    "year": 2009,
+    "venue": "Nature Methods 6:343-345",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Gibson assembly: isothermal, scarless one-pot joining of overlapping DNA fragments, now the default method for building large constructs.",
+    "builds_on": [
+      "weiss1967enzymatic",
+      "kornberg1956enzymatic",
+      "knight2003idempotent"
+    ]
+  },
+  {
+    "id": "gibson2010creation",
+    "title": "Creation of a bacterial cell controlled by a chemically synthesized genome",
+    "authors": "Gibson DG, Glass JI, Lartigue C, Noskov VN, Chuang RY, Algire MA, et al.",
+    "year": 2010,
+    "venue": "Science 329:52-56",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "JCVI-syn1.0: a 1.08 Mb chemically synthesised Mycoplasma genome transplanted into a recipient cell that then self-replicated, the first synthetic-genome organism.",
+    "builds_on": [
+      "gibson2009enzymatic",
+      "sanger1977dna",
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "hutchison2016design",
+    "title": "Design and synthesis of a minimal bacterial genome",
+    "authors": "Hutchison CA 3rd, Chuang RY, Noskov VN, Assad-Garcia N, Deerinck TJ, Ellisman MH, et al.",
+    "year": 2016,
+    "venue": "Science 351:aad6253",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "JCVI-syn3.0, a 531 kb designed genome with 473 genes, defining a near-minimal self-replicating cell and exposing many genes of unknown function.",
+    "builds_on": [
+      "gibson2010creation",
+      "gibson2009enzymatic"
+    ]
+  },
+  {
+    "id": "annaluru2014total",
+    "title": "Total synthesis of a functional designer eukaryotic chromosome",
+    "authors": "Annaluru N, Muller H, Mitchell LA, Ramalingam S, Stracquadanio G, Richardson SM, et al.",
+    "year": 2014,
+    "venue": "Science 344:55-58",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "synIII, the first synthetic eukaryotic chromosome, redesigned with loxPsym sites for inducible genome scrambling and functional in yeast.",
+    "builds_on": [
+      "gibson2010creation",
+      "gibson2009enzymatic"
+    ]
+  },
+  {
+    "id": "wang2009programming",
+    "title": "Programming cells by multiplex genome engineering and accelerated evolution",
+    "authors": "Wang HH, Isaacs FJ, Carr PA, Sun ZZ, Xu G, Forest CR, et al.",
+    "year": 2009,
+    "venue": "Nature 460:894-898",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "MAGE used pools of oligonucleotides to edit many genomic sites simultaneously and iteratively, enabling combinatorial genome-scale optimisation.",
+    "builds_on": [
+      "hutchison1978mutagenesis",
+      "smithies1985insertion",
+      "chen1993tuning"
+    ]
+  },
+  {
+    "id": "noren1989general",
+    "title": "A general method for site-specific incorporation of unnatural amino acids into proteins",
+    "authors": "Noren CJ, Anthony-Cahill SJ, Griffith MC, Schultz PG",
+    "year": 1989,
+    "venue": "Science 244:182-188",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Chemically acylated suppressor tRNA allowed non-natural amino acids to be read into proteins in vitro, the start of genetic code expansion.",
+    "builds_on": [
+      "holley1965structure",
+      "nirenberg1964rna",
+      "hutchison1978mutagenesis"
+    ]
+  },
+  {
+    "id": "wang2001expanding",
+    "title": "Expanding the genetic code of Escherichia coli",
+    "authors": "Wang L, Brock A, Herrick B, Schultz PG",
+    "year": 2001,
+    "venue": "Science 292:498-500",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "An orthogonal tRNA/synthetase pair let living bacteria incorporate an unnatural amino acid in response to a reassigned codon.",
+    "builds_on": [
+      "noren1989general",
+      "nirenberg1964rna"
+    ]
+  },
+  {
+    "id": "malyshev2014semisynthetic",
+    "title": "A semi-synthetic organism with an expanded genetic alphabet",
+    "authors": "Malyshev DA, Dhami K, Lavergne T, Chen T, Dai N, Foster JM, et al.",
+    "year": 2014,
+    "venue": "Nature 509:385-388",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "A bacterium stably propagated a third, unnatural base pair in its DNA, extending the chemical alphabet of heredity.",
+    "builds_on": [
+      "watson1953molecular",
+      "wang2001expanding"
+    ]
+  },
+  {
+    "id": "fredens2019total",
+    "title": "Total synthesis of Escherichia coli with a recoded genome",
+    "authors": "Fredens J, Wang K, de la Torre D, Funke LFH, Robertson WE, Christova Y, et al.",
+    "year": 2019,
+    "venue": "Nature 569:514-518",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Syn61: a 4 Mb synthetic E. coli genome using 61 rather than 64 codons, freeing codons for genetic code expansion and virus resistance.",
+    "builds_on": [
+      "gibson2010creation",
+      "wang2001expanding",
+      "wang2009programming"
+    ]
+  },
+  {
+    "id": "esvelt2011system",
+    "title": "A system for the continuous directed evolution of biomolecules",
+    "authors": "Esvelt KM, Carlson JC, Liu DR",
+    "year": 2011,
+    "venue": "Nature 472:499-503",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Phage-assisted continuous evolution (PACE) links a desired activity to phage propagation, running hundreds of evolution rounds per week.",
+    "builds_on": [
+      "chen1993tuning",
+      "stemmer1994rapid",
+      "smith1985filamentous"
+    ]
+  },
+  {
+    "id": "galanie2015complete",
+    "title": "Complete biosynthesis of opioids in yeast",
+    "authors": "Galanie S, Thodey K, Trenchard IJ, Filsinger Interrante M, Smolke CD",
+    "year": 2015,
+    "venue": "Science 349:1095-1100",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Reconstituted more than twenty plant, mammalian and microbial enzymes in yeast to make opioids from sugar, a benchmark in long-pathway engineering and its governance.",
+    "builds_on": [
+      "ro2006production",
+      "paddon2013highlevel"
+    ]
+  },
+  {
+    "id": "pardee2016rapid",
+    "title": "Rapid, low-cost detection of Zika virus using programmable biomolecular components",
+    "authors": "Pardee K, Green AA, Takahashi MK, Braff D, Lambert G, Lee JW, et al.",
+    "year": 2016,
+    "venue": "Cell 165:1255-1266",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Freeze-dried cell-free gene circuits on paper gave programmable, field-deployable diagnostics, bringing synthetic biology out of the cell.",
+    "builds_on": [
+      "nirenberg1961dependence",
+      "gardner2000construction",
+      "saiki1988primerdirected"
+    ]
+  },
+  {
+    "id": "gootenberg2017nucleic",
+    "title": "Nucleic acid detection with CRISPR-Cas13a/C2c2",
+    "authors": "Gootenberg JS, Abudayyeh OO, Lee JW, Essletzbichler P, Dy AJ, Joung J, et al.",
+    "year": 2017,
+    "venue": "Science 356:438-442",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "SHERLOCK coupled Cas13 collateral cleavage to isothermal amplification for attomolar nucleic acid detection, later used for SARS-CoV-2 tests.",
+    "builds_on": [
+      "abudayyeh2017rna",
+      "pardee2016rapid",
+      "saiki1988primerdirected"
+    ]
+  },
+  {
+    "id": "esvelt2014concerning",
+    "title": "Concerning RNA-guided gene drives for the alteration of wild populations",
+    "authors": "Esvelt KM, Smidler AL, Catteruccia F, Church GM",
+    "year": 2014,
+    "venue": "eLife 3:e03401",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Proposed CRISPR-based gene drives that spread through wild populations, together with containment strategies and a call for public deliberation.",
+    "builds_on": [
+      "mali2013rna",
+      "cong2013multiplex"
+    ]
+  },
+  {
+    "id": "kyrou2018crispr",
+    "title": "A CRISPR-Cas9 gene drive targeting doublesex causes complete population suppression in caged Anopheles gambiae mosquitoes",
+    "authors": "Kyrou K, Hammond AM, Galizi R, Kranjc N, Burt A, Beaghton AK, et al.",
+    "year": 2018,
+    "venue": "Nature Biotechnology 36:1062-1066",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Synthetic biology",
+    "type": "paper",
+    "importance": 2,
+    "summary": "A drive targeting a conserved sex-determination gene collapsed caged malaria-mosquito populations without resistance arising, the strongest suppression-drive result to date.",
+    "builds_on": [
+      "esvelt2014concerning",
+      "cong2013multiplex"
+    ]
+  },
+  {
+    "id": "chilton1977stable",
+    "title": "Stable incorporation of plasmid DNA into higher plant cells: the molecular basis of crown gall tumorigenesis",
+    "authors": "Chilton MD, Drummond MH, Merlo DJ, Sciaky D, Montoya AL, Gordon MP, et al.",
+    "year": 1977,
+    "venue": "Cell 11:263-271",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Showed Agrobacterium transfers Ti-plasmid DNA into the plant genome, revealing nature's own plant transformation vector.",
+    "builds_on": [
+      "cohen1973construction",
+      "southern1975detection"
+    ]
+  },
+  {
+    "id": "herreraestrella1983expression",
+    "title": "Expression of chimaeric genes transferred into plant nuclei using a Ti-plasmid-derived vector",
+    "authors": "Herrera-Estrella L, Depicker A, Van Montagu M, Schell J",
+    "year": 1983,
+    "venue": "Nature 303:209-213",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Disarmed Ti plasmids delivered and expressed a selectable chimaeric gene in plant nuclei, creating the first transgenic plants.",
+    "builds_on": [
+      "chilton1977stable",
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "horsch1985simple",
+    "title": "A simple and general method for transferring genes into plants",
+    "authors": "Horsch RB, Fry JE, Hoffmann NL, Eichholtz D, Rogers SG, Fraley RT",
+    "year": 1985,
+    "venue": "Science 227:1229-1231",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "The leaf-disc transformation protocol that made routine production of transgenic plants practical for laboratories everywhere.",
+    "builds_on": [
+      "chilton1977stable",
+      "cohen1973construction",
+      "herreraestrella1983expression"
+    ]
+  },
+  {
+    "id": "klein1987highvelocity",
+    "title": "High-velocity microprojectiles for delivering nucleic acids into living cells",
+    "authors": "Klein TM, Wolf ED, Wu R, Sanford JC",
+    "year": 1987,
+    "venue": "Nature 327:70-73",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "The gene gun delivered DNA into cells physically, opening transformation of cereals and organelles that Agrobacterium could not reach.",
+    "builds_on": [
+      "herreraestrella1983expression",
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "shah1986engineering",
+    "title": "Engineering herbicide tolerance in transgenic plants",
+    "authors": "Shah DM, Horsch RB, Klee HJ, Kishore GM, Winter JA, Tumer NE, et al.",
+    "year": 1986,
+    "venue": "Science 233:478-481",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Overexpression of an EPSP synthase gene gave glyphosate tolerance, the research line that became Roundup Ready crops.",
+    "builds_on": [
+      "horsch1985simple",
+      "chilton1977stable",
+      "cohen1973construction"
+    ]
+  },
+  {
+    "id": "vaeck1987transgenic",
+    "title": "Transgenic plants protected from insect attack",
+    "authors": "Vaeck M, Reynaerts A, Höfte H, Jansens S, De Beuckeleer M, Dean C, et al.",
+    "year": 1987,
+    "venue": "Nature 328:33-37",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Expressed a Bacillus thuringiensis toxin gene in tobacco to kill feeding larvae, the origin of Bt insect-resistant crops.",
+    "builds_on": [
+      "horsch1985simple",
+      "herreraestrella1983expression"
+    ]
+  },
+  {
+    "id": "sheehy1988reduction",
+    "title": "Reduction of polygalacturonase activity in tomato fruit by antisense RNA",
+    "authors": "Sheehy RE, Kramer M, Hiatt WR",
+    "year": 1988,
+    "venue": "PNAS 85:8805-8809",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Antisense suppression of a ripening enzyme slowed tomato softening, the science behind the Flavr Savr tomato.",
+    "builds_on": [
+      "horsch1985simple",
+      "fire1998potent"
+    ]
+  },
+  {
+    "id": "fda1994flavrsavr",
+    "title": "FDA clearance of the Flavr Savr tomato, the first genetically engineered whole food",
+    "authors": "US Food and Drug Administration",
+    "year": 1994,
+    "venue": "US Food and Drug Administration decision; Calgene Inc.",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "milestone",
+    "importance": 2,
+    "summary": "First regulatory clearance of a transgenic food crop for sale, setting the precedent for GM food review in the United States.",
+    "builds_on": [
+      "sheehy1988reduction",
+      "berg1975asilomar"
+    ]
+  },
+  {
+    "id": "ye2000engineering",
+    "title": "Engineering the provitamin A (beta-carotene) biosynthetic pathway into (carotenoid-free) rice endosperm",
+    "authors": "Ye X, Al-Babili S, Klöti A, Zhang J, Lucca P, Beyer P, et al.",
+    "year": 2000,
+    "venue": "Science 287:303-305",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 3,
+    "summary": "Golden Rice: a multi-gene carotenoid pathway installed in rice endosperm, the flagship nutritional-biofortification transgenic crop.",
+    "builds_on": [
+      "horsch1985simple",
+      "vaeck1987transgenic",
+      "ro2006production"
+    ]
+  },
+  {
+    "id": "savile2010biocatalytic",
+    "title": "Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture",
+    "authors": "Savile CK, Janey JM, Mundorff EC, Moore JC, Tam S, Jarvis WR, et al.",
+    "year": 2010,
+    "venue": "Science 329:305-309",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "A transaminase evolved far beyond its natural substrate range replaced a metal-catalysed step in a commercial drug process, the showcase of industrial directed evolution.",
+    "builds_on": [
+      "chen1993tuning",
+      "stemmer1994rapid"
+    ]
+  },
+  {
+    "id": "shukla2009precise",
+    "title": "Precise genome modification in the crop species Zea mays using zinc-finger nucleases",
+    "authors": "Shukla VK, Doyon Y, Miller JC, DeKelver RC, Moehle EA, Worden SE, et al.",
+    "year": 2009,
+    "venue": "Nature 459:437-441",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Brought designer-nuclease editing to a major crop, adding targeted trait insertion to random transgene integration.",
+    "builds_on": [
+      "urnov2005highly",
+      "klein1987highvelocity",
+      "kim1996hybrid"
+    ]
+  },
+  {
+    "id": "li2012highefficiency",
+    "title": "High-efficiency TALEN-based gene editing produces disease-resistant rice",
+    "authors": "Li T, Liu B, Spalding MH, Weeks DP, Yang B",
+    "year": 2012,
+    "venue": "Nature Biotechnology 30:390-392",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "TALEN editing of a bacterial-blight susceptibility gene gave disease-resistant rice, an early transgene-free edited crop trait.",
+    "builds_on": [
+      "miller2011tale",
+      "shukla2009precise",
+      "boch2009breaking"
+    ]
+  },
+  {
+    "id": "shan2013targeted",
+    "title": "Targeted genome modification of crops using CRISPR/Cas systems",
+    "authors": "Shan Q, Wang Y, Li J, Zhang Y, Chen K, Liang Z, et al.",
+    "year": 2013,
+    "venue": "Nature Biotechnology 31:686-688",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 3,
+    "summary": "First CRISPR editing in crop plants (rice and wheat), which rapidly became the standard method of plant breeding research.",
+    "builds_on": [
+      "cong2013multiplex",
+      "mali2013rna",
+      "li2012highefficiency"
+    ]
+  },
+  {
+    "id": "zsogon2018domestication",
+    "title": "De novo domestication of wild tomato using genome editing",
+    "authors": "Zsögön A, Čermák T, Naves ER, Notini MM, Edel KH, Weinl S, et al.",
+    "year": 2018,
+    "venue": "Nature Biotechnology 36:1211-1216",
+    "domain": "bio",
+    "field": "Molecular Biology & Genetic Engineering",
+    "subfield": "Agricultural & industrial biotech",
+    "type": "paper",
+    "importance": 2,
+    "summary": "Edited a handful of known domestication genes in a wild tomato to recreate crop traits directly, proposing de novo domestication as a breeding strategy.",
+    "builds_on": [
+      "shan2013targeted",
+      "cong2013multiplex"
+    ]
+  }
+]

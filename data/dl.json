@@ -1,0 +1,1905 @@
+[
+ {
+  "id": "mcculloch1943logical",
+  "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+  "authors": "McCulloch WS, Pitts W",
+  "year": 1943,
+  "venue": "Bulletin of Mathematical Biophysics 5:115-133",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Modeled neurons as binary threshold logic units and showed networks of them can compute logical functions, founding the theory of artificial neural networks.",
+  "builds_on": [],
+  "doi": "10.1007/BF02478259"
+ },
+ {
+  "id": "wiener1948cybernetics",
+  "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+  "authors": "Wiener N",
+  "year": 1948,
+  "venue": "MIT Press / Wiley",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "book",
+  "importance": 2,
+  "summary": "Founded cybernetics, framing feedback, control and information processing as common principles of animals and machines and shaping early neural-network research.",
+  "builds_on": [
+   "mcculloch1943logical"
+  ]
+ },
+ {
+  "id": "hebb1949organization",
+  "title": "The Organization of Behavior: A Neuropsychological Theory",
+  "authors": "Hebb DO",
+  "year": 1949,
+  "venue": "Wiley",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "book",
+  "importance": 3,
+  "summary": "Proposed that synapses strengthen when pre- and post-synaptic neurons fire together (Hebbian learning), the first influential learning rule for neural networks.",
+  "builds_on": [
+   "mcculloch1943logical"
+  ]
+ },
+ {
+  "id": "rosenblatt1958perceptron",
+  "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+  "authors": "Rosenblatt F",
+  "year": 1958,
+  "venue": "Psychological Review 65(6):386-408",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the perceptron, a trainable threshold unit with an error-correcting learning rule and convergence guarantees for linearly separable data.",
+  "builds_on": [
+   "mcculloch1943logical",
+   "hebb1949organization"
+  ],
+  "doi": "10.1037/h0042519"
+ },
+ {
+  "id": "widrow1960adaptive",
+  "title": "Adaptive Switching Circuits",
+  "authors": "Widrow B, Hoff ME",
+  "year": 1960,
+  "venue": "IRE WESCON Convention Record 1960",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced ADALINE and the least-mean-squares (delta) rule, gradient descent on a squared error that prefigures modern training.",
+  "builds_on": [
+   "rosenblatt1958perceptron"
+  ]
+ },
+ {
+  "id": "minsky1969perceptrons",
+  "title": "Perceptrons: An Introduction to Computational Geometry",
+  "authors": "Minsky M, Papert S",
+  "year": 1969,
+  "venue": "MIT Press",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "book",
+  "importance": 3,
+  "summary": "Rigorously analyzed the limits of single-layer perceptrons (e.g., parity, XOR, connectedness), contributing to a long decline in neural-network funding.",
+  "builds_on": [
+   "rosenblatt1958perceptron"
+  ]
+ },
+ {
+  "id": "hopfield1982neural",
+  "title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+  "authors": "Hopfield JJ",
+  "year": 1982,
+  "venue": "PNAS 79(8):2554-2558",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced Hopfield networks: recurrent networks with an energy function that act as content-addressable memories, linking neural computation to statistical physics.",
+  "builds_on": [
+   "hebb1949organization",
+   "mcculloch1943logical"
+  ],
+  "doi": "10.1073/pnas.79.8.2554"
+ },
+ {
+  "id": "ackley1985learning",
+  "title": "A Learning Algorithm for Boltzmann Machines",
+  "authors": "Ackley DH, Hinton GE, Sejnowski TJ",
+  "year": 1985,
+  "venue": "Cognitive Science 9(1):147-169",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced Boltzmann machines, stochastic networks with hidden units trained by a local learning rule, an early probabilistic generative neural model.",
+  "builds_on": [
+   "hopfield1982neural"
+  ]
+ },
+ {
+  "id": "hopfield2024nobel",
+  "title": "Nobel Prize in Physics 2024: for foundational discoveries and inventions that enable machine learning with artificial neural networks",
+  "authors": "Hopfield JJ, Hinton GE",
+  "year": 2024,
+  "venue": "Royal Swedish Academy of Sciences",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Early neural networks",
+  "type": "milestone",
+  "importance": 2,
+  "summary": "The physics Nobel recognized Hopfield networks and Boltzmann machines as foundations of modern machine learning.",
+  "builds_on": [
+   "hopfield1982neural",
+   "ackley1985learning"
+  ]
+ },
+ {
+  "id": "robbins1951stochastic",
+  "title": "A Stochastic Approximation Method",
+  "authors": "Robbins H, Monro S",
+  "year": 1951,
+  "venue": "Annals of Mathematical Statistics 22(3):400-407",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced stochastic approximation, the mathematical basis of stochastic gradient descent used to train virtually all neural networks.",
+  "builds_on": []
+ },
+ {
+  "id": "linnainmaa1970representation",
+  "title": "The Representation of the Cumulative Rounding Error of an Algorithm as a Taylor Expansion of the Local Rounding Errors",
+  "authors": "Linnainmaa S",
+  "year": 1970,
+  "venue": "Master's thesis, University of Helsinki",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "First description of reverse-mode automatic differentiation, the general algorithm underlying backpropagation.",
+  "builds_on": []
+ },
+ {
+  "id": "werbos1974beyond",
+  "title": "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences",
+  "authors": "Werbos PJ",
+  "year": 1974,
+  "venue": "PhD thesis, Harvard University",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Proposed applying reverse-mode gradient computation to train multilayer neural networks, an early formulation of backpropagation.",
+  "builds_on": [
+   "linnainmaa1970representation"
+  ]
+ },
+ {
+  "id": "rumelhart1986learning",
+  "title": "Learning Representations by Back-Propagating Errors",
+  "authors": "Rumelhart DE, Hinton GE, Williams RJ",
+  "year": 1986,
+  "venue": "Nature 323:533-536",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Demonstrated that backpropagation trains multilayer networks to learn useful internal representations, overcoming perceptron limitations and reviving the field.",
+  "builds_on": [
+   "werbos1974beyond",
+   "linnainmaa1970representation",
+   "minsky1969perceptrons",
+   "widrow1960adaptive"
+  ],
+  "doi": "10.1038/323533a0"
+ },
+ {
+  "id": "bengio1994learning",
+  "title": "Learning Long-Term Dependencies with Gradient Descent is Difficult",
+  "authors": "Bengio Y, Simard P, Frasconi P",
+  "year": 1994,
+  "venue": "IEEE Transactions on Neural Networks 5(2):157-166",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Analyzed vanishing and exploding gradients in recurrent networks, explaining why long-range dependencies are hard to learn.",
+  "builds_on": [
+   "rumelhart1986learning",
+   "elman1990finding"
+  ]
+ },
+ {
+  "id": "lecun1998efficient",
+  "title": "Efficient BackProp",
+  "authors": "LeCun Y, Bottou L, Orr GB, Müller KR",
+  "year": 1998,
+  "venue": "Neural Networks: Tricks of the Trade, Springer LNCS 1524",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Collected practical recipes for training networks: input normalization, weight initialization, sigmoid choice and learning-rate selection.",
+  "builds_on": [
+   "rumelhart1986learning",
+   "lecun1989backpropagation"
+  ]
+ },
+ {
+  "id": "glorot2010understanding",
+  "title": "Understanding the Difficulty of Training Deep Feedforward Neural Networks",
+  "authors": "Glorot X, Bengio Y",
+  "year": 2010,
+  "venue": "AISTATS 2010, PMLR 9:249-256",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Studied activation and gradient statistics in deep nets and proposed normalized (Xavier) initialization, enabling deep training without pretraining.",
+  "builds_on": [
+   "lecun1998efficient",
+   "hinton2006fast"
+  ]
+ },
+ {
+  "id": "duchi2011adaptive",
+  "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+  "authors": "Duchi J, Hazan E, Singer Y",
+  "year": 2011,
+  "venue": "JMLR 12:2121-2159",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced AdaGrad, per-parameter adaptive learning rates from accumulated squared gradients, the ancestor of RMSProp and Adam.",
+  "builds_on": [
+   "robbins1951stochastic"
+  ]
+ },
+ {
+  "id": "sutskever2013importance",
+  "title": "On the Importance of Initialization and Momentum in Deep Learning",
+  "authors": "Sutskever I, Martens J, Dahl G, Hinton G",
+  "year": 2013,
+  "venue": "ICML 2013",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed that careful initialization with (Nesterov) momentum SGD can train deep and recurrent networks without pretraining.",
+  "builds_on": [
+   "glorot2010understanding",
+   "robbins1951stochastic"
+  ]
+ },
+ {
+  "id": "pascanu2013difficulty",
+  "title": "On the Difficulty of Training Recurrent Neural Networks",
+  "authors": "Pascanu R, Mikolov T, Bengio Y",
+  "year": 2013,
+  "venue": "ICML 2013",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Analyzed exploding/vanishing gradients geometrically and introduced gradient-norm clipping, now standard practice.",
+  "builds_on": [
+   "bengio1994learning"
+  ],
+  "arxiv": "1211.5063"
+ },
+ {
+  "id": "srivastava2014dropout",
+  "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+  "authors": "Srivastava N, Hinton G, Krizhevsky A, Sutskever I, Salakhutdinov R",
+  "year": 2014,
+  "venue": "JMLR 15:1929-1958",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Full treatment of dropout as an efficient approximate ensemble regularizer, a key ingredient of the deep-learning breakthrough.",
+  "builds_on": [
+   "krizhevsky2012imagenet",
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "kingma2015adam",
+  "title": "Adam: A Method for Stochastic Optimization",
+  "authors": "Kingma DP, Ba J",
+  "year": 2015,
+  "venue": "ICLR 2015",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Combined momentum with RMSProp-style adaptive scaling and bias correction; became the default optimizer in deep learning.",
+  "builds_on": [
+   "duchi2011adaptive",
+   "sutskever2013importance"
+  ],
+  "arxiv": "1412.6980"
+ },
+ {
+  "id": "ioffe2015batch",
+  "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+  "authors": "Ioffe S, Szegedy C",
+  "year": 2015,
+  "venue": "ICML 2015",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Normalized activations with mini-batch statistics, enabling higher learning rates and much faster, more stable training of deep networks.",
+  "builds_on": [
+   "lecun1998efficient",
+   "glorot2010understanding"
+  ],
+  "arxiv": "1502.03167"
+ },
+ {
+  "id": "he2015delving",
+  "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+  "authors": "He K, Zhang X, Ren S, Sun J",
+  "year": 2015,
+  "venue": "ICCV 2015",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Derived variance-preserving (He/Kaiming) initialization for ReLU networks and introduced PReLU.",
+  "builds_on": [
+   "glorot2010understanding",
+   "nair2010rectified"
+  ],
+  "arxiv": "1502.01852"
+ },
+ {
+  "id": "ba2016layer",
+  "title": "Layer Normalization",
+  "authors": "Ba JL, Kiros JR, Hinton GE",
+  "year": 2016,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Normalized across features within each example instead of across the batch, making normalization usable in RNNs and later standard in Transformers.",
+  "builds_on": [
+   "ioffe2015batch"
+  ],
+  "arxiv": "1607.06450"
+ },
+ {
+  "id": "loshchilov2019decoupled",
+  "title": "Decoupled Weight Decay Regularization",
+  "authors": "Loshchilov I, Hutter F",
+  "year": 2019,
+  "venue": "ICLR 2019",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced AdamW, decoupling weight decay from adaptive gradient updates; the standard optimizer for training Transformers and LLMs.",
+  "builds_on": [
+   "kingma2015adam"
+  ],
+  "arxiv": "1711.05101"
+ },
+ {
+  "id": "yang2022tensor",
+  "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+  "authors": "Yang G, Hu EJ, Babuschkin I, Sidor S, Liu X, Farhi D, et al.",
+  "year": 2022,
+  "venue": "arXiv preprint (NeurIPS 2021 version)",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Introduced the Maximal Update Parametrization (muP), under which optimal hyperparameters transfer from small to large models.",
+  "builds_on": [
+   "jacot2018neural",
+   "kingma2015adam"
+  ],
+  "arxiv": "2203.03466"
+ },
+ {
+  "id": "jordan2024muon",
+  "title": "Muon: An Optimizer for Hidden Layers in Neural Networks",
+  "authors": "Jordan K, et al.",
+  "year": 2024,
+  "venue": "Technical blog post",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Training & optimization",
+  "type": "milestone",
+  "importance": 1,
+  "summary": "Introduced Muon, which orthogonalizes momentum updates for matrix parameters via Newton-Schulz iteration; adopted for large-scale LLM pretraining in 2025.",
+  "builds_on": [
+   "kingma2015adam",
+   "loshchilov2019decoupled"
+  ]
+ },
+ {
+  "id": "fukushima1980neocognitron",
+  "title": "Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position",
+  "authors": "Fukushima K",
+  "year": 1980,
+  "venue": "Biological Cybernetics 36:193-202",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Hierarchical network of alternating feature-extracting and pooling layers inspired by visual cortex; the architectural precursor of convolutional networks.",
+  "builds_on": [
+   "rosenblatt1958perceptron"
+  ],
+  "doi": "10.1007/BF00344251"
+ },
+ {
+  "id": "elman1990finding",
+  "title": "Finding Structure in Time",
+  "authors": "Elman JL",
+  "year": 1990,
+  "venue": "Cognitive Science 14(2):179-211",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the simple recurrent (Elman) network with context units and showed it learns temporal and grammatical structure.",
+  "builds_on": [
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "jacobs1991adaptive",
+  "title": "Adaptive Mixtures of Local Experts",
+  "authors": "Jacobs RA, Jordan MI, Nowlan SJ, Hinton GE",
+  "year": 1991,
+  "venue": "Neural Computation 3(1):79-87",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced mixture of experts: a gating network routes inputs to specialized expert networks, the ancestor of sparse MoE layers.",
+  "builds_on": [
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "hochreiter1997long",
+  "title": "Long Short-Term Memory",
+  "authors": "Hochreiter S, Schmidhuber J",
+  "year": 1997,
+  "venue": "Neural Computation 9(8):1735-1780",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the LSTM cell with gated constant-error carousels that overcome vanishing gradients, dominating sequence modeling for two decades.",
+  "builds_on": [
+   "bengio1994learning",
+   "elman1990finding"
+  ],
+  "doi": "10.1162/neco.1997.9.8.1735"
+ },
+ {
+  "id": "nair2010rectified",
+  "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+  "authors": "Nair V, Hinton GE",
+  "year": 2010,
+  "venue": "ICML 2010",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced rectified linear units for RBMs; ReLU became the default activation enabling training of deep networks.",
+  "builds_on": [
+   "hinton2006fast"
+  ]
+ },
+ {
+  "id": "cho2014learning",
+  "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation",
+  "authors": "Cho K, van Merriënboer B, Gulcehre C, Bahdanau D, Bougares F, Schwenk H, et al.",
+  "year": 2014,
+  "venue": "EMNLP 2014",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced the RNN encoder-decoder and the gated recurrent unit (GRU), a simpler alternative to LSTM.",
+  "builds_on": [
+   "hochreiter1997long"
+  ],
+  "arxiv": "1406.1078"
+ },
+ {
+  "id": "srivastava2015highway",
+  "title": "Highway Networks",
+  "authors": "Srivastava RK, Greff K, Schmidhuber J",
+  "year": 2015,
+  "venue": "ICML 2015 Deep Learning Workshop",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Used LSTM-style gates on feedforward skip connections to train networks hundreds of layers deep, anticipating residual networks.",
+  "builds_on": [
+   "hochreiter1997long"
+  ],
+  "arxiv": "1505.00387"
+ },
+ {
+  "id": "shazeer2017outrageously",
+  "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+  "authors": "Shazeer N, Mirhoseini A, Maziarz K, Davis A, Le Q, Hinton G, et al.",
+  "year": 2017,
+  "venue": "ICLR 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced sparsely-gated MoE layers with thousands of experts, decoupling parameter count from compute and enabling conditional computation at scale.",
+  "builds_on": [
+   "jacobs1991adaptive",
+   "hochreiter1997long"
+  ],
+  "arxiv": "1701.06538"
+ },
+ {
+  "id": "chen2018neural",
+  "title": "Neural Ordinary Differential Equations",
+  "authors": "Chen RTQ, Rubanova Y, Bettencourt J, Duvenaud D",
+  "year": 2018,
+  "venue": "NeurIPS 2018",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Treated network depth as continuous time, parameterizing hidden-state derivatives with a network and training via the adjoint method.",
+  "builds_on": [
+   "he2016deep",
+   "rezende2015variational"
+  ],
+  "arxiv": "1806.07366"
+ },
+ {
+  "id": "gu2022efficiently",
+  "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
+  "authors": "Gu A, Goel K, Ré C",
+  "year": 2022,
+  "venue": "ICLR 2022",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced S4, a structured state-space sequence layer with efficient convolutional computation that excelled at very long-range dependencies.",
+  "builds_on": [
+   "hochreiter1997long",
+   "vaswani2017attention"
+  ],
+  "arxiv": "2111.00396"
+ },
+ {
+  "id": "fedus2022switch",
+  "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+  "authors": "Fedus W, Zoph B, Shazeer N",
+  "year": 2022,
+  "venue": "JMLR 23(120):1-39",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Simplified MoE to top-1 routing, training trillion-parameter sparse models with large speedups over dense baselines.",
+  "builds_on": [
+   "shazeer2017outrageously",
+   "vaswani2017attention"
+  ],
+  "arxiv": "2101.03961"
+ },
+ {
+  "id": "gu2023mamba",
+  "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+  "authors": "Gu A, Dao T",
+  "year": 2023,
+  "venue": "arXiv preprint (COLM 2024)",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Made state-space parameters input-dependent (selective) with a hardware-aware scan, matching Transformers on language at linear cost in sequence length.",
+  "builds_on": [
+   "gu2022efficiently",
+   "dao2022flashattention"
+  ],
+  "arxiv": "2312.00752"
+ },
+ {
+  "id": "dao2024transformers",
+  "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+  "authors": "Dao T, Gu A",
+  "year": 2024,
+  "venue": "ICML 2024",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Showed a duality between selective SSMs and structured masked attention, yielding the faster Mamba-2 architecture.",
+  "builds_on": [
+   "gu2023mamba",
+   "vaswani2017attention"
+  ],
+  "arxiv": "2405.21060"
+ },
+ {
+  "id": "beck2024xlstm",
+  "title": "xLSTM: Extended Long Short-Term Memory",
+  "authors": "Beck M, Pöppel K, Spanring M, Auer A, Prudnikova O, Kopp M, et al.",
+  "year": 2024,
+  "venue": "NeurIPS 2024",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Revived LSTMs at LLM scale with exponential gating and matrix memory, competing with Transformers and SSMs.",
+  "builds_on": [
+   "hochreiter1997long",
+   "gu2023mamba"
+  ],
+  "arxiv": "2405.04517"
+ },
+ {
+  "id": "liu2024kan",
+  "title": "KAN: Kolmogorov-Arnold Networks",
+  "authors": "Liu Z, Wang Y, Vaidya S, Ruehle F, Halverson J, Soljačić M, et al.",
+  "year": 2024,
+  "venue": "ICLR 2025",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Architectures & building blocks",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Proposed networks with learnable spline activation functions on edges, inspired by the Kolmogorov-Arnold representation theorem, as an interpretable alternative to MLPs.",
+  "builds_on": [
+   "cybenko1989approximation",
+   "hornik1989multilayer"
+  ],
+  "arxiv": "2404.19756"
+ },
+ {
+  "id": "hinton2002training",
+  "title": "Training Products of Experts by Minimizing Contrastive Divergence",
+  "authors": "Hinton GE",
+  "year": 2002,
+  "venue": "Neural Computation 14(8):1771-1800",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced contrastive divergence, an efficient approximate learning rule that made training restricted Boltzmann machines practical.",
+  "builds_on": [
+   "ackley1985learning"
+  ]
+ },
+ {
+  "id": "hinton2006fast",
+  "title": "A Fast Learning Algorithm for Deep Belief Nets",
+  "authors": "Hinton GE, Osindero S, Teh YW",
+  "year": 2006,
+  "venue": "Neural Computation 18(7):1527-1554",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Showed deep belief networks can be trained greedily layer by layer as stacked RBMs, sparking the deep-learning renaissance.",
+  "builds_on": [
+   "hinton2002training",
+   "ackley1985learning"
+  ],
+  "doi": "10.1162/neco.2006.18.7.1527"
+ },
+ {
+  "id": "hinton2006reducing",
+  "title": "Reducing the Dimensionality of Data with Neural Networks",
+  "authors": "Hinton GE, Salakhutdinov RR",
+  "year": 2006,
+  "venue": "Science 313(5786):504-507",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Used RBM pretraining to train deep autoencoders that learn low-dimensional codes far better than PCA.",
+  "builds_on": [
+   "hinton2006fast"
+  ],
+  "doi": "10.1126/science.1127647"
+ },
+ {
+  "id": "vincent2008extracting",
+  "title": "Extracting and Composing Robust Features with Denoising Autoencoders",
+  "authors": "Vincent P, Larochelle H, Bengio Y, Manzagol PA",
+  "year": 2008,
+  "venue": "ICML 2008",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced denoising autoencoders, which learn robust representations by reconstructing clean inputs from corrupted ones; a conceptual ancestor of diffusion and masked modeling.",
+  "builds_on": [
+   "hinton2006reducing"
+  ]
+ },
+ {
+  "id": "kingma2014autoencoding",
+  "title": "Auto-Encoding Variational Bayes",
+  "authors": "Kingma DP, Welling M",
+  "year": 2014,
+  "venue": "ICLR 2014",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the variational autoencoder and the reparameterization trick for scalable gradient-based variational inference in deep latent-variable models.",
+  "builds_on": [
+   "hinton2006reducing",
+   "vincent2008extracting"
+  ],
+  "arxiv": "1312.6114"
+ },
+ {
+  "id": "goodfellow2014generative",
+  "title": "Generative Adversarial Nets",
+  "authors": "Goodfellow IJ, Pouget-Abadie J, Mirza M, Xu B, Warde-Farley D, Ozair S, et al.",
+  "year": 2014,
+  "venue": "NIPS 2014",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced GANs, training a generator against a discriminator in a minimax game, which led to dramatic advances in image synthesis.",
+  "builds_on": [
+   "hinton2006fast",
+   "srivastava2014dropout"
+  ],
+  "arxiv": "1406.2661"
+ },
+ {
+  "id": "dinh2015nice",
+  "title": "NICE: Non-linear Independent Components Estimation",
+  "authors": "Dinh L, Krueger D, Bengio Y",
+  "year": 2015,
+  "venue": "ICLR 2015 Workshop",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Introduced invertible additive coupling layers with tractable Jacobians, launching normalizing-flow generative models.",
+  "builds_on": [
+   "kingma2014autoencoding"
+  ],
+  "arxiv": "1410.8516"
+ },
+ {
+  "id": "rezende2015variational",
+  "title": "Variational Inference with Normalizing Flows",
+  "authors": "Rezende DJ, Mohamed S",
+  "year": 2015,
+  "venue": "ICML 2015",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced normalizing flows: chains of invertible transformations that build flexible distributions with tractable densities.",
+  "builds_on": [
+   "kingma2014autoencoding"
+  ],
+  "arxiv": "1505.05770"
+ },
+ {
+  "id": "sohldickstein2015deep",
+  "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+  "authors": "Sohl-Dickstein J, Weiss E, Maheswaranathan N, Ganguli S",
+  "year": 2015,
+  "venue": "ICML 2015",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced diffusion probabilistic models: learn to reverse a gradual noising process, the origin of modern diffusion models.",
+  "builds_on": [
+   "vincent2008extracting",
+   "kingma2014autoencoding"
+  ],
+  "arxiv": "1503.03585"
+ },
+ {
+  "id": "radford2016unsupervised",
+  "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+  "authors": "Radford A, Metz L, Chintala S",
+  "year": 2016,
+  "venue": "ICLR 2016",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "DCGAN: architectural guidelines that made convolutional GANs train stably and revealed meaningful latent-space arithmetic.",
+  "builds_on": [
+   "goodfellow2014generative",
+   "ioffe2015batch"
+  ],
+  "arxiv": "1511.06434"
+ },
+ {
+  "id": "arjovsky2017wasserstein",
+  "title": "Wasserstein Generative Adversarial Networks",
+  "authors": "Arjovsky M, Chintala S, Bottou L",
+  "year": 2017,
+  "venue": "ICML 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Reformulated GAN training with the Wasserstein distance, improving stability and providing a meaningful loss.",
+  "builds_on": [
+   "goodfellow2014generative"
+  ],
+  "arxiv": "1701.07875"
+ },
+ {
+  "id": "vandenoord2017neural",
+  "title": "Neural Discrete Representation Learning",
+  "authors": "van den Oord A, Vinyals O, Kavukcuoglu K",
+  "year": 2017,
+  "venue": "NIPS 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced VQ-VAE, learning discrete latent codes via vector quantization, later central to tokenized image and audio generation.",
+  "builds_on": [
+   "kingma2014autoencoding"
+  ],
+  "arxiv": "1711.00937"
+ },
+ {
+  "id": "song2019generative",
+  "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+  "authors": "Song Y, Ermon S",
+  "year": 2019,
+  "venue": "NeurIPS 2019",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Introduced noise-conditional score networks sampled with annealed Langevin dynamics, establishing score-based generative modeling.",
+  "builds_on": [
+   "vincent2008extracting"
+  ],
+  "arxiv": "1907.05600"
+ },
+ {
+  "id": "ho2020denoising",
+  "title": "Denoising Diffusion Probabilistic Models",
+  "authors": "Ho J, Jain A, Abbeel P",
+  "year": 2020,
+  "venue": "NeurIPS 2020",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Simplified diffusion training to a noise-prediction objective and achieved high-quality image synthesis, triggering the diffusion boom.",
+  "builds_on": [
+   "sohldickstein2015deep",
+   "song2019generative"
+  ],
+  "arxiv": "2006.11239"
+ },
+ {
+  "id": "song2021scorebased",
+  "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+  "authors": "Song Y, Sohl-Dickstein J, Kingma DP, Kumar A, Ermon S, Poole B",
+  "year": 2021,
+  "venue": "ICLR 2021",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Unified score matching and diffusion as continuous-time SDEs, introducing probability-flow ODEs and exact likelihoods.",
+  "builds_on": [
+   "song2019generative",
+   "ho2020denoising"
+  ],
+  "arxiv": "2011.13456"
+ },
+ {
+  "id": "dhariwal2021diffusion",
+  "title": "Diffusion Models Beat GANs on Image Synthesis",
+  "authors": "Dhariwal P, Nichol A",
+  "year": 2021,
+  "venue": "NeurIPS 2021",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Architecture improvements and classifier guidance let diffusion models surpass GANs on ImageNet sample quality.",
+  "builds_on": [
+   "ho2020denoising",
+   "song2021scorebased"
+  ],
+  "arxiv": "2105.05233"
+ },
+ {
+  "id": "lipman2023flow",
+  "title": "Flow Matching for Generative Modeling",
+  "authors": "Lipman Y, Chen RTQ, Ben-Hamu H, Nickel M, Le M",
+  "year": 2023,
+  "venue": "ICLR 2023",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Simulation-free training of continuous normalizing flows by regressing conditional vector fields, generalizing diffusion and now widely used.",
+  "builds_on": [
+   "chen2018neural",
+   "song2021scorebased"
+  ],
+  "arxiv": "2210.02747"
+ },
+ {
+  "id": "peebles2023scalable",
+  "title": "Scalable Diffusion Models with Transformers",
+  "authors": "Peebles W, Xie S",
+  "year": 2023,
+  "venue": "ICCV 2023",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Diffusion Transformers (DiT) replaced U-Nets with Transformers on latent patches, showing favorable scaling; the backbone of later video and image generators.",
+  "builds_on": [
+   "ho2020denoising",
+   "vaswani2017attention",
+   "rombach2022high"
+  ],
+  "arxiv": "2212.09748"
+ },
+ {
+  "id": "song2023consistency",
+  "title": "Consistency Models",
+  "authors": "Song Y, Dhariwal P, Chen M, Sutskever I",
+  "year": 2023,
+  "venue": "ICML 2023",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Learned to map any point on a probability-flow ODE trajectory to its origin, enabling one- or few-step generation.",
+  "builds_on": [
+   "song2021scorebased",
+   "ho2020denoising"
+  ],
+  "arxiv": "2303.01469"
+ },
+ {
+  "id": "lu2025simplifying",
+  "title": "Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models",
+  "authors": "Lu C, Song Y",
+  "year": 2025,
+  "venue": "ICLR 2025",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 1,
+  "summary": "sCM: stabilized continuous-time consistency training and scaled it to billion-parameter models for two-step generation.",
+  "builds_on": [
+   "song2023consistency"
+  ]
+ },
+ {
+  "id": "geng2025mean",
+  "title": "Mean Flows for One-step Generative Modeling",
+  "authors": "Geng Z, Deng M, Bai X, Kolter JZ, He K",
+  "year": 2025,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Generative models",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Models average rather than instantaneous velocity fields, achieving strong one-step generation trained from scratch.",
+  "builds_on": [
+   "lipman2023flow",
+   "song2023consistency"
+  ]
+ },
+ {
+  "id": "cybenko1989approximation",
+  "title": "Approximation by Superpositions of a Sigmoidal Function",
+  "authors": "Cybenko G",
+  "year": 1989,
+  "venue": "Mathematics of Control, Signals and Systems 2:303-314",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Proved single-hidden-layer networks with sigmoidal units can approximate any continuous function on a compact set (universal approximation).",
+  "builds_on": [
+   "rumelhart1986learning"
+  ],
+  "doi": "10.1007/BF02551274"
+ },
+ {
+  "id": "hornik1989multilayer",
+  "title": "Multilayer Feedforward Networks are Universal Approximators",
+  "authors": "Hornik K, Stinchcombe M, White H",
+  "year": 1989,
+  "venue": "Neural Networks 2(5):359-366",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Established universal approximation for multilayer feedforward networks with general squashing activations.",
+  "builds_on": [
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "goodfellow2016deep",
+  "title": "Deep Learning",
+  "authors": "Goodfellow I, Bengio Y, Courville A",
+  "year": 2016,
+  "venue": "MIT Press",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "book",
+  "importance": 2,
+  "summary": "The standard textbook consolidating the theory and practice of modern deep learning.",
+  "builds_on": [
+   "rumelhart1986learning",
+   "hinton2006fast",
+   "kingma2014autoencoding",
+   "goodfellow2014generative"
+  ]
+ },
+ {
+  "id": "zhang2017understanding",
+  "title": "Understanding Deep Learning Requires Rethinking Generalization",
+  "authors": "Zhang C, Bengio S, Hardt M, Recht B, Vinyals O",
+  "year": 2017,
+  "venue": "ICLR 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed deep nets can fit random labels, challenging classical capacity-based explanations of generalization.",
+  "builds_on": [
+   "srivastava2014dropout",
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1611.03530"
+ },
+ {
+  "id": "hestness2017deep",
+  "title": "Deep Learning Scaling is Predictable, Empirically",
+  "authors": "Hestness J, Narang S, Ardalani N, Diamos G, Jun H, Kianinejad H, et al.",
+  "year": 2017,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Found power-law relationships between generalization error and dataset/model size across domains, prefiguring neural scaling laws.",
+  "builds_on": [
+   "hochreiter1997long",
+   "he2016deep"
+  ],
+  "arxiv": "1712.00409"
+ },
+ {
+  "id": "jacot2018neural",
+  "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+  "authors": "Jacot A, Gabriel F, Hongler C",
+  "year": 2018,
+  "venue": "NeurIPS 2018",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed infinitely wide networks trained by gradient descent behave as kernel regression with the neural tangent kernel.",
+  "builds_on": [
+   "cybenko1989approximation",
+   "zhang2017understanding"
+  ],
+  "arxiv": "1806.07572"
+ },
+ {
+  "id": "frankle2019lottery",
+  "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+  "authors": "Frankle J, Carbin M",
+  "year": 2019,
+  "venue": "ICLR 2019",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed dense networks contain sparse subnetworks that, from their original initialization, train to full accuracy.",
+  "builds_on": [
+   "zhang2017understanding"
+  ],
+  "arxiv": "1803.03635"
+ },
+ {
+  "id": "belkin2019reconciling",
+  "title": "Reconciling Modern Machine-Learning Practice and the Classical Bias-Variance Trade-off",
+  "authors": "Belkin M, Hsu D, Ma S, Mandal S",
+  "year": 2019,
+  "venue": "PNAS 116(32):15849-15854",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Identified the double-descent risk curve, in which test error falls again beyond the interpolation threshold.",
+  "builds_on": [
+   "zhang2017understanding"
+  ],
+  "doi": "10.1073/pnas.1903070116",
+  "arxiv": "1812.11118"
+ },
+ {
+  "id": "nakkiran2020deep",
+  "title": "Deep Double Descent: Where Bigger Models and More Data Hurt",
+  "authors": "Nakkiran P, Kaplun G, Bansal Y, Yang T, Barak B, Sutskever I",
+  "year": 2020,
+  "venue": "ICLR 2020",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Showed model-wise, epoch-wise and sample-wise double descent across modern deep architectures.",
+  "builds_on": [
+   "belkin2019reconciling"
+  ],
+  "arxiv": "1912.02292"
+ },
+ {
+  "id": "kaplan2020scaling",
+  "title": "Scaling Laws for Neural Language Models",
+  "authors": "Kaplan J, McCandlish S, Henighan T, Brown TB, Chess B, Child R, et al.",
+  "year": 2020,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Found smooth power laws relating language-model loss to parameters, data and compute, guiding the scale-up of LLMs.",
+  "builds_on": [
+   "hestness2017deep",
+   "vaswani2017attention",
+   "radford2019language"
+  ],
+  "arxiv": "2001.08361"
+ },
+ {
+  "id": "olah2020zoom",
+  "title": "Zoom In: An Introduction to Circuits",
+  "authors": "Olah C, Cammarata N, Schubert L, Goh G, Petrov M, Carter S",
+  "year": 2020,
+  "venue": "Distill 2020",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Articulated the circuits program of mechanistic interpretability: features and circuits as fundamental, reverse-engineerable units of networks.",
+  "builds_on": [
+   "krizhevsky2012imagenet"
+  ]
+ },
+ {
+  "id": "elhage2021mathematical",
+  "title": "A Mathematical Framework for Transformer Circuits",
+  "authors": "Elhage N, Nanda N, Olsson C, Henighan T, Joseph N, Mann B, et al.",
+  "year": 2021,
+  "venue": "Transformer Circuits Thread",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Decomposed attention-only Transformers into interpretable paths, identifying induction heads and founding transformer mechanistic interpretability.",
+  "builds_on": [
+   "olah2020zoom",
+   "vaswani2017attention"
+  ]
+ },
+ {
+  "id": "power2022grokking",
+  "title": "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets",
+  "authors": "Power A, Burda Y, Edwards H, Babuschkin I, Misra V",
+  "year": 2022,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Discovered grokking: networks generalize long after overfitting small algorithmic tasks.",
+  "builds_on": [
+   "zhang2017understanding",
+   "nakkiran2020deep"
+  ],
+  "arxiv": "2201.02177"
+ },
+ {
+  "id": "hoffmann2022training",
+  "title": "Training Compute-Optimal Large Language Models",
+  "authors": "Hoffmann J, Borgeaud S, Mensch A, Buchatskaya E, Cai T, Rutherford E, et al.",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Chinchilla: showed parameters and training tokens should scale equally with compute, revealing earlier LLMs as undertrained.",
+  "builds_on": [
+   "kaplan2020scaling",
+   "brown2020language"
+  ],
+  "arxiv": "2203.15556"
+ },
+ {
+  "id": "wei2022emergent",
+  "title": "Emergent Abilities of Large Language Models",
+  "authors": "Wei J, Tay Y, Bommasani R, Raffel C, Zoph B, Borgeaud S, et al.",
+  "year": 2022,
+  "venue": "Transactions on Machine Learning Research",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Catalogued abilities that appear abruptly only above certain model scales, influencing debate on scaling.",
+  "builds_on": [
+   "kaplan2020scaling",
+   "brown2020language"
+  ],
+  "arxiv": "2206.07682"
+ },
+ {
+  "id": "elhage2022toy",
+  "title": "Toy Models of Superposition",
+  "authors": "Elhage N, Hume T, Olsson C, Schiefer N, Henighan T, Kravec S, et al.",
+  "year": 2022,
+  "venue": "Transformer Circuits Thread",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed networks represent more features than dimensions via superposition, explaining polysemantic neurons.",
+  "builds_on": [
+   "elhage2021mathematical"
+  ],
+  "arxiv": "2209.10652"
+ },
+ {
+  "id": "schaeffer2023emergent",
+  "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+  "authors": "Schaeffer R, Miranda B, Koyejo S",
+  "year": 2023,
+  "venue": "NeurIPS 2023",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Argued many emergent abilities are artifacts of discontinuous evaluation metrics rather than abrupt capability changes.",
+  "builds_on": [
+   "wei2022emergent"
+  ],
+  "arxiv": "2304.15004"
+ },
+ {
+  "id": "bricken2023towards",
+  "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+  "authors": "Bricken T, Templeton A, Batson J, Chen B, Jermyn A, Conerly T, et al.",
+  "year": 2023,
+  "venue": "Transformer Circuits Thread",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Used sparse autoencoders to extract interpretable monosemantic features from superposed transformer activations.",
+  "builds_on": [
+   "elhage2022toy"
+  ]
+ },
+ {
+  "id": "snell2024scaling",
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "authors": "Snell C, Lee J, Xu K, Kumar A",
+  "year": 2024,
+  "venue": "arXiv preprint (ICLR 2025)",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Studied compute-optimal allocation of inference-time computation, showing test-time scaling can substitute for larger models.",
+  "builds_on": [
+   "hoffmann2022training",
+   "wei2022chain"
+  ],
+  "arxiv": "2408.03314"
+ },
+ {
+  "id": "lindsey2025biology",
+  "title": "On the Biology of a Large Language Model",
+  "authors": "Lindsey J, Gurnee W, Ameisen E, Chen B, Pearce A, Turner NL, et al.",
+  "year": 2025,
+  "venue": "Transformer Circuits Thread",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Theory & scaling",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Used attribution graphs over replacement models to trace internal multi-step reasoning and planning circuits in a production LLM.",
+  "builds_on": [
+   "bricken2023towards"
+  ]
+ },
+ {
+  "id": "scarselli2009graph",
+  "title": "The Graph Neural Network Model",
+  "authors": "Scarselli F, Gori M, Tsoi AC, Hagenbuchner M, Monfardini G",
+  "year": 2009,
+  "venue": "IEEE Transactions on Neural Networks 20(1):61-80",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Full formulation of GNNs as contraction-map message passing over graphs trained by gradient descent; the origin of graph deep learning.",
+  "builds_on": [
+   "elman1990finding",
+   "rumelhart1986learning"
+  ],
+  "doi": "10.1109/TNN.2008.2005605"
+ },
+ {
+  "id": "bruna2014spectral",
+  "title": "Spectral Networks and Locally Connected Networks on Graphs",
+  "authors": "Bruna J, Zaremba W, Szlam A, LeCun Y",
+  "year": 2014,
+  "venue": "ICLR 2014",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Generalized convolution to graphs via the graph Laplacian spectrum, founding spectral graph convolutional networks.",
+  "builds_on": [
+   "scarselli2009graph",
+   "lecun1998gradient"
+  ],
+  "arxiv": "1312.6203"
+ },
+ {
+  "id": "cohen2016group",
+  "title": "Group Equivariant Convolutional Networks",
+  "authors": "Cohen TS, Welling M",
+  "year": 2016,
+  "venue": "ICML 2016",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Generalized convolution to symmetry groups beyond translation, founding equivariant deep learning.",
+  "builds_on": [
+   "lecun1998gradient"
+  ],
+  "arxiv": "1602.07576"
+ },
+ {
+  "id": "kipf2017semisupervised",
+  "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+  "authors": "Kipf TN, Welling M",
+  "year": 2017,
+  "venue": "ICLR 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced the simple first-order graph convolutional network (GCN), which made GNNs practical and widely adopted.",
+  "builds_on": [
+   "bruna2014spectral",
+   "scarselli2009graph"
+  ],
+  "arxiv": "1609.02907"
+ },
+ {
+  "id": "bronstein2017geometric",
+  "title": "Geometric Deep Learning: Going beyond Euclidean Data",
+  "authors": "Bronstein MM, Bruna J, LeCun Y, Szlam A, Vandergheynst P",
+  "year": 2017,
+  "venue": "IEEE Signal Processing Magazine 34(4):18-42",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Surveyed and named geometric deep learning: extending neural networks to graphs and manifolds.",
+  "builds_on": [
+   "bruna2014spectral",
+   "scarselli2009graph"
+  ],
+  "arxiv": "1611.08097"
+ },
+ {
+  "id": "gilmer2017neural",
+  "title": "Neural Message Passing for Quantum Chemistry",
+  "authors": "Gilmer J, Schoenholz SS, Riley PF, Vinyals O, Dahl GE",
+  "year": 2017,
+  "venue": "ICML 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Unified GNN variants as message passing neural networks (MPNNs) and set state of the art on molecular property prediction.",
+  "builds_on": [
+   "scarselli2009graph",
+   "kipf2017semisupervised"
+  ],
+  "arxiv": "1704.01212"
+ },
+ {
+  "id": "hamilton2017inductive",
+  "title": "Inductive Representation Learning on Large Graphs",
+  "authors": "Hamilton WL, Ying R, Leskovec J",
+  "year": 2017,
+  "venue": "NIPS 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "GraphSAGE: inductive node embeddings via sampled neighborhood aggregation, scaling GNNs to large evolving graphs.",
+  "builds_on": [
+   "kipf2017semisupervised"
+  ],
+  "arxiv": "1706.02216"
+ },
+ {
+  "id": "velickovic2018graph",
+  "title": "Graph Attention Networks",
+  "authors": "Veličković P, Cucurull G, Casanova A, Romero A, Liò P, Bengio Y",
+  "year": 2018,
+  "venue": "ICLR 2018",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Introduced attention-weighted neighborhood aggregation (GAT), letting GNNs learn the importance of neighbors.",
+  "builds_on": [
+   "kipf2017semisupervised",
+   "vaswani2017attention"
+  ],
+  "arxiv": "1710.10903"
+ },
+ {
+  "id": "thomas2018tensor",
+  "title": "Tensor Field Networks: Rotation- and Translation-Equivariant Neural Networks for 3D Point Clouds",
+  "authors": "Thomas N, Smidt T, Kearnes S, Yang L, Li L, Kohlhoff K, et al.",
+  "year": 2018,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Built SE(3)-equivariant networks using spherical harmonics and tensor products, the basis of equivariant models for molecules.",
+  "builds_on": [
+   "cohen2016group"
+  ],
+  "arxiv": "1802.08219"
+ },
+ {
+  "id": "xu2019powerful",
+  "title": "How Powerful are Graph Neural Networks?",
+  "authors": "Xu K, Hu W, Leskovec J, Jegelka S",
+  "year": 2019,
+  "venue": "ICLR 2019",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Related message-passing GNN expressivity to the Weisfeiler-Lehman test and proposed the maximally expressive GIN.",
+  "builds_on": [
+   "gilmer2017neural",
+   "hamilton2017inductive"
+  ],
+  "arxiv": "1810.00826"
+ },
+ {
+  "id": "satorras2021en",
+  "title": "E(n) Equivariant Graph Neural Networks",
+  "authors": "Satorras VG, Hoogeboom E, Welling M",
+  "year": 2021,
+  "venue": "ICML 2021",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Simple E(n)-equivariant message passing on coordinates without spherical harmonics, widely used for molecules and generative modeling.",
+  "builds_on": [
+   "gilmer2017neural",
+   "thomas2018tensor"
+  ],
+  "arxiv": "2102.09844"
+ },
+ {
+  "id": "bronstein2021geometric",
+  "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
+  "authors": "Bronstein MM, Bruna J, Cohen T, Veličković P",
+  "year": 2021,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "book",
+  "importance": 2,
+  "summary": "Unified CNNs, GNNs, Transformers and equivariant networks under a symmetry and invariance-based blueprint.",
+  "builds_on": [
+   "bronstein2017geometric",
+   "cohen2016group",
+   "velickovic2018graph"
+  ],
+  "arxiv": "2104.13478"
+ },
+ {
+  "id": "lam2023learning",
+  "title": "Learning Skillful Medium-Range Global Weather Forecasting",
+  "authors": "Lam R, Sanchez-Gonzalez A, Willson M, Wirnsberger P, Fortunato M, Alet F, et al.",
+  "year": 2023,
+  "venue": "Science 382(6677):1416-1421",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Graph & geometric DL",
+  "type": "paper",
+  "importance": 1,
+  "summary": "GraphCast: a mesh-based GNN that outperformed leading numerical weather prediction on 10-day forecasts.",
+  "builds_on": [
+   "gilmer2017neural",
+   "bronstein2021geometric"
+  ]
+ },
+ {
+  "id": "oh2004gpu",
+  "title": "GPU Implementation of Neural Networks",
+  "authors": "Oh KS, Jung K",
+  "year": 2004,
+  "venue": "Pattern Recognition 37(6):1311-1314",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 1,
+  "summary": "Early demonstration of accelerating neural-network inference on graphics hardware.",
+  "builds_on": [
+   "rumelhart1986learning"
+  ]
+ },
+ {
+  "id": "nickolls2008scalable",
+  "title": "Scalable Parallel Programming with CUDA",
+  "authors": "Nickolls J, Buck I, Garland M, Skadron K",
+  "year": 2008,
+  "venue": "ACM Queue 6(2):40-53",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Described NVIDIA's CUDA model for general-purpose GPU programming, the platform on which deep learning computation was built.",
+  "builds_on": [
+   "oh2004gpu"
+  ]
+ },
+ {
+  "id": "raina2009largescale",
+  "title": "Large-scale Deep Unsupervised Learning using Graphics Processors",
+  "authors": "Raina R, Madhavan A, Ng AY",
+  "year": 2009,
+  "venue": "ICML 2009",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Showed GPUs speed up training of deep belief nets and sparse coding by up to 70x, pointing the way to GPU-based deep learning.",
+  "builds_on": [
+   "nickolls2008scalable",
+   "hinton2006fast"
+  ]
+ },
+ {
+  "id": "bergstra2010theano",
+  "title": "Theano: A CPU and GPU Math Compiler in Python",
+  "authors": "Bergstra J, Breuleux O, Bastien F, Lamblin P, Pascanu R, Desjardins G, et al.",
+  "year": 2010,
+  "venue": "Proceedings of the 9th Python in Science Conference (SciPy 2010)",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "software",
+  "importance": 2,
+  "summary": "Pioneered symbolic computation graphs with automatic differentiation compiled to GPU, the template for later deep-learning frameworks.",
+  "builds_on": [
+   "linnainmaa1970representation",
+   "nickolls2008scalable"
+  ]
+ },
+ {
+  "id": "chetlur2014cudnn",
+  "title": "cuDNN: Efficient Primitives for Deep Learning",
+  "authors": "Chetlur S, Woolley C, Vandermersch P, Cohen J, Tran J, Catanzaro B, et al.",
+  "year": 2014,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "software",
+  "importance": 2,
+  "summary": "NVIDIA's library of optimized GPU deep-learning kernels, underpinning nearly all frameworks.",
+  "builds_on": [
+   "nickolls2008scalable",
+   "krizhevsky2012imagenet"
+  ],
+  "arxiv": "1410.0759"
+ },
+ {
+  "id": "abadi2016tensorflow",
+  "title": "TensorFlow: A System for Large-Scale Machine Learning",
+  "authors": "Abadi M, Barham P, Chen J, Chen Z, Davis A, Dean J, et al.",
+  "year": 2016,
+  "venue": "OSDI 2016",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "software",
+  "importance": 3,
+  "summary": "Google's dataflow-graph framework for training and deploying models across heterogeneous devices at scale.",
+  "builds_on": [
+   "bergstra2010theano",
+   "raina2009largescale"
+  ],
+  "arxiv": "1605.08695"
+ },
+ {
+  "id": "jouppi2017indatacenter",
+  "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+  "authors": "Jouppi NP, Young C, Patil N, Patterson D, Agrawal G, Bajwa R, et al.",
+  "year": 2017,
+  "venue": "ISCA 2017",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 3,
+  "summary": "Described Google's TPU, a systolic-array ASIC for neural networks, launching the era of specialized AI accelerators.",
+  "builds_on": [
+   "abadi2016tensorflow"
+  ],
+  "arxiv": "1704.04760"
+ },
+ {
+  "id": "micikevicius2018mixed",
+  "title": "Mixed Precision Training",
+  "authors": "Micikevicius P, Narang S, Alben J, Diamos G, Elsen E, Garcia D, et al.",
+  "year": 2018,
+  "venue": "ICLR 2018",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Trained networks in FP16 with FP32 master weights and loss scaling, halving memory and exploiting tensor cores.",
+  "builds_on": [
+   "chetlur2014cudnn"
+  ],
+  "arxiv": "1710.03740"
+ },
+ {
+  "id": "bradbury2018jax",
+  "title": "JAX: Composable Transformations of Python+NumPy Programs",
+  "authors": "Bradbury J, Frostig R, Hawkins P, Johnson MJ, Leary C, Maclaurin D, et al.",
+  "year": 2018,
+  "venue": "GitHub software release",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "software",
+  "importance": 2,
+  "summary": "Composable function transformations (grad, jit, vmap, pmap) compiled via XLA; widely used for large-scale research on TPUs and GPUs.",
+  "builds_on": [
+   "abadi2016tensorflow",
+   "jouppi2017indatacenter"
+  ]
+ },
+ {
+  "id": "shoeybi2019megatron",
+  "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+  "authors": "Shoeybi M, Patwary M, Puri R, LeGresley P, Casper J, Catanzaro B",
+  "year": 2019,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Efficient intra-layer tensor parallelism for Transformers, a cornerstone of large-scale LLM training.",
+  "builds_on": [
+   "vaswani2017attention",
+   "abadi2016tensorflow"
+  ],
+  "arxiv": "1909.08053"
+ },
+ {
+  "id": "paszke2019pytorch",
+  "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+  "authors": "Paszke A, Gross S, Massa F, Lerer A, Bradbury J, Chanan G, et al.",
+  "year": 2019,
+  "venue": "NeurIPS 2019",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "software",
+  "importance": 3,
+  "summary": "Define-by-run framework with eager execution and dynamic autograd that became the dominant deep-learning library.",
+  "builds_on": [
+   "bergstra2010theano",
+   "abadi2016tensorflow"
+  ],
+  "arxiv": "1912.01703"
+ },
+ {
+  "id": "rajbhandari2020zero",
+  "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+  "authors": "Rajbhandari S, Rasley J, Ruwase O, He Y",
+  "year": 2020,
+  "venue": "SC 2020",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 2,
+  "summary": "Partitioned optimizer states, gradients and parameters across data-parallel workers (DeepSpeed), removing memory redundancy.",
+  "builds_on": [
+   "shoeybi2019megatron",
+   "micikevicius2018mixed"
+  ],
+  "arxiv": "1910.02054"
+ },
+ {
+  "id": "dao2022flashattention",
+  "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "authors": "Dao T, Fu DY, Ermon S, Rudra A, Ré C",
+  "year": 2022,
+  "venue": "NeurIPS 2022",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 3,
+  "summary": "IO-aware tiled exact attention that avoids materializing the attention matrix, greatly speeding up Transformers and enabling long contexts.",
+  "builds_on": [
+   "vaswani2017attention",
+   "chetlur2014cudnn"
+  ],
+  "arxiv": "2205.14135"
+ },
+ {
+  "id": "deepseekai2024deepseekv3",
+  "title": "DeepSeek-V3 Technical Report",
+  "authors": "DeepSeek-AI",
+  "year": 2024,
+  "venue": "arXiv preprint",
+  "domain": "ai",
+  "field": "Deep Learning Foundations",
+  "subfield": "Hardware, software & infrastructure",
+  "type": "paper",
+  "importance": 2,
+  "summary": "671B-parameter MoE model trained at low cost using FP8 mixed precision, multi-head latent attention and communication-overlapping pipeline parallelism.",
+  "builds_on": [
+   "fedus2022switch",
+   "micikevicius2018mixed",
+   "rajbhandari2020zero"
+  ],
+  "arxiv": "2412.19437"
+ }
+]
